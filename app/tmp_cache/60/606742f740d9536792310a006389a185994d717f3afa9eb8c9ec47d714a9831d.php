@@ -46,38 +46,22 @@ class __TwigTemplate_6efdd6b9d1b4826ad57d615676871b90af8bd997dc27e10e09879bbd9dc
         // line 15
         echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
         echo "/public/js/megamenu.js\"></script>
-
-
 <script src=\"https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js\"></script>
-
-
 <link rel=\"stylesheet\" href=\"";
-        // line 21
+        // line 17
         echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
         echo "/public/css/ionicons.min.css\">
-  <!-- Font Awesome -->
-  <link rel=\"stylesheet\" href=\"https://use.fontawesome.com/releases/v5.0.13/css/all.css\" integrity=\"sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp\"
-    crossorigin=\"anonymous\">
-<!-- Google Fonts -->
+<link rel=\"stylesheet\" href=\"https://use.fontawesome.com/releases/v5.0.13/css/all.css\" >
 <link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap\">
-
 <link href=\"https://fonts.googleapis.com/css?family=Cairo:400,600,700&display=swap&subset=arabic,latin-ext\" rel=\"stylesheet\">
-";
-        // line 30
-        echo "<link href=\"https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,500i,700,700i,900&display=swap\" rel=\"stylesheet\">
-";
-        // line 32
-        echo "<!-- Bootstrap core CSS -->
+<link href=\"https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,500i,700,700i,900&display=swap\" rel=\"stylesheet\">
 <link href=\"https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css\" rel=\"stylesheet\">
-<!-- Material Design Bootstrap -->
 <link href=\"https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.14.0/css/mdb.min.css\" rel=\"stylesheet\">
 <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css\" />
-
 <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css\" />
-  <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css\" />
-  
+<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css\" />
 <link rel=\"stylesheet\" href=\"";
-        // line 41
+        // line 27
         echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
         echo "/public/css/main.css\"> 
 
@@ -96,7 +80,7 @@ class __TwigTemplate_6efdd6b9d1b4826ad57d615676871b90af8bd997dc27e10e09879bbd9dc
 
     public function getDebugInfo()
     {
-        return array (  81 => 41,  70 => 32,  67 => 30,  56 => 21,  47 => 15,  42 => 12,  39 => 6,  37 => 1,);
+        return array (  65 => 27,  52 => 17,  47 => 15,  42 => 12,  39 => 6,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -116,31 +100,17 @@ class __TwigTemplate_6efdd6b9d1b4826ad57d615676871b90af8bd997dc27e10e09879bbd9dc
   
 <script type=\"text/javascript\" src=\"https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js\"></script>
 <script type=\"text/javascript\" src=\"{{URLROOT}}/public/js/megamenu.js\"></script>
-
-
 <script src=\"https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js\"></script>
-
-
 <link rel=\"stylesheet\" href=\"{{URLROOT}}/public/css/ionicons.min.css\">
-  <!-- Font Awesome -->
-  <link rel=\"stylesheet\" href=\"https://use.fontawesome.com/releases/v5.0.13/css/all.css\" integrity=\"sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp\"
-    crossorigin=\"anonymous\">
-<!-- Google Fonts -->
+<link rel=\"stylesheet\" href=\"https://use.fontawesome.com/releases/v5.0.13/css/all.css\" >
 <link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap\">
-
 <link href=\"https://fonts.googleapis.com/css?family=Cairo:400,600,700&display=swap&subset=arabic,latin-ext\" rel=\"stylesheet\">
-{# font-family: 'Cairo', sans-serif; #}
 <link href=\"https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,500i,700,700i,900&display=swap\" rel=\"stylesheet\">
-{# font-family: 'Roboto', sans-serif; #}
-<!-- Bootstrap core CSS -->
 <link href=\"https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css\" rel=\"stylesheet\">
-<!-- Material Design Bootstrap -->
 <link href=\"https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.14.0/css/mdb.min.css\" rel=\"stylesheet\">
 <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css\" />
-
 <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css\" />
-  <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css\" />
-  
+<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css\" />
 <link rel=\"stylesheet\" href=\"{{URLROOT}}/public/css/main.css\"> 
 
 ", "./inc/styles.html.twig", "/var/www/tndevfactory/public_html/ARAM/app/views/inc/styles.html.twig");
