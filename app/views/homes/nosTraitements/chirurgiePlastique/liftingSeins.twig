@@ -1,0 +1,33 @@
+{% extends 'layout.twig' %}
+
+{% block head %}
+    <title> Lifting seins</title>
+    <style>
+          
+
+          </style>
+{% endblock  %}
+
+{% block content %}
+                         {% if LANG == 'fr' %}
+                            {% include('/components/nosTraitements/fr/chirurgiePlastique/liftingSeins.twig') %}
+                            
+                          {% endif %}
+
+                          {% if LANG == 'en' %}
+                            {% include('/components/nosTraitements/en/chirurgiePlastique/liftingSeins.twig') %}
+                            
+                          {% endif %}
+
+                          {% if LANG == 'gr' %}
+                              {% include('/components/nosTraitements/gr/chirurgiePlastique/liftingSeins.twig') %}
+                           
+                          {% endif %}  
+
+                          {% if LANG == 'ar' %}
+                            {% include('/components/nosTraitements/ar/chirurgiePlastique/liftingSeins.twig') %}
+                         
+                          {% endif %}
+
+
+{% endblock  %}

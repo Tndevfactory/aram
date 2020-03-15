@@ -1,0 +1,504 @@
+
+{# #ffca28 amber lighten-1 #}
+{# #212121 grey darken-4 #}
+
+{# #ff8f00 amber darken-3 #}
+
+<style>
+#mynav .navbar-nav a {transition: background-color .2s ease-in-out;}
+#mynav .navbar-nav a:hover {
+  background-color: #ffbb33;
+  border-radius:5px;
+  color:black;
+  
+}
+#mynav .dropdown-menu li a:hover {
+  background-color: #ffbb33;
+  
+}
+  #mynav .dropdown-menu {
+  position: relative;
+  top:46px;
+  background-color: #1c2331;
+  color: #fff;
+  border-radius:5px;
+  line-height:1.5rem;
+}  
+ #mynav .dropdown-menu a {
+  
+  color: #fff;
+}  
+
+#mynav .dropdown-submenu {
+  position: relative;
+  
+}
+
+#mynav .dropdown-submenu a::after {
+  transform: rotate(-90deg);
+  position: absolute;
+  right: 6px;
+  top: 26px;
+}
+
+#mynav .dropdown-submenu .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-left: .1rem;
+  margin-right: .1rem;
+}
+
+{# ---arabic navbar style----------------------------- #}
+
+#mynavAr ul li a  {
+ 
+  font-size: 100%;
+  text-align:right;
+  padding-right:15px;
+}
+
+#mynavAr .navbar-nav a {transition: background-color .2s ease-in-out;}
+#mynavAr .navbar-nav a:hover {
+  background-color: #ffbb33;
+  border-radius:5px;
+  color:black;
+  
+}
+#mynavAr .dropdown-menu li a:hover {
+  background-color: #ffbb33;
+  
+}
+  #mynavAr .dropdown-menu {
+  position: relative;
+  top:36px;
+  right:-13px;
+  background-color: #1c2331;
+  color: #fff;
+  border-radius:5px;
+  line-height:1.5rem;
+}  
+ #mynavAr .dropdown-menu a {
+    color: #fff;
+}  
+
+#mynavAr .dropdown-submenu .sub {
+  position: relative;
+  right:153px;
+}
+
+#mynavAr .dropdown-submenu a::after {
+  transform: rotate(90deg);
+  position: absolute;
+  left: 4px;
+  top: 20px;
+  
+}
+
+#mynavAr .dropdown-submenu .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-left: .1rem;
+  margin-right: .1rem;
+}
+
+
+</style>
+
+
+                    
+  {% if LANG == 'fr' %}
+                              <nav  id="mynav" class="navbar navbar-expand-lg navbar-light heavy-rain-gradient sticky-top ">
+
+                              <a class="navbar-brand pl-3" href="#"> 
+                                      <span class="text-capitalize h4" > 
+                                          <i class="fab fa-asymmetrik fa-2x"></i>
+                                      </span> 
+                               
+                              </a>
+                          
+                              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#MyNavbar" >
+                                <span class="navbar-toggler-icon"></span>
+                              </button>
+                  
+                              <div class="collapse navbar-collapse" id="MyNavbar">
+                                <ul style="line-height:1.9em;" class="navbar-nav pl-5 h5  ml-auto pr-5 mr-4">
+
+
+                                  <li class="nav-item "> <a class="nav-link" href="{{URLROOT}}/homes">Accueil</a></li>
+                                
+                                  <li class="nav-item dropdown">
+                          
+                                      <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            Nos traitements
+                                          </a>
+                                      
+                                          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                            <li><a class="dropdown-item" href="{{URLROOT}}/homes/soinsDentaires">Soins dentaires</a></li>
+                                          
+                                            
+                                            <li class="dropdown-submenu">
+
+                                                <a class="dropdown-item dropdown-toggle" >Chirurgie plastique</a>
+                                              
+                                                <ul class="dropdown-menu">
+                                                  <li><a class="dropdown-item" href="{{URLROOT}}/homes/rhinoplastie">Rhinoplastie </a></li>
+                                                  <li><a class="dropdown-item" href="{{URLROOT}}/homes/blepharoplastie">Blépharoplastie</a></li>
+                                                  <li><a class="dropdown-item" href="{{URLROOT}}/homes/liftingVisage">Lifting visage</a></li>
+                                                  <li><a class="dropdown-item" href="{{URLROOT}}/homes/genioplastie">Génioplastie</a></li>
+                                                  <li><a class="dropdown-item" href="{{URLROOT}}/homes/augmentationImplantsMammaire">Augmentation implants mammaire</a></li>
+                                                  <li><a class="dropdown-item" href="{{URLROOT}}/homes/reductionMammaire">Réduction mammaire</a></li>
+                                                  <li><a class="dropdown-item" href="{{URLROOT}}/homes/liftingSeins">Lifting Seins</a></li>
+                                                  <li><a class="dropdown-item" href="{{URLROOT}}/homes/lipofillingSeins">Lipofilling seins</a></li>
+                                                  <li><a class="dropdown-item" href="{{URLROOT}}/homes/liposuccion">Liposuccion</a></li>
+                                                  <li><a class="dropdown-item" href="{{URLROOT}}/homes/abdominoplastie">abdominoplastie</a></li>
+                                                  <li><a class="dropdown-item" href="{{URLROOT}}/homes/augmentationFesses">augmentation fesses</a></li>
+                                                </ul>
+
+                                            </li>
+
+                                            <li><a class="dropdown-item" href="{{URLROOT}}/homes/greffeCheveux">Greffe cheveux </a></li>
+                                            <li><a class="dropdown-item" href="{{URLROOT}}/homes/medecineEsthetique">Médecine esthétique</a></li>
+                                        
+                                          </ul>
+
+                                        
+                                      
+                                    </li>
+                                  
+                                  <li class="nav-item"><a class="nav-link" href="{{URLROOT}}/homes/qui_sommes_nous">
+                                  Qui Sommes Nous </a></li> 
+                                  <li class="nav-item"><a class="nav-link" href="{{URLROOT}}/homes/contact">
+                                  Contact </a></li>
+
+
+                                  <li class="nav-item d-flex pl-5">
+
+                                      <a class="mr-1 pr-0" href="{{URLROOT}}/homes/langue/ar"> <img height="25" width="25" 
+                                      src="{{URLROOT}}/public/img/lang/ar2.png" class="img-fluid rounded-circle" alt="arabic lang">  
+                                        <h6 style="font-size:15px;" class=" black-text text-center" >AR</h6> 
+                                        </a>
+
+                                      <a class="mr-1 pr-0" href="{{URLROOT}}/homes/langue/fr"> <img height="25" width="25" 
+                                      src="{{URLROOT}}/public/img/lang/fr.png" class="img-fluid rounded-circle" alt="french lang">  
+                                        <h6 style="font-size:15px;" class="black-text   text-center" >FR</h6> 
+                                        </a>
+
+                                      <a class="mr-0 pr-0" href="{{URLROOT}}/homes/langue/en"> <img height="25" width="25" 
+                                      src="{{URLROOT}}/public/img/lang/en.png" class="img-fluid rounded-circle" alt="englishlang">  
+                                        <h6 style="font-size:15px;" class="black-text text-center" >EN</h6> 
+                                        </a>  
+                                        
+                                        <a class="mr-0 pl-1" href="{{URLROOT}}/homes/langue/gr"> <img height="25" width="25" 
+                                      src="{{URLROOT}}/public/img/lang/gr.png" class="img-fluid rounded-circle" alt="germanlang">  
+                                        <h6 style="font-size:15px;" class="black-text text-center" >GR</h6> 
+                                        </a>
+
+                                  </li>
+
+                                </ul>
+
+                              </div>
+                          
+
+
+                  </nav>
+
+{% endif %}
+
+ {% if LANG == 'ar' %}
+                               <nav dir="rtl" id="mynavAr" class="navbar navbar-expand-lg navbar-light heavy-rain-gradient sticky-top ">
+
+                            <a class="navbar-brand pl-3" href="#"> 
+                                    <span class="text-capitalize h4" > 
+                                        <i class="fab fa-asymmetrik fa-2x"></i>
+                                    </span> 
+                              
+                            </a>
+        
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#MyNavbar" >
+                          <span class="navbar-toggler-icon"></span>
+                        </button>
+ 
+        <div class="collapse navbar-collapse" id="MyNavbar">
+       
+              <ul style="line-height:1.9em;" class="navbar-nav pl-5 h5  mr-auto pr-5 mr-4">
+                <li class="nav-item "> <a  class="nav-link" dir="rtl" href="{{URLROOT}}/homes">
+الرئيسية</a></li>
+                <li class="nav-item dropdown">
+                    <a  dir="rtl" class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          العلاجات
+                        </a>
+                    
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                          <li><a  dir="rtl" class="dropdown-item" href="{{URLROOT}}/homes/soinsDentaires">علاج الأسنان</a></li>
+                         
+                          
+                          <li class="dropdown-submenu">
+
+                              <a  dir="rtl" class="dropdown-item dropdown-toggle" >الجراحة البلاستيكية </a>
+                             
+                              <ul class="dropdown-menu sub">
+                                <li><a  dir="rtl" class="dropdown-item" href="{{URLROOT}}/homes/rhinoplastie">رينوبلاستي</a></li>
+                                <li><a  dir="rtl" class="dropdown-item" href="{{URLROOT}}/homes/blepharoplastie">رأب الجفن</a></li>
+                                <li><a  dir="rtl" class="dropdown-item" href="{{URLROOT}}/homes/liftingVisage">رفع البصر</a></li>
+                                <li><a  dir="rtl" class="dropdown-item" href="{{URLROOT}}/homes/genioplastie">جراحة الوراثة</a></li>
+                                <li><a  dir="rtl" class="dropdown-item" href="{{URLROOT}}/homes/augmentationImplantsMammaire">تكبير الثدي</a></li>
+                                <li><a  dir="rtl" class="dropdown-item" href="{{URLROOT}}/homes/reductionMammaire">تصغير الثدي</a></li>
+                                <li><a  dir="rtl" class="dropdown-item" href="{{URLROOT}}/homes/liftingSeins">رفع الثدي</a></li>
+                                <li><a  dir="rtl" class="dropdown-item" href="{{URLROOT}}/homes/lipofillingSeins">ملء الدهون</a></li>
+                                <li><a  dir="rtl" class="dropdown-item" href="{{URLROOT}}/homes/liposuccion">شفط الدهون</a></li>
+                                <li><a  dir="rtl" class="dropdown-item" href="{{URLROOT}}/homes/abdominoplastie">شد البطن</a></li>
+                                <li><a  dir="rtl" class="dropdown-item" href="{{URLROOT}}/homes/augmentationFesses">تكبير الأرداف</a></li>
+                              </ul>
+
+                          </li>
+
+                          <li><a  dir="rtl" class="dropdown-item" href="{{URLROOT}}/homes/greffeCheveux">زرع الشعر </a></li>
+                          <li><a  dir="rtl" class="dropdown-item" href="{{URLROOT}}/homes/medecineEsthetique">الطب التجميلي</a></li>
+                      
+                        </ul>
+
+                      
+                    
+                  </li>
+                
+                <li class="nav-item"><a  dir="rtl" class="nav-link" href="{{URLROOT}}/homes/qui_sommes_nous">
+                من نحن </a></li> 
+                <li class="nav-item"><a dir="rtl"  class="nav-link" href="{{URLROOT}}/homes/contact">
+                اتصل</a></li>
+
+
+                <li class="nav-item d-flex pl-5">
+
+                    <a  dir="rtl" class="mr-1 pr-0" href="{{URLROOT}}/homes/langue/ar"> <img height="25" width="25" 
+                    src="{{URLROOT}}/public/img/lang/ar2.png" class="img-fluid rounded-circle" alt="arabic lang">  
+                      <h6 style="font-size:15px;" class=" black-text text-center" >AR</h6> 
+                      </a>
+
+                    <a  dir="rtl" class="mr-1 pr-0" href="{{URLROOT}}/homes/langue/fr"> <img height="25" width="25" 
+                    src="{{URLROOT}}/public/img/lang/fr.png" class="img-fluid rounded-circle" alt="french lang">  
+                      <h6 style="font-size:15px;" class="black-text   text-center" >FR</h6> 
+                      </a>
+
+                    <a  dir="rtl" class="mr-0 px-1" href="{{URLROOT}}/homes/langue/en"> <img height="25" width="25" 
+                    src="{{URLROOT}}/public/img/lang/en.png" class="img-fluid rounded-circle" alt="englishlang">  
+                      <h6 style="font-size:15px;" class="black-text text-center" >EN</h6> 
+                      </a>  
+                      
+                      <a  dir="rtl" class="mr-0 px-1" href="{{URLROOT}}/homes/langue/gr"> <img height="25" width="25" 
+                    src="{{URLROOT}}/public/img/lang/gr.png" class="img-fluid rounded-circle" alt="germanlang">  
+                      <h6 style="font-size:15px;" class="black-text text-center" >GR</h6> 
+                      </a>
+
+                </li>
+
+              </ul>
+
+            </div>
+        
+
+
+</nav>
+
+ {% endif %}
+
+{% if LANG == 'en' %}
+                                <nav  id="mynav" class="navbar navbar-expand-lg navbar-light heavy-rain-gradient sticky-top ">
+
+                            <a class="navbar-brand pl-3" href="#"> 
+                                    <span class="text-capitalize h4" > 
+                                        <i class="fab fa-asymmetrik fa-2x"></i>
+                                    </span> 
+                              
+                            </a>
+        
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#MyNavbar" >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+ 
+        <div class="collapse navbar-collapse" id="MyNavbar">
+       
+              <ul style="line-height:1.9em;" class="navbar-nav pl-5 h5  ml-auto pr-5 mr-4">
+
+                <li class="nav-item "> <a class="nav-link" href="{{URLROOT}}/homes">Accueil</a></li>
+              
+                <li class="nav-item dropdown">
+        
+                    <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Nos traitements
+                        </a>
+                    
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                          <li><a class="dropdown-item" href="{{URLROOT}}/homes/soinsDentaires">Soins dentaires</a></li>
+                         
+                          
+                          <li class="dropdown-submenu">
+
+                              <a class="dropdown-item dropdown-toggle" >Chirurgie plastique </a>
+                             
+                              <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="{{URLROOT}}/homes/rhinoplastie">Rhinoplastie </a></li>
+                                <li><a class="dropdown-item" href="{{URLROOT}}/homes/blepharoplastie">Blépharoplastie</a></li>
+                                <li><a class="dropdown-item" href="{{URLROOT}}/homes/liftingVisage">Lifting visage</a></li>
+                                <li><a class="dropdown-item" href="{{URLROOT}}/homes/genioplastie">Génioplastie</a></li>
+                                <li><a class="dropdown-item" href="{{URLROOT}}/homes/augmentationImplantsMammaire">Augmentation implants mammaire</a></li>
+                                <li><a class="dropdown-item" href="{{URLROOT}}/homes/reductionMammaire">Réduction mammaire</a></li>
+                                <li><a class="dropdown-item" href="{{URLROOT}}/homes/liftingSeins">Lifting Seins</a></li>
+                                <li><a class="dropdown-item" href="{{URLROOT}}/homes/lipofillingSeins">Lipofilling seins</a></li>
+                                <li><a class="dropdown-item" href="{{URLROOT}}/homes/liposuccion">Liposuccion</a></li>
+                                <li><a class="dropdown-item" href="{{URLROOT}}/homes/abdominoplastie">abdominoplastie</a></li>
+                                <li><a class="dropdown-item" href="{{URLROOT}}/homes/augmentationFesses">augmentation fesses</a></li>
+                              </ul>
+
+                          </li>
+
+                          <li><a class="dropdown-item" href="{{URLROOT}}/homes/greffeCheveux">Greffe cheveux </a></li>
+                          <li><a class="dropdown-item" href="{{URLROOT}}/homes/medecineEsthetique">Médecine esthétique</a></li>
+                      
+                        </ul>
+
+                      
+                    
+                  </li>
+                
+                <li class="nav-item"><a class="nav-link" href="{{URLROOT}}/homes/qui_sommes_nous">
+                Qui Sommes Nous </a></li> 
+                <li class="nav-item"><a class="nav-link" href="{{URLROOT}}/homes/contact">
+                Contact </a></li>
+
+
+                <li class="nav-item d-flex pl-5">
+
+                    <a class="mr-1 pr-0" href="{{URLROOT}}/homes/langue/ar"> <img height="25" width="25" 
+                    src="{{URLROOT}}/public/img/lang/ar2.png" class="img-fluid rounded-circle" alt="arabic lang">  
+                      <h6 style="font-size:15px;" class=" black-text text-center" >AR</h6> 
+                      </a>
+
+                    <a class="mr-1 pr-0" href="{{URLROOT}}/homes/langue/fr"> <img height="25" width="25" 
+                    src="{{URLROOT}}/public/img/lang/fr.png" class="img-fluid rounded-circle" alt="french lang">  
+                      <h6 style="font-size:15px;" class="black-text   text-center" >FR</h6> 
+                      </a>
+
+                    <a class="mr-0 pr-0" href="{{URLROOT}}/homes/langue/en"> <img height="25" width="25" 
+                    src="{{URLROOT}}/public/img/lang/en.png" class="img-fluid rounded-circle" alt="englishlang">  
+                      <h6 style="font-size:15px;" class="black-text text-center" >EN</h6> 
+                      </a>  
+                      
+                      <a class="mr-0 pl-1" href="{{URLROOT}}/homes/langue/gr"> <img height="25" width="25" 
+                    src="{{URLROOT}}/public/img/lang/gr.png" class="img-fluid rounded-circle" alt="germanlang">  
+                      <h6 style="font-size:15px;" class="black-text text-center" >GR</h6> 
+                      </a>
+
+                </li>
+
+              </ul>
+
+            </div>
+        
+
+
+</nav>
+
+
+{% endif %} 
+
+{% if LANG == 'gr' %}
+                              <nav  id="mynav" class="navbar navbar-expand-lg navbar-light heavy-rain-gradient sticky-top ">
+
+                            <a class="navbar-brand pl-3" href="#"> 
+                                    <span class="text-capitalize h4" > 
+                                        <i class="fab fa-asymmetrik fa-2x"></i>
+                                    </span> 
+                              
+                            </a>
+        
+                          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#MyNavbar" >
+                            <span class="navbar-toggler-icon"></span>
+                          </button>
+ 
+        <div class="collapse navbar-collapse" id="MyNavbar">
+       
+              <ul style="line-height:1.9em;" class="navbar-nav pl-5 h5  ml-auto pr-5 mr-4">
+
+
+                <li class="nav-item "> <a class="nav-link" href="{{URLROOT}}/homes">Accueil</a></li>
+              
+                <li class="nav-item dropdown">
+        
+                    <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Nos traitements
+                        </a>
+                    
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                          <li><a class="dropdown-item" href="{{URLROOT}}/homes/soinsDentaires">Soins dentaires</a></li>
+                         
+                          
+                          <li class="dropdown-submenu">
+
+                              <a class="dropdown-item dropdown-toggle" >Chirurgie plastique </a>
+                             
+                              <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="{{URLROOT}}/homes/rhinoplastie">Rhinoplastie </a></li>
+                                <li><a class="dropdown-item" href="{{URLROOT}}/homes/blepharoplastie">Blépharoplastie</a></li>
+                                <li><a class="dropdown-item" href="{{URLROOT}}/homes/liftingVisage">Lifting visage</a></li>
+                                <li><a class="dropdown-item" href="{{URLROOT}}/homes/genioplastie">Génioplastie</a></li>
+                                <li><a class="dropdown-item" href="{{URLROOT}}/homes/augmentationImplantsMammaire">Augmentation implants mammaire</a></li>
+                                <li><a class="dropdown-item" href="{{URLROOT}}/homes/reductionMammaire">Réduction mammaire</a></li>
+                                <li><a class="dropdown-item" href="{{URLROOT}}/homes/liftingSeins">Lifting Seins</a></li>
+                                <li><a class="dropdown-item" href="{{URLROOT}}/homes/lipofillingSeins">Lipofilling seins</a></li>
+                                <li><a class="dropdown-item" href="{{URLROOT}}/homes/liposuccion">Liposuccion</a></li>
+                                <li><a class="dropdown-item" href="{{URLROOT}}/homes/abdominoplastie">abdominoplastie</a></li>
+                                <li><a class="dropdown-item" href="{{URLROOT}}/homes/augmentationFesses">augmentation fesses</a></li>
+                              </ul>
+
+                          </li>
+
+                          <li><a class="dropdown-item" href="{{URLROOT}}/homes/greffeCheveux">Greffe cheveux </a></li>
+                          <li><a class="dropdown-item" href="{{URLROOT}}/homes/medecineEsthetique">Médecine esthétique</a></li>
+                      
+                        </ul>
+
+                      
+                    
+                  </li>
+                
+                <li class="nav-item"><a class="nav-link" href="{{URLROOT}}/homes/qui_sommes_nous">
+                Qui Sommes Nous </a></li> 
+                <li class="nav-item"><a class="nav-link" href="{{URLROOT}}/homes/contact">
+                Contact </a></li>
+
+
+                <li class="nav-item d-flex pl-5">
+
+                    <a class="mr-1 pr-0" href="{{URLROOT}}/homes/langue/ar"> <img height="25" width="25" 
+                    src="{{URLROOT}}/public/img/lang/ar2.png" class="img-fluid rounded-circle" alt="arabic lang">  
+                      <h6 style="font-size:15px;" class=" black-text text-center" >AR</h6> 
+                      </a>
+
+                    <a class="mr-1 pr-0" href="{{URLROOT}}/homes/langue/fr"> <img height="25" width="25" 
+                    src="{{URLROOT}}/public/img/lang/fr.png" class="img-fluid rounded-circle" alt="french lang">  
+                      <h6 style="font-size:15px;" class="black-text   text-center" >FR</h6> 
+                      </a>
+
+                    <a class="mr-0 pr-0" href="{{URLROOT}}/homes/langue/en"> <img height="25" width="25" 
+                    src="{{URLROOT}}/public/img/lang/en.png" class="img-fluid rounded-circle" alt="englishlang">  
+                      <h6 style="font-size:15px;" class="black-text text-center" >EN</h6> 
+                      </a>  
+                      
+                      <a class="mr-0 pl-1" href="{{URLROOT}}/homes/langue/gr"> <img height="25" width="25" 
+                    src="{{URLROOT}}/public/img/lang/gr.png" class="img-fluid rounded-circle" alt="germanlang">  
+                      <h6 style="font-size:15px;" class="black-text text-center" >GR</h6> 
+                      </a>
+
+                </li>
+
+              </ul>
+
+            </div>
+        
+
+
+</nav>
+
+{% endif %}
+                     

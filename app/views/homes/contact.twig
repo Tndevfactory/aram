@@ -1,0 +1,38 @@
+
+{% extends 'layout.twig' %}
+
+{% block head %}
+    <title> CONTACT </title>
+{% endblock  %}
+
+
+{% block content %}
+
+ 
+ 
+                         {% if LANG == 'fr' %}
+                            {% include('/components/contact/fr/page_header.twig') %}
+                            {% include('/components/contact/fr/contact_section.twig') %}
+                            {% include('/components/contact/fr/staff.twig') %}
+                          {% endif %}
+
+                          {% if LANG == 'ar' %}
+                               {% include('/components/contact/ar/page_header.twig') %}
+                                {% include('/components/contact/ar/contact_section.twig') %}
+                                {% include('/components/contact/ar/staff.twig') %}
+                          {% endif %}
+
+                          {% if LANG == 'en' %}
+                               {% include('/components/contact/en/page_header.twig') %}
+                                {% include('/components/contact/en/contact_section.twig') %}
+                                {% include('/components/contact/en/staff.twig') %}
+
+                          {% endif %}   {% if LANG == 'gr' %}
+                              {% include('/components/contact/en/page_header.twig') %}
+                                {% include('/components/contact/en/contact_section.twig') %}
+                                {% include('/components/contact/en/staff.twig') %}
+                          {% endif %}
+                    
+
+{% endblock  %}
+

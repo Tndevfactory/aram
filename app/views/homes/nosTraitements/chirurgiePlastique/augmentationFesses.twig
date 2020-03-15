@@ -1,0 +1,35 @@
+{% extends 'layout.twig' %}
+
+{% block head %}
+    <title> abdo</title>
+    <style>
+          
+
+          </style>
+{% endblock  %}
+
+{% block content %}
+
+                         {% if LANG == 'fr' %}
+                            {% include('/components/nosTraitements/fr/chirurgiePlastique/augmentationFesses.twig') %}
+                            
+                          {% endif %}
+
+                          {% if LANG == 'en' %}
+                            {% include('/components/nosTraitements/en/chirurgiePlastique/augmentationFesses.twig') %}
+                            
+                          {% endif %}
+
+                          {% if LANG == 'gr' %}
+                              {% include('/components/nosTraitements/gr/chirurgiePlastique/augmentationFesses.twig') %}
+                           
+                          {% endif %}  
+
+                          {% if LANG == 'ar' %}
+                            {% include('/components/nosTraitements/ar/chirurgiePlastique/augmentationFesses.twig') %}
+                         
+                          {% endif %}
+
+
+{% endblock  %}
+
