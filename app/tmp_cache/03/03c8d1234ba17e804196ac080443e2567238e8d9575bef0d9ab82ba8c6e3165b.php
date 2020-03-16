@@ -50,26 +50,17 @@ form#lead_form_float {
  form#lead_form_float{
     
    background-color: red;
-   ";
-        // line 17
-        echo "   
+  
+   
   }
 }
 
-@media only screen and (min-width:1500px) {
- form#lead_form_float{
-    
-   background-color: lightblue;
-   ";
-        // line 26
-        echo "   
-  }
-}
+
 
  </style>
 
 ";
-        // line 33
+        // line 26
         echo "
           <form 
           style=\" 
@@ -86,7 +77,7 @@ form#lead_form_float {
 
           id=\"lead_form_float\" 
           action=\"";
-        // line 48
+        // line 41
         echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
         echo "/homes/newsletter\" 
           method=\"post\" 
@@ -96,52 +87,52 @@ form#lead_form_float {
                  <h4 class=\"text-center  mb-4 \" >Demander un devis </h4>
                       <div class=\"form-group\">
                           <input type=\"text\" name=\"name\" class=\"form-control mb-2  ";
-        // line 55
-        echo ((0 === twig_compare(twig_get_attribute($this->env, $this->source, ($context["data"] ?? null), "name_err", [], "any", false, false, false, 55), "")) ? ("") : ("is-invalid"));
+        // line 48
+        echo ((0 === twig_compare(twig_get_attribute($this->env, $this->source, ($context["data"] ?? null), "name_err", [], "any", false, false, false, 48), "")) ? ("") : ("is-invalid"));
         echo "\"   placeholder=\"Veuillez entrer votre nom complet \">
                           <div class=\"invalid-feedback \"> ";
-        // line 56
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["data"] ?? null), "name_err", [], "any", false, false, false, 56), "html", null, true);
+        // line 49
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["data"] ?? null), "name_err", [], "any", false, false, false, 49), "html", null, true);
         echo " </div>
                       </div>
 
                       <div class=\"form-group\">
                             <input type=\"email\" name=\"email\" class=\"form-control mb-2 ";
-        // line 60
-        echo ((0 === twig_compare(twig_get_attribute($this->env, $this->source, ($context["data"] ?? null), "email_err", [], "any", false, false, false, 60), "")) ? ("") : ("is-invalid"));
+        // line 53
+        echo ((0 === twig_compare(twig_get_attribute($this->env, $this->source, ($context["data"] ?? null), "email_err", [], "any", false, false, false, 53), "")) ? ("") : ("is-invalid"));
         echo "\"  placeholder=\"Veuillez entrer votre email\">
                             <div class=\"invalid-feedback \">";
-        // line 61
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["data"] ?? null), "email_err", [], "any", false, false, false, 61), "html", null, true);
+        // line 54
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["data"] ?? null), "email_err", [], "any", false, false, false, 54), "html", null, true);
         echo "</div>
                       </div>
                       
                       <div class=\"form-group\">
                             <input type=\"text\" name=\"tel\" class=\"form-control mb-2 ";
-        // line 65
-        echo ((0 === twig_compare(twig_get_attribute($this->env, $this->source, ($context["data"] ?? null), "email_err", [], "any", false, false, false, 65), "")) ? ("") : ("is-invalid"));
+        // line 58
+        echo ((0 === twig_compare(twig_get_attribute($this->env, $this->source, ($context["data"] ?? null), "email_err", [], "any", false, false, false, 58), "")) ? ("") : ("is-invalid"));
         echo "\"  placeholder=\"Veuillez entrer votre numéro de téléphone\">
                             <div class=\"invalid-feedback \">";
-        // line 66
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["data"] ?? null), "email_err", [], "any", false, false, false, 66), "html", null, true);
+        // line 59
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["data"] ?? null), "email_err", [], "any", false, false, false, 59), "html", null, true);
         echo "</div>
                       </div>
                       
                        <div class=\"form-group\">
                             <input type=\"text\" name=\"intervention\" class=\"form-control mb-2 ";
-        // line 70
-        echo ((0 === twig_compare(twig_get_attribute($this->env, $this->source, ($context["data"] ?? null), "email_err", [], "any", false, false, false, 70), "")) ? ("") : ("is-invalid"));
+        // line 63
+        echo ((0 === twig_compare(twig_get_attribute($this->env, $this->source, ($context["data"] ?? null), "email_err", [], "any", false, false, false, 63), "")) ? ("") : ("is-invalid"));
         echo "\"  placeholder=\"Intervention souhaitée\">
                             <div class=\"invalid-feedback \">";
-        // line 71
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["data"] ?? null), "email_err", [], "any", false, false, false, 71), "html", null, true);
+        // line 64
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["data"] ?? null), "email_err", [], "any", false, false, false, 64), "html", null, true);
         echo "</div>
                       </div>
                       
                       
                         <button 
                         style=\"margin-top:-4px;\" 
-                        class=\"ml-4 btn darken-3 grey text-white\">
+                        class=\"ml-4 rounded btn darken-1 grey z-depth-0 text-white\">
                         Envoyer
                         </button>
           </form>
@@ -168,7 +159,7 @@ form#lead_form_float {
 });
 
 ";
-        // line 105
+        // line 98
         echo "
 
 /* window.onscroll = function() {myFunction()};
@@ -198,7 +189,7 @@ function myFunction() {
 
     public function getDebugInfo()
     {
-        return array (  172 => 105,  137 => 71,  133 => 70,  126 => 66,  122 => 65,  115 => 61,  111 => 60,  104 => 56,  100 => 55,  90 => 48,  73 => 33,  65 => 26,  55 => 17,  44 => 7,  41 => 5,  37 => 1,);
+        return array (  163 => 98,  128 => 64,  124 => 63,  117 => 59,  113 => 58,  106 => 54,  102 => 53,  95 => 49,  91 => 48,  81 => 41,  64 => 26,  44 => 7,  41 => 5,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -218,19 +209,12 @@ form#lead_form_float {
  form#lead_form_float{
     
    background-color: red;
-   {# visibility:hidden; #}
+  
    
   }
 }
 
-@media only screen and (min-width:1500px) {
- form#lead_form_float{
-    
-   background-color: lightblue;
-   {# visibility:hidden; #}
-   
-  }
-}
+
 
  </style>
 
@@ -279,7 +263,7 @@ form#lead_form_float {
                       
                         <button 
                         style=\"margin-top:-4px;\" 
-                        class=\"ml-4 btn darken-3 grey text-white\">
+                        class=\"ml-4 rounded btn darken-1 grey z-depth-0 text-white\">
                         Envoyer
                         </button>
           </form>

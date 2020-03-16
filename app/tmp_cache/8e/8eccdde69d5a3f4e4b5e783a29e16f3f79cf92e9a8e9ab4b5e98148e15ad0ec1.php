@@ -29,6 +29,7 @@ class __TwigTemplate_5f77b01a7f723f917a5ba1c34b5c89c5bb1b318d0a7814d56f943ec5e9b
         $this->blocks = [
             'title' => [$this, 'block_title'],
             'content' => [$this, 'block_content'],
+            'script' => [$this, 'block_script'],
         ];
     }
 
@@ -68,17 +69,15 @@ class __TwigTemplate_5f77b01a7f723f917a5ba1c34b5c89c5bb1b318d0a7814d56f943ec5e9b
         // line 24
         echo "
         ";
-        // line 25
-        $this->loadTemplate("./inc/footer.html.twig", "layout.twig", 25)->display($context);
-        // line 26
-        echo "         ";
-        $this->loadTemplate("/inc/social.html.twig", "layout.twig", 26)->display($context);
         // line 27
         echo "        ";
         $this->loadTemplate("./inc/scripts.html.twig", "layout.twig", 27)->display($context);
         echo " 
-
-    </body>
+        ";
+        // line 28
+        $this->displayBlock('script', $context, $blocks);
+        // line 29
+        echo "    </body>
     </html>
 ";
     }
@@ -97,6 +96,13 @@ class __TwigTemplate_5f77b01a7f723f917a5ba1c34b5c89c5bb1b318d0a7814d56f943ec5e9b
         echo " ";
     }
 
+    // line 28
+    public function block_script($context, array $blocks = [])
+    {
+        $macros = $this->macros;
+        echo " ";
+    }
+
     public function getTemplateName()
     {
         return "layout.twig";
@@ -109,7 +115,7 @@ class __TwigTemplate_5f77b01a7f723f917a5ba1c34b5c89c5bb1b318d0a7814d56f943ec5e9b
 
     public function getDebugInfo()
     {
-        return array (  94 => 23,  87 => 13,  77 => 27,  74 => 26,  72 => 25,  69 => 24,  67 => 23,  64 => 22,  62 => 21,  57 => 14,  54 => 13,  52 => 12,  39 => 1,);
+        return array (  100 => 28,  93 => 23,  86 => 13,  80 => 29,  78 => 28,  73 => 27,  70 => 24,  68 => 23,  65 => 22,  63 => 21,  58 => 14,  55 => 13,  53 => 12,  40 => 1,);
     }
 
     public function getSourceContext()
@@ -138,10 +144,10 @@ class __TwigTemplate_5f77b01a7f723f917a5ba1c34b5c89c5bb1b318d0a7814d56f943ec5e9b
 
         {% block content %} {% endblock  %}
 
-        {% include('./inc/footer.html.twig') %}
-         {% include('/inc/social.html.twig') %}
+        {# {% include('./inc/footer.html.twig') %}
+         {% include('/inc/social.html.twig') %} #}
         {% include('./inc/scripts.html.twig') %} 
-
+        {% block script %} {% endblock  %}
     </body>
     </html>
 ", "layout.twig", "/var/www/tndevfactory/public_html/ARAM/app/views/layout.twig");

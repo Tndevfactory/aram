@@ -13,19 +13,12 @@ form#lead_form_float {
  form#lead_form_float{
     
    background-color: red;
-   {# visibility:hidden; #}
+  
    
   }
 }
 
-@media only screen and (min-width:1500px) {
- form#lead_form_float{
-    
-   background-color: lightblue;
-   {# visibility:hidden; #}
-   
-  }
-}
+
 
  </style>
 
@@ -74,46 +67,46 @@ form#lead_form_float {
                       
                         <button 
                         style="margin-top:-4px;" 
-                        class="ml-4 btn darken-3 grey text-white">
+                        class="ml-4 rounded btn darken-1 grey z-depth-0 text-white">
                         Envoyer
                         </button>
           </form>
    
  <script>
- document.getElementById("lead_form_float").style.visibility = "hidden"; 
- window.addEventListener('load', function(event){
- var w = parseInt(window.innerWidth);
- var h = parseInt(window.innerHeight);
- console.log(w);
- console.log(h);
-   pos=w-600;
-  document.getElementById("lead_form_float").style.visibility = "visible";
-  document.getElementById("lead_form_float").style.left = pos + 'px';
-});
+        document.getElementById("lead_form_float").style.visibility = "hidden"; 
+        window.addEventListener('load', function(event){
+        var w = parseInt(window.innerWidth);
+        var h = parseInt(window.innerHeight);
+        console.log(w);
+        console.log(h);
+          pos=w-600;
+          document.getElementById("lead_form_float").style.visibility = "visible";
+          document.getElementById("lead_form_float").style.left = pos + 'px';
+        });
 
- window.addEventListener('resize', function(event){
- var w = parseInt(window.innerWidth);
- var h = parseInt(window.innerHeight);
-  console.log(w);
- console.log(h);
-    pos=w-600;
-  document.getElementById("lead_form_float").style.left = pos + 'px';
-});
+        window.addEventListener('resize', function(event){
+        var w = parseInt(window.innerWidth);
+        var h = parseInt(window.innerHeight);
+          console.log(w);
+        console.log(h);
+            pos=w-600;
+          document.getElementById("lead_form_float").style.left = pos + 'px';
+        });
 
-{# gsap.from(".box", { opacity: 0,  y: 100,  duration: 1 }); #}
-{# gsap.to(".box", {rotation: -55, x: 10, duration: 4}); #}
+  {# gsap.from(".box", { opacity: 0,  y: 100,  duration: 1 }); #}
+  {# gsap.to(".box", {rotation: -55, x: 10, duration: 4}); #}
 
 
-/* window.onscroll = function() {myFunction()};
+  /* window.onscroll = function() {myFunction()};
 
-function myFunction() {
-  console.log(document.documentElement.scrollTop  );
-  if (document.body.scrollTop > 150 || document.documentElement.scrollTop > 150) {
-    document.getElementById("lead_form_float").style.background= "orange";
-  } else {
-    document.getElementById("lead_form_float").style.background= "blue";
-  }
-} 
+  function myFunction() {
+    console.log(document.documentElement.scrollTop  );
+    if (document.body.scrollTop > 150 || document.documentElement.scrollTop > 150) {
+      document.getElementById("lead_form_float").style.background= "orange";
+    } else {
+      document.getElementById("lead_form_float").style.background= "blue";
+    }
+  } 
 
 */
  </script>
