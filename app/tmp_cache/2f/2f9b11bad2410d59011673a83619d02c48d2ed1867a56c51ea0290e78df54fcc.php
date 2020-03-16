@@ -40,10 +40,14 @@ class __TwigTemplate_88ecaf614eadd5f0db5989ae9f5c902101f4ef19d8a64b40e43bf77cfcf
 <script type=\"text/javascript\" src=\"https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.14.0/js/mdb.min.js\"></script>
 <script src=\"https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js\"></script>
 <script src=\"https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js\"></script>
- 
 
 <script type=\"text/javascript\" src=\"";
-        // line 16
+        // line 15
+        echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
+        echo "/public/js/venobox.min.js\"></script>
+
+<script type=\"text/javascript\" src=\"";
+        // line 17
         echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
         echo "/public/js/main.js\"></script>
   <script>
@@ -82,10 +86,14 @@ class __TwigTemplate_88ecaf614eadd5f0db5989ae9f5c902101f4ef19d8a64b40e43bf77cfcf
       slideToShow: 1,
       slideToScroll: 1
     });
-    
+  
+\$(document).ready(function(){
+   \$('.venobox').venobox(); 
+  });
+
 
 ";
-        // line 73
+        // line 78
         echo "
 
  
@@ -105,7 +113,7 @@ class __TwigTemplate_88ecaf614eadd5f0db5989ae9f5c902101f4ef19d8a64b40e43bf77cfcf
 
     public function getDebugInfo()
     {
-        return array (  89 => 73,  47 => 16,  37 => 8,);
+        return array (  97 => 78,  51 => 17,  46 => 15,  37 => 8,);
     }
 
     public function getSourceContext()
@@ -123,7 +131,8 @@ class __TwigTemplate_88ecaf614eadd5f0db5989ae9f5c902101f4ef19d8a64b40e43bf77cfcf
 <script type=\"text/javascript\" src=\"https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.14.0/js/mdb.min.js\"></script>
 <script src=\"https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js\"></script>
 <script src=\"https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js\"></script>
- 
+
+<script type=\"text/javascript\" src=\"{{URLROOT}}/public/js/venobox.min.js\"></script>
 
 <script type=\"text/javascript\" src=\"{{URLROOT}}/public/js/main.js\"></script>
   <script>
@@ -162,7 +171,11 @@ class __TwigTemplate_88ecaf614eadd5f0db5989ae9f5c902101f4ef19d8a64b40e43bf77cfcf
       slideToShow: 1,
       slideToScroll: 1
     });
-    
+  
+\$(document).ready(function(){
+   \$('.venobox').venobox(); 
+  });
+
 
 {# \$(\"#newslater_form\").submit(function(e){
     e.preventDefault(); // avoid to execute the actual submit of the form.

@@ -13,55 +13,81 @@
   <section id="gallery" class="py-5">
     <div class="container">
      
-      <h1 class="text-center">PHOTOS AVANT APRES </h1>
+      <h1 class="text-center">Videos AVANT APRES </h1>
       <p class="text-center">Voyez les résultats</p>
 
+    <div class="videos">  
+      
       <div class="row mb-4">
 
-        <div class="col-md-4  mb-2">
-            <video class="video-fluid z-depth-1" controls loop muted>
-              <source src="https://mdbootstrap.com/img/video/Sail-Away.mp4" type="video/mp4" />
-            </video>
+            <div class="col-md-4  mb-2" >
+                <div class="video d-flex justify-content-center align-items-center " style="position:relative">
+                 <img src="{{URLROOT}}/public/img/barbe/barbe1.jpg" alt="" style="width:100%" class="img-thumbnail">
+                    <a class="venobox" data-autoplay="true" data-vbtype="video" href="http://youtu.be/T6mMaHXTlHg" data-gall="myGallery">
+                          <i class="fas fa-play-circle fa-3x rounded-circle" style="border:1px solid #C3922E;position:absolute;z-index:999;left:50%; color:#C3922E;background-color:#0C3537;"> </i>
+                    </a>
+                </div>
+            </div>
+
+             <div class="col-md-4  mb-2" >
+                <div class="video d-flex justify-content-center align-items-center " style="position:relative">
+                 <img src="{{URLROOT}}/public/img/barbe/barbe1.jpg" alt="" style="width:100%" class="img-thumbnail">
+                    <a class="venobox" data-autoplay="true" data-vbtype="video" href="http://youtu.be/T6mMaHXTlHg" data-gall="myGallery">
+                          <i class="fas fa-play-circle fa-3x rounded-circle" style="border:1px solid #C3922E;position:absolute;z-index:999;left:50%; color:#C3922E;background-color:#0C3537;"> </i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-md-4  mb-2" >
+                <div class="video d-flex justify-content-center align-items-center " style="position:relative">
+                 <img src="{{URLROOT}}/public/img/barbe/barbe1.jpg" alt="" style="width:100%" class="img-thumbnail">
+                    <a class="venobox" data-autoplay="true" data-vbtype="video" href="http://youtu.be/T6mMaHXTlHg" data-gall="myGallery">
+                          <i class="fas fa-play-circle fa-3x rounded-circle" style="border:1px solid #C3922E;position:absolute;z-index:999;left:50%; color:#C3922E;background-color:#0C3537;"> </i>
+                    </a>
+                </div>
+            </div>
+
+
         </div>
 
-        <div class="col-md-4  mb-2">
-          <video class="video-fluid z-depth-1" controls loop muted>
-              <source src="https://mdbootstrap.com/img/video/Sail-Away.mp4" type="video/mp4" />
-            </video>
-        </div>
 
-        <div class="col-md-4  mb-2">
-          <video class="video-fluid z-depth-1" controls loop muted>
-              <source src="https://mdbootstrap.com/img/video/Sail-Away.mp4" type="video/mp4" />
-            </video>
-        </div>
+    </div>
 
-      </div>
+     
+            <!--<div class="col-md-4  mb-2">
+                <video class="video-fluid z-depth-1" controls loop muted>
+                  <source src="https://mdbootstrap.com/img/video/Sail-Away.mp4" type="video/mp4" />
+                </video>
+            </div>
 
-      <div class="row mb-4">
+            <div class="col-md-4  mb-2">
+              <video class="video-fluid z-depth-1" controls loop muted>
+                  <source src="https://mdbootstrap.com/img/video/Sail-Away.mp4" type="video/mp4" />
+                </video>
+            </div>
 
-        <div class="col-md-4 mb-2">
-            <video class="video-fluid z-depth-1" controls loop muted>
-              <source src="https://mdbootstrap.com/img/video/Sail-Away.mp4" type="video/mp4" />
-            </video>
-        </div>
+            <div class="col-md-4  mb-2">
+              <video class="video-fluid z-depth-1" controls loop muted>
+                  <source src="https://mdbootstrap.com/img/video/Sail-Away.mp4" type="video/mp4" />
+                </video>
+            </div>-->
 
-        <div class="col-md-4 mb-2">
-          <video class="video-fluid z-depth-1" controls loop muted>
-              <source src="https://mdbootstrap.com/img/video/Sail-Away.mp4" type="video/mp4" />
-            </video>
-        </div>
-
-        <div class="col-md-4 mb-2">
-          <video class="video-fluid z-depth-1" controls loop muted>
-              <source src="https://mdbootstrap.com/img/video/Sail-Away.mp4" type="video/mp4" />
-            </video>
-        </div>
-
-      </div>
 
 
       
 
     </div>
   </section>
+
+
+  {# {% block script %}
+    <script>
+          $(document).ready(function(){
+              $('.venobox').venobox(); 
+          });
+
+
+          
+    </script>
+
+  {% endblock  %} #}

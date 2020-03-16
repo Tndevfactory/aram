@@ -1,24 +1,26 @@
 
 {% extends 'layout.twig' %}
-{% block title %}  <title> LAB  </title> {% endblock  %}
+{% block title %}  <title> LAB --- </title> {% endblock  %}
   
 {% block content %}
 
-        {% if LANG == 'fr' %}
+        {# {% if LANG == 'fr' %} #}
 
-                          {# {% block testnavbarSubmenuOnscrollHover %}
+                        {# {% block simpleMegamenu %}
                                 {% include('/inc/navbarMegaMenu.html.twig') %}
-                            {% endblock  %} #}
+                            {% endblock  %}  #}
 
-                             {% block testnavbarSubmenuOnscrollHover %}
-                                {% include('/inc/navbarMegaMenu-responsive.html.twig') %}
-                            {% endblock  %}
+                            {% block MegamenuResponsive %}
+                                 {% include('/inc/megamenu-responsive.html.twig') %}
+                            {% endblock  %} 
 
-                            {# {% block carouselfr %}
+                           
+
+                             {# {% block carouselfr %}
                                 {% include('/components/index/fr/showcaseBackgroundImage.twig') %}
                             {% endblock  %}
                           
-                             {% block lead_form_floatfr %} 
+                            {% block lead_form_floatfr %} 
                                   {% include('/components/index/fr/leadFormFloat.twig') %}
                             {% endblock  %}
 
@@ -30,16 +32,16 @@
                                 <div class="container ">
                                 {% include('/components/index/fr/homeIconSection.twig') %}
                                 </div>
-                            {% endblock  %}
+                            {% endblock  %}#}
 
 
                              {% block video_gallery_sectionfr %}
                               <div class="container ">
                                 {% include('/components/index/fr/videoGallerySection.twig') %}
                               </div>
-                            {% endblock  %} #}
+                            {% endblock  %} 
 
-                             {#{% block home_heading_sectionfr %}
+                            {# {% block home_heading_sectionfr %}
                                 {% include('/components/index/fr/home_heading_section.twig') %}
                             {% endblock  %}
 
@@ -61,11 +63,11 @@
 
                             {% block newsletter_sectionfr %}
                               {% include('/components/index/fr/newsletter_section.twig') %}
-                            {% endblock  %} #}
+                            {% endblock  %}  #}
 
-        {% endif %}
+        {# {% endif %} #}
       
-{# 
+ 
       {% if LANG == 'en' %}
                             {% block carouselan %}
                                 {% include('/components/index/en/showcase_caroussel.twig') %}
@@ -203,6 +205,6 @@
                               {% include('/components/index/ar/newsletter_section.twig') %}
                             {% endblock  %}
 
-    {% endif %} #}
+    {% endif %} 
 
  {% endblock  %}

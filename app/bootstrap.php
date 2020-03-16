@@ -11,7 +11,7 @@ define('DB_HOST','localhost');
 define('DB_USER','u958902108_charam');
 define('DB_PASS','Westham66!!');
 define('DB_NAME','u958902108_aram');
-define('URLROOT','http://localhost/ARAM');
+define('URLROOT','http://localhost/ARAM/');
 //define('URLROOT','http://www.aram-clinic.com');
 
 spl_autoload_register(function($className){

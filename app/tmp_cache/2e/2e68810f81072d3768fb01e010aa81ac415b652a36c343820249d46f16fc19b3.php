@@ -46,9 +46,14 @@ class __TwigTemplate_d82e479837735c2d31eb357404810f7332124db2f145cd2dd54352364d7
         // line 15
         echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
         echo "/public/js/megamenu.js\"></script>
+<link rel=\"stylesheet\" href=\"";
+        // line 16
+        echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
+        echo "/public/css/venobox.min.css\"/>
+
 <script src=\"https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js\"></script>
 <link rel=\"stylesheet\" href=\"";
-        // line 17
+        // line 19
         echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
         echo "/public/css/ionicons.min.css\">
 <link rel=\"stylesheet\" href=\"https://use.fontawesome.com/releases/v5.0.13/css/all.css\" >
@@ -61,7 +66,7 @@ class __TwigTemplate_d82e479837735c2d31eb357404810f7332124db2f145cd2dd54352364d7
 <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css\" />
 <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css\" />
 <link rel=\"stylesheet\" href=\"";
-        // line 27
+        // line 29
         echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
         echo "/public/css/main.css\"> 
 
@@ -80,7 +85,7 @@ class __TwigTemplate_d82e479837735c2d31eb357404810f7332124db2f145cd2dd54352364d7
 
     public function getDebugInfo()
     {
-        return array (  65 => 27,  52 => 17,  47 => 15,  42 => 12,  39 => 6,  37 => 1,);
+        return array (  70 => 29,  57 => 19,  51 => 16,  47 => 15,  42 => 12,  39 => 6,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -100,6 +105,8 @@ class __TwigTemplate_d82e479837735c2d31eb357404810f7332124db2f145cd2dd54352364d7
   
 <script type=\"text/javascript\" src=\"https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js\"></script>
 <script type=\"text/javascript\" src=\"{{URLROOT}}/public/js/megamenu.js\"></script>
+<link rel=\"stylesheet\" href=\"{{URLROOT}}/public/css/venobox.min.css\"/>
+
 <script src=\"https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js\"></script>
 <link rel=\"stylesheet\" href=\"{{URLROOT}}/public/css/ionicons.min.css\">
 <link rel=\"stylesheet\" href=\"https://use.fontawesome.com/releases/v5.0.13/css/all.css\" >
