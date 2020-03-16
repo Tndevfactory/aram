@@ -6,11 +6,15 @@
 
         {% if LANG == 'fr' %}
 
-                          {% block testnavbarSubmenuOnscrollHover %}
+                          {# {% block testnavbarSubmenuOnscrollHover %}
                                 {% include('/inc/navbarMegaMenu.html.twig') %}
+                            {% endblock  %} #}
+
+                             {% block testnavbarSubmenuOnscrollHover %}
+                                {% include('/inc/navbarMegaMenu-responsive.html.twig') %}
                             {% endblock  %}
 
-                            {% block carouselfr %}
+                            {# {% block carouselfr %}
                                 {% include('/components/index/fr/showcaseBackgroundImage.twig') %}
                             {% endblock  %}
                           
@@ -33,7 +37,7 @@
                               <div class="container ">
                                 {% include('/components/index/fr/videoGallerySection.twig') %}
                               </div>
-                            {% endblock  %}
+                            {% endblock  %} #}
 
                              {#{% block home_heading_sectionfr %}
                                 {% include('/components/index/fr/home_heading_section.twig') %}

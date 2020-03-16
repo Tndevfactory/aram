@@ -35,24 +35,15 @@ class __TwigTemplate_88ecaf614eadd5f0db5989ae9f5c902101f4ef19d8a64b40e43bf77cfcf
         $macros = $this->macros;
         // line 8
         echo "
-
-<!-- JQuery -->
-
-<!-- Bootstrap tooltips -->
 <script type=\"text/javascript\" src=\"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js\"></script>
-<!-- Bootstrap core JavaScript -->
 <script type=\"text/javascript\" src=\"https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js\"></script>
-<!-- MDB core JavaScript -->
 <script type=\"text/javascript\" src=\"https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.14.0/js/mdb.min.js\"></script>
-
 <script src=\"https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js\"></script>
-
- <script src=\"https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js\"></script>
- 
+<script src=\"https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js\"></script>
  
 
 <script type=\"text/javascript\" src=\"";
-        // line 25
+        // line 16
         echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
         echo "/public/js/main.js\"></script>
   <script>
@@ -94,7 +85,7 @@ class __TwigTemplate_88ecaf614eadd5f0db5989ae9f5c902101f4ef19d8a64b40e43bf77cfcf
     
 
 ";
-        // line 82
+        // line 73
         echo "
 
  
@@ -114,7 +105,7 @@ class __TwigTemplate_88ecaf614eadd5f0db5989ae9f5c902101f4ef19d8a64b40e43bf77cfcf
 
     public function getDebugInfo()
     {
-        return array (  98 => 82,  56 => 25,  37 => 8,);
+        return array (  89 => 73,  47 => 16,  37 => 8,);
     }
 
     public function getSourceContext()
@@ -127,20 +118,11 @@ class __TwigTemplate_88ecaf614eadd5f0db5989ae9f5c902101f4ef19d8a64b40e43bf77cfcf
 <script type=\"text/javascript\" src=\"{{URLROOT}}/public/js/ekko-lightbox.min.js\"></script> 
 <script type=\"text/javascript\" src=\"{{URLROOT}}/public/js/gsaplast.js\"></script> #}
 
-
-<!-- JQuery -->
-
-<!-- Bootstrap tooltips -->
 <script type=\"text/javascript\" src=\"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js\"></script>
-<!-- Bootstrap core JavaScript -->
 <script type=\"text/javascript\" src=\"https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js\"></script>
-<!-- MDB core JavaScript -->
 <script type=\"text/javascript\" src=\"https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.14.0/js/mdb.min.js\"></script>
-
 <script src=\"https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js\"></script>
-
- <script src=\"https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js\"></script>
- 
+<script src=\"https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js\"></script>
  
 
 <script type=\"text/javascript\" src=\"{{URLROOT}}/public/js/main.js\"></script>

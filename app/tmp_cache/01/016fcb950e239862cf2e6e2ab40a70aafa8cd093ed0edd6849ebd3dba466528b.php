@@ -73,95 +73,103 @@ form#lead_form_float {
         echo "
           <form 
           style=\" 
-            width:500px;
+            width:450px;
             position:relative;
             top:-90px;
-            left:1200px;
+            visibility = \"hidden\";
             z-index:900;
-            border-radius:10px;
+            border-radius:2px;
             color:black;
+            
              
             \" 
 
           id=\"lead_form_float\" 
           action=\"";
-        // line 47
+        // line 48
         echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
         echo "/homes/newsletter\" 
           method=\"post\" 
-          class=\"grey darken-3 box text-center form d-none d-lg-block p-3 z-depth-1 \"
+          class=\"bg-light box text-center form d-none d-lg-block p-3 z-depth-1 \"
           >
                  
-                 <h4 class=\"text-center white-text mb-4 \" >Demander un devis </h4>
+                 <h4 class=\"text-center  mb-4 \" >Demander un devis </h4>
                       <div class=\"form-group\">
                           <input type=\"text\" name=\"name\" class=\"form-control mb-2  ";
-        // line 54
-        echo ((0 === twig_compare(twig_get_attribute($this->env, $this->source, ($context["data"] ?? null), "name_err", [], "any", false, false, false, 54), "")) ? ("") : ("is-invalid"));
-        echo "\"   placeholder=\"Veuillez entrer votre nom complet \">
-                          <div class=\"invalid-feedback white-text\"> ";
         // line 55
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["data"] ?? null), "name_err", [], "any", false, false, false, 55), "html", null, true);
+        echo ((0 === twig_compare(twig_get_attribute($this->env, $this->source, ($context["data"] ?? null), "name_err", [], "any", false, false, false, 55), "")) ? ("") : ("is-invalid"));
+        echo "\"   placeholder=\"Veuillez entrer votre nom complet \">
+                          <div class=\"invalid-feedback \"> ";
+        // line 56
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["data"] ?? null), "name_err", [], "any", false, false, false, 56), "html", null, true);
         echo " </div>
                       </div>
 
                       <div class=\"form-group\">
                             <input type=\"email\" name=\"email\" class=\"form-control mb-2 ";
-        // line 59
-        echo ((0 === twig_compare(twig_get_attribute($this->env, $this->source, ($context["data"] ?? null), "email_err", [], "any", false, false, false, 59), "")) ? ("") : ("is-invalid"));
-        echo "\"  placeholder=\"Veuillez entrer votre email\">
-                            <div class=\"invalid-feedback white-text\">";
         // line 60
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["data"] ?? null), "email_err", [], "any", false, false, false, 60), "html", null, true);
+        echo ((0 === twig_compare(twig_get_attribute($this->env, $this->source, ($context["data"] ?? null), "email_err", [], "any", false, false, false, 60), "")) ? ("") : ("is-invalid"));
+        echo "\"  placeholder=\"Veuillez entrer votre email\">
+                            <div class=\"invalid-feedback \">";
+        // line 61
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["data"] ?? null), "email_err", [], "any", false, false, false, 61), "html", null, true);
         echo "</div>
                       </div>
                       
                       <div class=\"form-group\">
                             <input type=\"text\" name=\"tel\" class=\"form-control mb-2 ";
-        // line 64
-        echo ((0 === twig_compare(twig_get_attribute($this->env, $this->source, ($context["data"] ?? null), "email_err", [], "any", false, false, false, 64), "")) ? ("") : ("is-invalid"));
-        echo "\"  placeholder=\"Veuillez entrer votre numéro de téléphone\">
-                            <div class=\"invalid-feedback white-text\">";
         // line 65
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["data"] ?? null), "email_err", [], "any", false, false, false, 65), "html", null, true);
+        echo ((0 === twig_compare(twig_get_attribute($this->env, $this->source, ($context["data"] ?? null), "email_err", [], "any", false, false, false, 65), "")) ? ("") : ("is-invalid"));
+        echo "\"  placeholder=\"Veuillez entrer votre numéro de téléphone\">
+                            <div class=\"invalid-feedback \">";
+        // line 66
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["data"] ?? null), "email_err", [], "any", false, false, false, 66), "html", null, true);
         echo "</div>
                       </div>
                       
                        <div class=\"form-group\">
                             <input type=\"text\" name=\"intervention\" class=\"form-control mb-2 ";
-        // line 69
-        echo ((0 === twig_compare(twig_get_attribute($this->env, $this->source, ($context["data"] ?? null), "email_err", [], "any", false, false, false, 69), "")) ? ("") : ("is-invalid"));
-        echo "\"  placeholder=\"Intervention souhaitée\">
-                            <div class=\"invalid-feedback white-text\">";
         // line 70
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["data"] ?? null), "email_err", [], "any", false, false, false, 70), "html", null, true);
+        echo ((0 === twig_compare(twig_get_attribute($this->env, $this->source, ($context["data"] ?? null), "email_err", [], "any", false, false, false, 70), "")) ? ("") : ("is-invalid"));
+        echo "\"  placeholder=\"Intervention souhaitée\">
+                            <div class=\"invalid-feedback \">";
+        // line 71
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["data"] ?? null), "email_err", [], "any", false, false, false, 71), "html", null, true);
         echo "</div>
                       </div>
                       
                       
                         <button 
-                        style=\"margin-top:-4px;border-radius:8px\" 
-                        class=\"ml-4 btn  white-text z-depth-1 amber darken-3\">
+                        style=\"margin-top:-4px;\" 
+                        class=\"ml-4 btn darken-3 grey text-white\">
                         Envoyer
                         </button>
           </form>
    
  <script>
- 
+ document.getElementById(\"lead_form_float\").style.visibility = \"hidden\"; 
  window.addEventListener('load', function(event){
  var w = parseInt(window.innerWidth);
+ var h = parseInt(window.innerHeight);
+ console.log(w);
+ console.log(h);
    pos=w-600;
+  document.getElementById(\"lead_form_float\").style.visibility = \"visible\";
   document.getElementById(\"lead_form_float\").style.left = pos + 'px';
 });
 
  window.addEventListener('resize', function(event){
  var w = parseInt(window.innerWidth);
+ var h = parseInt(window.innerHeight);
+  console.log(w);
+ console.log(h);
     pos=w-600;
   document.getElementById(\"lead_form_float\").style.left = pos + 'px';
 });
 
-gsap.from(\".box\", { opacity: 0,  y: 100,  duration: 1 });
-gsap.to(\".box\", {rotation: 0, x: 10, duration: 4});
-
+";
+        // line 105
+        echo "
 
 /* window.onscroll = function() {myFunction()};
 
@@ -190,7 +198,7 @@ function myFunction() {
 
     public function getDebugInfo()
     {
-        return array (  136 => 70,  132 => 69,  125 => 65,  121 => 64,  114 => 60,  110 => 59,  103 => 55,  99 => 54,  89 => 47,  73 => 33,  65 => 26,  55 => 17,  44 => 7,  41 => 5,  37 => 1,);
+        return array (  172 => 105,  137 => 71,  133 => 70,  126 => 66,  122 => 65,  115 => 61,  111 => 60,  104 => 56,  100 => 55,  90 => 48,  73 => 33,  65 => 26,  55 => 17,  44 => 7,  41 => 5,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -230,67 +238,75 @@ form#lead_form_float {
 
           <form 
           style=\" 
-            width:500px;
+            width:450px;
             position:relative;
             top:-90px;
-            left:1200px;
+            visibility = \"hidden\";
             z-index:900;
-            border-radius:10px;
+            border-radius:2px;
             color:black;
+            
              
             \" 
 
           id=\"lead_form_float\" 
           action=\"{{URLROOT}}/homes/newsletter\" 
           method=\"post\" 
-          class=\"grey darken-3 box text-center form d-none d-lg-block p-3 z-depth-1 \"
+          class=\"bg-light box text-center form d-none d-lg-block p-3 z-depth-1 \"
           >
                  
-                 <h4 class=\"text-center white-text mb-4 \" >Demander un devis </h4>
+                 <h4 class=\"text-center  mb-4 \" >Demander un devis </h4>
                       <div class=\"form-group\">
                           <input type=\"text\" name=\"name\" class=\"form-control mb-2  {{ data.name_err == ''? '': 'is-invalid'  }}\"   placeholder=\"Veuillez entrer votre nom complet \">
-                          <div class=\"invalid-feedback white-text\"> {{data.name_err }} </div>
+                          <div class=\"invalid-feedback \"> {{data.name_err }} </div>
                       </div>
 
                       <div class=\"form-group\">
                             <input type=\"email\" name=\"email\" class=\"form-control mb-2 {{ data.email_err =='' ? '': 'is-invalid'  }}\"  placeholder=\"Veuillez entrer votre email\">
-                            <div class=\"invalid-feedback white-text\">{{data.email_err }}</div>
+                            <div class=\"invalid-feedback \">{{data.email_err }}</div>
                       </div>
                       
                       <div class=\"form-group\">
                             <input type=\"text\" name=\"tel\" class=\"form-control mb-2 {{ data.email_err =='' ? '': 'is-invalid'  }}\"  placeholder=\"Veuillez entrer votre numéro de téléphone\">
-                            <div class=\"invalid-feedback white-text\">{{data.email_err }}</div>
+                            <div class=\"invalid-feedback \">{{data.email_err }}</div>
                       </div>
                       
                        <div class=\"form-group\">
                             <input type=\"text\" name=\"intervention\" class=\"form-control mb-2 {{ data.email_err =='' ? '': 'is-invalid'  }}\"  placeholder=\"Intervention souhaitée\">
-                            <div class=\"invalid-feedback white-text\">{{data.email_err }}</div>
+                            <div class=\"invalid-feedback \">{{data.email_err }}</div>
                       </div>
                       
                       
                         <button 
-                        style=\"margin-top:-4px;border-radius:8px\" 
-                        class=\"ml-4 btn  white-text z-depth-1 amber darken-3\">
+                        style=\"margin-top:-4px;\" 
+                        class=\"ml-4 btn darken-3 grey text-white\">
                         Envoyer
                         </button>
           </form>
    
  <script>
- 
+ document.getElementById(\"lead_form_float\").style.visibility = \"hidden\"; 
  window.addEventListener('load', function(event){
  var w = parseInt(window.innerWidth);
+ var h = parseInt(window.innerHeight);
+ console.log(w);
+ console.log(h);
    pos=w-600;
+  document.getElementById(\"lead_form_float\").style.visibility = \"visible\";
   document.getElementById(\"lead_form_float\").style.left = pos + 'px';
 });
 
  window.addEventListener('resize', function(event){
  var w = parseInt(window.innerWidth);
+ var h = parseInt(window.innerHeight);
+  console.log(w);
+ console.log(h);
     pos=w-600;
   document.getElementById(\"lead_form_float\").style.left = pos + 'px';
 });
 
-gsap.from(\".box\", { opacity: 0,  y: 100,  duration: 1 });
-gsap.to(\".box\", {rotation: 0, x: 10, duration: 4});
+{# gsap.from(\".box\", { opacity: 0,  y: 100,  duration: 1 }); #}
+{# gsap.to(\".box\", {rotation: -55, x: 10, duration: 4}); #}
 
 
 /* window.onscroll = function() {myFunction()};

@@ -28,11 +28,6 @@ class __TwigTemplate_a6383ec9a4229ca50e4980c0565df620cbeac26b29d85eea9a07b3ffb3b
             'title' => [$this, 'block_title'],
             'content' => [$this, 'block_content'],
             'testnavbarSubmenuOnscrollHover' => [$this, 'block_testnavbarSubmenuOnscrollHover'],
-            'carouselfr' => [$this, 'block_carouselfr'],
-            'lead_form_floatfr' => [$this, 'block_lead_form_floatfr'],
-            'lead_form_fixfr' => [$this, 'block_lead_form_fixfr'],
-            'home_icon_sectionfr' => [$this, 'block_home_icon_sectionfr'],
-            'video_gallery_sectionfr' => [$this, 'block_video_gallery_sectionfr'],
         ];
     }
 
@@ -68,121 +63,38 @@ class __TwigTemplate_a6383ec9a4229ca50e4980c0565df620cbeac26b29d85eea9a07b3ffb3b
             // line 8
             echo "
                           ";
-            // line 9
-            $this->displayBlock('testnavbarSubmenuOnscrollHover', $context, $blocks);
             // line 12
             echo "
-                            ";
+                             ";
             // line 13
-            $this->displayBlock('carouselfr', $context, $blocks);
+            $this->displayBlock('testnavbarSubmenuOnscrollHover', $context, $blocks);
             // line 16
-            echo "                          
-                             ";
-            // line 17
-            $this->displayBlock('lead_form_floatfr', $context, $blocks);
-            // line 20
             echo "
                             ";
-            // line 21
-            $this->displayBlock('lead_form_fixfr', $context, $blocks);
-            // line 24
-            echo "                            
-                           ";
-            // line 25
-            $this->displayBlock('home_icon_sectionfr', $context, $blocks);
-            // line 30
-            echo "
-
-                             ";
-            // line 32
-            $this->displayBlock('video_gallery_sectionfr', $context, $blocks);
-            // line 37
+            // line 41
             echo "
                              ";
-            // line 61
+            // line 65
             echo "
         ";
         }
-        // line 63
+        // line 67
         echo "      
 ";
-        // line 203
+        // line 207
         echo "
  ";
     }
 
-    // line 9
-    public function block_testnavbarSubmenuOnscrollHover($context, array $blocks = [])
-    {
-        $macros = $this->macros;
-        // line 10
-        echo "                                ";
-        $this->loadTemplate("/inc/navbarMegaMenu.html.twig", "\\homes\\lab\\index.twig", 10)->display($context);
-        // line 11
-        echo "                            ";
-    }
-
     // line 13
-    public function block_carouselfr($context, array $blocks = [])
+    public function block_testnavbarSubmenuOnscrollHover($context, array $blocks = [])
     {
         $macros = $this->macros;
         // line 14
         echo "                                ";
-        $this->loadTemplate("/components/index/fr/showcaseBackgroundImage.twig", "\\homes\\lab\\index.twig", 14)->display($context);
+        $this->loadTemplate("/inc/navbarMegaMenu-responsive.html.twig", "\\homes\\lab\\index.twig", 14)->display($context);
         // line 15
         echo "                            ";
-    }
-
-    // line 17
-    public function block_lead_form_floatfr($context, array $blocks = [])
-    {
-        $macros = $this->macros;
-        echo " 
-                                  ";
-        // line 18
-        $this->loadTemplate("/components/index/fr/leadFormFloat.twig", "\\homes\\lab\\index.twig", 18)->display($context);
-        // line 19
-        echo "                            ";
-    }
-
-    // line 21
-    public function block_lead_form_fixfr($context, array $blocks = [])
-    {
-        $macros = $this->macros;
-        echo " 
-                                  ";
-        // line 22
-        $this->loadTemplate("/components/index/fr/leadFormFix.twig", "\\homes\\lab\\index.twig", 22)->display($context);
-        // line 23
-        echo "                            ";
-    }
-
-    // line 25
-    public function block_home_icon_sectionfr($context, array $blocks = [])
-    {
-        $macros = $this->macros;
-        // line 26
-        echo "                                <div class=\"container \">
-                                ";
-        // line 27
-        $this->loadTemplate("/components/index/fr/homeIconSection.twig", "\\homes\\lab\\index.twig", 27)->display($context);
-        // line 28
-        echo "                                </div>
-                            ";
-    }
-
-    // line 32
-    public function block_video_gallery_sectionfr($context, array $blocks = [])
-    {
-        $macros = $this->macros;
-        // line 33
-        echo "                              <div class=\"container \">
-                                ";
-        // line 34
-        $this->loadTemplate("/components/index/fr/videoGallerySection.twig", "\\homes\\lab\\index.twig", 34)->display($context);
-        // line 35
-        echo "                              </div>
-                            ";
     }
 
     public function getTemplateName()
@@ -197,7 +109,7 @@ class __TwigTemplate_a6383ec9a4229ca50e4980c0565df620cbeac26b29d85eea9a07b3ffb3b
 
     public function getDebugInfo()
     {
-        return array (  184 => 35,  182 => 34,  179 => 33,  175 => 32,  170 => 28,  168 => 27,  165 => 26,  161 => 25,  157 => 23,  155 => 22,  149 => 21,  145 => 19,  143 => 18,  137 => 17,  133 => 15,  130 => 14,  126 => 13,  122 => 11,  119 => 10,  115 => 9,  110 => 203,  107 => 63,  103 => 61,  100 => 37,  98 => 32,  94 => 30,  92 => 25,  89 => 24,  87 => 21,  84 => 20,  82 => 17,  79 => 16,  77 => 13,  74 => 12,  72 => 9,  69 => 8,  67 => 7,  64 => 6,  60 => 5,  53 => 3,  42 => 2,);
+        return array (  97 => 15,  94 => 14,  90 => 13,  85 => 207,  82 => 67,  78 => 65,  75 => 41,  72 => 16,  70 => 13,  67 => 12,  64 => 8,  62 => 7,  59 => 6,  55 => 5,  48 => 3,  37 => 2,);
     }
 
     public function getSourceContext()
@@ -210,11 +122,15 @@ class __TwigTemplate_a6383ec9a4229ca50e4980c0565df620cbeac26b29d85eea9a07b3ffb3b
 
         {% if LANG == 'fr' %}
 
-                          {% block testnavbarSubmenuOnscrollHover %}
+                          {# {% block testnavbarSubmenuOnscrollHover %}
                                 {% include('/inc/navbarMegaMenu.html.twig') %}
+                            {% endblock  %} #}
+
+                             {% block testnavbarSubmenuOnscrollHover %}
+                                {% include('/inc/navbarMegaMenu-responsive.html.twig') %}
                             {% endblock  %}
 
-                            {% block carouselfr %}
+                            {# {% block carouselfr %}
                                 {% include('/components/index/fr/showcaseBackgroundImage.twig') %}
                             {% endblock  %}
                           
@@ -237,7 +153,7 @@ class __TwigTemplate_a6383ec9a4229ca50e4980c0565df620cbeac26b29d85eea9a07b3ffb3b
                               <div class=\"container \">
                                 {% include('/components/index/fr/videoGallerySection.twig') %}
                               </div>
-                            {% endblock  %}
+                            {% endblock  %} #}
 
                              {#{% block home_heading_sectionfr %}
                                 {% include('/components/index/fr/home_heading_section.twig') %}
