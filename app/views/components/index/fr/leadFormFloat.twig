@@ -74,22 +74,19 @@ form#lead_form_float {
    
  <script>
         document.getElementById("lead_form_float").style.visibility = "hidden"; 
+      
         window.addEventListener('load', function(event){
-        var w = parseInt(window.innerWidth);
-        var h = parseInt(window.innerHeight);
-        console.log(w);
-        console.log(h);
+          var w = parseInt(window.innerWidth);
+          var h = parseInt(window.innerHeight);
           pos=w-600;
           document.getElementById("lead_form_float").style.visibility = "visible";
           document.getElementById("lead_form_float").style.left = pos + 'px';
         });
 
         window.addEventListener('resize', function(event){
-        var w = parseInt(window.innerWidth);
-        var h = parseInt(window.innerHeight);
-          console.log(w);
-        console.log(h);
-            pos=w-600;
+          var w = parseInt(window.innerWidth);
+          var h = parseInt(window.innerHeight);
+           pos=w-600;
           document.getElementById("lead_form_float").style.left = pos + 'px';
         });
 

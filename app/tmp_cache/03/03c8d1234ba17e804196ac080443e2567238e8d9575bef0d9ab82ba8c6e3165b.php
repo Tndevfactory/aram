@@ -138,40 +138,39 @@ form#lead_form_float {
           </form>
    
  <script>
- document.getElementById(\"lead_form_float\").style.visibility = \"hidden\"; 
- window.addEventListener('load', function(event){
- var w = parseInt(window.innerWidth);
- var h = parseInt(window.innerHeight);
- console.log(w);
- console.log(h);
-   pos=w-600;
-  document.getElementById(\"lead_form_float\").style.visibility = \"visible\";
-  document.getElementById(\"lead_form_float\").style.left = pos + 'px';
-});
+        document.getElementById(\"lead_form_float\").style.visibility = \"hidden\"; 
+      
+        window.addEventListener('load', function(event){
+          var w = parseInt(window.innerWidth);
+          var h = parseInt(window.innerHeight);
+          pos=w-600;
+          document.getElementById(\"lead_form_float\").style.visibility = \"visible\";
+          document.getElementById(\"lead_form_float\").style.left = pos + 'px';
+        });
 
- window.addEventListener('resize', function(event){
- var w = parseInt(window.innerWidth);
- var h = parseInt(window.innerHeight);
-  console.log(w);
- console.log(h);
-    pos=w-600;
-  document.getElementById(\"lead_form_float\").style.left = pos + 'px';
-});
+        window.addEventListener('resize', function(event){
+          var w = parseInt(window.innerWidth);
+          var h = parseInt(window.innerHeight);
+           pos=w-600;
+          document.getElementById(\"lead_form_float\").style.left = pos + 'px';
+        });
 
-";
-        // line 98
+  ";
+        // line 94
+        echo "  ";
+        // line 95
         echo "
 
-/* window.onscroll = function() {myFunction()};
+  /* window.onscroll = function() {myFunction()};
 
-function myFunction() {
-  console.log(document.documentElement.scrollTop  );
-  if (document.body.scrollTop > 150 || document.documentElement.scrollTop > 150) {
-    document.getElementById(\"lead_form_float\").style.background= \"orange\";
-  } else {
-    document.getElementById(\"lead_form_float\").style.background= \"blue\";
-  }
-} 
+  function myFunction() {
+    console.log(document.documentElement.scrollTop  );
+    if (document.body.scrollTop > 150 || document.documentElement.scrollTop > 150) {
+      document.getElementById(\"lead_form_float\").style.background= \"orange\";
+    } else {
+      document.getElementById(\"lead_form_float\").style.background= \"blue\";
+    }
+  } 
 
 */
  </script>";
@@ -189,7 +188,7 @@ function myFunction() {
 
     public function getDebugInfo()
     {
-        return array (  163 => 98,  128 => 64,  124 => 63,  117 => 59,  113 => 58,  106 => 54,  102 => 53,  95 => 49,  91 => 48,  81 => 41,  64 => 26,  44 => 7,  41 => 5,  37 => 1,);
+        return array (  162 => 95,  160 => 94,  128 => 64,  124 => 63,  117 => 59,  113 => 58,  106 => 54,  102 => 53,  95 => 49,  91 => 48,  81 => 41,  64 => 26,  44 => 7,  41 => 5,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -269,40 +268,37 @@ form#lead_form_float {
           </form>
    
  <script>
- document.getElementById(\"lead_form_float\").style.visibility = \"hidden\"; 
- window.addEventListener('load', function(event){
- var w = parseInt(window.innerWidth);
- var h = parseInt(window.innerHeight);
- console.log(w);
- console.log(h);
-   pos=w-600;
-  document.getElementById(\"lead_form_float\").style.visibility = \"visible\";
-  document.getElementById(\"lead_form_float\").style.left = pos + 'px';
-});
+        document.getElementById(\"lead_form_float\").style.visibility = \"hidden\"; 
+      
+        window.addEventListener('load', function(event){
+          var w = parseInt(window.innerWidth);
+          var h = parseInt(window.innerHeight);
+          pos=w-600;
+          document.getElementById(\"lead_form_float\").style.visibility = \"visible\";
+          document.getElementById(\"lead_form_float\").style.left = pos + 'px';
+        });
 
- window.addEventListener('resize', function(event){
- var w = parseInt(window.innerWidth);
- var h = parseInt(window.innerHeight);
-  console.log(w);
- console.log(h);
-    pos=w-600;
-  document.getElementById(\"lead_form_float\").style.left = pos + 'px';
-});
+        window.addEventListener('resize', function(event){
+          var w = parseInt(window.innerWidth);
+          var h = parseInt(window.innerHeight);
+           pos=w-600;
+          document.getElementById(\"lead_form_float\").style.left = pos + 'px';
+        });
 
-{# gsap.from(\".box\", { opacity: 0,  y: 100,  duration: 1 }); #}
-{# gsap.to(\".box\", {rotation: -55, x: 10, duration: 4}); #}
+  {# gsap.from(\".box\", { opacity: 0,  y: 100,  duration: 1 }); #}
+  {# gsap.to(\".box\", {rotation: -55, x: 10, duration: 4}); #}
 
 
-/* window.onscroll = function() {myFunction()};
+  /* window.onscroll = function() {myFunction()};
 
-function myFunction() {
-  console.log(document.documentElement.scrollTop  );
-  if (document.body.scrollTop > 150 || document.documentElement.scrollTop > 150) {
-    document.getElementById(\"lead_form_float\").style.background= \"orange\";
-  } else {
-    document.getElementById(\"lead_form_float\").style.background= \"blue\";
-  }
-} 
+  function myFunction() {
+    console.log(document.documentElement.scrollTop  );
+    if (document.body.scrollTop > 150 || document.documentElement.scrollTop > 150) {
+      document.getElementById(\"lead_form_float\").style.background= \"orange\";
+    } else {
+      document.getElementById(\"lead_form_float\").style.background= \"blue\";
+    }
+  } 
 
 */
  </script>", "/components/index/fr/leadFormFloat.twig", "/var/www/tndevfactory/public_html/ARAM/app/views/components/index/fr/leadFormFloat.twig");

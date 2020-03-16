@@ -39,12 +39,17 @@ class __TwigTemplate_3d51e1adc15b24475779cfd7a0ff4f9d1f29b8a8c7f9bbf42a066b85f04
   margin:0px;
 }
 
-#SocialShare ul , #SocialShare ul  {
-margin:0px;
-padding:0px;
-position:absolute;
-top:660px;
-z-index:999;
+#SocialShare ul  {
+    margin:0px;
+    padding:0px;
+    position:absolute;
+    /*top:660px;*/
+    z-index:999;
+
+}
+#SocialShare ul li:hover  {
+    
+    padding-left:3px;
 
 }
 
@@ -53,25 +58,42 @@ z-index:999;
 
 
 ";
-        // line 26
+        // line 31
         echo "
 ";
-        // line 30
+        // line 35
         echo "
- <section id=\"SocialShare\">
+ <div id=\"SocialShare\">
    
-          <ul class=\"list-unstyled\">
+          <ul id=\"SocialShareblock\" class=\"list-unstyled\">
           <li class=\"da-share-html da-fb\"> </li>
           <li class=\"da-share-html da-tw\"> </li>
           <li class=\"da-share-html da-pi\"> </li>
           <li class=\"da-share-html da-gp\"> </li>
           </ul>
+  
 
-      
-
- </section>
+ </div>
 
  <script>
+
+    var socialSection=document.getElementById(\"SocialShareblock\");  
+
+      window.addEventListener('load', function(event){
+            socialSection.style.top = 680 + 'px';
+
+        });
+
+          window.addEventListener('scroll', function(event){
+            
+            var y=document.documentElement.scrollTop ; 
+
+             if(y < 3100){
+                socialSection.style.top = y/4 + 'px';
+             }
+            console.log(y);
+        }); 
+
 
  jQuery(function (\$) {
 
@@ -179,7 +201,7 @@ z-index:999;
 
     public function getDebugInfo()
     {
-        return array (  60 => 30,  57 => 26,  37 => 1,);
+        return array (  65 => 35,  62 => 31,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -189,12 +211,17 @@ z-index:999;
   margin:0px;
 }
 
-#SocialShare ul , #SocialShare ul  {
-margin:0px;
-padding:0px;
-position:absolute;
-top:660px;
-z-index:999;
+#SocialShare ul  {
+    margin:0px;
+    padding:0px;
+    position:absolute;
+    /*top:660px;*/
+    z-index:999;
+
+}
+#SocialShare ul li:hover  {
+    
+    padding-left:3px;
 
 }
 
@@ -214,20 +241,37 @@ da-pi: Pinterest #}
 <a href=\"#\" onclick=\"da_share.tw();\">Tweat This</a> 
 <a href=\"#\" onclick=\"da_share.gp();\">Share on Google Plus</a> #}
 
- <section id=\"SocialShare\">
+ <div id=\"SocialShare\">
    
-          <ul class=\"list-unstyled\">
+          <ul id=\"SocialShareblock\" class=\"list-unstyled\">
           <li class=\"da-share-html da-fb\"> </li>
           <li class=\"da-share-html da-tw\"> </li>
           <li class=\"da-share-html da-pi\"> </li>
           <li class=\"da-share-html da-gp\"> </li>
           </ul>
+  
 
-      
-
- </section>
+ </div>
 
  <script>
+
+    var socialSection=document.getElementById(\"SocialShareblock\");  
+
+      window.addEventListener('load', function(event){
+            socialSection.style.top = 680 + 'px';
+
+        });
+
+          window.addEventListener('scroll', function(event){
+            
+            var y=document.documentElement.scrollTop ; 
+
+             if(y < 3100){
+                socialSection.style.top = y/4 + 'px';
+             }
+            console.log(y);
+        }); 
+
 
  jQuery(function (\$) {
 

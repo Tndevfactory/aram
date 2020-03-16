@@ -14,16 +14,16 @@
     </head>
     <body class="d-flex flex-column " >
        
-        {# {% include('/inc/header.html.twig') %}
-        {% include('/inc/navbar.html.twig') %}
+        {% include('/inc/header.html.twig') %}
+        {% include('/inc/megamenu-responsive.html.twig') %}
         
-        {% include('/inc/chatPopUp.html.twig') %} #}
-        {# {% include('/inc/rightSidedNav.twig') %} #}
+        {% include('/inc/chatPopUp.html.twig') %} 
+        
 
         {% block content %} {% endblock  %}
 
-        {# {% include('./inc/footer.html.twig') %}
-         {% include('/inc/social.html.twig') %} #}
+         {% include('./inc/footer.html.twig') %}
+         {% include('/inc/social.html.twig') %} 
         {% include('./inc/scripts.html.twig') %} 
         {% block script %} {% endblock  %}
     </body>

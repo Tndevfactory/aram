@@ -10,13 +10,7 @@
                                 {% include('/inc/navbarMegaMenu.html.twig') %}
                             {% endblock  %}  #}
 
-                            {% block MegamenuResponsive %}
-                                 {% include('/inc/megamenu-responsive.html.twig') %}
-                            {% endblock  %} 
-
-                           
-
-                             {# {% block carouselfr %}
+                            {% block carouselfr %}
                                 {% include('/components/index/fr/showcaseBackgroundImage.twig') %}
                             {% endblock  %}
                           
@@ -32,38 +26,40 @@
                                 <div class="container ">
                                 {% include('/components/index/fr/homeIconSection.twig') %}
                                 </div>
-                            {% endblock  %}#}
+                            {% endblock  %}
 
 
-                             {% block video_gallery_sectionfr %}
-                              <div class="container ">
-                                {% include('/components/index/fr/videoGallerySection.twig') %}
-                              </div>
-                            {% endblock  %} 
+                             
 
-                            {# {% block home_heading_sectionfr %}
-                                {% include('/components/index/fr/home_heading_section.twig') %}
+                             {% block home_heading_sectionfr %}
+                                {% include('/components/index/fr/homeHeadingSection.twig') %}
                             {% endblock  %}
 
                             {% block info_sectionfr %}
                               <div class="container ">
-                                {% include('/components/index/fr/info_section.twig') %}
+                                {% include('/components/index/fr/infoSection.twig') %}
                               </div>
                             {% endblock  %}
 
                             {% block video_play_sectionfr %}
-                            {% include('/components/index/fr/video_play_section.twig') %}
+                            {% include('/components/index/fr/videoPlaySection.twig') %}
                             {% endblock  %}
 
                             {% block photo_gallery_sectionfr %}
                               <div class="container ">
-                                {% include('/components/index/fr/photo_gallery_section.twig') %}
+                                {% include('/components/index/fr/photoGallerySection.twig') %}
+                              </div>
+                            {% endblock  %}
+
+                            {% block video_gallery_sectionfr %}
+                              <div class="container ">
+                                {% include('/components/index/fr/videoGallerySection.twig') %}
                               </div>
                             {% endblock  %}
 
                             {% block newsletter_sectionfr %}
-                              {% include('/components/index/fr/newsletter_section.twig') %}
-                            {% endblock  %}  #}
+                              {% include('/components/index/fr/newsletterSection.twig') %}
+                            {% endblock  %}  
 
         {# {% endif %} #}
       
