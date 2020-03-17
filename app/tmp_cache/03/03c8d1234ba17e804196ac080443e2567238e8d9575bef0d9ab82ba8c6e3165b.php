@@ -36,103 +36,92 @@ class __TwigTemplate_4a56735cb54121c75ca0b0b9538e007c4272b4c0dd534b364391ef9bee1
         // line 1
         echo "<!-- lead_form_float-->
 
-";
-        // line 5
+<style>
+form#lead_form_float {
+            width:400px;
+            position:relative;
+            top:-90px;
+            z-index:900;
+             border-radius:10px;
+           /*background:#010203;*/
+          background:#B0B0B0;
+            color:black;
+             border: 1px solid grey;;
+             
+}
+
+ ";
+        // line 35
         echo "
 ";
-        // line 7
-        echo "<style>
-form#lead_form_float {
-  background-color: yellow;
-}
-
-@media only screen and (min-width:1000px) {
- form#lead_form_float{
-    
-   background-color: red;
-  
-   
-  }
-}
-
+        // line 49
+        echo "
 
 
  </style>
 
 ";
-        // line 26
+        // line 55
         echo "
           <form 
-          style=\" 
-            width:450px;
-            position:relative;
-            top:-90px;
-            visibility = \"hidden\";
-            z-index:900;
-            border-radius:2px;
-            color:black;
-            
-             
-            \" 
-
           id=\"lead_form_float\" 
           action=\"";
-        // line 41
+        // line 58
         echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
         echo "/homes/newsletter\" 
           method=\"post\" 
-          class=\"bg-light box text-center form d-none d-lg-block p-3 z-depth-1 \"
+          class=\" box text-center form d-none d-lg-block p-3 z-depth-1 \"
           >
                  
                  <h4 class=\"text-center  mb-4 \" >Demander un devis </h4>
-                      <div class=\"form-group\">
-                          <input type=\"text\" name=\"name\" class=\"form-control mb-2  ";
-        // line 48
-        echo ((0 === twig_compare(twig_get_attribute($this->env, $this->source, ($context["data"] ?? null), "name_err", [], "any", false, false, false, 48), "")) ? ("") : ("is-invalid"));
-        echo "\"   placeholder=\"Veuillez entrer votre nom complet \">
-                          <div class=\"invalid-feedback \"> ";
-        // line 49
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["data"] ?? null), "name_err", [], "any", false, false, false, 49), "html", null, true);
-        echo " </div>
+                 <br>
+                     <div class=\"input-group mb-3\">
+                        <div class=\"input-group-prepend\">
+                          <span class=\"input-group-text\" id=\"basic-addon1\"><i style=\"width:22px\"  class=\"fas fa-portrait\"></i></span>
+                        </div>
+                        <input type=\"text\" class=\"form-control\" placeholder=\"Votre nom au complet\" >
+                     </div>
+
+                     <div class=\"input-group mb-3\">
+                        <div class=\"input-group-prepend\">
+                          <span class=\"input-group-text\" id=\"basic-addon1\"><i style=\"width:22px\"  class=\"fas fa-mobile-alt\"></i></span>
+                        </div>
+                        <input type=\"text\" class=\"form-control\" placeholder=\"Votre numéro de téléphone\" >
+                     </div>
+
+                     <div class=\"input-group mb-3\">
+                        <div class=\"input-group-prepend\">
+                          <span class=\"input-group-text\" id=\"basic-addon1\"><i style=\"width:22px\"  class=\"fas fa-at\"></i></span>
+                        </div>
+                        <input type=\"text\" class=\"form-control\" placeholder=\"Votre adresse email\" >
+                     </div>
+
+                      <div class=\"input-group mb-3\">
+                        <div class=\"input-group-prepend\">
+                          <label class=\"input-group-text\" for=\"inputGroupSelect01\"><i style=\"width:22px\" class=\"fas fa-user-md\"></i></label>
+                        </div>
+                        <select class=\"custom-select\" id=\"inputGroupSelect01\">
+                          <option selected>Intervention souhaitée...</option>
+                          <option value=\"1\">Lifting visage</option>
+                          <option value=\"2\">Blépharoplastie </option>
+                          <option value=\"3\">Rhinoplastie</option>
+                          <option value=\"1\">Lifting seins</option>
+                          <option value=\"2\">Prothèses mammaires</option>
+                          <option value=\"3\">Lipofilling mammaire</option>
+                          <option value=\"1\">Liposuccion</option>
+                          <option value=\"2\">Abdominoplastie  </option>
+                          <option value=\"3\">Augmentation fesses</option>
+                          <option value=\"1\">Greffe cheveux </option>
+                          <option value=\"2\">Greffe barbe </option>
+                          <option value=\"3\">Greffe sourcils</option>
+                        </select>
                       </div>
 
-                      <div class=\"form-group\">
-                            <input type=\"email\" name=\"email\" class=\"form-control mb-2 ";
-        // line 53
-        echo ((0 === twig_compare(twig_get_attribute($this->env, $this->source, ($context["data"] ?? null), "email_err", [], "any", false, false, false, 53), "")) ? ("") : ("is-invalid"));
-        echo "\"  placeholder=\"Veuillez entrer votre email\">
-                            <div class=\"invalid-feedback \">";
-        // line 54
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["data"] ?? null), "email_err", [], "any", false, false, false, 54), "html", null, true);
-        echo "</div>
-                      </div>
-                      
-                      <div class=\"form-group\">
-                            <input type=\"text\" name=\"tel\" class=\"form-control mb-2 ";
-        // line 58
-        echo ((0 === twig_compare(twig_get_attribute($this->env, $this->source, ($context["data"] ?? null), "email_err", [], "any", false, false, false, 58), "")) ? ("") : ("is-invalid"));
-        echo "\"  placeholder=\"Veuillez entrer votre numéro de téléphone\">
-                            <div class=\"invalid-feedback \">";
-        // line 59
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["data"] ?? null), "email_err", [], "any", false, false, false, 59), "html", null, true);
-        echo "</div>
-                      </div>
-                      
-                       <div class=\"form-group\">
-                            <input type=\"text\" name=\"intervention\" class=\"form-control mb-2 ";
-        // line 63
-        echo ((0 === twig_compare(twig_get_attribute($this->env, $this->source, ($context["data"] ?? null), "email_err", [], "any", false, false, false, 63), "")) ? ("") : ("is-invalid"));
-        echo "\"  placeholder=\"Intervention souhaitée\">
-                            <div class=\"invalid-feedback \">";
-        // line 64
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["data"] ?? null), "email_err", [], "any", false, false, false, 64), "html", null, true);
-        echo "</div>
-                      </div>
-                      
-                      
+
+                      <br>
                         <button 
-                        style=\"margin-top:-4px;\" 
-                        class=\"ml-4 rounded btn darken-1 grey z-depth-0 text-white\">
+                        style=\"margin-top:-4px; border:1px solid black; border-radius:10px;color:black;margin-top:5px;\" 
+                        class=\"ml-4 rounded btn  z-depth-0 grey accent-3\">
                         Envoyer
                         </button>
           </form>
@@ -156,9 +145,9 @@ form#lead_form_float {
         });
 
   ";
-        // line 94
+        // line 135
         echo "  ";
-        // line 95
+        // line 136
         echo "
 
   /* window.onscroll = function() {myFunction()};
@@ -188,30 +177,59 @@ form#lead_form_float {
 
     public function getDebugInfo()
     {
-        return array (  162 => 95,  160 => 94,  128 => 64,  124 => 63,  117 => 59,  113 => 58,  106 => 54,  102 => 53,  95 => 49,  91 => 48,  81 => 41,  64 => 26,  44 => 7,  41 => 5,  37 => 1,);
+        return array (  151 => 136,  149 => 135,  70 => 58,  65 => 55,  58 => 49,  55 => 35,  37 => 1,);
     }
 
     public function getSourceContext()
     {
         return new Source("<!-- lead_form_float-->
 
-{# #ffca28 amber lighten-1 #}
-{# #212121 grey darken-4 #}
-
-{# #ff8f00 amber darken-3 #}
 <style>
 form#lead_form_float {
-  background-color: yellow;
+            width:400px;
+            position:relative;
+            top:-90px;
+            z-index:900;
+             border-radius:10px;
+           /*background:#010203;*/
+          background:#B0B0B0;
+            color:black;
+             border: 1px solid grey;;
+             
 }
 
+ {# form#lead_form_float input{
+    
+   background-color: #E0E0E0;
+   color:black;
+   border-radius:1px;
+   /*border:1px solid #E1AD21;*/
+   border:none;
+   /*border-bottom: 0.5px solid #E1AD21;*/
+   margin-bottom:5px;
+   
+  } 
+  form#lead_form_float input:focus{
+    
+   
+   border:1px solid #E0E0E0;
+   outline: 1px solid #E0E0E0;
+   
+  } #}
+
+{# 
 @media only screen and (min-width:1000px) {
  form#lead_form_float{
     
-   background-color: red;
-  
+   background-color: #010203;
+   color:#E1AD21;
+   border-radius:10px;
+   
    
   }
-}
+
+ 
+} #}
 
 
 
@@ -220,49 +238,61 @@ form#lead_form_float {
 {# visible on md and up and below  #}
 
           <form 
-          style=\" 
-            width:450px;
-            position:relative;
-            top:-90px;
-            visibility = \"hidden\";
-            z-index:900;
-            border-radius:2px;
-            color:black;
-            
-             
-            \" 
-
           id=\"lead_form_float\" 
           action=\"{{URLROOT}}/homes/newsletter\" 
           method=\"post\" 
-          class=\"bg-light box text-center form d-none d-lg-block p-3 z-depth-1 \"
+          class=\" box text-center form d-none d-lg-block p-3 z-depth-1 \"
           >
                  
                  <h4 class=\"text-center  mb-4 \" >Demander un devis </h4>
-                      <div class=\"form-group\">
-                          <input type=\"text\" name=\"name\" class=\"form-control mb-2  {{ data.name_err == ''? '': 'is-invalid'  }}\"   placeholder=\"Veuillez entrer votre nom complet \">
-                          <div class=\"invalid-feedback \"> {{data.name_err }} </div>
+                 <br>
+                     <div class=\"input-group mb-3\">
+                        <div class=\"input-group-prepend\">
+                          <span class=\"input-group-text\" id=\"basic-addon1\"><i style=\"width:22px\"  class=\"fas fa-portrait\"></i></span>
+                        </div>
+                        <input type=\"text\" class=\"form-control\" placeholder=\"Votre nom au complet\" >
+                     </div>
+
+                     <div class=\"input-group mb-3\">
+                        <div class=\"input-group-prepend\">
+                          <span class=\"input-group-text\" id=\"basic-addon1\"><i style=\"width:22px\"  class=\"fas fa-mobile-alt\"></i></span>
+                        </div>
+                        <input type=\"text\" class=\"form-control\" placeholder=\"Votre numéro de téléphone\" >
+                     </div>
+
+                     <div class=\"input-group mb-3\">
+                        <div class=\"input-group-prepend\">
+                          <span class=\"input-group-text\" id=\"basic-addon1\"><i style=\"width:22px\"  class=\"fas fa-at\"></i></span>
+                        </div>
+                        <input type=\"text\" class=\"form-control\" placeholder=\"Votre adresse email\" >
+                     </div>
+
+                      <div class=\"input-group mb-3\">
+                        <div class=\"input-group-prepend\">
+                          <label class=\"input-group-text\" for=\"inputGroupSelect01\"><i style=\"width:22px\" class=\"fas fa-user-md\"></i></label>
+                        </div>
+                        <select class=\"custom-select\" id=\"inputGroupSelect01\">
+                          <option selected>Intervention souhaitée...</option>
+                          <option value=\"1\">Lifting visage</option>
+                          <option value=\"2\">Blépharoplastie </option>
+                          <option value=\"3\">Rhinoplastie</option>
+                          <option value=\"1\">Lifting seins</option>
+                          <option value=\"2\">Prothèses mammaires</option>
+                          <option value=\"3\">Lipofilling mammaire</option>
+                          <option value=\"1\">Liposuccion</option>
+                          <option value=\"2\">Abdominoplastie  </option>
+                          <option value=\"3\">Augmentation fesses</option>
+                          <option value=\"1\">Greffe cheveux </option>
+                          <option value=\"2\">Greffe barbe </option>
+                          <option value=\"3\">Greffe sourcils</option>
+                        </select>
                       </div>
 
-                      <div class=\"form-group\">
-                            <input type=\"email\" name=\"email\" class=\"form-control mb-2 {{ data.email_err =='' ? '': 'is-invalid'  }}\"  placeholder=\"Veuillez entrer votre email\">
-                            <div class=\"invalid-feedback \">{{data.email_err }}</div>
-                      </div>
-                      
-                      <div class=\"form-group\">
-                            <input type=\"text\" name=\"tel\" class=\"form-control mb-2 {{ data.email_err =='' ? '': 'is-invalid'  }}\"  placeholder=\"Veuillez entrer votre numéro de téléphone\">
-                            <div class=\"invalid-feedback \">{{data.email_err }}</div>
-                      </div>
-                      
-                       <div class=\"form-group\">
-                            <input type=\"text\" name=\"intervention\" class=\"form-control mb-2 {{ data.email_err =='' ? '': 'is-invalid'  }}\"  placeholder=\"Intervention souhaitée\">
-                            <div class=\"invalid-feedback \">{{data.email_err }}</div>
-                      </div>
-                      
-                      
+
+                      <br>
                         <button 
-                        style=\"margin-top:-4px;\" 
-                        class=\"ml-4 rounded btn darken-1 grey z-depth-0 text-white\">
+                        style=\"margin-top:-4px; border:1px solid black; border-radius:10px;color:black;margin-top:5px;\" 
+                        class=\"ml-4 rounded btn  z-depth-0 grey accent-3\">
                         Envoyer
                         </button>
           </form>

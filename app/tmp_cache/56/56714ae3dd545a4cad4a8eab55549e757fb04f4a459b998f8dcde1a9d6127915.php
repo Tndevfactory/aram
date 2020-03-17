@@ -47,16 +47,13 @@ class __TwigTemplate_3619fbd26145622182946a2be88aed518e5803dffd6b76c5f730250b5ba
 
           <form 
           style=\" 
-           
-            
-            background:#ff8f00;
-            
-            border-radius:10px;
+          background:#ff8f00;
+          border-radius:10px;
             
             \" 
-          id=\"lead_form_float\" 
+          id=\"lead_form_fix\" 
           action=\"";
-        // line 22
+        // line 19
         echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
         echo "/homes/newsletter\" method=\"post\"
            class=\"form p-3 d-block d-lg-none grey darken-3\">
@@ -66,45 +63,45 @@ class __TwigTemplate_3619fbd26145622182946a2be88aed518e5803dffd6b76c5f730250b5ba
                  
                       <div class=\"form-group\">
                           <input type=\"text\" name=\"name\" class=\"form-control mb-2  ";
-        // line 29
-        echo ((0 === twig_compare(twig_get_attribute($this->env, $this->source, ($context["data"] ?? null), "name_err", [], "any", false, false, false, 29), "")) ? ("") : ("is-invalid"));
+        // line 26
+        echo ((0 === twig_compare(twig_get_attribute($this->env, $this->source, ($context["data"] ?? null), "name_err", [], "any", false, false, false, 26), "")) ? ("") : ("is-invalid"));
         echo "\"   placeholder=\"Veuillez entrer votre nom complet\">
                           <div class=\"invalid-feedback white-text\"> ";
-        // line 30
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["data"] ?? null), "name_err", [], "any", false, false, false, 30), "html", null, true);
+        // line 27
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["data"] ?? null), "name_err", [], "any", false, false, false, 27), "html", null, true);
         echo " </div>
                       </div>
 
                       <div class=\"form-group\">
                             <input type=\"email\" name=\"email\" class=\"form-control mb-2 ";
-        // line 34
-        echo ((0 === twig_compare(twig_get_attribute($this->env, $this->source, ($context["data"] ?? null), "email_err", [], "any", false, false, false, 34), "")) ? ("") : ("is-invalid"));
+        // line 31
+        echo ((0 === twig_compare(twig_get_attribute($this->env, $this->source, ($context["data"] ?? null), "email_err", [], "any", false, false, false, 31), "")) ? ("") : ("is-invalid"));
         echo "\"  placeholder=\"Veuillez entrer votre email\">
                             <div class=\"invalid-feedback white-text\">";
-        // line 35
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["data"] ?? null), "email_err", [], "any", false, false, false, 35), "html", null, true);
+        // line 32
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["data"] ?? null), "email_err", [], "any", false, false, false, 32), "html", null, true);
         echo "</div>
                       </div>
                       
                       <div class=\"form-group\">
                             <input type=\"text\" name=\"tel\" class=\"form-control mb-2 ";
-        // line 39
-        echo ((0 === twig_compare(twig_get_attribute($this->env, $this->source, ($context["data"] ?? null), "email_err", [], "any", false, false, false, 39), "")) ? ("") : ("is-invalid"));
+        // line 36
+        echo ((0 === twig_compare(twig_get_attribute($this->env, $this->source, ($context["data"] ?? null), "email_err", [], "any", false, false, false, 36), "")) ? ("") : ("is-invalid"));
         echo "\"  placeholder=\"Veuillez entrer votre numéro de téléphone\">
                             <div class=\"invalid-feedback white-text\">";
-        // line 40
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["data"] ?? null), "email_err", [], "any", false, false, false, 40), "html", null, true);
+        // line 37
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["data"] ?? null), "email_err", [], "any", false, false, false, 37), "html", null, true);
         echo "</div>
                       </div>
                       
                        <div class=\"form-group\">
                             <input type=\"text\" name=\"intervention\" class=\"form-control mb-2 ";
-        // line 44
-        echo ((0 === twig_compare(twig_get_attribute($this->env, $this->source, ($context["data"] ?? null), "email_err", [], "any", false, false, false, 44), "")) ? ("") : ("is-invalid"));
+        // line 41
+        echo ((0 === twig_compare(twig_get_attribute($this->env, $this->source, ($context["data"] ?? null), "email_err", [], "any", false, false, false, 41), "")) ? ("") : ("is-invalid"));
         echo "\"  placeholder=\"Intervention souhaitée\">
                             <div class=\"invalid-feedback white-text\">";
-        // line 45
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["data"] ?? null), "email_err", [], "any", false, false, false, 45), "html", null, true);
+        // line 42
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["data"] ?? null), "email_err", [], "any", false, false, false, 42), "html", null, true);
         echo "</div>
                       </div>
                       
@@ -119,7 +116,7 @@ class __TwigTemplate_3619fbd26145622182946a2be88aed518e5803dffd6b76c5f730250b5ba
           <div class=\"row \">
                       <div class=\"col-md-10 ml-3 green-text   \">
                       ";
-        // line 58
+        // line 55
         echo twig_escape_filter($this->env, ($context["register_success"] ?? null), "html", null, true);
         echo "
                   </div>
@@ -144,7 +141,7 @@ class __TwigTemplate_3619fbd26145622182946a2be88aed518e5803dffd6b76c5f730250b5ba
 
     public function getDebugInfo()
     {
-        return array (  123 => 58,  107 => 45,  103 => 44,  96 => 40,  92 => 39,  85 => 35,  81 => 34,  74 => 30,  70 => 29,  60 => 22,  45 => 9,  42 => 7,  37 => 1,);
+        return array (  120 => 55,  104 => 42,  100 => 41,  93 => 37,  89 => 36,  82 => 32,  78 => 31,  71 => 27,  67 => 26,  57 => 19,  45 => 9,  42 => 7,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -162,14 +159,11 @@ class __TwigTemplate_3619fbd26145622182946a2be88aed518e5803dffd6b76c5f730250b5ba
 
           <form 
           style=\" 
-           
-            
-            background:#ff8f00;
-            
-            border-radius:10px;
+          background:#ff8f00;
+          border-radius:10px;
             
             \" 
-          id=\"lead_form_float\" 
+          id=\"lead_form_fix\" 
           action=\"{{URLROOT}}/homes/newsletter\" method=\"post\"
            class=\"form p-3 d-block d-lg-none grey darken-3\">
       

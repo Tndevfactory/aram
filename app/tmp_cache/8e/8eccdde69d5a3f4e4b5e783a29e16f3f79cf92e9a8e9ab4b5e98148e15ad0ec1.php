@@ -76,13 +76,13 @@ class __TwigTemplate_5f77b01a7f723f917a5ba1c34b5c89c5bb1b318d0a7814d56f943ec5e9b
         // line 23
         $this->displayBlock('content', $context, $blocks);
         // line 24
-        echo "
-         ";
+        echo "         ";
+        $this->loadTemplate("./inc/footer.html.twig", "layout.twig", 24)->display($context);
         // line 25
-        $this->loadTemplate("./inc/footer.html.twig", "layout.twig", 25)->display($context);
+        echo "         ";
         // line 26
         echo "         ";
-        $this->loadTemplate("/inc/social.html.twig", "layout.twig", 26)->display($context);
+        $this->loadTemplate("/inc/social.v2html.twig", "layout.twig", 26)->display($context);
         echo " 
         ";
         // line 27
@@ -158,9 +158,9 @@ class __TwigTemplate_5f77b01a7f723f917a5ba1c34b5c89c5bb1b318d0a7814d56f943ec5e9b
         
 
         {% block content %} {% endblock  %}
-
          {% include('./inc/footer.html.twig') %}
-         {% include('/inc/social.html.twig') %} 
+         {# {% include('/inc/social.html.twig') %}  #}
+         {% include('/inc/social.v2html.twig') %} 
         {% include('./inc/scripts.html.twig') %} 
         {% block script %} {% endblock  %}
     </body>

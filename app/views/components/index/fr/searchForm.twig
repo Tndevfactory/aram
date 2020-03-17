@@ -1,0 +1,51 @@
+<!-- search form-->
+
+<style>
+#searchForm {
+  position:static;
+  
+
+}
+
+#searchForm #searchButton{
+  background:transparent;
+  box-shadow:none;
+  display:inline;
+  margin-left:-18px;
+  margin-top:-6px;
+  padding:5px;
+
+}
+#searchForm #searchButton i{
+  font-size:22px;
+  
+}
+
+ </style>
+
+{# visible on md and up and below d-none d-lg-block #}
+<div class="row">
+  <div class="container">
+    <div class="col-sm-12 col-md-12 col-lg-12">
+
+          <form id="searchForm" action="{{URLROOT}}/homes/newsletter" 
+          method="post" class=" box text-center form  py-4 px-3 grey z-depth-1 " >
+            
+             <div class="input-group ">
+                
+                <input type="text" class="form-control" placeholder="search..." >
+               
+                <div class="input-group-append">
+                  <button id="searchButton" class="btn z-depth-0" type="button"><i  class="fas fa-search "></i></button>
+                </div>
+                
+              </div>    
+             
+               
+          </form>
+    </div> 
+  </div> 
+</div> 
+ <script>
+     
+ </script>

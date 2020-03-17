@@ -39,7 +39,7 @@ class __TwigTemplate_c982b606aace8e804f62d2ca9ab9ccc64d34adc6b83a8760ae558b7ac7e
 <style>
 .headerAR {
  
-  font-size: 100%;
+  font-size: 80%;
   text-align:right;
   padding-right:15px;
 }
@@ -50,110 +50,26 @@ class __TwigTemplate_c982b606aace8e804f62d2ca9ab9ccc64d34adc6b83a8760ae558b7ac7e
 </style>
 
 
-";
-        // line 16
-        if (0 === twig_compare(($context["LANG"] ?? null), "fr")) {
-            // line 17
-            echo "
-            <div class=\"jumbotron py-2 mb-0 grey darken-4 \">
-            <div class=\"row\">
-            <i class=\"\"></i>
 
-             <span  class=\"h4 px-3 white-text text-uppercase \"> Aram Clinic</span > 
-             <span> <i class=\"animated tada  white-text fas fa-phone-volume fa-2x  \"> </i> </span>
-             <span class=\" h3 pl-2 white-text\"> +262 269 33 87 99 </span> 
+            <div class=\"jumbotron py-2 mb-0 \" style=\"background-color:#010203;\">
+                <div class=\"row\">
+                <i class=\"\"></i>
+
+                <span  style=\"color:#E1AD21;\" class=\"h4 px-3  text-uppercase \"> Aram Clinic</span > 
+                <span> <i style=\"color:#E1AD21;\" class=\"animated tada fas fa-phone-volume fa-2x  \"> </i> </span>
+                <span class=\" h4 pl-2 \" style=\"color:#E1AD21;\"> +262 269 33 87 99 </span> 
 
 
-            <a href=\"#\" >  <span class=\" h6 pl-2 white-text \"> <i class=\"fab fa-facebook-messenger fa-2x\"></i> </span> </a>
-            <a href=\"#\" >  <span class=\" h6 pl-2 white-text\"> <i class=\" far fa-envelope fa-2x\"></i> </span> </a>
-            <a href=\"#\" >  <span class=\" h6 pl-2 white-text\"><i class=\" fab fa-whatsapp fa-2x\"></i></span> </a>
-           
- 
-            </div>
-            </div>
-
-";
-        }
-        // line 36
-        echo "
-";
-        // line 37
-        if (0 === twig_compare(($context["LANG"] ?? null), "en")) {
-            // line 38
-            echo "
-            <div class=\"jumbotron py-2 mb-0 grey darken-4 \">
-            <div class=\"row\">
-            <i class=\"\"></i>
-
-             <span  class=\"h4 px-3 white-text text-uppercase \"> Aram Clinic</span > 
-             <span> <i class=\"animated tada  white-text fas fa-phone-volume fa-2x  \"> </i> </span>
-             <span class=\" h3 pl-2 white-text\"> +262 269 33 87 99 </span> 
-
-
-            <a href=\"#\" >  <span class=\" h6 pl-2 white-text \"> <i class=\"fab fa-facebook-messenger fa-2x\"></i> </span> </a>
-            <a href=\"#\" >  <span class=\" h6 pl-2 white-text\"> <i class=\" far fa-envelope fa-2x\"></i> </span> </a>
-            <a href=\"#\" >  <span class=\" h6 pl-2 white-text\"><i class=\" fab fa-whatsapp fa-2x\"></i></span> </a>
-           
- 
-            </div>
+               <!-- <a href=\"#\" >  <span class=\" h6 pl-2 white-text \"> <i class=\"fab fa-facebook-messenger fa-2x\"></i> </span> </a>
+                <a href=\"#\" >  <span class=\" h6 pl-2 white-text\"> <i class=\" far fa-envelope fa-2x\"></i> </span> </a>
+                <a href=\"#\" >  <span class=\" h6 pl-2 white-text\"><i class=\" fab fa-whatsapp fa-2x\"></i></span> </a>-->
+              
+    
+                </div>
             </div>
 
 
 ";
-        }
-        // line 58
-        echo "
-";
-        // line 59
-        if (0 === twig_compare(($context["LANG"] ?? null), "gr")) {
-            // line 60
-            echo "
-            <div class=\"jumbotron py-2 mb-0 grey darken-4 \">
-            <div class=\"row\">
-            <i class=\"\"></i>
-
-             <span  class=\"h4 px-3 white-text text-uppercase \"> Aram Clinic</span > 
-             <span> <i class=\"animated tada  white-text fas fa-phone-volume fa-2x  \"> </i> </span>
-             <span class=\" h3 pl-2 white-text\"> +262 269 33 87 99 </span> 
-
-
-            <a href=\"#\" >  <span class=\" h6 pl-2 white-text \"> <i class=\"fab fa-facebook-messenger fa-2x\"></i> </span> </a>
-            <a href=\"#\" >  <span class=\" h6 pl-2 white-text\"> <i class=\" far fa-envelope fa-2x\"></i> </span> </a>
-            <a href=\"#\" >  <span class=\" h6 pl-2 white-text\"><i class=\" fab fa-whatsapp fa-2x\"></i></span> </a>
-           
- 
-</div>
-</div>
-
-
-";
-        }
-        // line 80
-        echo "
-";
-        // line 81
-        if (0 === twig_compare(($context["LANG"] ?? null), "ar")) {
-            // line 82
-            echo "            <div dir=\"rtl\" class=\"jumbotron py-2 mb-0 grey darken-4 headerAR\">
-            <div class=\"row\">
-            <i class=\"\"></i>
-
-             <span  dir=\"rtl\" class=\"h4 mr-2 pr-3 white-text text-uppercase \"> مستشفى ارام</span > 
-             <span> <i style=\"font-size:24px\"  class=\" pr-2 animated tada  white-text fas fa-phone  \"> </i> </span>
-             <span  style=\"font-size:29px\" dir=\"ltr\" class=\" px-2  h3 pr-2 white-text\"> +262 269 33 87 99 </span> 
-
-
-            <a href=\"#\" >  <span class=\" pl-2 white-text \"> <i  class=\"fab fa-facebook-messenger fa-2x\"></i> </span> </a>
-            <a href=\"#\" >  <span class=\" pl-2 white-text\"> <i class=\" far fa-envelope fa-2x\"></i> </span> </a>
-            <a href=\"#\" >  <span class=\" pl-2 white-text\"><i class=\" fab fa-whatsapp fa-2x\"></i></span> </a>
-           
- 
-            </div>
-            </div>
-
-
-";
-        }
     }
 
     public function getTemplateName()
@@ -161,14 +77,9 @@ class __TwigTemplate_c982b606aace8e804f62d2ca9ab9ccc64d34adc6b83a8760ae558b7ac7e
         return "/inc/header.html.twig";
     }
 
-    public function isTraitable()
-    {
-        return false;
-    }
-
     public function getDebugInfo()
     {
-        return array (  137 => 82,  135 => 81,  132 => 80,  110 => 60,  108 => 59,  105 => 58,  83 => 38,  81 => 37,  78 => 36,  57 => 17,  55 => 16,  49 => 12,  37 => 1,);
+        return array (  49 => 12,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -178,7 +89,7 @@ class __TwigTemplate_c982b606aace8e804f62d2ca9ab9ccc64d34adc6b83a8760ae558b7ac7e
 <style>
 .headerAR {
  
-  font-size: 100%;
+  font-size: 80%;
   text-align:right;
   padding-right:15px;
 }
@@ -188,27 +99,26 @@ class __TwigTemplate_c982b606aace8e804f62d2ca9ab9ccc64d34adc6b83a8760ae558b7ac7e
 </style>
 
 
-{% if LANG == 'fr' %}
 
-            <div class=\"jumbotron py-2 mb-0 grey darken-4 \">
-            <div class=\"row\">
-            <i class=\"\"></i>
+            <div class=\"jumbotron py-2 mb-0 \" style=\"background-color:#010203;\">
+                <div class=\"row\">
+                <i class=\"\"></i>
 
-             <span  class=\"h4 px-3 white-text text-uppercase \"> Aram Clinic</span > 
-             <span> <i class=\"animated tada  white-text fas fa-phone-volume fa-2x  \"> </i> </span>
-             <span class=\" h3 pl-2 white-text\"> +262 269 33 87 99 </span> 
+                <span  style=\"color:#E1AD21;\" class=\"h4 px-3  text-uppercase \"> Aram Clinic</span > 
+                <span> <i style=\"color:#E1AD21;\" class=\"animated tada fas fa-phone-volume fa-2x  \"> </i> </span>
+                <span class=\" h4 pl-2 \" style=\"color:#E1AD21;\"> +262 269 33 87 99 </span> 
 
 
-            <a href=\"#\" >  <span class=\" h6 pl-2 white-text \"> <i class=\"fab fa-facebook-messenger fa-2x\"></i> </span> </a>
-            <a href=\"#\" >  <span class=\" h6 pl-2 white-text\"> <i class=\" far fa-envelope fa-2x\"></i> </span> </a>
-            <a href=\"#\" >  <span class=\" h6 pl-2 white-text\"><i class=\" fab fa-whatsapp fa-2x\"></i></span> </a>
-           
- 
+               <!-- <a href=\"#\" >  <span class=\" h6 pl-2 white-text \"> <i class=\"fab fa-facebook-messenger fa-2x\"></i> </span> </a>
+                <a href=\"#\" >  <span class=\" h6 pl-2 white-text\"> <i class=\" far fa-envelope fa-2x\"></i> </span> </a>
+                <a href=\"#\" >  <span class=\" h6 pl-2 white-text\"><i class=\" fab fa-whatsapp fa-2x\"></i></span> </a>-->
+              
+    
+                </div>
             </div>
-            </div>
 
-{% endif %}
 
+{# 
 {% if LANG == 'en' %}
 
             <div class=\"jumbotron py-2 mb-0 grey darken-4 \">
@@ -272,7 +182,7 @@ class __TwigTemplate_c982b606aace8e804f62d2ca9ab9ccc64d34adc6b83a8760ae558b7ac7e
             </div>
 
 
-{% endif %}
+{% endif %} #}
 ", "/inc/header.html.twig", "/var/www/tndevfactory/public_html/ARAM/app/views/inc/header.html.twig");
     }
 }
