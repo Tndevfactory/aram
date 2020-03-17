@@ -64,8 +64,8 @@ class __TwigTemplate_06ad2124d2683f90ddb1f508b795e7f7a63b26eb9e881a20853407c7a16
 }
 
 #banner-area  a.nav-link{
-    color:#C3922E;
-    font-size:20px;
+    color:#E1AD21;
+    font-size:18px;
 
 }
 
@@ -75,11 +75,12 @@ background-color:#fff !important;
 }
 
 #banner-area .navbar .dropdown-menu a{
-    color:#0C3537;
+    color:#010203;
+    font-size:17px;
 }
 
 #banner-area .dropdown-item:hover{
-    background-color:#0C3537 !important;;
+    background-color:#E1AD21 !important;;
     color:#fff !important;;
 }
 
@@ -101,7 +102,7 @@ font-weight:900;
     <div class=\"container-fluid-\">
         <div class=\"row\">
             <div class=\"col\">
-                <nav id=\"#banner-area\" class=\"navbar navbar-expand-lg \" style=\"background:#0C3537;color:#fff;\">
+                <nav id=\"#banner-area\" class=\"navbar navbar-expand-lg \" style=\"background:#010203;color:#E1AD21;\">
                 
                      <a class=\"navbar-brand\" href=\"#\"><i style=\"color:#C3922E\" class=\"text-center fab fa-asymmetrik fa-2x\"></i></a>
                    
@@ -238,14 +239,14 @@ font-weight:900;
 </div>
 
 ";
-        // line 203
+        // line 204
         $this->displayBlock('script', $context, $blocks);
     }
 
     public function block_script($context, array $blocks = [])
     {
         $macros = $this->macros;
-        // line 204
+        // line 205
         echo "
     <script>
 
@@ -269,7 +270,7 @@ font-weight:900;
       var bidRides='';
         bidRides +='<div class=\" p-0 col-sm-6 col-lg-3 offset-sm-1\">';
         bidRides +='<img src=\"";
-        // line 226
+        // line 227
         echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
         echo "/public/img/barbe/barbe1.jpg\" alt=\"\" style=\"width:100%\">';
         bidRides +='</div>';
@@ -294,7 +295,7 @@ font-weight:900;
       var sidliftingvisage='';
         sidliftingvisage +='<div class=\" p-0 col-sm-6 col-lg-3 offset-sm-1\">';
         sidliftingvisage +='<img src=\"";
-        // line 248
+        // line 249
         echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
         echo "/public/img/barbe/barbe2.jpg\" alt=\"\" style=\"width:100%\">';
         sidliftingvisage +='</div>';
@@ -329,7 +330,7 @@ font-weight:900;
 
     public function getDebugInfo()
     {
-        return array (  298 => 248,  273 => 226,  249 => 204,  242 => 203,  38 => 1,);
+        return array (  299 => 249,  274 => 227,  250 => 205,  243 => 204,  38 => 1,);
     }
 
     public function getSourceContext()
@@ -363,8 +364,8 @@ font-weight:900;
 }
 
 #banner-area  a.nav-link{
-    color:#C3922E;
-    font-size:20px;
+    color:#E1AD21;
+    font-size:18px;
 
 }
 
@@ -374,11 +375,12 @@ background-color:#fff !important;
 }
 
 #banner-area .navbar .dropdown-menu a{
-    color:#0C3537;
+    color:#010203;
+    font-size:17px;
 }
 
 #banner-area .dropdown-item:hover{
-    background-color:#0C3537 !important;;
+    background-color:#E1AD21 !important;;
     color:#fff !important;;
 }
 
@@ -400,7 +402,7 @@ font-weight:900;
     <div class=\"container-fluid-\">
         <div class=\"row\">
             <div class=\"col\">
-                <nav id=\"#banner-area\" class=\"navbar navbar-expand-lg \" style=\"background:#0C3537;color:#fff;\">
+                <nav id=\"#banner-area\" class=\"navbar navbar-expand-lg \" style=\"background:#010203;color:#E1AD21;\">
                 
                      <a class=\"navbar-brand\" href=\"#\"><i style=\"color:#C3922E\" class=\"text-center fab fa-asymmetrik fa-2x\"></i></a>
                    

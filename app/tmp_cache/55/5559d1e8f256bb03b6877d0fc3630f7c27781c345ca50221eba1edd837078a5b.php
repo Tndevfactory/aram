@@ -41,7 +41,7 @@ class __TwigTemplate_7e0bfbff0a0917d916fc9953f6ce3f4224eb6bfabde6c8afa3e81a7713a
 ";
         // line 7
         echo "
-  <section id=\"newsletter\" class=\"text-center p-5 grey darken-2 text-white\">
+  <section id=\"newsletter\" class=\"text-center p-5\" style=\"background:#010203;color:#E1AD21;\">
     <div class=\"container pb-5 \">
       <div class=\"row\">
         <div class=\"col\">
@@ -91,10 +91,7 @@ class __TwigTemplate_7e0bfbff0a0917d916fc9953f6ce3f4224eb6bfabde6c8afa3e81a7713a
                    <div class=\"row \">
                       <div class=\"col-md-6\">
                           <button 
-                              style=\"
-                                margin-top:-4px;
-                               
-                              \" 
+                              style=\" margin-top:-4px;background:#E1AD21;color:#010203;\" 
                               class=\"ml-4 btn amber darken-3 black-text rounded\">
                               Envoyer
                           </button>
@@ -109,7 +106,7 @@ class __TwigTemplate_7e0bfbff0a0917d916fc9953f6ce3f4224eb6bfabde6c8afa3e81a7713a
           <div class=\"row \">
                       <div class=\"col-md-10 ml-3 green-text   \">
                       ";
-        // line 60
+        // line 57
         echo twig_escape_filter($this->env, ($context["register_success"] ?? null), "html", null, true);
         echo "
                   </div>
@@ -133,7 +130,7 @@ class __TwigTemplate_7e0bfbff0a0917d916fc9953f6ce3f4224eb6bfabde6c8afa3e81a7713a
 
     public function getDebugInfo()
     {
-        return array (  113 => 60,  82 => 32,  78 => 31,  68 => 24,  64 => 23,  55 => 17,  43 => 7,  37 => 1,);
+        return array (  110 => 57,  82 => 32,  78 => 31,  68 => 24,  64 => 23,  55 => 17,  43 => 7,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -145,7 +142,7 @@ class __TwigTemplate_7e0bfbff0a0917d916fc9953f6ce3f4224eb6bfabde6c8afa3e81a7713a
 {# #ffca28 amber lighten-1 #}
 {# #212121 grey darken-4 #}
 
-  <section id=\"newsletter\" class=\"text-center p-5 grey darken-2 text-white\">
+  <section id=\"newsletter\" class=\"text-center p-5\" style=\"background:#010203;color:#E1AD21;\">
     <div class=\"container pb-5 \">
       <div class=\"row\">
         <div class=\"col\">
@@ -180,10 +177,7 @@ class __TwigTemplate_7e0bfbff0a0917d916fc9953f6ce3f4224eb6bfabde6c8afa3e81a7713a
                    <div class=\"row \">
                       <div class=\"col-md-6\">
                           <button 
-                              style=\"
-                                margin-top:-4px;
-                               
-                              \" 
+                              style=\" margin-top:-4px;background:#E1AD21;color:#010203;\" 
                               class=\"ml-4 btn amber darken-3 black-text rounded\">
                               Envoyer
                           </button>

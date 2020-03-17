@@ -52,7 +52,7 @@ class __TwigTemplate_2c1acbbde90b7d28207ab2200d107193399f7eae7bdc180012f820aaaa5
   display: flex;
   justify-content: center;
   align-items: center;
-  border:1px solid #0C3537;
+  border:2px solid #E1AD21;
 
 }
 #messengerButton i{
@@ -98,7 +98,7 @@ class __TwigTemplate_2c1acbbde90b7d28207ab2200d107193399f7eae7bdc180012f820aaaa5
 
 .form-container .btn {
  
-  color: white;
+
   padding: 16px 20px;
   border: none;
   cursor: pointer;
@@ -124,9 +124,9 @@ class __TwigTemplate_2c1acbbde90b7d28207ab2200d107193399f7eae7bdc180012f820aaaa5
    
     <textarea placeholder=\"Type message..\" name=\"msg\" required></textarea>
 
-    <button id=\"sendButton\" type=\"submit\" style=\"background-color:#0C3537\" class=\"btn  white-text\">Send <i class=\"far fa-paper-plane\"></i></button>
+    <button style=\"color:#010203;background-color:#E1AD21\" id=\"sendButton\" type=\"submit\" class=\"btn\">Send <i class=\"far fa-paper-plane\"></i></button>
 
-    <button id=\"closeButton\" type=\"button\" class=\"btn black white-text cancel\" onclick=\"closeForm()\">Close 
+    <button style=\"color:#E1AD21;background-color:#010203\" id=\"closeButton\" type=\"button\" class=\"btn cancel\" onclick=\"closeForm()\">Close 
     <i class=\"pl-1 far fa-window-close fa-1x\"></i>
     </button>
 
@@ -178,7 +178,7 @@ function closeForm() {
   display: flex;
   justify-content: center;
   align-items: center;
-  border:1px solid #0C3537;
+  border:2px solid #E1AD21;
 
 }
 #messengerButton i{
@@ -224,7 +224,7 @@ function closeForm() {
 
 .form-container .btn {
  
-  color: white;
+
   padding: 16px 20px;
   border: none;
   cursor: pointer;
@@ -250,9 +250,9 @@ function closeForm() {
    
     <textarea placeholder=\"Type message..\" name=\"msg\" required></textarea>
 
-    <button id=\"sendButton\" type=\"submit\" style=\"background-color:#0C3537\" class=\"btn  white-text\">Send <i class=\"far fa-paper-plane\"></i></button>
+    <button style=\"color:#010203;background-color:#E1AD21\" id=\"sendButton\" type=\"submit\" class=\"btn\">Send <i class=\"far fa-paper-plane\"></i></button>
 
-    <button id=\"closeButton\" type=\"button\" class=\"btn black white-text cancel\" onclick=\"closeForm()\">Close 
+    <button style=\"color:#E1AD21;background-color:#010203\" id=\"closeButton\" type=\"button\" class=\"btn cancel\" onclick=\"closeForm()\">Close 
     <i class=\"pl-1 far fa-window-close fa-1x\"></i>
     </button>
 

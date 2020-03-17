@@ -36,103 +36,107 @@ class __TwigTemplate_1e17d5aedc6b85f04106dafb48dc4e76ef1d75204737137c70fc853acea
         // line 1
         echo "<!-- lead_form_float-->
 
-";
-        // line 5
-        echo "
-";
-        // line 7
-        echo "<style>
+<style>
 form#lead_form_float {
-  background-color: yellow;
+            width:400px;
+            position:relative;
+            top:-90px;
+            z-index:900;
+            border-radius:10px;
+           background:#010203;
+         /*  background:darkgrey;*/
+            color:#E1AD21;
+             
 }
 
-@media only screen and (min-width:1000px) {
- form#lead_form_float{
+ form#lead_form_float input{
     
-   background-color: red;
-  
+   background-color: #222222;
+   color:#E1AD21;
+   border-radius:1px;
+   /*border:1px solid #E1AD21;*/
+   border:none;
+   /*border-bottom: 0.5px solid #E1AD21;*/
+   margin-bottom:5px;
+   
+  } 
+  form#lead_form_float input:focus{
+    
+   
+   border:0.5px solid #E1AD21;
+   outline: 0.5px solid #E1AD21;;
    
   }
-}
 
+";
+        // line 48
+        echo "
 
 
  </style>
 
 ";
-        // line 26
+        // line 54
         echo "
           <form 
-          style=\" 
-            width:450px;
-            position:relative;
-            top:-90px;
-            visibility = \"hidden\";
-            z-index:900;
-            border-radius:2px;
-            color:black;
-            
-             
-            \" 
-
           id=\"lead_form_float\" 
           action=\"";
-        // line 41
+        // line 57
         echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
         echo "/homes/newsletter\" 
           method=\"post\" 
-          class=\"bg-light box text-center form d-none d-lg-block p-3 z-depth-1 \"
+          class=\" box text-center form d-none d-lg-block p-3 z-depth-1 \"
           >
                  
                  <h4 class=\"text-center  mb-4 \" >Demander un devis </h4>
                       <div class=\"form-group\">
                           <input type=\"text\" name=\"name\" class=\"form-control mb-2  ";
-        // line 48
-        echo ((0 === twig_compare(twig_get_attribute($this->env, $this->source, ($context["data"] ?? null), "name_err", [], "any", false, false, false, 48), "")) ? ("") : ("is-invalid"));
+        // line 64
+        echo ((0 === twig_compare(twig_get_attribute($this->env, $this->source, ($context["data"] ?? null), "name_err", [], "any", false, false, false, 64), "")) ? ("") : ("is-invalid"));
         echo "\"   placeholder=\"Veuillez entrer votre nom complet \">
                           <div class=\"invalid-feedback \"> ";
-        // line 49
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["data"] ?? null), "name_err", [], "any", false, false, false, 49), "html", null, true);
+        // line 65
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["data"] ?? null), "name_err", [], "any", false, false, false, 65), "html", null, true);
         echo " </div>
                       </div>
 
                       <div class=\"form-group\">
                             <input type=\"email\" name=\"email\" class=\"form-control mb-2 ";
-        // line 53
-        echo ((0 === twig_compare(twig_get_attribute($this->env, $this->source, ($context["data"] ?? null), "email_err", [], "any", false, false, false, 53), "")) ? ("") : ("is-invalid"));
+        // line 69
+        echo ((0 === twig_compare(twig_get_attribute($this->env, $this->source, ($context["data"] ?? null), "email_err", [], "any", false, false, false, 69), "")) ? ("") : ("is-invalid"));
         echo "\"  placeholder=\"Veuillez entrer votre email\">
                             <div class=\"invalid-feedback \">";
-        // line 54
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["data"] ?? null), "email_err", [], "any", false, false, false, 54), "html", null, true);
+        // line 70
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["data"] ?? null), "email_err", [], "any", false, false, false, 70), "html", null, true);
         echo "</div>
                       </div>
                       
                       <div class=\"form-group\">
                             <input type=\"text\" name=\"tel\" class=\"form-control mb-2 ";
-        // line 58
-        echo ((0 === twig_compare(twig_get_attribute($this->env, $this->source, ($context["data"] ?? null), "email_err", [], "any", false, false, false, 58), "")) ? ("") : ("is-invalid"));
+        // line 74
+        echo ((0 === twig_compare(twig_get_attribute($this->env, $this->source, ($context["data"] ?? null), "email_err", [], "any", false, false, false, 74), "")) ? ("") : ("is-invalid"));
         echo "\"  placeholder=\"Veuillez entrer votre numéro de téléphone\">
                             <div class=\"invalid-feedback \">";
-        // line 59
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["data"] ?? null), "email_err", [], "any", false, false, false, 59), "html", null, true);
+        // line 75
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["data"] ?? null), "email_err", [], "any", false, false, false, 75), "html", null, true);
         echo "</div>
                       </div>
                       
                        <div class=\"form-group\">
                             <input type=\"text\" name=\"intervention\" class=\"form-control mb-2 ";
-        // line 63
-        echo ((0 === twig_compare(twig_get_attribute($this->env, $this->source, ($context["data"] ?? null), "email_err", [], "any", false, false, false, 63), "")) ? ("") : ("is-invalid"));
+        // line 79
+        echo ((0 === twig_compare(twig_get_attribute($this->env, $this->source, ($context["data"] ?? null), "email_err", [], "any", false, false, false, 79), "")) ? ("") : ("is-invalid"));
         echo "\"  placeholder=\"Intervention souhaitée\">
                             <div class=\"invalid-feedback \">";
-        // line 64
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["data"] ?? null), "email_err", [], "any", false, false, false, 64), "html", null, true);
+        // line 80
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["data"] ?? null), "email_err", [], "any", false, false, false, 80), "html", null, true);
         echo "</div>
                       </div>
                       
                       
                         <button 
-                        style=\"margin-top:-4px;\" 
-                        class=\"ml-4 rounded btn darken-1 grey z-depth-0 text-white\">
+                        style=\"margin-top:-4px; border:1px solid #E1AD21; color:#E1AD21;margin-top:5px;\" 
+                        class=\"ml-4 rounded btn\">
                         Envoyer
                         </button>
           </form>
@@ -156,9 +160,9 @@ form#lead_form_float {
         });
 
   ";
-        // line 94
+        // line 110
         echo "  ";
-        // line 95
+        // line 111
         echo "
 
   /* window.onscroll = function() {myFunction()};
@@ -188,30 +192,58 @@ form#lead_form_float {
 
     public function getDebugInfo()
     {
-        return array (  162 => 95,  160 => 94,  128 => 64,  124 => 63,  117 => 59,  113 => 58,  106 => 54,  102 => 53,  95 => 49,  91 => 48,  81 => 41,  64 => 26,  44 => 7,  41 => 5,  37 => 1,);
+        return array (  166 => 111,  164 => 110,  132 => 80,  128 => 79,  121 => 75,  117 => 74,  110 => 70,  106 => 69,  99 => 65,  95 => 64,  85 => 57,  80 => 54,  73 => 48,  37 => 1,);
     }
 
     public function getSourceContext()
     {
         return new Source("<!-- lead_form_float-->
 
-{# #ffca28 amber lighten-1 #}
-{# #212121 grey darken-4 #}
-
-{# #ff8f00 amber darken-3 #}
 <style>
 form#lead_form_float {
-  background-color: yellow;
+            width:400px;
+            position:relative;
+            top:-90px;
+            z-index:900;
+            border-radius:10px;
+           background:#010203;
+         /*  background:darkgrey;*/
+            color:#E1AD21;
+             
 }
 
+ form#lead_form_float input{
+    
+   background-color: #222222;
+   color:#E1AD21;
+   border-radius:1px;
+   /*border:1px solid #E1AD21;*/
+   border:none;
+   /*border-bottom: 0.5px solid #E1AD21;*/
+   margin-bottom:5px;
+   
+  } 
+  form#lead_form_float input:focus{
+    
+   
+   border:0.5px solid #E1AD21;
+   outline: 0.5px solid #E1AD21;;
+   
+  }
+
+{# 
 @media only screen and (min-width:1000px) {
  form#lead_form_float{
     
-   background-color: red;
-  
+   background-color: #010203;
+   color:#E1AD21;
+   border-radius:10px;
+   
    
   }
-}
+
+ 
+} #}
 
 
 
@@ -220,22 +252,10 @@ form#lead_form_float {
 {# visible on md and up and below  #}
 
           <form 
-          style=\" 
-            width:450px;
-            position:relative;
-            top:-90px;
-            visibility = \"hidden\";
-            z-index:900;
-            border-radius:2px;
-            color:black;
-            
-             
-            \" 
-
           id=\"lead_form_float\" 
           action=\"{{URLROOT}}/homes/newsletter\" 
           method=\"post\" 
-          class=\"bg-light box text-center form d-none d-lg-block p-3 z-depth-1 \"
+          class=\" box text-center form d-none d-lg-block p-3 z-depth-1 \"
           >
                  
                  <h4 class=\"text-center  mb-4 \" >Demander un devis </h4>
@@ -261,8 +281,8 @@ form#lead_form_float {
                       
                       
                         <button 
-                        style=\"margin-top:-4px;\" 
-                        class=\"ml-4 rounded btn darken-1 grey z-depth-0 text-white\">
+                        style=\"margin-top:-4px; border:1px solid #E1AD21; color:#E1AD21;margin-top:5px;\" 
+                        class=\"ml-4 rounded btn\">
                         Envoyer
                         </button>
           </form>

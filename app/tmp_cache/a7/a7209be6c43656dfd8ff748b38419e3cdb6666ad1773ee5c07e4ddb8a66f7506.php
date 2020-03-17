@@ -51,18 +51,18 @@ class __TwigTemplate_8e1c1190679cb2309b9c8410595a56df2f8185e4e04929c773be0a8889d
 
 
 
-            <div class=\"jumbotron py-2 mb-0 grey darken-4 \">
+            <div class=\"jumbotron py-2 mb-0 \" style=\"background-color:#010203;\">
                 <div class=\"row\">
                 <i class=\"\"></i>
 
-                <span  class=\"h4 px-3 white-text text-uppercase \"> Aram Clinic</span > 
-                <span> <i class=\"animated tada  white-text fas fa-phone-volume fa-2x  \"> </i> </span>
-                <span class=\" h3 pl-2 white-text\"> +262 269 33 87 99 </span> 
+                <span  style=\"color:#E1AD21;\" class=\"h4 px-3  text-uppercase \"> Aram Clinic</span > 
+                <span> <i style=\"color:#E1AD21;\" class=\"animated tada fas fa-phone-volume fa-2x  \"> </i> </span>
+                <span class=\" h4 pl-2 \" style=\"color:#E1AD21;\"> +262 269 33 87 99 </span> 
 
 
-                <a href=\"#\" >  <span class=\" h6 pl-2 white-text \"> <i class=\"fab fa-facebook-messenger fa-2x\"></i> </span> </a>
+               <!-- <a href=\"#\" >  <span class=\" h6 pl-2 white-text \"> <i class=\"fab fa-facebook-messenger fa-2x\"></i> </span> </a>
                 <a href=\"#\" >  <span class=\" h6 pl-2 white-text\"> <i class=\" far fa-envelope fa-2x\"></i> </span> </a>
-                <a href=\"#\" >  <span class=\" h6 pl-2 white-text\"><i class=\" fab fa-whatsapp fa-2x\"></i></span> </a>
+                <a href=\"#\" >  <span class=\" h6 pl-2 white-text\"><i class=\" fab fa-whatsapp fa-2x\"></i></span> </a>-->
               
     
                 </div>
@@ -100,18 +100,18 @@ class __TwigTemplate_8e1c1190679cb2309b9c8410595a56df2f8185e4e04929c773be0a8889d
 
 
 
-            <div class=\"jumbotron py-2 mb-0 grey darken-4 \">
+            <div class=\"jumbotron py-2 mb-0 \" style=\"background-color:#010203;\">
                 <div class=\"row\">
                 <i class=\"\"></i>
 
-                <span  class=\"h4 px-3 white-text text-uppercase \"> Aram Clinic</span > 
-                <span> <i class=\"animated tada  white-text fas fa-phone-volume fa-2x  \"> </i> </span>
-                <span class=\" h3 pl-2 white-text\"> +262 269 33 87 99 </span> 
+                <span  style=\"color:#E1AD21;\" class=\"h4 px-3  text-uppercase \"> Aram Clinic</span > 
+                <span> <i style=\"color:#E1AD21;\" class=\"animated tada fas fa-phone-volume fa-2x  \"> </i> </span>
+                <span class=\" h4 pl-2 \" style=\"color:#E1AD21;\"> +262 269 33 87 99 </span> 
 
 
-                <a href=\"#\" >  <span class=\" h6 pl-2 white-text \"> <i class=\"fab fa-facebook-messenger fa-2x\"></i> </span> </a>
+               <!-- <a href=\"#\" >  <span class=\" h6 pl-2 white-text \"> <i class=\"fab fa-facebook-messenger fa-2x\"></i> </span> </a>
                 <a href=\"#\" >  <span class=\" h6 pl-2 white-text\"> <i class=\" far fa-envelope fa-2x\"></i> </span> </a>
-                <a href=\"#\" >  <span class=\" h6 pl-2 white-text\"><i class=\" fab fa-whatsapp fa-2x\"></i></span> </a>
+                <a href=\"#\" >  <span class=\" h6 pl-2 white-text\"><i class=\" fab fa-whatsapp fa-2x\"></i></span> </a>-->
               
     
                 </div>
