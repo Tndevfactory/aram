@@ -43,16 +43,17 @@ form#lead_form_float {
             top:-90px;
             z-index:900;
             border-radius:10px;
-           background:#010203;
-         /*  background:darkgrey;*/
-            color:#E1AD21;
+           /* background:#010203;*/
+          background:#B0B0B0;
+            color:black;
+             border: 1px solid grey;;
              
 }
 
  form#lead_form_float input{
     
-   background-color: #222222;
-   color:#E1AD21;
+   background-color: #E0E0E0;
+   color:black;
    border-radius:1px;
    /*border:1px solid #E1AD21;*/
    border:none;
@@ -63,25 +64,25 @@ form#lead_form_float {
   form#lead_form_float input:focus{
     
    
-   border:0.5px solid #E1AD21;
-   outline: 0.5px solid #E1AD21;;
+   border:1px solid #E0E0E0;
+   outline: 1px solid #E0E0E0;
    
   }
 
 ";
-        // line 48
+        // line 49
         echo "
 
 
  </style>
 
 ";
-        // line 54
+        // line 55
         echo "
           <form 
           id=\"lead_form_float\" 
           action=\"";
-        // line 57
+        // line 58
         echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
         echo "/homes/newsletter\" 
           method=\"post\" 
@@ -91,51 +92,51 @@ form#lead_form_float {
                  <h4 class=\"text-center  mb-4 \" >Demander un devis </h4>
                       <div class=\"form-group\">
                           <input type=\"text\" name=\"name\" class=\"form-control mb-2  ";
-        // line 64
-        echo ((0 === twig_compare(twig_get_attribute($this->env, $this->source, ($context["data"] ?? null), "name_err", [], "any", false, false, false, 64), "")) ? ("") : ("is-invalid"));
+        // line 65
+        echo ((0 === twig_compare(twig_get_attribute($this->env, $this->source, ($context["data"] ?? null), "name_err", [], "any", false, false, false, 65), "")) ? ("") : ("is-invalid"));
         echo "\"   placeholder=\"Veuillez entrer votre nom complet \">
                           <div class=\"invalid-feedback \"> ";
-        // line 65
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["data"] ?? null), "name_err", [], "any", false, false, false, 65), "html", null, true);
+        // line 66
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["data"] ?? null), "name_err", [], "any", false, false, false, 66), "html", null, true);
         echo " </div>
                       </div>
 
                       <div class=\"form-group\">
                             <input type=\"email\" name=\"email\" class=\"form-control mb-2 ";
-        // line 69
-        echo ((0 === twig_compare(twig_get_attribute($this->env, $this->source, ($context["data"] ?? null), "email_err", [], "any", false, false, false, 69), "")) ? ("") : ("is-invalid"));
+        // line 70
+        echo ((0 === twig_compare(twig_get_attribute($this->env, $this->source, ($context["data"] ?? null), "email_err", [], "any", false, false, false, 70), "")) ? ("") : ("is-invalid"));
         echo "\"  placeholder=\"Veuillez entrer votre email\">
                             <div class=\"invalid-feedback \">";
-        // line 70
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["data"] ?? null), "email_err", [], "any", false, false, false, 70), "html", null, true);
+        // line 71
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["data"] ?? null), "email_err", [], "any", false, false, false, 71), "html", null, true);
         echo "</div>
                       </div>
                       
                       <div class=\"form-group\">
                             <input type=\"text\" name=\"tel\" class=\"form-control mb-2 ";
-        // line 74
-        echo ((0 === twig_compare(twig_get_attribute($this->env, $this->source, ($context["data"] ?? null), "email_err", [], "any", false, false, false, 74), "")) ? ("") : ("is-invalid"));
+        // line 75
+        echo ((0 === twig_compare(twig_get_attribute($this->env, $this->source, ($context["data"] ?? null), "email_err", [], "any", false, false, false, 75), "")) ? ("") : ("is-invalid"));
         echo "\"  placeholder=\"Veuillez entrer votre numéro de téléphone\">
                             <div class=\"invalid-feedback \">";
-        // line 75
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["data"] ?? null), "email_err", [], "any", false, false, false, 75), "html", null, true);
+        // line 76
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["data"] ?? null), "email_err", [], "any", false, false, false, 76), "html", null, true);
         echo "</div>
                       </div>
                       
                        <div class=\"form-group\">
                             <input type=\"text\" name=\"intervention\" class=\"form-control mb-2 ";
-        // line 79
-        echo ((0 === twig_compare(twig_get_attribute($this->env, $this->source, ($context["data"] ?? null), "email_err", [], "any", false, false, false, 79), "")) ? ("") : ("is-invalid"));
+        // line 80
+        echo ((0 === twig_compare(twig_get_attribute($this->env, $this->source, ($context["data"] ?? null), "email_err", [], "any", false, false, false, 80), "")) ? ("") : ("is-invalid"));
         echo "\"  placeholder=\"Intervention souhaitée\">
                             <div class=\"invalid-feedback \">";
-        // line 80
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["data"] ?? null), "email_err", [], "any", false, false, false, 80), "html", null, true);
+        // line 81
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["data"] ?? null), "email_err", [], "any", false, false, false, 81), "html", null, true);
         echo "</div>
                       </div>
                       
                       
                         <button 
-                        style=\"margin-top:-4px; border:1px solid #E1AD21; color:#E1AD21;margin-top:5px;\" 
+                        style=\"margin-top:-4px; border:1px solid grey; border-radius:10px; color:black;margin-top:5px;\" 
                         class=\"ml-4 rounded btn\">
                         Envoyer
                         </button>
@@ -160,9 +161,9 @@ form#lead_form_float {
         });
 
   ";
-        // line 110
-        echo "  ";
         // line 111
+        echo "  ";
+        // line 112
         echo "
 
   /* window.onscroll = function() {myFunction()};
@@ -192,7 +193,7 @@ form#lead_form_float {
 
     public function getDebugInfo()
     {
-        return array (  166 => 111,  164 => 110,  132 => 80,  128 => 79,  121 => 75,  117 => 74,  110 => 70,  106 => 69,  99 => 65,  95 => 64,  85 => 57,  80 => 54,  73 => 48,  37 => 1,);
+        return array (  167 => 112,  165 => 111,  133 => 81,  129 => 80,  122 => 76,  118 => 75,  111 => 71,  107 => 70,  100 => 66,  96 => 65,  86 => 58,  81 => 55,  74 => 49,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -206,16 +207,17 @@ form#lead_form_float {
             top:-90px;
             z-index:900;
             border-radius:10px;
-           background:#010203;
-         /*  background:darkgrey;*/
-            color:#E1AD21;
+           /* background:#010203;*/
+          background:#B0B0B0;
+            color:black;
+             border: 1px solid grey;;
              
 }
 
  form#lead_form_float input{
     
-   background-color: #222222;
-   color:#E1AD21;
+   background-color: #E0E0E0;
+   color:black;
    border-radius:1px;
    /*border:1px solid #E1AD21;*/
    border:none;
@@ -226,8 +228,8 @@ form#lead_form_float {
   form#lead_form_float input:focus{
     
    
-   border:0.5px solid #E1AD21;
-   outline: 0.5px solid #E1AD21;;
+   border:1px solid #E0E0E0;
+   outline: 1px solid #E0E0E0;
    
   }
 
@@ -281,7 +283,7 @@ form#lead_form_float {
                       
                       
                         <button 
-                        style=\"margin-top:-4px; border:1px solid #E1AD21; color:#E1AD21;margin-top:5px;\" 
+                        style=\"margin-top:-4px; border:1px solid grey; border-radius:10px; color:black;margin-top:5px;\" 
                         class=\"ml-4 rounded btn\">
                         Envoyer
                         </button>

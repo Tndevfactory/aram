@@ -1,6 +1,6 @@
 
 {% extends 'layout.twig' %}
-{% block title %}  <title> LAB --- </title> {% endblock  %}
+{% block title %}  <title> in progress by CH </title> {% endblock  %}
   
 {% block content %}
 
@@ -10,8 +10,12 @@
                                 {% include('/inc/navbarMegaMenu.html.twig') %}
                             {% endblock  %}  #}
 
-                            {% block carouselfr %}
+                            {# {% block carouselfr %}
                                 {% include('/components/index/fr/showcaseBackgroundImage.twig') %}
+                            {% endblock  %}  #}
+                           
+                            {% block carouselfr %}
+                                {% include('/components/index/fr/showcaseVideo.twig') %}
                             {% endblock  %}
                           
                             {% block lead_form_floatfr %} 
@@ -61,7 +65,7 @@
         {# {% endif %} #}
       
  
-      {% if LANG == 'en' %}
+      {# {% if LANG == 'en' %}
                             {% block carouselan %}
                                 {% include('/components/index/en/showcase_caroussel.twig') %}
                             {% endblock  %}
@@ -198,6 +202,6 @@
                               {% include('/components/index/ar/newsletter_section.twig') %}
                             {% endblock  %}
 
-    {% endif %} 
+    {% endif %}  #}
 
  {% endblock  %}
