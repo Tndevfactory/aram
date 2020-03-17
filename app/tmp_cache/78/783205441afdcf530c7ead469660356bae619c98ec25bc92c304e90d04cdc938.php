@@ -59,18 +59,33 @@ class __TwigTemplate_1baa0f440f3f554180d483a760c6a7c8661831e7abb3f4d75c225e33e65
     <body class=\"d-flex flex-column \" >
        
         ";
-        // line 21
+        // line 17
+        $this->loadTemplate("/inc/header.html.twig", "layout.twig", 17)->display($context);
+        // line 18
         echo "        ";
-        // line 22
-        echo "
+        $this->loadTemplate("/inc/megamenu-responsive.html.twig", "layout.twig", 18)->display($context);
+        // line 19
+        echo "        
+        ";
+        // line 20
+        $this->loadTemplate("/inc/chatPopUp.html.twig", "layout.twig", 20)->display($context);
+        echo " 
+        
+
         ";
         // line 23
         $this->displayBlock('content', $context, $blocks);
         // line 24
-        echo "
+        echo "         ";
+        $this->loadTemplate("./inc/footer.html.twig", "layout.twig", 24)->display($context);
+        // line 25
+        echo "         ";
+        // line 26
+        echo "         ";
+        $this->loadTemplate("/inc/social.v2html.twig", "layout.twig", 26)->display($context);
+        echo " 
         ";
         // line 27
-        echo "        ";
         $this->loadTemplate("./inc/scripts.html.twig", "layout.twig", 27)->display($context);
         echo " 
         ";
@@ -115,7 +130,7 @@ class __TwigTemplate_1baa0f440f3f554180d483a760c6a7c8661831e7abb3f4d75c225e33e65
 
     public function getDebugInfo()
     {
-        return array (  100 => 28,  93 => 23,  86 => 13,  80 => 29,  78 => 28,  73 => 27,  70 => 24,  68 => 23,  65 => 22,  63 => 21,  58 => 14,  55 => 13,  53 => 12,  40 => 1,);
+        return array (  115 => 28,  108 => 23,  101 => 13,  95 => 29,  93 => 28,  89 => 27,  84 => 26,  82 => 25,  79 => 24,  77 => 23,  71 => 20,  68 => 19,  65 => 18,  63 => 17,  58 => 14,  55 => 13,  53 => 12,  40 => 1,);
     }
 
     public function getSourceContext()
@@ -136,16 +151,16 @@ class __TwigTemplate_1baa0f440f3f554180d483a760c6a7c8661831e7abb3f4d75c225e33e65
     </head>
     <body class=\"d-flex flex-column \" >
        
-        {# {% include('/inc/header.html.twig') %}
-        {% include('/inc/navbar.html.twig') %}
+        {% include('/inc/header.html.twig') %}
+        {% include('/inc/megamenu-responsive.html.twig') %}
         
-        {% include('/inc/chatPopUp.html.twig') %} #}
-        {# {% include('/inc/rightSidedNav.twig') %} #}
+        {% include('/inc/chatPopUp.html.twig') %} 
+        
 
         {% block content %} {% endblock  %}
-
-        {# {% include('./inc/footer.html.twig') %}
-         {% include('/inc/social.html.twig') %} #}
+         {% include('./inc/footer.html.twig') %}
+         {# {% include('/inc/social.html.twig') %}  #}
+         {% include('/inc/social.v2html.twig') %} 
         {% include('./inc/scripts.html.twig') %} 
         {% block script %} {% endblock  %}
     </body>

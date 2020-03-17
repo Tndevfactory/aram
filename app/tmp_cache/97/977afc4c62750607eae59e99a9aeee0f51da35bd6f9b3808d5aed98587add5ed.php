@@ -65,6 +65,7 @@ class __TwigTemplate_06ad2124d2683f90ddb1f508b795e7f7a63b26eb9e881a20853407c7a16
 
 #banner-area  a.nav-link{
     color:#C3922E;
+    font-size:20px;
 
 }
 
@@ -92,13 +93,15 @@ font-weight:900;
     margin-top:0%;
 }
 
+
+
 </style>
 
-<div id=\"banner-area\">
+<div id=\"banner-area\" class=\"sticky-top\">
     <div class=\"container-fluid-\">
         <div class=\"row\">
             <div class=\"col\">
-                <nav class=\"navbar navbar-expand-md \" style=\"background:#0C3537;color:#fff;\">
+                <nav id=\"#banner-area\" class=\"navbar navbar-expand-lg \" style=\"background:#0C3537;color:#fff;\">
                 
                      <a class=\"navbar-brand\" href=\"#\"><i style=\"color:#C3922E\" class=\"text-center fab fa-asymmetrik fa-2x\"></i></a>
                    
@@ -235,14 +238,14 @@ font-weight:900;
 </div>
 
 ";
-        // line 200
+        // line 203
         $this->displayBlock('script', $context, $blocks);
     }
 
     public function block_script($context, array $blocks = [])
     {
         $macros = $this->macros;
-        // line 201
+        // line 204
         echo "
     <script>
 
@@ -266,7 +269,7 @@ font-weight:900;
       var bidRides='';
         bidRides +='<div class=\" p-0 col-sm-6 col-lg-3 offset-sm-1\">';
         bidRides +='<img src=\"";
-        // line 223
+        // line 226
         echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
         echo "/public/img/barbe/barbe1.jpg\" alt=\"\" style=\"width:100%\">';
         bidRides +='</div>';
@@ -291,7 +294,7 @@ font-weight:900;
       var sidliftingvisage='';
         sidliftingvisage +='<div class=\" p-0 col-sm-6 col-lg-3 offset-sm-1\">';
         sidliftingvisage +='<img src=\"";
-        // line 245
+        // line 248
         echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
         echo "/public/img/barbe/barbe2.jpg\" alt=\"\" style=\"width:100%\">';
         sidliftingvisage +='</div>';
@@ -326,7 +329,7 @@ font-weight:900;
 
     public function getDebugInfo()
     {
-        return array (  295 => 245,  270 => 223,  246 => 201,  239 => 200,  38 => 1,);
+        return array (  298 => 248,  273 => 226,  249 => 204,  242 => 203,  38 => 1,);
     }
 
     public function getSourceContext()
@@ -361,6 +364,7 @@ font-weight:900;
 
 #banner-area  a.nav-link{
     color:#C3922E;
+    font-size:20px;
 
 }
 
@@ -388,13 +392,15 @@ font-weight:900;
     margin-top:0%;
 }
 
+
+
 </style>
 
-<div id=\"banner-area\">
+<div id=\"banner-area\" class=\"sticky-top\">
     <div class=\"container-fluid-\">
         <div class=\"row\">
             <div class=\"col\">
-                <nav class=\"navbar navbar-expand-md \" style=\"background:#0C3537;color:#fff;\">
+                <nav id=\"#banner-area\" class=\"navbar navbar-expand-lg \" style=\"background:#0C3537;color:#fff;\">
                 
                      <a class=\"navbar-brand\" href=\"#\"><i style=\"color:#C3922E\" class=\"text-center fab fa-asymmetrik fa-2x\"></i></a>
                    
