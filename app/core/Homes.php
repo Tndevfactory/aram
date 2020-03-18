@@ -331,7 +331,27 @@ public function newsletter(){
 
 }
 
+// json api zone
 
+public function searchForm(){
+
+      if($_SERVER['REQUEST_METHOD'] == 'POST'){
+      
+            $_POST =filter_input_array(INPUT_POST, FILTER_SANITIZE_STRING);
+
+            $search_field='%'.trim($_POST['q']).'%';
+            $this->db->query("SELECT * FROM pages WHERE keyword like '{$search_field}' ORDER BY created DESC");
+            $row=$this->db->resultSet();
+
+            if(count($row)){
+                  $myJSON = json_encode($row);
+            }else{
+                  $myJSON = json_encode(0);
+            }
+           
+            echo $myJSON;
+       } 
+}
 
 
 
