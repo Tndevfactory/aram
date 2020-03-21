@@ -39,22 +39,33 @@ class __TwigTemplate_7df8c035f9a824df97983181c0661ae904c5ed316469b58c8277833a66b
 <script type=\"text/javascript\" src=\"https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js\"></script>
 <script type=\"text/javascript\" src=\"https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.14.0/js/mdb.min.js\"></script>
 
-
 <script src=\"https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js\"></script>
 <script src=\"https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js\"></script>
 
 <script type=\"text/javascript\" src=\"";
-        // line 17
+        // line 16
         echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
         echo "/public/js/venobox.min.js\"></script>
 
+";
+        // line 19
+        echo "<script src=\"https://unpkg.com/aos@2.3.1/dist/aos.js\"></script>
 
  
 <script type=\"text/javascript\" src=\"";
-        // line 21
+        // line 22
         echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
         echo "/public/js/main.js\"></script>
   <script>
+
+    // aos init
+      AOS.init({
+
+        offset:200,
+        duration:500
+
+      });
+
     // Get the current year for the copyright
     \$('#year').text(new Date().getFullYear());
 
@@ -97,7 +108,7 @@ class __TwigTemplate_7df8c035f9a824df97983181c0661ae904c5ed316469b58c8277833a66b
 
 
 ";
-        // line 82
+        // line 92
         echo "
 
  
@@ -120,7 +131,7 @@ class __TwigTemplate_7df8c035f9a824df97983181c0661ae904c5ed316469b58c8277833a66b
 
     public function getDebugInfo()
     {
-        return array (  101 => 82,  55 => 21,  48 => 17,  37 => 8,);
+        return array (  112 => 92,  57 => 22,  52 => 19,  47 => 16,  37 => 8,);
     }
 
     public function getSourceContext()
@@ -137,16 +148,26 @@ class __TwigTemplate_7df8c035f9a824df97983181c0661ae904c5ed316469b58c8277833a66b
 <script type=\"text/javascript\" src=\"https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js\"></script>
 <script type=\"text/javascript\" src=\"https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.14.0/js/mdb.min.js\"></script>
 
-
 <script src=\"https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js\"></script>
 <script src=\"https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js\"></script>
 
 <script type=\"text/javascript\" src=\"{{URLROOT}}/public/js/venobox.min.js\"></script>
 
+{# animate on scroll js#}
+<script src=\"https://unpkg.com/aos@2.3.1/dist/aos.js\"></script>
 
  
 <script type=\"text/javascript\" src=\"{{URLROOT}}/public/js/main.js\"></script>
   <script>
+
+    // aos init
+      AOS.init({
+
+        offset:200,
+        duration:500
+
+      });
+
     // Get the current year for the copyright
     \$('#year').text(new Date().getFullYear());
 

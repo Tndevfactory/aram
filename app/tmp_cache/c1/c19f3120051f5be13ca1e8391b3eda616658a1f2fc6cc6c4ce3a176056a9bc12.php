@@ -41,7 +41,7 @@ class __TwigTemplate_ed24d8b4537c9fbc6eff6f87baa27a14aaed187ab07d27613f6c4380ce5
 #counterUP .col-md-4 {
   text-align: center;
   padding-bottom: 50px;
-  background:red;
+  
   
 }
 
@@ -65,20 +65,22 @@ class __TwigTemplate_ed24d8b4537c9fbc6eff6f87baa27a14aaed187ab07d27613f6c4380ce5
 }
 </style>
 
-<section id=\"counterUP\">
+<section id=\"counterUP\" class=\"pt-5\">
+
   <div class=\"container\">
+    <h1 class=\"text-center\">Numbers of clients  </h1>
     <div class=\"row\">
-      <div class=\"col-md-4\">
+      <div class=\"col-md-4\"  data-aos=\"zoom-in-right\">
         <p class=\"counter\">0</p>
         <h3>Customers</h3>
         <i class=\"fa fa-users\"></i>
       </div> 
-      <div class=\"col-md-4\">
+      <div class=\"col-md-4\"  data-aos=\"zoom-in\">
         <p class=\"counter\">0</p>
         <h3>Total Web Pages</h3>
         <i class=\"fa fa-desktop\"></i>
       </div>
-      <div class=\"col-md-4\">
+      <div class=\"col-md-4\"  data-aos=\"zoom-in-left\">
         <p class=\"counter\">0</p>
         <h3>Cups Of Coffee</h3>
         <i class=\"fa fa-coffee\"></i>
@@ -90,14 +92,14 @@ class __TwigTemplate_ed24d8b4537c9fbc6eff6f87baa27a14aaed187ab07d27613f6c4380ce5
 
 
 ";
-        // line 55
+        // line 57
         $this->displayBlock('script', $context, $blocks);
     }
 
     public function block_script($context, array $blocks = [])
     {
         $macros = $this->macros;
-        // line 56
+        // line 58
         echo "  <script>
 
 let count=document.querySelectorAll(\".counter\");
@@ -133,7 +135,7 @@ function valueCount(){
 
     public function getDebugInfo()
     {
-        return array (  101 => 56,  94 => 55,  38 => 1,);
+        return array (  103 => 58,  96 => 57,  38 => 1,);
     }
 
     public function getSourceContext()
@@ -144,7 +146,7 @@ function valueCount(){
 #counterUP .col-md-4 {
   text-align: center;
   padding-bottom: 50px;
-  background:red;
+  
   
 }
 
@@ -168,20 +170,22 @@ function valueCount(){
 }
 </style>
 
-<section id=\"counterUP\">
+<section id=\"counterUP\" class=\"pt-5\">
+
   <div class=\"container\">
+    <h1 class=\"text-center\">Numbers of clients  </h1>
     <div class=\"row\">
-      <div class=\"col-md-4\">
+      <div class=\"col-md-4\"  data-aos=\"zoom-in-right\">
         <p class=\"counter\">0</p>
         <h3>Customers</h3>
         <i class=\"fa fa-users\"></i>
       </div> 
-      <div class=\"col-md-4\">
+      <div class=\"col-md-4\"  data-aos=\"zoom-in\">
         <p class=\"counter\">0</p>
         <h3>Total Web Pages</h3>
         <i class=\"fa fa-desktop\"></i>
       </div>
-      <div class=\"col-md-4\">
+      <div class=\"col-md-4\"  data-aos=\"zoom-in-left\">
         <p class=\"counter\">0</p>
         <h3>Cups Of Coffee</h3>
         <i class=\"fa fa-coffee\"></i>

@@ -78,10 +78,10 @@ class __TwigTemplate_b10fc6549f2596f8006e6a496d66d6acb160a9801170fb8e93f15223840
 
 </style>
 
-<section id=\"searchBar\" class=\"my-5 py-3 py-lg-0\">
+<section id=\"searchBar\" class=\"my-5 py-5 py-lg-0\">
   <div class=\"row\">
     <div class=\"container \">
-        <div id=\"sss\" class=\"col-12 col-xl-9\" >
+        <div id=\"sss\" class=\"col-12 py-5 col-xl-9\" >
             <div class=\"search\">
                 <input id=\"ent\" type=\"text\" class=\"searchTerm\" 
                 placeholder=\"Recherche rapide...\">
@@ -242,10 +242,10 @@ class __TwigTemplate_b10fc6549f2596f8006e6a496d66d6acb160a9801170fb8e93f15223840
 
 </style>
 
-<section id=\"searchBar\" class=\"my-5 py-3 py-lg-0\">
+<section id=\"searchBar\" class=\"my-5 py-5 py-lg-0\">
   <div class=\"row\">
     <div class=\"container \">
-        <div id=\"sss\" class=\"col-12 col-xl-9\" >
+        <div id=\"sss\" class=\"col-12 py-5 col-xl-9\" >
             <div class=\"search\">
                 <input id=\"ent\" type=\"text\" class=\"searchTerm\" 
                 placeholder=\"Recherche rapide...\">

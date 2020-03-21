@@ -38,8 +38,9 @@ class __TwigTemplate_d7d1d4e4d51eeddbfc27926fabb15c6a9ca12637c2362b2df7c92341082
         echo "<!-- testimonials- stars -->
 
 <style>
-@import url(https://fonts.googleapis.com/css?family=Raleway:400,800);
-figure.snip1192 {
+";
+        // line 5
+        echo "figure.snip1192 {
   font-family: 'Raleway', Arial, sans-serif;
   position: relative;
   overflow: hidden;
@@ -118,8 +119,10 @@ figure.snip1192 .author h5 span {
 
 <section id=\"testimonialStars\" class=\"my-5 py-3 py-lg-0\">
   <div class=\"container\">
+  <h1 class=\"text-center\">Testimonials of clients </h1>
     <div class=\" row\">
-      <div class=\" col-md-4\">
+
+      <div class=\" col-12 col-md-4\"  data-aos=\"zoom-in-right\">
 
               <figure class=\"snip1192\">
             <blockquote>Calvin: Sometimes when I'm talking with others, my words can't keep up with my thoughts. I wonder why we think faster than we speak. Hobbes: Probably so we can think twice. </blockquote>
@@ -138,7 +141,7 @@ figure.snip1192 .author h5 span {
 
       </div>
 
-      <div class=\" col-md-4\">
+      <div class=\" col-12 col-md-4\"  data-aos=\"zoom-in\">
             <figure class=\"snip1192 hover\">
               <blockquote>Thank you. before I begin, I'd like everyone to notice that my report is in a professional, clear plastic binder...When a report looks this good, you know it'll get an A. That's a tip kids. Write it down.</blockquote>
               <div class=\"author\">
@@ -155,7 +158,7 @@ figure.snip1192 .author h5 span {
             </figure>
       </div>
 
-    <div class=\" col-md-4\">
+    <div class=\" col-12 col-md-4\"  data-aos=\"zoom-in-left\">
         <figure class=\"snip1192\">
           <blockquote>My behaviour is addictive functioning in a disease process of toxic co-dependency. I need holistic healing and wellness before I'll accept any responsibility for my actions.</blockquote>
           <div class=\"author\">
@@ -178,14 +181,14 @@ figure.snip1192 .author h5 span {
 </section>
 
 ";
-        // line 143
+        // line 145
         $this->displayBlock('script', $context, $blocks);
     }
 
     public function block_script($context, array $blocks = [])
     {
         $macros = $this->macros;
-        // line 144
+        // line 146
         echo "  <script>
      
   </script>
@@ -199,7 +202,7 @@ figure.snip1192 .author h5 span {
 
     public function getDebugInfo()
     {
-        return array (  189 => 144,  182 => 143,  38 => 1,);
+        return array (  192 => 146,  185 => 145,  43 => 5,  38 => 1,);
     }
 
     public function getSourceContext()
@@ -207,7 +210,7 @@ figure.snip1192 .author h5 span {
         return new Source("<!-- testimonials- stars -->
 
 <style>
-@import url(https://fonts.googleapis.com/css?family=Raleway:400,800);
+{# @import url(https://fonts.googleapis.com/css?family=Raleway:400,800); #}
 figure.snip1192 {
   font-family: 'Raleway', Arial, sans-serif;
   position: relative;
@@ -287,8 +290,10 @@ figure.snip1192 .author h5 span {
 
 <section id=\"testimonialStars\" class=\"my-5 py-3 py-lg-0\">
   <div class=\"container\">
+  <h1 class=\"text-center\">Testimonials of clients </h1>
     <div class=\" row\">
-      <div class=\" col-md-4\">
+
+      <div class=\" col-12 col-md-4\"  data-aos=\"zoom-in-right\">
 
               <figure class=\"snip1192\">
             <blockquote>Calvin: Sometimes when I'm talking with others, my words can't keep up with my thoughts. I wonder why we think faster than we speak. Hobbes: Probably so we can think twice. </blockquote>
@@ -307,7 +312,7 @@ figure.snip1192 .author h5 span {
 
       </div>
 
-      <div class=\" col-md-4\">
+      <div class=\" col-12 col-md-4\"  data-aos=\"zoom-in\">
             <figure class=\"snip1192 hover\">
               <blockquote>Thank you. before I begin, I'd like everyone to notice that my report is in a professional, clear plastic binder...When a report looks this good, you know it'll get an A. That's a tip kids. Write it down.</blockquote>
               <div class=\"author\">
@@ -324,7 +329,7 @@ figure.snip1192 .author h5 span {
             </figure>
       </div>
 
-    <div class=\" col-md-4\">
+    <div class=\" col-12 col-md-4\"  data-aos=\"zoom-in-left\">
         <figure class=\"snip1192\">
           <blockquote>My behaviour is addictive functioning in a disease process of toxic co-dependency. I need holistic healing and wellness before I'll accept any responsibility for my actions.</blockquote>
           <div class=\"author\">

@@ -43,32 +43,34 @@ class __TwigTemplate_6efdd6b9d1b4826ad57d615676871b90af8bd997dc27e10e09879bbd9dc
   
 <script type=\"text/javascript\" src=\"https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js\"></script>
 
-
+";
+        // line 17
+        echo "<link href=\"https://unpkg.com/aos@2.3.1/dist/aos.css\" rel=\"stylesheet\">
 
 ";
-        // line 19
+        // line 20
         echo "<script type=\"text/javascript\" src=\"";
         echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
         echo "/public/js/megamenu.js\"></script>
 
 ";
-        // line 22
+        // line 23
         echo "<link rel=\"stylesheet\" href=\"";
         echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
         echo "/public/css/venobox.min.css\"/>
 
 ";
-        // line 25
+        // line 26
         echo "<script src=\"https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js\"></script>
 
 <link rel=\"stylesheet\" href=\"";
-        // line 27
+        // line 28
         echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
         echo "/public/css/ionicons.min.css\">
 <link rel=\"stylesheet\" href=\"https://use.fontawesome.com/releases/v5.0.13/css/all.css\" >
 
 ";
-        // line 31
+        // line 32
         echo "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.3/animate.min.css\" >
 
 <link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap\">
@@ -78,12 +80,12 @@ class __TwigTemplate_6efdd6b9d1b4826ad57d615676871b90af8bd997dc27e10e09879bbd9dc
 <link href=\"https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.14.0/css/mdb.min.css\" rel=\"stylesheet\">
 
 ";
-        // line 40
+        // line 41
         echo "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css\" />
 <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css\" />
 <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css\" />
 <link rel=\"stylesheet\" href=\"";
-        // line 43
+        // line 44
         echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
         echo "/public/css/main.css\"> 
 
@@ -102,7 +104,7 @@ class __TwigTemplate_6efdd6b9d1b4826ad57d615676871b90af8bd997dc27e10e09879bbd9dc
 
     public function getDebugInfo()
     {
-        return array (  87 => 43,  82 => 40,  72 => 31,  66 => 27,  62 => 25,  56 => 22,  50 => 19,  42 => 12,  39 => 6,  37 => 1,);
+        return array (  89 => 44,  84 => 41,  74 => 32,  68 => 28,  64 => 26,  58 => 23,  52 => 20,  48 => 17,  42 => 12,  39 => 6,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -122,7 +124,8 @@ class __TwigTemplate_6efdd6b9d1b4826ad57d615676871b90af8bd997dc27e10e09879bbd9dc
   
 <script type=\"text/javascript\" src=\"https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js\"></script>
 
-
+{# animate on scroll #}
+<link href=\"https://unpkg.com/aos@2.3.1/dist/aos.css\" rel=\"stylesheet\">
 
 {# megamenu #}
 <script type=\"text/javascript\" src=\"{{URLROOT}}/public/js/megamenu.js\"></script>

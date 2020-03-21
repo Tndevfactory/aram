@@ -110,7 +110,7 @@ class __TwigTemplate_a2488b51339859d2c89ff1f52d224d23584252f1f50b621e1536925af6b
 
           <div class=\"row mb-2\">
 
-                <div class=\"col-lg-4 mb-2\">
+                <div class=\"col-lg-4 mb-2\" data-aos=\"zoom-in-right\" >
                     <div class=\"ba-slider\">
                         <img src=\"https://source.unsplash.com/random/1800x1800\" alt=\"\">       
                         <div class=\"resize\">
@@ -121,7 +121,7 @@ class __TwigTemplate_a2488b51339859d2c89ff1f52d224d23584252f1f50b621e1536925af6b
                 </div>
                 
 
-                <div class=\"col-lg-4 mb-2\">
+                <div class=\"col-lg-4 mb-2\" data-aos=\"zoom-in\">
                     <div class=\"ba-slider\">
                         <img src=\"https://source.unsplash.com/random/1800x1803\" alt=\"\">       
                         <div class=\"resize\">
@@ -131,7 +131,7 @@ class __TwigTemplate_a2488b51339859d2c89ff1f52d224d23584252f1f50b621e1536925af6b
                     </div>
                 </div>
 
-                <div class=\"col-lg-4\">
+                <div class=\"col-lg-4\" data-aos=\"zoom-in-left\">
                     <div class=\"ba-slider\">
                         <img src=\"https://source.unsplash.com/random/1800x1802\" alt=\"\">       
                         <div class=\"resize\">
@@ -144,7 +144,7 @@ class __TwigTemplate_a2488b51339859d2c89ff1f52d224d23584252f1f50b621e1536925af6b
           </div>
           <div class=\"row\">
 
-                <div class=\"col-lg-4 mb-2\">
+                <div class=\"col-lg-4 mb-2\" data-aos=\"zoom-in-right\">
                     <div class=\"ba-slider\">
                         <img src=\"https://source.unsplash.com/random/1800x1800\" alt=\"\">       
                         <div class=\"resize\">
@@ -155,7 +155,7 @@ class __TwigTemplate_a2488b51339859d2c89ff1f52d224d23584252f1f50b621e1536925af6b
                 </div>
                 
 
-                <div class=\"col-lg-4 mb-2\">
+                <div class=\"col-lg-4 mb-2\" data-aos=\"zoom\">
                     <div class=\"ba-slider\">
                         <img src=\"https://source.unsplash.com/random/1800x1803\" alt=\"\">       
                         <div class=\"resize\">
@@ -165,7 +165,7 @@ class __TwigTemplate_a2488b51339859d2c89ff1f52d224d23584252f1f50b621e1536925af6b
                     </div>
                 </div>
 
-                <div class=\"col-lg-4\">
+                <div class=\"col-lg-4\" data-aos=\"zoom-in-left\">
                     <div class=\"ba-slider\">
                         <img src=\"https://source.unsplash.com/random/1800x1802\" alt=\"\">       
                         <div class=\"resize\">
@@ -360,7 +360,7 @@ function drags(dragElement, resizeElement, container) {
 
           <div class=\"row mb-2\">
 
-                <div class=\"col-lg-4 mb-2\">
+                <div class=\"col-lg-4 mb-2\" data-aos=\"zoom-in-right\" >
                     <div class=\"ba-slider\">
                         <img src=\"https://source.unsplash.com/random/1800x1800\" alt=\"\">       
                         <div class=\"resize\">
@@ -371,7 +371,7 @@ function drags(dragElement, resizeElement, container) {
                 </div>
                 
 
-                <div class=\"col-lg-4 mb-2\">
+                <div class=\"col-lg-4 mb-2\" data-aos=\"zoom-in\">
                     <div class=\"ba-slider\">
                         <img src=\"https://source.unsplash.com/random/1800x1803\" alt=\"\">       
                         <div class=\"resize\">
@@ -381,7 +381,7 @@ function drags(dragElement, resizeElement, container) {
                     </div>
                 </div>
 
-                <div class=\"col-lg-4\">
+                <div class=\"col-lg-4\" data-aos=\"zoom-in-left\">
                     <div class=\"ba-slider\">
                         <img src=\"https://source.unsplash.com/random/1800x1802\" alt=\"\">       
                         <div class=\"resize\">
@@ -394,7 +394,7 @@ function drags(dragElement, resizeElement, container) {
           </div>
           <div class=\"row\">
 
-                <div class=\"col-lg-4 mb-2\">
+                <div class=\"col-lg-4 mb-2\" data-aos=\"zoom-in-right\">
                     <div class=\"ba-slider\">
                         <img src=\"https://source.unsplash.com/random/1800x1800\" alt=\"\">       
                         <div class=\"resize\">
@@ -405,7 +405,7 @@ function drags(dragElement, resizeElement, container) {
                 </div>
                 
 
-                <div class=\"col-lg-4 mb-2\">
+                <div class=\"col-lg-4 mb-2\" data-aos=\"zoom\">
                     <div class=\"ba-slider\">
                         <img src=\"https://source.unsplash.com/random/1800x1803\" alt=\"\">       
                         <div class=\"resize\">
@@ -415,7 +415,7 @@ function drags(dragElement, resizeElement, container) {
                     </div>
                 </div>
 
-                <div class=\"col-lg-4\">
+                <div class=\"col-lg-4\" data-aos=\"zoom-in-left\">
                     <div class=\"ba-slider\">
                         <img src=\"https://source.unsplash.com/random/1800x1802\" alt=\"\">       
                         <div class=\"resize\">

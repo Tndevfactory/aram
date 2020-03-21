@@ -57,13 +57,11 @@ class __TwigTemplate_5ac32754989a59b4ea9eae18c5b43899d656404ced7bfe08f2d47127675
     <div class=\"videos py-5\">  
       
       <div class=\"row mb-4\">
-
-            
-            <div class=\"col-md-4 mb-2\" >
+            <div class=\"col-md-4 mb-2\" data-aos=\"zoom-in-right\">
                 <div class=\"video d-flex justify-content-center  \" style=\"position:relative\">
                     <a class=\"venobox align-items-center\" data-autoplay=\"true\" data-vbtype=\"video\" href=\"http://youtu.be/T6mMaHXTlHg\" data-gall=\"myGallery\">
                       <img src=\"";
-        // line 29
+        // line 27
         echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
         echo "/public/img/barbe/barbe1.jpg\" alt=\"\" style=\"width:100%\" class=\"img-thumbnail\">
                           <i class=\"fas fa-play-circle fa-3x rounded-circle\" style=\"border:1px solid #C3922E;position:absolute;z-index:999;left:40%;top:50%; color:#fff;background-color:#0C3537;\"> </i>
@@ -71,12 +69,11 @@ class __TwigTemplate_5ac32754989a59b4ea9eae18c5b43899d656404ced7bfe08f2d47127675
                 </div>
             </div>
             
-            
-            <div class=\"col-md-4 mb-2\" >
+            <div class=\"col-md-4 mb-2\" data-aos=\"zoom-in\" >
                 <div class=\"video d-flex justify-content-center  \" style=\"position:relative\">
                     <a class=\"venobox align-items-center\" data-autoplay=\"true\" data-vbtype=\"video\" href=\"http://youtu.be/T6mMaHXTlHg\" data-gall=\"myGallery\">
                       <img src=\"";
-        // line 39
+        // line 36
         echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
         echo "/public/img/barbe/barbe1.jpg\" alt=\"\" style=\"width:100%\" class=\"img-thumbnail\">
                           <i class=\"fas fa-play-circle fa-3x rounded-circle\" style=\"border:1px solid #C3922E;position:absolute;z-index:999;left:40%;top:50%; color:#fff;background-color:#0C3537;\"> </i>
@@ -84,27 +81,18 @@ class __TwigTemplate_5ac32754989a59b4ea9eae18c5b43899d656404ced7bfe08f2d47127675
                 </div>
             </div>
             
-            
-            <div class=\"col-md-4 mb-2\" >
+            <div class=\"col-md-4 mb-2\" data-aos=\"zoom-in-left\">
                 <div class=\"video d-flex justify-content-center  \" style=\"position:relative\">
                     <a class=\"venobox align-items-center\" data-autoplay=\"true\" data-vbtype=\"video\" href=\"http://youtu.be/T6mMaHXTlHg\" data-gall=\"myGallery\">
                       <img src=\"";
-        // line 49
+        // line 45
         echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
         echo "/public/img/barbe/barbe1.jpg\" alt=\"\" style=\"width:100%\" class=\"img-thumbnail\">
                           <i class=\"fas fa-play-circle fa-3x rounded-circle\" style=\"border:1px solid #C3922E;position:absolute;z-index:999;left:40%;top:50%; color:#fff;background-color:#0C3537;\"> </i>
                     </a>
                 </div>
             </div>
-            
-
-             
-
-            
-
-
         </div>
-
 
     </div>
 
@@ -150,7 +138,7 @@ class __TwigTemplate_5ac32754989a59b4ea9eae18c5b43899d656404ced7bfe08f2d47127675
 
     public function getDebugInfo()
     {
-        return array (  93 => 49,  80 => 39,  67 => 29,  37 => 1,);
+        return array (  89 => 45,  77 => 36,  65 => 27,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -178,9 +166,7 @@ class __TwigTemplate_5ac32754989a59b4ea9eae18c5b43899d656404ced7bfe08f2d47127675
     <div class=\"videos py-5\">  
       
       <div class=\"row mb-4\">
-
-            
-            <div class=\"col-md-4 mb-2\" >
+            <div class=\"col-md-4 mb-2\" data-aos=\"zoom-in-right\">
                 <div class=\"video d-flex justify-content-center  \" style=\"position:relative\">
                     <a class=\"venobox align-items-center\" data-autoplay=\"true\" data-vbtype=\"video\" href=\"http://youtu.be/T6mMaHXTlHg\" data-gall=\"myGallery\">
                       <img src=\"{{URLROOT}}/public/img/barbe/barbe1.jpg\" alt=\"\" style=\"width:100%\" class=\"img-thumbnail\">
@@ -189,8 +175,7 @@ class __TwigTemplate_5ac32754989a59b4ea9eae18c5b43899d656404ced7bfe08f2d47127675
                 </div>
             </div>
             
-            
-            <div class=\"col-md-4 mb-2\" >
+            <div class=\"col-md-4 mb-2\" data-aos=\"zoom-in\" >
                 <div class=\"video d-flex justify-content-center  \" style=\"position:relative\">
                     <a class=\"venobox align-items-center\" data-autoplay=\"true\" data-vbtype=\"video\" href=\"http://youtu.be/T6mMaHXTlHg\" data-gall=\"myGallery\">
                       <img src=\"{{URLROOT}}/public/img/barbe/barbe1.jpg\" alt=\"\" style=\"width:100%\" class=\"img-thumbnail\">
@@ -199,8 +184,7 @@ class __TwigTemplate_5ac32754989a59b4ea9eae18c5b43899d656404ced7bfe08f2d47127675
                 </div>
             </div>
             
-            
-            <div class=\"col-md-4 mb-2\" >
+            <div class=\"col-md-4 mb-2\" data-aos=\"zoom-in-left\">
                 <div class=\"video d-flex justify-content-center  \" style=\"position:relative\">
                     <a class=\"venobox align-items-center\" data-autoplay=\"true\" data-vbtype=\"video\" href=\"http://youtu.be/T6mMaHXTlHg\" data-gall=\"myGallery\">
                       <img src=\"{{URLROOT}}/public/img/barbe/barbe1.jpg\" alt=\"\" style=\"width:100%\" class=\"img-thumbnail\">
@@ -208,15 +192,7 @@ class __TwigTemplate_5ac32754989a59b4ea9eae18c5b43899d656404ced7bfe08f2d47127675
                     </a>
                 </div>
             </div>
-            
-
-             
-
-            
-
-
         </div>
-
 
     </div>
 
