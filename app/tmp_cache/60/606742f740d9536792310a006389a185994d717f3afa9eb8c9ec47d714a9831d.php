@@ -42,31 +42,48 @@ class __TwigTemplate_6efdd6b9d1b4826ad57d615676871b90af8bd997dc27e10e09879bbd9dc
         echo "
   
 <script type=\"text/javascript\" src=\"https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js\"></script>
-<script type=\"text/javascript\" src=\"";
-        // line 15
+
+
+
+";
+        // line 19
+        echo "<script type=\"text/javascript\" src=\"";
         echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
         echo "/public/js/megamenu.js\"></script>
-<link rel=\"stylesheet\" href=\"";
-        // line 16
+
+";
+        // line 22
+        echo "<link rel=\"stylesheet\" href=\"";
         echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
         echo "/public/css/venobox.min.css\"/>
 
-<script src=\"https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js\"></script>
+";
+        // line 25
+        echo "<script src=\"https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js\"></script>
+
 <link rel=\"stylesheet\" href=\"";
-        // line 19
+        // line 27
         echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
         echo "/public/css/ionicons.min.css\">
 <link rel=\"stylesheet\" href=\"https://use.fontawesome.com/releases/v5.0.13/css/all.css\" >
+
+";
+        // line 31
+        echo "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.3/animate.min.css\" >
+
 <link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap\">
 <link href=\"https://fonts.googleapis.com/css?family=Cairo:400,600,700&display=swap&subset=arabic,latin-ext\" rel=\"stylesheet\">
 <link href=\"https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,500i,700,700i,900&display=swap\" rel=\"stylesheet\">
 <link href=\"https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css\" rel=\"stylesheet\">
 <link href=\"https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.14.0/css/mdb.min.css\" rel=\"stylesheet\">
-<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css\" />
+
+";
+        // line 40
+        echo "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css\" />
 <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css\" />
 <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css\" />
 <link rel=\"stylesheet\" href=\"";
-        // line 29
+        // line 43
         echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
         echo "/public/css/main.css\"> 
 
@@ -85,7 +102,7 @@ class __TwigTemplate_6efdd6b9d1b4826ad57d615676871b90af8bd997dc27e10e09879bbd9dc
 
     public function getDebugInfo()
     {
-        return array (  70 => 29,  57 => 19,  51 => 16,  47 => 15,  42 => 12,  39 => 6,  37 => 1,);
+        return array (  87 => 43,  82 => 40,  72 => 31,  66 => 27,  62 => 25,  56 => 22,  50 => 19,  42 => 12,  39 => 6,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -104,17 +121,31 @@ class __TwigTemplate_6efdd6b9d1b4826ad57d615676871b90af8bd997dc27e10e09879bbd9dc
 
   
 <script type=\"text/javascript\" src=\"https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js\"></script>
+
+
+
+{# megamenu #}
 <script type=\"text/javascript\" src=\"{{URLROOT}}/public/js/megamenu.js\"></script>
+
+{# video lightbox #}
 <link rel=\"stylesheet\" href=\"{{URLROOT}}/public/css/venobox.min.css\"/>
 
+{# gsap #}
 <script src=\"https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js\"></script>
+
 <link rel=\"stylesheet\" href=\"{{URLROOT}}/public/css/ionicons.min.css\">
 <link rel=\"stylesheet\" href=\"https://use.fontawesome.com/releases/v5.0.13/css/all.css\" >
+
+{# animate css #}
+<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.3/animate.min.css\" >
+
 <link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap\">
 <link href=\"https://fonts.googleapis.com/css?family=Cairo:400,600,700&display=swap&subset=arabic,latin-ext\" rel=\"stylesheet\">
 <link href=\"https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,500i,700,700i,900&display=swap\" rel=\"stylesheet\">
 <link href=\"https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css\" rel=\"stylesheet\">
 <link href=\"https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.14.0/css/mdb.min.css\" rel=\"stylesheet\">
+
+{# photo lightbox #}
 <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css\" />
 <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css\" />
 <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css\" />

@@ -38,16 +38,20 @@ class __TwigTemplate_7df8c035f9a824df97983181c0661ae904c5ed316469b58c8277833a66b
 <script type=\"text/javascript\" src=\"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js\"></script>
 <script type=\"text/javascript\" src=\"https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js\"></script>
 <script type=\"text/javascript\" src=\"https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.14.0/js/mdb.min.js\"></script>
+
+
 <script src=\"https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js\"></script>
 <script src=\"https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js\"></script>
 
 <script type=\"text/javascript\" src=\"";
-        // line 15
+        // line 17
         echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
         echo "/public/js/venobox.min.js\"></script>
 
+
+ 
 <script type=\"text/javascript\" src=\"";
-        // line 17
+        // line 21
         echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
         echo "/public/js/main.js\"></script>
   <script>
@@ -93,12 +97,15 @@ class __TwigTemplate_7df8c035f9a824df97983181c0661ae904c5ed316469b58c8277833a66b
 
 
 ";
-        // line 78
+        // line 82
         echo "
 
  
 
-  </script>";
+  </script>
+
+
+";
     }
 
     public function getTemplateName()
@@ -113,7 +120,7 @@ class __TwigTemplate_7df8c035f9a824df97983181c0661ae904c5ed316469b58c8277833a66b
 
     public function getDebugInfo()
     {
-        return array (  97 => 78,  51 => 17,  46 => 15,  37 => 8,);
+        return array (  101 => 82,  55 => 21,  48 => 17,  37 => 8,);
     }
 
     public function getSourceContext()
@@ -129,11 +136,15 @@ class __TwigTemplate_7df8c035f9a824df97983181c0661ae904c5ed316469b58c8277833a66b
 <script type=\"text/javascript\" src=\"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js\"></script>
 <script type=\"text/javascript\" src=\"https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js\"></script>
 <script type=\"text/javascript\" src=\"https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.14.0/js/mdb.min.js\"></script>
+
+
 <script src=\"https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js\"></script>
 <script src=\"https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js\"></script>
 
 <script type=\"text/javascript\" src=\"{{URLROOT}}/public/js/venobox.min.js\"></script>
 
+
+ 
 <script type=\"text/javascript\" src=\"{{URLROOT}}/public/js/main.js\"></script>
   <script>
     // Get the current year for the copyright
@@ -199,6 +210,9 @@ class __TwigTemplate_7df8c035f9a824df97983181c0661ae904c5ed316469b58c8277833a66b
 
  
 
-  </script>", "./inc/scripts.html.twig", "/var/www/tndevfactory/public_html/ARAM/app/views/inc/scripts.html.twig");
+  </script>
+
+
+", "./inc/scripts.html.twig", "/var/www/tndevfactory/public_html/ARAM/app/views/inc/scripts.html.twig");
     }
 }

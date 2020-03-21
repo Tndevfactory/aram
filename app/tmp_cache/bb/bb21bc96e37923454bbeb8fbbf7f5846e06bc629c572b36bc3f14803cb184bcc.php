@@ -40,7 +40,7 @@ class __TwigTemplate_b10fc6549f2596f8006e6a496d66d6acb160a9801170fb8e93f15223840
 <style>
 
 #searchBar .search {
-  width: 100%;
+  width:100%;
   position: static;
   display: flex;
 }
@@ -78,28 +78,28 @@ class __TwigTemplate_b10fc6549f2596f8006e6a496d66d6acb160a9801170fb8e93f15223840
 
 </style>
 
-<section id=\"searchBar\" class=\"py-3 py-lg-0\">
+<section id=\"searchBar\" class=\"my-5 py-3 py-lg-0\">
   <div class=\"row\">
-    <div class=\"container\">
-      <div class=\"col-sm-12 col-md-12 col-lg-12\">
-          <div class=\"search\">
-              <input id=\"ent\" type=\"text\" class=\"searchTerm\" 
-              placeholder=\"Recherche rapide...\">
-              <button type=\"submit\" id=\"searchBut\" class=\"searchButton\">
-                <i class=\"fa fa-search\"></i>
-              </button>
-          </div>
-      </div> 
+    <div class=\"container \">
+        <div id=\"sss\" class=\"col-12 col-xl-9\" >
+            <div class=\"search\">
+                <input id=\"ent\" type=\"text\" class=\"searchTerm\" 
+                placeholder=\"Recherche rapide...\">
+                <button type=\"submit\" id=\"searchBut\" class=\"searchButton\">
+                  <i class=\"fa fa-search\"></i>
+                </button>
+            </div>
+        </div> 
     </div> 
   </div> 
 
 
-  <div id=\"docker\" class=\"container\" >  <div>
+  <div id=\"docker\" class=\"container py-3\" >  <div>
    
 
 </section>
 
-  ";
+";
         // line 65
         $this->displayBlock('script', $context, $blocks);
     }
@@ -129,16 +129,19 @@ class __TwigTemplate_b10fc6549f2596f8006e6a496d66d6acb160a9801170fb8e93f15223840
 
                   if (data == 0){
                         
-                      var nothing=`<div id=\"res\" class=\" red-text pl-5 py-3 mb-1 font-weight-bold\">
-                                        <span >  nothing found </span><br>
-                                    </div>`;
+                      var nothing=`
+                      <div id=\"res\" 
+                      class=\" orange-text pl-4 ml-xl-3  pt-3 font-weight-bold\">
+                         <span > Desolé on n'as pas trouvé d'élements dans nos bases </span> 
+                       </div>`;
 
                       response.html(nothing);
                 
                   }else {
                       response.empty();
                         \$.each(data, function(index, obj) {
-                            var result=`<div id=\"res\"  class=\" blue-text pl-4 py-1\" >
+                            var result=`<div id=\"res\"  
+                            class=\" blue-text pl-4 ml-xl-3 pt-3\" >
                                             <span class=\"  blue-text font-weight-bold mr-0\">\${index}:</span><a href=\"\${'http://localhost/ARAM/homes/'+obj.methodPageName}\" class=\" blue-text pl-2 font-weight-bold\">https://aram-clinic.com/\${obj.methodPageName}</a><br>
                                               <span class=\" font-small black-text pl-5\">Description:\${obj.description}</span><br>
                                         </div>`;
@@ -154,15 +157,34 @@ class __TwigTemplate_b10fc6549f2596f8006e6a496d66d6acb160a9801170fb8e93f15223840
               });
 
           }else{
-                  var nodata=`<div id=\"res\" class=\" red-text pl-5 py-3 mb-1 font-weight-bold\">
-                                <span >  please insert some data to perform search  </span><br>
-                            </div>`;
+                  var nodata=`
+                  <div id=\"res\"
+                  class=\" orange-text pl-4 ml-xl-3 pt-3 font-weight-bold\">
+                      <span > Merci d'inserer des élements de recherche </span>
+                   </div>`;
 
                 response.html(nodata);
           }
       }); 
+
+        searchbarre=document.getElementById(\"sss\")
+
+        window.addEventListener('resize', function(event){
+         
+          var w = parseFloat(window.innerWidth);
+            if(w > 1190 && w < 1800 ){
+             
+              searchbarre.style.width = 62 + '%';
+
+            }else{
+
+              searchbarre.style.width = 100 + '%';
+          
+            }
+
+        });
   </script>
-   ";
+";
     }
 
     public function getTemplateName()
@@ -182,7 +204,7 @@ class __TwigTemplate_b10fc6549f2596f8006e6a496d66d6acb160a9801170fb8e93f15223840
 <style>
 
 #searchBar .search {
-  width: 100%;
+  width:100%;
   position: static;
   display: flex;
 }
@@ -220,28 +242,28 @@ class __TwigTemplate_b10fc6549f2596f8006e6a496d66d6acb160a9801170fb8e93f15223840
 
 </style>
 
-<section id=\"searchBar\" class=\"py-3 py-lg-0\">
+<section id=\"searchBar\" class=\"my-5 py-3 py-lg-0\">
   <div class=\"row\">
-    <div class=\"container\">
-      <div class=\"col-sm-12 col-md-12 col-lg-12\">
-          <div class=\"search\">
-              <input id=\"ent\" type=\"text\" class=\"searchTerm\" 
-              placeholder=\"Recherche rapide...\">
-              <button type=\"submit\" id=\"searchBut\" class=\"searchButton\">
-                <i class=\"fa fa-search\"></i>
-              </button>
-          </div>
-      </div> 
+    <div class=\"container \">
+        <div id=\"sss\" class=\"col-12 col-xl-9\" >
+            <div class=\"search\">
+                <input id=\"ent\" type=\"text\" class=\"searchTerm\" 
+                placeholder=\"Recherche rapide...\">
+                <button type=\"submit\" id=\"searchBut\" class=\"searchButton\">
+                  <i class=\"fa fa-search\"></i>
+                </button>
+            </div>
+        </div> 
     </div> 
   </div> 
 
 
-  <div id=\"docker\" class=\"container\" >  <div>
+  <div id=\"docker\" class=\"container py-3\" >  <div>
    
 
 </section>
 
-  {% block script %}
+{% block script %}
   <script>
       \$(\"#searchBut\").click(function(e) {
          
@@ -263,16 +285,19 @@ class __TwigTemplate_b10fc6549f2596f8006e6a496d66d6acb160a9801170fb8e93f15223840
 
                   if (data == 0){
                         
-                      var nothing=`<div id=\"res\" class=\" red-text pl-5 py-3 mb-1 font-weight-bold\">
-                                        <span >  nothing found </span><br>
-                                    </div>`;
+                      var nothing=`
+                      <div id=\"res\" 
+                      class=\" orange-text pl-4 ml-xl-3  pt-3 font-weight-bold\">
+                         <span > Desolé on n'as pas trouvé d'élements dans nos bases </span> 
+                       </div>`;
 
                       response.html(nothing);
                 
                   }else {
                       response.empty();
                         \$.each(data, function(index, obj) {
-                            var result=`<div id=\"res\"  class=\" blue-text pl-4 py-1\" >
+                            var result=`<div id=\"res\"  
+                            class=\" blue-text pl-4 ml-xl-3 pt-3\" >
                                             <span class=\"  blue-text font-weight-bold mr-0\">\${index}:</span><a href=\"\${'http://localhost/ARAM/homes/'+obj.methodPageName}\" class=\" blue-text pl-2 font-weight-bold\">https://aram-clinic.com/\${obj.methodPageName}</a><br>
                                               <span class=\" font-small black-text pl-5\">Description:\${obj.description}</span><br>
                                         </div>`;
@@ -288,15 +313,34 @@ class __TwigTemplate_b10fc6549f2596f8006e6a496d66d6acb160a9801170fb8e93f15223840
               });
 
           }else{
-                  var nodata=`<div id=\"res\" class=\" red-text pl-5 py-3 mb-1 font-weight-bold\">
-                                <span >  please insert some data to perform search  </span><br>
-                            </div>`;
+                  var nodata=`
+                  <div id=\"res\"
+                  class=\" orange-text pl-4 ml-xl-3 pt-3 font-weight-bold\">
+                      <span > Merci d'inserer des élements de recherche </span>
+                   </div>`;
 
                 response.html(nodata);
           }
       }); 
+
+        searchbarre=document.getElementById(\"sss\")
+
+        window.addEventListener('resize', function(event){
+         
+          var w = parseFloat(window.innerWidth);
+            if(w > 1190 && w < 1800 ){
+             
+              searchbarre.style.width = 62 + '%';
+
+            }else{
+
+              searchbarre.style.width = 100 + '%';
+          
+            }
+
+        });
   </script>
-   {% endblock  %}
+{% endblock  %}
 ", "/components/index/fr/searchForm.twig", "/var/www/tndevfactory/public_html/ARAM/app/views/components/index/fr/searchForm.twig");
     }
 }

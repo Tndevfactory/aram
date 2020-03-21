@@ -116,7 +116,7 @@ font-weight:900;
                         <ul class=\"navbar-nav mx-auto\">
 
                             <li class=\"nav-item \">
-                                <a class=\"nav-link\" href=\"#\">Acceuil </a>
+                                <a class=\"nav-link\" href=\"#\">Accueil </a>
                             </li>
 
                             <li class=\"nav-item dropdown menu-area\">
@@ -416,7 +416,7 @@ font-weight:900;
                         <ul class=\"navbar-nav mx-auto\">
 
                             <li class=\"nav-item \">
-                                <a class=\"nav-link\" href=\"#\">Acceuil </a>
+                                <a class=\"nav-link\" href=\"#\">Accueil </a>
                             </li>
 
                             <li class=\"nav-item dropdown menu-area\">

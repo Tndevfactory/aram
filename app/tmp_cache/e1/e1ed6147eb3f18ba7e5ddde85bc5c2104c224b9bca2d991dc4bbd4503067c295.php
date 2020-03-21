@@ -92,10 +92,7 @@ class __TwigTemplate_f591bcc280a52a242a939e1c2930c7bca0da78fe05b21d8c3ee7b9f7579
    
     <header>
         <div class=\"overlay\"></div>
-     ";
-        // line 59
-        echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
-        echo "public\\video\\aram.mp4
+     
         <video playsinline=\"playsinline\" autoplay=\"autoplay\" muted=\"muted\" loop=\"loop\">
           <source src=\"http://localhost/ARAM/public/video/aram-.mp4\" type=\"video/mp4\">
         </video>
@@ -122,14 +119,9 @@ class __TwigTemplate_f591bcc280a52a242a939e1c2930c7bca0da78fe05b21d8c3ee7b9f7579
         return "/components/index/fr/showcaseVideo.twig";
     }
 
-    public function isTraitable()
-    {
-        return false;
-    }
-
     public function getDebugInfo()
     {
-        return array (  97 => 59,  37 => 1,);
+        return array (  37 => 1,);
     }
 
     public function getSourceContext()
@@ -192,7 +184,7 @@ class __TwigTemplate_f591bcc280a52a242a939e1c2930c7bca0da78fe05b21d8c3ee7b9f7579
    
     <header>
         <div class=\"overlay\"></div>
-     {{URLROOT}}public\\video\\aram.mp4
+     
         <video playsinline=\"playsinline\" autoplay=\"autoplay\" muted=\"muted\" loop=\"loop\">
           <source src=\"http://localhost/ARAM/public/video/aram-.mp4\" type=\"video/mp4\">
         </video>

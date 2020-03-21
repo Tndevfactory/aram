@@ -42,21 +42,21 @@ class __TwigTemplate_c97961a1e62edefbd6eb6c234b842e5242ebca6ba4231ccb918a21b6cd2
     <div class=\"container\">
       <div class=\"row\">
        
-        <div class=\"col-md-4 mb-4 text-center\">
+        <div class=\"col-12 col-xl-4 mb-4 text-center\">
         
           <i class=\"fas fa-user-md fa-3x mb-2\"></i>
           <h3>Techniques de pointe</h3>
           <p>La technique de greffe DHI est rapide, efficace, sans cicatrices</p>
         </div>
        
-        <div class=\"col-md-4 mb-4 text-center\">
+        <div class=\"col-12 col-xl-4  text-center\">
      
           <i class=\"fas fa-euro-sign fa-3x mb-2\"></i>
           <h3>Jusqu'à 70% moins cher</h3>
           <p>Votre greffe de cheveux moins chère pour un résultat parfait</p>
         </div>
        
-         <div class=\"col-md-4 mb-4 text-center\">
+         <div class=\"col-12 col-xl-4  text-center\">
           <i class=\"fas fa-infinity fa-3x mb-2\"></i>
           <h3>Séjour 100% tout compris</h3>
           <p>Hair Expert assure votre prise en charge en Turquie de A à Z</p>
@@ -86,21 +86,21 @@ class __TwigTemplate_c97961a1e62edefbd6eb6c234b842e5242ebca6ba4231ccb918a21b6cd2
     <div class=\"container\">
       <div class=\"row\">
        
-        <div class=\"col-md-4 mb-4 text-center\">
+        <div class=\"col-12 col-xl-4 mb-4 text-center\">
         
           <i class=\"fas fa-user-md fa-3x mb-2\"></i>
           <h3>Techniques de pointe</h3>
           <p>La technique de greffe DHI est rapide, efficace, sans cicatrices</p>
         </div>
        
-        <div class=\"col-md-4 mb-4 text-center\">
+        <div class=\"col-12 col-xl-4  text-center\">
      
           <i class=\"fas fa-euro-sign fa-3x mb-2\"></i>
           <h3>Jusqu'à 70% moins cher</h3>
           <p>Votre greffe de cheveux moins chère pour un résultat parfait</p>
         </div>
        
-         <div class=\"col-md-4 mb-4 text-center\">
+         <div class=\"col-12 col-xl-4  text-center\">
           <i class=\"fas fa-infinity fa-3x mb-2\"></i>
           <h3>Séjour 100% tout compris</h3>
           <p>Hair Expert assure votre prise en charge en Turquie de A à Z</p>

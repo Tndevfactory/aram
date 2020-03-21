@@ -37,36 +37,22 @@ class __TwigTemplate_c982b606aace8e804f62d2ca9ab9ccc64d34adc6b83a8760ae558b7ac7e
         echo "
 
 <style>
-.headerAR {
- 
-  font-size: 80%;
-  text-align:right;
-  padding-right:15px;
-}
 
-";
-        // line 12
-        echo "
+  #header1 {
+    font-size: 60%;
+    text-align:right;
+    padding-right:15px;
+  }
+
 </style>
 
-
-
-            <div class=\"jumbotron py-2 mb-0 \" style=\"background-color:#010203;\">
-                <div class=\"row\">
-                <i class=\"\"></i>
-
-                <span  style=\"color:#E1AD21;\" class=\"h4 px-3  text-uppercase \"> Aram Clinic</span > 
-                <span> <i style=\"color:#E1AD21;\" class=\"animated tada fas fa-phone-volume fa-2x  \"> </i> </span>
-                <span class=\" h4 pl-2 \" style=\"color:#E1AD21;\"> +262 269 33 87 99 </span> 
-
-
-               <!-- <a href=\"#\" >  <span class=\" h6 pl-2 white-text \"> <i class=\"fab fa-facebook-messenger fa-2x\"></i> </span> </a>
-                <a href=\"#\" >  <span class=\" h6 pl-2 white-text\"> <i class=\" far fa-envelope fa-2x\"></i> </span> </a>
-                <a href=\"#\" >  <span class=\" h6 pl-2 white-text\"><i class=\" fab fa-whatsapp fa-2x\"></i></span> </a>-->
-              
-    
-                </div>
-            </div>
+  <div id=\"header1\" class=\"jumbotron jumbotron-fluid py-2 mb-0 \" style=\"border-radius:0;background-color:#010203;\">
+      <div class=\"row\">
+          <span  style=\"color:#E1AD21; margin-top:3px;\" class=\"h5  px-3 ml-2 text-uppercase \"> Aram Clinic</span > 
+          <span> <i style=\"color:#E1AD21;\" class=\"animated tada fas fa-phone-volume fa-2x  \"> </i> </span>
+          <span class=\" h5 pl-2 \" style=\"color:#E1AD21;\"> +262 269 33 87 99 </span> 
+      </div>
+  </div>
 
 
 ";
@@ -79,7 +65,7 @@ class __TwigTemplate_c982b606aace8e804f62d2ca9ab9ccc64d34adc6b83a8760ae558b7ac7e
 
     public function getDebugInfo()
     {
-        return array (  49 => 12,  37 => 1,);
+        return array (  37 => 1,);
     }
 
     public function getSourceContext()
@@ -87,35 +73,22 @@ class __TwigTemplate_c982b606aace8e804f62d2ca9ab9ccc64d34adc6b83a8760ae558b7ac7e
         return new Source("
 
 <style>
-.headerAR {
- 
-  font-size: 80%;
-  text-align:right;
-  padding-right:15px;
-}
 
-{# dir=\"rtl\"  #}
+  #header1 {
+    font-size: 60%;
+    text-align:right;
+    padding-right:15px;
+  }
 
 </style>
 
-
-
-            <div class=\"jumbotron py-2 mb-0 \" style=\"background-color:#010203;\">
-                <div class=\"row\">
-                <i class=\"\"></i>
-
-                <span  style=\"color:#E1AD21;\" class=\"h4 px-3  text-uppercase \"> Aram Clinic</span > 
-                <span> <i style=\"color:#E1AD21;\" class=\"animated tada fas fa-phone-volume fa-2x  \"> </i> </span>
-                <span class=\" h4 pl-2 \" style=\"color:#E1AD21;\"> +262 269 33 87 99 </span> 
-
-
-               <!-- <a href=\"#\" >  <span class=\" h6 pl-2 white-text \"> <i class=\"fab fa-facebook-messenger fa-2x\"></i> </span> </a>
-                <a href=\"#\" >  <span class=\" h6 pl-2 white-text\"> <i class=\" far fa-envelope fa-2x\"></i> </span> </a>
-                <a href=\"#\" >  <span class=\" h6 pl-2 white-text\"><i class=\" fab fa-whatsapp fa-2x\"></i></span> </a>-->
-              
-    
-                </div>
-            </div>
+  <div id=\"header1\" class=\"jumbotron jumbotron-fluid py-2 mb-0 \" style=\"border-radius:0;background-color:#010203;\">
+      <div class=\"row\">
+          <span  style=\"color:#E1AD21; margin-top:3px;\" class=\"h5  px-3 ml-2 text-uppercase \"> Aram Clinic</span > 
+          <span> <i style=\"color:#E1AD21;\" class=\"animated tada fas fa-phone-volume fa-2x  \"> </i> </span>
+          <span class=\" h5 pl-2 \" style=\"color:#E1AD21;\"> +262 269 33 87 99 </span> 
+      </div>
+  </div>
 
 
 {# 

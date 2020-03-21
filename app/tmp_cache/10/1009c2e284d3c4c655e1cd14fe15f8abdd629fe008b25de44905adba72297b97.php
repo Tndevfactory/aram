@@ -1,117 +1,108 @@
+<?php
 
-{% extends 'layout.twig' %}
-{% block title %}  <title> LAB </title> {% endblock  %}
+use Twig\Environment;
+use Twig\Error\LoaderError;
+use Twig\Error\RuntimeError;
+use Twig\Extension\SandboxExtension;
+use Twig\Markup;
+use Twig\Sandbox\SecurityError;
+use Twig\Sandbox\SecurityNotAllowedTagError;
+use Twig\Sandbox\SecurityNotAllowedFilterError;
+use Twig\Sandbox\SecurityNotAllowedFunctionError;
+use Twig\Source;
+use Twig\Template;
+
+/* /homes/index.twig */
+class __TwigTemplate_76c0648cb544f8370c3fb1d98ea08a92b5eb13dc14b5cc4ecc000c55f5b45b87 extends Template
+{
+    private $source;
+    private $macros = [];
+
+    public function __construct(Environment $env)
+    {
+        parent::__construct($env);
+
+        $this->source = $this->getSourceContext();
+
+        $this->parent = false;
+
+        $this->blocks = [
+        ];
+    }
+
+    protected function doDisplay(array $context, array $blocks = [])
+    {
+        $macros = $this->macros;
+        // line 1
+        echo "
+";
+    }
+
+    public function getTemplateName()
+    {
+        return "/homes/index.twig";
+    }
+
+    public function getDebugInfo()
+    {
+        return array (  37 => 1,);
+    }
+
+    public function getSourceContext()
+    {
+        return new Source("
+{# {% extends 'layout.twig' %}
+{% block title %}  <title> ch override by block  </title> {% endblock  %}
   
 {% block content %}
 
-        {# {% if LANG == 'fr' %} #}
-
-                        {# {% block simpleMegamenu %}
-                                {% include('/inc/navbarMegaMenu.html.twig') %}
-                            {% endblock  %}  #}
-
-                            {# {% block carouselfr %}
-                                {% include('/components/index/fr/showcaseBackgroundImage.twig') %}
-                            {% endblock  %}  #}
-                           
+        {% if LANG == 'fr' %}
                             {% block carouselfr %}
-                                {% include('/components/index/fr/showcaseVideo.twig') %}
+                                {% include('/components/index/fr/showcase_caroussel.twig') %}
                             {% endblock  %}
                           
                             {% block lead_form_floatfr %} 
-                                  {% include('/components/index/fr/leadFormFloat.twig') %}
+                                  {% include('/components/index/fr/lead_form_float.twig') %}
                             {% endblock  %}
 
-                            {# {% block lead_form_floatzoho %} 
-                                  {% include('/components/index/fr/leadFormFloatzoho.twig') %}
-                            {% endblock  %} #}
-                           
-                            {% block searchForm %} 
-                                  {% include('/components/index/fr/searchForm.twig') %}
+                            {% block lead_form_fixfr %} 
+                                  {% include('/components/index/fr/lead_form_fix.twig') %}
                             {% endblock  %}
-
-                            {# {% block lead_form_fixfr %} 
-                                  {% include('/components/index/fr/leadFormFix.twig') %}
-                            {% endblock  %}
-                             #}
-
-                           {% block home_icon_sectionfr %}
-                                <div class="container ">
-                                {% include('/components/index/fr/homeIconSection.twig') %}
+                            
+                            {% block home_icon_sectionfr %}
+                                <div class=\"container \">
+                                {% include('/components/index/fr/home_icon_section.twig') %}
                                 </div>
                             {% endblock  %}
 
-                             {# {% block home_heading_sectionfr %}
-                                {% include('/components/index/fr/homeHeadingSection.twig') %}
-                            {% endblock  %} #}
-                             {% block home_heading_section1fr %}
-                                {% include('/components/index/fr/homeHeadingSectionCurved.twig') %}
+                            {% block home_heading_sectionfr %}
+                                {% include('/components/index/fr/home_heading_section.twig') %}
                             {% endblock  %}
 
                             {% block info_sectionfr %}
-                              <div class="container ">
-                                {% include('/components/index/fr/infoSection.twig') %}
+                              <div class=\"container \">
+                                {% include('/components/index/fr/info_section.twig') %}
                               </div>
                             {% endblock  %}
 
-                            {# {% block video_play_sectionfr %}
-                            {% include('/components/index/fr/videoPlaySection.twig') %}
-                            {% endblock  %} #}
-
-                            {% block homeHeadingSectionCurved2fr %}
-                            {% include('/components/index/fr/homeHeadingSectionCurved2.twig') %}
+                            {% block video_play_sectionfr %}
+                            {% include('/components/index/fr/video_play_section.twig') %}
                             {% endblock  %}
 
-                            {# {% block photo_gallery_sectionfr %}
-                              <div class="container ">
-                                {% include('/components/index/fr/photoGallerySection.twig') %}
-                              </div>
-                            {% endblock  %} #}
-
-                            {% block photo_gallery_sectionBEFOREAFTERfr %}
-                              <div class="container ">
-                                {% include('/components/index/fr/photoGallerySectionBeforeAfter.twig') %}
+                            {% block photo_gallery_sectionfr %}
+                              <div class=\"container \">
+                                {% include('/components/index/fr/photo_gallery_section.twig') %}
                               </div>
                             {% endblock  %}
 
-                            {% block home_heading_section3fr %}
-                                {% include('/components/index/fr/homeHeadingSectionCurved.twig') %}
+                            {% block newsletter_sectionfr %}
+                              {% include('/components/index/fr/newsletter_section.twig') %}
                             {% endblock  %}
 
-                            {% block video_gallery_sectionvidfr %}
-                              <div class="container ">
-                                {% include('/components/index/fr/videoGallerySection.twig') %}
-                              </div>
-                            {% endblock  %}
-
-                             {% block home_heading_section4fr %}
-                                {% include('/components/index/fr/homeHeadingSectionCurved.twig') %}
-                            {% endblock  %}
-
-                             {% block home_counterUp %}
-                                {% include('/components/index/fr/counterUp.twig') %}
-                            {% endblock  %}
-
-                            {% block video_gallery_sectionfr %}
-                              <div class="container ">
-                                {% include('/components/index/fr/testimonials.twig') %}
-                              </div>
-                            {% endblock  %}
-
-                           
-
-                            {# {% block newsletter_sectionfr %}
-                              {% include('/components/index/fr/newsletterSection.twig') %}
-                            {% endblock  %}   #}
-                            
-                            {% block leadFormFixBottomfr %}
-                              {% include('/components/index/fr/leadFormFixBottom.twig') %}
-                            {% endblock  %}  
-
-        {# {% endif %} #}
+        {% endif %}
       
- 
-      {# {% if LANG == 'en' %}
+
+      {% if LANG == 'en' %}
                             {% block carouselan %}
                                 {% include('/components/index/en/showcase_caroussel.twig') %}
                             {% endblock  %}
@@ -125,7 +116,7 @@
                             {% endblock  %}
                             
                             {% block home_icon_sectionen %}
-                                <div class="container ">
+                                <div class=\"container \">
                                 {% include('/components/index/en/home_icon_section.twig') %}
                                 </div>
                             {% endblock  %}
@@ -135,7 +126,7 @@
                             {% endblock  %}
 
                             {% block info_sectionen %}
-                              <div class="container ">
+                              <div class=\"container \">
                                 {% include('/components/index/en/info_section.twig') %}
                               </div>
                             {% endblock  %}
@@ -145,7 +136,7 @@
                             {% endblock  %}
 
                             {% block photo_gallery_sectionen %}
-                              <div class="container ">
+                              <div class=\"container \">
                                 {% include('/components/index/en/photo_gallery_section.twig') %}
                               </div>
                             {% endblock  %}
@@ -172,7 +163,7 @@
                             {% endblock  %}
                             
                             {% block home_icon_sectiongr %}
-                                <div class="container ">
+                                <div class=\"container \">
                                 {% include('/components/index/gr/home_icon_section.twig') %}
                                 </div>
                             {% endblock  %}
@@ -182,7 +173,7 @@
                             {% endblock  %}
 
                             {% block info_sectiongr %}
-                              <div class="container ">
+                              <div class=\"container \">
                                 {% include('/components/index/gr/info_section.twig') %}
                               </div>
                             {% endblock  %}
@@ -192,7 +183,7 @@
                             {% endblock  %}
 
                             {% block photo_gallery_sectiongr %}
-                              <div class="container ">
+                              <div class=\"container \">
                                 {% include('/components/index/gr/photo_gallery_section.twig') %}
                               </div>
                             {% endblock  %}
@@ -219,7 +210,7 @@
                             {% endblock  %}
                             
                             {% block home_icon_sectionar %}
-                                <div class="container ">
+                                <div class=\"container \">
                                 {% include('/components/index/ar/home_icon_section.twig') %}
                                 </div>
                             {% endblock  %}
@@ -229,7 +220,7 @@
                             {% endblock  %}
 
                             {% block info_sectionar %}
-                              <div class="container ">
+                              <div class=\"container \">
                                 {% include('/components/index/ar/info_section.twig') %}
                               </div>
                             {% endblock  %}
@@ -239,7 +230,7 @@
                             {% endblock  %}
 
                             {% block photo_gallery_sectionar %}
-                              <div class="container ">
+                              <div class=\"container \">
                                 {% include('/components/index/ar/photo_gallery_section.twig') %}
                               </div>
                             {% endblock  %}
@@ -248,6 +239,9 @@
                               {% include('/components/index/ar/newsletter_section.twig') %}
                             {% endblock  %}
 
-    {% endif %}  #}
+    {% endif %}
 
- {% endblock  %}
+ {% endblock  %} #}
+", "/homes/index.twig", "/var/www/tndevfactory/public_html/ARAM/app/views/homes/index.twig");
+    }
+}

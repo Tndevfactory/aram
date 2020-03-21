@@ -39,100 +39,84 @@ class __TwigTemplate_4a56735cb54121c75ca0b0b9538e007c4272b4c0dd534b364391ef9bee1
 <style>
 form#lead_form_float {
             width:400px;
-            position:relative;
-            top:-90px;
+            position:absolute;
+            top:-50px;
             z-index:900;
-             border-radius:10px;
-           /*background:#010203;*/
-          background:#B0B0B0;
+            background:#B0B0B0;
+            marg
             color:black;
-             border: 1px solid grey;;
-             
-}
-
- ";
-        // line 35
-        echo "
-";
-        // line 49
-        echo "
-
-
+            border: 1px solid grey; }
  </style>
 
-";
-        // line 55
-        echo "
-          <form 
-          id=\"lead_form_float\" 
-          action=\"";
-        // line 58
-        echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
-        echo "/homes/newsletter\" 
-          method=\"post\" 
-          class=\" box text-center form d-none d-lg-block p-3 z-depth-1 \"
-          >
-                 
-                 <h4 class=\"text-center  mb-4 \" >Demander un devis </h4>
-                 <br>
-                     <div class=\"input-group mb-3\">
-                        <div class=\"input-group-prepend\">
-                          <span class=\"input-group-text\" id=\"basic-addon1\"><i style=\"width:22px\"  class=\"fas fa-portrait\"></i></span>
-                        </div>
-                        <input type=\"text\" class=\"form-control\" placeholder=\"Votre nom au complet\" >
-                     </div>
+<section style=\"position:relative\">
+          <form  id=\"lead_form_float\" action=\"#\" method=\"post\" 
+          class=\" my-0 p-3 text-center d-none d-xl-block  z-depth-3 \">
 
-                     <div class=\"input-group mb-3\">
-                        <div class=\"input-group-prepend\">
-                          <span class=\"input-group-text\" id=\"basic-addon1\"><i style=\"width:22px\"  class=\"fas fa-mobile-alt\"></i></span>
-                        </div>
-                        <input type=\"text\" class=\"form-control\" placeholder=\"Votre numéro de téléphone\" >
-                     </div>
+            <h4 class=\"text-center  mb-3\">Demander un devis </h4><br>
 
-                     <div class=\"input-group mb-3\">
-                        <div class=\"input-group-prepend\">
-                          <span class=\"input-group-text\" id=\"basic-addon1\"><i style=\"width:22px\"  class=\"fas fa-at\"></i></span>
-                        </div>
-                        <input type=\"text\" class=\"form-control\" placeholder=\"Votre adresse email\" >
-                     </div>
+            <div class=\"input-group mb-3\">
+              <div class=\"input-group-prepend\">
+                <span class=\"input-group-text\" id=\"basic-addon1\">
+                <i style=\"width:22px\"  class=\"fas fa-portrait\"></i></span>
+              </div>
+              <input type=\"text\" class=\"form-control\" 
+                placeholder=\"Votre nom au complet\" >
+            </div>
 
-                      <div class=\"input-group mb-3\">
-                        <div class=\"input-group-prepend\">
-                          <label class=\"input-group-text\" for=\"inputGroupSelect01\"><i style=\"width:22px\" class=\"fas fa-user-md\"></i></label>
-                        </div>
-                        <select class=\"custom-select\" id=\"inputGroupSelect01\">
-                          <option selected>Intervention souhaitée...</option>
-                          <option value=\"1\">Lifting visage</option>
-                          <option value=\"2\">Blépharoplastie </option>
-                          <option value=\"3\">Rhinoplastie</option>
-                          <option value=\"1\">Lifting seins</option>
-                          <option value=\"2\">Prothèses mammaires</option>
-                          <option value=\"3\">Lipofilling mammaire</option>
-                          <option value=\"1\">Liposuccion</option>
-                          <option value=\"2\">Abdominoplastie  </option>
-                          <option value=\"3\">Augmentation fesses</option>
-                          <option value=\"1\">Greffe cheveux </option>
-                          <option value=\"2\">Greffe barbe </option>
-                          <option value=\"3\">Greffe sourcils</option>
-                        </select>
-                      </div>
+            <div class=\"input-group mb-3\">
+              <div class=\"input-group-prepend\">
+                <span class=\"input-group-text\" id=\"basic-addon1\">
+                <i style=\"width:22px\"  class=\"fas fa-mobile-alt\"></i></span>
+              </div>
+              <input type=\"text\" class=\"form-control\"
+                placeholder=\"Votre numéro de téléphone\" >
+            </div>
 
+            <div class=\"input-group mb-3\">
+              <div class=\"input-group-prepend\">
+                <span class=\"input-group-text\" id=\"basic-addon1\">
+                <i style=\"width:22px\"  class=\"fas fa-at\"></i></span>
+              </div>
+              <input type=\"text\" class=\"form-control\" placeholder=\"Votre adresse email\" >
+            </div>
 
-                      <br>
-                        <button 
-                        style=\"margin-top:-4px; border:1px solid black; border-radius:10px;color:black;margin-top:5px;\" 
-                        class=\"ml-4 rounded btn  z-depth-0 grey accent-3\">
-                        Envoyer
-                        </button>
+            <div class=\"input-group mb-3\">
+              <div class=\"input-group-prepend\">
+                <label class=\"input-group-text\" for=\"inputGroupSelect22\"><i style=\"width:22px\" class=\"fas fa-user-md\"></i></label>
+              </div>
+              <select class=\"custom-select\" id=\"inputGroupSelect22\">
+                <option selected>Intervention souhaitée...</option>
+                <option value=\"1\">Lifting visage</option>
+                <option value=\"2\">Blépharoplastie </option>
+                <option value=\"3\">Rhinoplastie</option>
+                <option value=\"1\">Lifting seins</option>
+                <option value=\"2\">Prothèses mammaires</option>
+                <option value=\"3\">Lipofilling mammaire</option>
+                <option value=\"1\">Liposuccion</option>
+                <option value=\"2\">Abdominoplastie  </option>
+                <option value=\"3\">Augmentation fesses</option>
+                <option value=\"1\">Greffe cheveux </option>
+                <option value=\"2\">Greffe barbe </option>
+                <option value=\"3\">Greffe sourcils</option>
+              </select>
+            </div>
+
+            <br>
+              <button 
+                  style=\"margin-top:-4px; border:1px solid black; border-radius:10px;color:black;margin-top:5px;\" 
+                  class=\"ml-4 rounded btn  z-depth-0 grey accent-3\">
+                  Envoyer
+              </button>
           </form>
-   
+</section>  
+
  <script>
         document.getElementById(\"lead_form_float\").style.visibility = \"hidden\"; 
-      
+
         window.addEventListener('load', function(event){
           var w = parseInt(window.innerWidth);
           var h = parseInt(window.innerHeight);
-          pos=w-600;
+          pos=w-500;
           document.getElementById(\"lead_form_float\").style.visibility = \"visible\";
           document.getElementById(\"lead_form_float\").style.left = pos + 'px';
         });
@@ -140,29 +124,24 @@ form#lead_form_float {
         window.addEventListener('resize', function(event){
           var w = parseInt(window.innerWidth);
           var h = parseInt(window.innerHeight);
-           pos=w-600;
+           pos=w-500;
           document.getElementById(\"lead_form_float\").style.left = pos + 'px';
         });
-
-  ";
-        // line 135
-        echo "  ";
-        // line 136
-        echo "
-
-  /* window.onscroll = function() {myFunction()};
-
-  function myFunction() {
-    console.log(document.documentElement.scrollTop  );
-    if (document.body.scrollTop > 150 || document.documentElement.scrollTop > 150) {
-      document.getElementById(\"lead_form_float\").style.background= \"orange\";
-    } else {
-      document.getElementById(\"lead_form_float\").style.background= \"blue\";
-    }
-  } 
-
-*/
- </script>";
+      /*
+        ";
+        // line 96
+        echo "        ";
+        echo "*/
+      /* window.onscroll = function() {myFunction()};
+      function myFunction() {
+        console.log(document.documentElement.scrollTop  );
+        if (document.body.scrollTop > 150 || document.documentElement.scrollTop > 150) {
+          document.getElementById(\"lead_form_float\").style.background= \"orange\";
+        } else {
+          document.getElementById(\"lead_form_float\").style.background= \"blue\";
+        }
+      }  */
+</script>";
     }
 
     public function getTemplateName()
@@ -170,14 +149,9 @@ form#lead_form_float {
         return "/components/index/fr/leadFormFloat.twig";
     }
 
-    public function isTraitable()
-    {
-        return false;
-    }
-
     public function getDebugInfo()
     {
-        return array (  151 => 136,  149 => 135,  70 => 58,  65 => 55,  58 => 49,  55 => 35,  37 => 1,);
+        return array (  133 => 96,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -187,123 +161,84 @@ form#lead_form_float {
 <style>
 form#lead_form_float {
             width:400px;
-            position:relative;
-            top:-90px;
+            position:absolute;
+            top:-50px;
             z-index:900;
-             border-radius:10px;
-           /*background:#010203;*/
-          background:#B0B0B0;
+            background:#B0B0B0;
+            marg
             color:black;
-             border: 1px solid grey;;
-             
-}
-
- {# form#lead_form_float input{
-    
-   background-color: #E0E0E0;
-   color:black;
-   border-radius:1px;
-   /*border:1px solid #E1AD21;*/
-   border:none;
-   /*border-bottom: 0.5px solid #E1AD21;*/
-   margin-bottom:5px;
-   
-  } 
-  form#lead_form_float input:focus{
-    
-   
-   border:1px solid #E0E0E0;
-   outline: 1px solid #E0E0E0;
-   
-  } #}
-
-{# 
-@media only screen and (min-width:1000px) {
- form#lead_form_float{
-    
-   background-color: #010203;
-   color:#E1AD21;
-   border-radius:10px;
-   
-   
-  }
-
- 
-} #}
-
-
-
+            border: 1px solid grey; }
  </style>
 
-{# visible on md and up and below  #}
+<section style=\"position:relative\">
+          <form  id=\"lead_form_float\" action=\"#\" method=\"post\" 
+          class=\" my-0 p-3 text-center d-none d-xl-block  z-depth-3 \">
 
-          <form 
-          id=\"lead_form_float\" 
-          action=\"{{URLROOT}}/homes/newsletter\" 
-          method=\"post\" 
-          class=\" box text-center form d-none d-lg-block p-3 z-depth-1 \"
-          >
-                 
-                 <h4 class=\"text-center  mb-4 \" >Demander un devis </h4>
-                 <br>
-                     <div class=\"input-group mb-3\">
-                        <div class=\"input-group-prepend\">
-                          <span class=\"input-group-text\" id=\"basic-addon1\"><i style=\"width:22px\"  class=\"fas fa-portrait\"></i></span>
-                        </div>
-                        <input type=\"text\" class=\"form-control\" placeholder=\"Votre nom au complet\" >
-                     </div>
+            <h4 class=\"text-center  mb-3\">Demander un devis </h4><br>
 
-                     <div class=\"input-group mb-3\">
-                        <div class=\"input-group-prepend\">
-                          <span class=\"input-group-text\" id=\"basic-addon1\"><i style=\"width:22px\"  class=\"fas fa-mobile-alt\"></i></span>
-                        </div>
-                        <input type=\"text\" class=\"form-control\" placeholder=\"Votre numéro de téléphone\" >
-                     </div>
+            <div class=\"input-group mb-3\">
+              <div class=\"input-group-prepend\">
+                <span class=\"input-group-text\" id=\"basic-addon1\">
+                <i style=\"width:22px\"  class=\"fas fa-portrait\"></i></span>
+              </div>
+              <input type=\"text\" class=\"form-control\" 
+                placeholder=\"Votre nom au complet\" >
+            </div>
 
-                     <div class=\"input-group mb-3\">
-                        <div class=\"input-group-prepend\">
-                          <span class=\"input-group-text\" id=\"basic-addon1\"><i style=\"width:22px\"  class=\"fas fa-at\"></i></span>
-                        </div>
-                        <input type=\"text\" class=\"form-control\" placeholder=\"Votre adresse email\" >
-                     </div>
+            <div class=\"input-group mb-3\">
+              <div class=\"input-group-prepend\">
+                <span class=\"input-group-text\" id=\"basic-addon1\">
+                <i style=\"width:22px\"  class=\"fas fa-mobile-alt\"></i></span>
+              </div>
+              <input type=\"text\" class=\"form-control\"
+                placeholder=\"Votre numéro de téléphone\" >
+            </div>
 
-                      <div class=\"input-group mb-3\">
-                        <div class=\"input-group-prepend\">
-                          <label class=\"input-group-text\" for=\"inputGroupSelect01\"><i style=\"width:22px\" class=\"fas fa-user-md\"></i></label>
-                        </div>
-                        <select class=\"custom-select\" id=\"inputGroupSelect01\">
-                          <option selected>Intervention souhaitée...</option>
-                          <option value=\"1\">Lifting visage</option>
-                          <option value=\"2\">Blépharoplastie </option>
-                          <option value=\"3\">Rhinoplastie</option>
-                          <option value=\"1\">Lifting seins</option>
-                          <option value=\"2\">Prothèses mammaires</option>
-                          <option value=\"3\">Lipofilling mammaire</option>
-                          <option value=\"1\">Liposuccion</option>
-                          <option value=\"2\">Abdominoplastie  </option>
-                          <option value=\"3\">Augmentation fesses</option>
-                          <option value=\"1\">Greffe cheveux </option>
-                          <option value=\"2\">Greffe barbe </option>
-                          <option value=\"3\">Greffe sourcils</option>
-                        </select>
-                      </div>
+            <div class=\"input-group mb-3\">
+              <div class=\"input-group-prepend\">
+                <span class=\"input-group-text\" id=\"basic-addon1\">
+                <i style=\"width:22px\"  class=\"fas fa-at\"></i></span>
+              </div>
+              <input type=\"text\" class=\"form-control\" placeholder=\"Votre adresse email\" >
+            </div>
 
+            <div class=\"input-group mb-3\">
+              <div class=\"input-group-prepend\">
+                <label class=\"input-group-text\" for=\"inputGroupSelect22\"><i style=\"width:22px\" class=\"fas fa-user-md\"></i></label>
+              </div>
+              <select class=\"custom-select\" id=\"inputGroupSelect22\">
+                <option selected>Intervention souhaitée...</option>
+                <option value=\"1\">Lifting visage</option>
+                <option value=\"2\">Blépharoplastie </option>
+                <option value=\"3\">Rhinoplastie</option>
+                <option value=\"1\">Lifting seins</option>
+                <option value=\"2\">Prothèses mammaires</option>
+                <option value=\"3\">Lipofilling mammaire</option>
+                <option value=\"1\">Liposuccion</option>
+                <option value=\"2\">Abdominoplastie  </option>
+                <option value=\"3\">Augmentation fesses</option>
+                <option value=\"1\">Greffe cheveux </option>
+                <option value=\"2\">Greffe barbe </option>
+                <option value=\"3\">Greffe sourcils</option>
+              </select>
+            </div>
 
-                      <br>
-                        <button 
-                        style=\"margin-top:-4px; border:1px solid black; border-radius:10px;color:black;margin-top:5px;\" 
-                        class=\"ml-4 rounded btn  z-depth-0 grey accent-3\">
-                        Envoyer
-                        </button>
+            <br>
+              <button 
+                  style=\"margin-top:-4px; border:1px solid black; border-radius:10px;color:black;margin-top:5px;\" 
+                  class=\"ml-4 rounded btn  z-depth-0 grey accent-3\">
+                  Envoyer
+              </button>
           </form>
-   
+</section>  
+
  <script>
         document.getElementById(\"lead_form_float\").style.visibility = \"hidden\"; 
-      
+
         window.addEventListener('load', function(event){
           var w = parseInt(window.innerWidth);
           var h = parseInt(window.innerHeight);
-          pos=w-600;
+          pos=w-500;
           document.getElementById(\"lead_form_float\").style.visibility = \"visible\";
           document.getElementById(\"lead_form_float\").style.left = pos + 'px';
         });
@@ -311,26 +246,21 @@ form#lead_form_float {
         window.addEventListener('resize', function(event){
           var w = parseInt(window.innerWidth);
           var h = parseInt(window.innerHeight);
-           pos=w-600;
+           pos=w-500;
           document.getElementById(\"lead_form_float\").style.left = pos + 'px';
         });
-
-  {# gsap.from(\".box\", { opacity: 0,  y: 100,  duration: 1 }); #}
-  {# gsap.to(\".box\", {rotation: -55, x: 10, duration: 4}); #}
-
-
-  /* window.onscroll = function() {myFunction()};
-
-  function myFunction() {
-    console.log(document.documentElement.scrollTop  );
-    if (document.body.scrollTop > 150 || document.documentElement.scrollTop > 150) {
-      document.getElementById(\"lead_form_float\").style.background= \"orange\";
-    } else {
-      document.getElementById(\"lead_form_float\").style.background= \"blue\";
-    }
-  } 
-
-*/
- </script>", "/components/index/fr/leadFormFloat.twig", "/var/www/tndevfactory/public_html/ARAM/app/views/components/index/fr/leadFormFloat.twig");
+      /*
+        {# gsap.from(\".box\", { opacity: 0,  y: 100,  duration: 1 }); #}
+        {# gsap.to(\".box\", {rotation: -55, x: 10, duration: 4}); #}*/
+      /* window.onscroll = function() {myFunction()};
+      function myFunction() {
+        console.log(document.documentElement.scrollTop  );
+        if (document.body.scrollTop > 150 || document.documentElement.scrollTop > 150) {
+          document.getElementById(\"lead_form_float\").style.background= \"orange\";
+        } else {
+          document.getElementById(\"lead_form_float\").style.background= \"blue\";
+        }
+      }  */
+</script>", "/components/index/fr/leadFormFloat.twig", "/var/www/tndevfactory/public_html/ARAM/app/views/components/index/fr/leadFormFloat.twig");
     }
 }

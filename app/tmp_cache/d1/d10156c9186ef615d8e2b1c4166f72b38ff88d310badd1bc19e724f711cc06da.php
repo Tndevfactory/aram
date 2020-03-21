@@ -54,7 +54,7 @@ class __TwigTemplate_5ac32754989a59b4ea9eae18c5b43899d656404ced7bfe08f2d47127675
       <h1 class=\"text-center\">Videos AVANT APRES </h1>
       <p class=\"text-center\">Voyez les résultats</p>
 
-    <div class=\"videos\">  
+    <div class=\"videos py-5\">  
       
       <div class=\"row mb-4\">
 
@@ -175,7 +175,7 @@ class __TwigTemplate_5ac32754989a59b4ea9eae18c5b43899d656404ced7bfe08f2d47127675
       <h1 class=\"text-center\">Videos AVANT APRES </h1>
       <p class=\"text-center\">Voyez les résultats</p>
 
-    <div class=\"videos\">  
+    <div class=\"videos py-5\">  
       
       <div class=\"row mb-4\">
 

@@ -1,0 +1,70 @@
+<!-- counterup jquery animated counter -->
+<style>
+
+#counterUP .col-md-4 {
+  text-align: center;
+  padding-bottom: 50px;
+  background:red;
+  
+}
+
+
+#counterUP .counter {
+  animation-duration: 1s;
+  animation-delay: 0s;
+  color:orange;
+}
+
+#counterUP i {
+  font-size:30px !Important;
+}
+
+@media (max-width: 991px) {
+  #counterUP .col-md-4 {
+    width: 50%;
+    margin: auto auto;
+  }
+  
+}
+</style>
+
+<section id="counterUP">
+
+  <div class="container">
+
+    <div class="row">
+
+      <div class="col-md-4" >
+        <h1><span class="counter">0</span></h1>
+        <h3>Customers</h3>
+        <i class="fa fa-users"></i>
+      </div> 
+
+      <div class="col-md-4">
+        <h1><span class="counter">0</span></h1>
+        <h3>Total Web Pages</h3>
+        <i class="fa fa-desktop"></i>
+      </div>
+
+      <div class="col-md-4">
+        <h1><span class="counter">0</span></h1>
+        <h3>Cups Of Coffee</h3>
+        <i class="fa fa-coffee"></i>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+
+{% block script %}
+  <script>
+
+
+
+       
+  </script>
+{% endblock  %}

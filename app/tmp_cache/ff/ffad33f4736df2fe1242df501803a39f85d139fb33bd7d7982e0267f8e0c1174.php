@@ -38,7 +38,7 @@ class __TwigTemplate_90ace3a8e0735d00880a52665fb0c60611e050f5197b6f25d2097560e51
 <style>
 #socialFixedBarre.social{
     position:fixed;
-    top:75%;
+    top:66%;
     margin:0px;
    
 }
@@ -77,6 +77,7 @@ class __TwigTemplate_90ace3a8e0735d00880a52665fb0c60611e050f5197b6f25d2097560e51
 
 #socialFixedBarre.social ul li i.twitter{
   background-color:#55acee;
+  
 }
 #socialFixedBarre.social ul li i.facebook{
   background-color:#3d5999;
@@ -98,10 +99,11 @@ class __TwigTemplate_90ace3a8e0735d00880a52665fb0c60611e050f5197b6f25d2097560e51
     
   background-color:white;
   padding:5px;
+  border-bottom: 0.4px solid white ;
   
   /*border-radius:50%; */
-  width:40px;
-  height:40px;
+  width:55px;
+  height:55px;
   transform:rotate(0deg);
 
 }
@@ -162,7 +164,7 @@ class __TwigTemplate_90ace3a8e0735d00880a52665fb0c60611e050f5197b6f25d2097560e51
 <style>
 #socialFixedBarre.social{
     position:fixed;
-    top:75%;
+    top:66%;
     margin:0px;
    
 }
@@ -201,6 +203,7 @@ class __TwigTemplate_90ace3a8e0735d00880a52665fb0c60611e050f5197b6f25d2097560e51
 
 #socialFixedBarre.social ul li i.twitter{
   background-color:#55acee;
+  
 }
 #socialFixedBarre.social ul li i.facebook{
   background-color:#3d5999;
@@ -222,10 +225,11 @@ class __TwigTemplate_90ace3a8e0735d00880a52665fb0c60611e050f5197b6f25d2097560e51
     
   background-color:white;
   padding:5px;
+  border-bottom: 0.4px solid white ;
   
   /*border-radius:50%; */
-  width:40px;
-  height:40px;
+  width:55px;
+  height:55px;
   transform:rotate(0deg);
 
 }

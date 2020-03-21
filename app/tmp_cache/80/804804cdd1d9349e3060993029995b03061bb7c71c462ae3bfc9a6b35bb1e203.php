@@ -42,7 +42,7 @@ class __TwigTemplate_282767bd0abef9faf4d76b3262d6c1225c700bcb6cc182fbcfc6132c0e3
         // line 6
         echo "
  <!-- info_section -->
-  <section id=\"info\" class=\"py-3\">
+  <section id=\"info\" class=\"py-5\">
     <div class=\"container\">
       <div class=\"row\">
         <div class=\"col-md-6 align-self-center\">
@@ -92,7 +92,7 @@ class __TwigTemplate_282767bd0abef9faf4d76b3262d6c1225c700bcb6cc182fbcfc6132c0e3
 {# #ff8f00 amber darken-3 #}
 
  <!-- info_section -->
-  <section id=\"info\" class=\"py-3\">
+  <section id=\"info\" class=\"py-5\">
     <div class=\"container\">
       <div class=\"row\">
         <div class=\"col-md-6 align-self-center\">
