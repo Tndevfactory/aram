@@ -45,11 +45,11 @@ class __TwigTemplate_ed24d8b4537c9fbc6eff6f87baa27a14aaed187ab07d27613f6c4380ce5
   
 }
 
-
 #counterUP .counter {
   animation-duration: 1s;
   animation-delay: 0s;
   color:orange;
+  font-size:33px;
 }
 
 #counterUP i {
@@ -66,49 +66,60 @@ class __TwigTemplate_ed24d8b4537c9fbc6eff6f87baa27a14aaed187ab07d27613f6c4380ce5
 </style>
 
 <section id=\"counterUP\">
-
   <div class=\"container\">
-
     <div class=\"row\">
-
-      <div class=\"col-md-4\" >
-        <h1><span class=\"counter\">0</span></h1>
+      <div class=\"col-md-4\">
+        <p class=\"counter\">0</p>
         <h3>Customers</h3>
         <i class=\"fa fa-users\"></i>
       </div> 
-
       <div class=\"col-md-4\">
-        <h1><span class=\"counter\">0</span></h1>
+        <p class=\"counter\">0</p>
         <h3>Total Web Pages</h3>
         <i class=\"fa fa-desktop\"></i>
       </div>
-
       <div class=\"col-md-4\">
-        <h1><span class=\"counter\">0</span></h1>
+        <p class=\"counter\">0</p>
         <h3>Cups Of Coffee</h3>
         <i class=\"fa fa-coffee\"></i>
       </div>
-
     </div>
-
   </div>
-
 </section>
 
 
 
 ";
-        // line 63
+        // line 55
         $this->displayBlock('script', $context, $blocks);
     }
 
     public function block_script($context, array $blocks = [])
     {
         $macros = $this->macros;
-        // line 64
+        // line 56
         echo "  <script>
 
+let count=document.querySelectorAll(\".counter\");
+let counter = 0 , idSetInterval;
 
+idSetInterval = setInterval(valueCount, 80)
+
+function valueCount(){
+
+  counter++;
+  //count.innerHTML=counter;
+  count[0].innerHTML=counter;
+  count[1].innerHTML=counter;
+  count[2].innerHTML=counter;
+
+
+  if(counter > 150){
+    
+    console.log('end counter');
+    clearInterval(idSetInterval);
+  }
+}
 
        
   </script>
@@ -122,7 +133,7 @@ class __TwigTemplate_ed24d8b4537c9fbc6eff6f87baa27a14aaed187ab07d27613f6c4380ce5
 
     public function getDebugInfo()
     {
-        return array (  109 => 64,  102 => 63,  38 => 1,);
+        return array (  101 => 56,  94 => 55,  38 => 1,);
     }
 
     public function getSourceContext()
@@ -137,11 +148,11 @@ class __TwigTemplate_ed24d8b4537c9fbc6eff6f87baa27a14aaed187ab07d27613f6c4380ce5
   
 }
 
-
 #counterUP .counter {
   animation-duration: 1s;
   animation-delay: 0s;
   color:orange;
+  font-size:33px;
 }
 
 #counterUP i {
@@ -158,33 +169,25 @@ class __TwigTemplate_ed24d8b4537c9fbc6eff6f87baa27a14aaed187ab07d27613f6c4380ce5
 </style>
 
 <section id=\"counterUP\">
-
   <div class=\"container\">
-
     <div class=\"row\">
-
-      <div class=\"col-md-4\" >
-        <h1><span class=\"counter\">0</span></h1>
+      <div class=\"col-md-4\">
+        <p class=\"counter\">0</p>
         <h3>Customers</h3>
         <i class=\"fa fa-users\"></i>
       </div> 
-
       <div class=\"col-md-4\">
-        <h1><span class=\"counter\">0</span></h1>
+        <p class=\"counter\">0</p>
         <h3>Total Web Pages</h3>
         <i class=\"fa fa-desktop\"></i>
       </div>
-
       <div class=\"col-md-4\">
-        <h1><span class=\"counter\">0</span></h1>
+        <p class=\"counter\">0</p>
         <h3>Cups Of Coffee</h3>
         <i class=\"fa fa-coffee\"></i>
       </div>
-
     </div>
-
   </div>
-
 </section>
 
 
@@ -192,7 +195,26 @@ class __TwigTemplate_ed24d8b4537c9fbc6eff6f87baa27a14aaed187ab07d27613f6c4380ce5
 {% block script %}
   <script>
 
+let count=document.querySelectorAll(\".counter\");
+let counter = 0 , idSetInterval;
 
+idSetInterval = setInterval(valueCount, 80)
+
+function valueCount(){
+
+  counter++;
+  //count.innerHTML=counter;
+  count[0].innerHTML=counter;
+  count[1].innerHTML=counter;
+  count[2].innerHTML=counter;
+
+
+  if(counter > 150){
+    
+    console.log('end counter');
+    clearInterval(idSetInterval);
+  }
+}
 
        
   </script>

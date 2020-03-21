@@ -8,11 +8,11 @@
   
 }
 
-
 #counterUP .counter {
   animation-duration: 1s;
   animation-delay: 0s;
   color:orange;
+  font-size:33px;
 }
 
 #counterUP i {
@@ -29,33 +29,25 @@
 </style>
 
 <section id="counterUP">
-
   <div class="container">
-
     <div class="row">
-
-      <div class="col-md-4" >
-        <h1><span class="counter">0</span></h1>
+      <div class="col-md-4">
+        <p class="counter">0</p>
         <h3>Customers</h3>
         <i class="fa fa-users"></i>
       </div> 
-
       <div class="col-md-4">
-        <h1><span class="counter">0</span></h1>
+        <p class="counter">0</p>
         <h3>Total Web Pages</h3>
         <i class="fa fa-desktop"></i>
       </div>
-
       <div class="col-md-4">
-        <h1><span class="counter">0</span></h1>
+        <p class="counter">0</p>
         <h3>Cups Of Coffee</h3>
         <i class="fa fa-coffee"></i>
       </div>
-
     </div>
-
   </div>
-
 </section>
 
 
@@ -63,7 +55,26 @@
 {% block script %}
   <script>
 
+let count=document.querySelectorAll(".counter");
+let counter = 0 , idSetInterval;
 
+idSetInterval = setInterval(valueCount, 80)
+
+function valueCount(){
+
+  counter++;
+  //count.innerHTML=counter;
+  count[0].innerHTML=counter;
+  count[1].innerHTML=counter;
+  count[2].innerHTML=counter;
+
+
+  if(counter > 150){
+    
+    console.log('end counter');
+    clearInterval(idSetInterval);
+  }
+}
 
        
   </script>
