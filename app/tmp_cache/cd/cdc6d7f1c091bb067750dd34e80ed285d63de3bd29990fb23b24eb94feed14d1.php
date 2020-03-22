@@ -79,7 +79,7 @@ class __TwigTemplate_cbffbc5a91e566a61a6811981c458a679bf11e907d51511507df1e99a08
 
 @media (pointer: coarse) and (hover: none) {
   header {
-    background: url('http://localhost/ARAM/public/video/aram.mp4') black no-repeat center center scroll;
+    background: url('http://localhost/ARAM/public/video/aram-.mp4') black no-repeat center center scroll;
   }
   header video {
     display: none;
@@ -97,7 +97,7 @@ class __TwigTemplate_cbffbc5a91e566a61a6811981c458a679bf11e907d51511507df1e99a08
         echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
         echo "public\\video\\aram.mp4
         <video playsinline=\"playsinline\" autoplay=\"autoplay\" muted=\"muted\" loop=\"loop\">
-          <source src=\"http://localhost/ARAM/public/video/aram.mp4\" type=\"video/mp4\">
+          <source src=\"http://localhost/ARAM/public/video/aram-.mp4\" type=\"video/mp4\">
         </video>
 
         <div class=\"container h-100\">
@@ -179,7 +179,7 @@ class __TwigTemplate_cbffbc5a91e566a61a6811981c458a679bf11e907d51511507df1e99a08
 
 @media (pointer: coarse) and (hover: none) {
   header {
-    background: url('http://localhost/ARAM/public/video/aram.mp4') black no-repeat center center scroll;
+    background: url('http://localhost/ARAM/public/video/aram-.mp4') black no-repeat center center scroll;
   }
   header video {
     display: none;
@@ -194,7 +194,7 @@ class __TwigTemplate_cbffbc5a91e566a61a6811981c458a679bf11e907d51511507df1e99a08
         <div class=\"overlay\"></div>
      {{URLROOT}}public\\video\\aram.mp4
         <video playsinline=\"playsinline\" autoplay=\"autoplay\" muted=\"muted\" loop=\"loop\">
-          <source src=\"http://localhost/ARAM/public/video/aram.mp4\" type=\"video/mp4\">
+          <source src=\"http://localhost/ARAM/public/video/aram-.mp4\" type=\"video/mp4\">
         </video>
 
         <div class=\"container h-100\">

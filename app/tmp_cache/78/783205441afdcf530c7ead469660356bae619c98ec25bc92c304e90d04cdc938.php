@@ -27,6 +27,7 @@ class __TwigTemplate_1baa0f440f3f554180d483a760c6a7c8661831e7abb3f4d75c225e33e65
         $this->parent = false;
 
         $this->blocks = [
+            'meta' => [$this, 'block_meta'],
             'title' => [$this, 'block_title'],
             'content' => [$this, 'block_content'],
             'script' => [$this, 'block_script'],
@@ -48,70 +49,85 @@ class __TwigTemplate_1baa0f440f3f554180d483a760c6a7c8661831e7abb3f4d75c225e33e65
     <head> 
            <meta charset=\"UTF-8\">
            <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">
-           ";
-        // line 12
-        $this->loadTemplate("./inc/styles.html.twig", "layout.twig", 12)->display($context);
+
+            ";
         // line 13
+        $this->displayBlock('meta', $context, $blocks);
+        // line 16
+        echo "             
+           ";
+        // line 17
+        $this->loadTemplate("./inc/styles.html.twig", "layout.twig", 17)->display($context);
+        // line 18
         echo "            ";
         $this->displayBlock('title', $context, $blocks);
-        // line 14
+        // line 19
         echo "    </head>
     <body class=\"d-flex flex-column \" >
        
         ";
-        // line 17
-        $this->loadTemplate("/inc/header.html.twig", "layout.twig", 17)->display($context);
-        // line 18
+        // line 22
+        $this->loadTemplate("/inc/header.html.twig", "layout.twig", 22)->display($context);
+        // line 23
         echo "        ";
-        $this->loadTemplate("/inc/megamenu-responsive.html.twig", "layout.twig", 18)->display($context);
-        // line 19
+        $this->loadTemplate("/inc/megamenu-responsive.html.twig", "layout.twig", 23)->display($context);
+        // line 24
         echo "        
         ";
-        // line 20
-        $this->loadTemplate("/inc/chatPopUp.html.twig", "layout.twig", 20)->display($context);
+        // line 25
+        $this->loadTemplate("/inc/chatPopUp.html.twig", "layout.twig", 25)->display($context);
         echo " 
         
 
         ";
-        // line 23
-        $this->displayBlock('content', $context, $blocks);
-        // line 24
-        echo "         ";
-        $this->loadTemplate("./inc/footer.html.twig", "layout.twig", 24)->display($context);
-        // line 25
-        echo "         ";
-        // line 26
-        echo "         ";
-        $this->loadTemplate("/inc/social.v2html.twig", "layout.twig", 26)->display($context);
-        echo " 
-        ";
-        // line 27
-        $this->loadTemplate("./inc/scripts.html.twig", "layout.twig", 27)->display($context);
-        echo " 
-        ";
         // line 28
-        $this->displayBlock('script', $context, $blocks);
+        $this->displayBlock('content', $context, $blocks);
         // line 29
+        echo "         ";
+        $this->loadTemplate("./inc/footer.html.twig", "layout.twig", 29)->display($context);
+        // line 30
+        echo "         ";
+        // line 31
+        echo "         ";
+        $this->loadTemplate("/inc/social.v2html.twig", "layout.twig", 31)->display($context);
+        echo " 
+        ";
+        // line 32
+        $this->loadTemplate("./inc/scripts.html.twig", "layout.twig", 32)->display($context);
+        echo " 
+        ";
+        // line 33
+        $this->displayBlock('script', $context, $blocks);
+        // line 34
         echo "    </body>
     </html>
 ";
     }
 
     // line 13
+    public function block_meta($context, array $blocks = [])
+    {
+        $macros = $this->macros;
+        echo "  
+            
+             ";
+    }
+
+    // line 18
     public function block_title($context, array $blocks = [])
     {
         $macros = $this->macros;
         echo "  <title> ch</title>  ";
     }
 
-    // line 23
+    // line 28
     public function block_content($context, array $blocks = [])
     {
         $macros = $this->macros;
         echo " ";
     }
 
-    // line 28
+    // line 33
     public function block_script($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -130,7 +146,7 @@ class __TwigTemplate_1baa0f440f3f554180d483a760c6a7c8661831e7abb3f4d75c225e33e65
 
     public function getDebugInfo()
     {
-        return array (  115 => 28,  108 => 23,  101 => 13,  95 => 29,  93 => 28,  89 => 27,  84 => 26,  82 => 25,  79 => 24,  77 => 23,  71 => 20,  68 => 19,  65 => 18,  63 => 17,  58 => 14,  55 => 13,  53 => 12,  40 => 1,);
+        return array (  131 => 33,  124 => 28,  117 => 18,  108 => 13,  102 => 34,  100 => 33,  96 => 32,  91 => 31,  89 => 30,  86 => 29,  84 => 28,  78 => 25,  75 => 24,  72 => 23,  70 => 22,  65 => 19,  62 => 18,  60 => 17,  57 => 16,  55 => 13,  41 => 1,);
     }
 
     public function getSourceContext()
@@ -146,6 +162,11 @@ class __TwigTemplate_1baa0f440f3f554180d483a760c6a7c8661831e7abb3f4d75c225e33e65
     <head> 
            <meta charset=\"UTF-8\">
            <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">
+
+            {% block meta %}  
+            
+             {% endblock  %}
+             
            {% include('./inc/styles.html.twig') %}
             {% block title %}  <title> ch</title>  {% endblock  %}
     </head>
