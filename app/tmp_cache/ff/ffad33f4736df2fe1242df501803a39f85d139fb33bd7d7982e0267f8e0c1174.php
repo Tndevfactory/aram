@@ -40,6 +40,7 @@ class __TwigTemplate_90ace3a8e0735d00880a52665fb0c60611e050f5197b6f25d2097560e51
     position:fixed;
     top:66%;
     margin:0px;
+    z-index: 999;
    
 }
 
@@ -166,6 +167,7 @@ class __TwigTemplate_90ace3a8e0735d00880a52665fb0c60611e050f5197b6f25d2097560e51
     position:fixed;
     top:66%;
     margin:0px;
+    z-index: 999;
    
 }
 

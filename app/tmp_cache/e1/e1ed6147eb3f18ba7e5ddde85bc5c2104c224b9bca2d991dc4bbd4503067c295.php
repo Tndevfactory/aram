@@ -101,7 +101,7 @@ class __TwigTemplate_f591bcc280a52a242a939e1c2930c7bca0da78fe05b21d8c3ee7b9f7579
           <div class=\"d-flex h-100 text-center align-items-center\">
             <div class=\"w-100 text-white\">
               <h1 class=\"display-3\">ARAM CLINIC</h1>
-              <p class=\"lead mb-0\">you are welcome</p>
+              <p class=\"lead mb-0\">Clinique de chirurgie et médecine esthétique</p>
             </div>
           </div>
         </div>
@@ -193,7 +193,7 @@ class __TwigTemplate_f591bcc280a52a242a939e1c2930c7bca0da78fe05b21d8c3ee7b9f7579
           <div class=\"d-flex h-100 text-center align-items-center\">
             <div class=\"w-100 text-white\">
               <h1 class=\"display-3\">ARAM CLINIC</h1>
-              <p class=\"lead mb-0\">you are welcome</p>
+              <p class=\"lead mb-0\">Clinique de chirurgie et médecine esthétique</p>
             </div>
           </div>
         </div>
