@@ -229,6 +229,56 @@ font-weight:900;
                             <li class=\"nav-item\">
                                 <a class=\"nav-link\" href=\"#\" >Contact</a>
                             </li>
+
+                              <li class=\"nav-item d-flex pl-3 pt-1\">
+
+                                      <a class=\"mr-2 pr-0\" href=\"";
+        // line 198
+        echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
+        echo "/homes/langue/ar\"> <img height=\"25\" width=\"25\" 
+                                      src=\"";
+        // line 199
+        echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
+        echo "/public/img/lang/ar2.png\" class=\"img-fluid rounded-circle\" alt=\"arabic lang\">  
+                                        <h6 style=\"font-size:15px;\" class=\" black-text text-center\" >AR</h6> 
+                                        </a>
+
+                                      <a class=\"mr-2 pr-0\" href=\"";
+        // line 203
+        echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
+        echo "/homes/langue/fr\"> <img height=\"25\" width=\"25\" 
+                                      src=\"";
+        // line 204
+        echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
+        echo "/public/img/lang/fr.png\" class=\"img-fluid rounded-circle\" alt=\"french lang\">  
+                                        <h6 style=\"font-size:15px;\" class=\"black-text   text-center\" >FR</h6> 
+                                        </a>
+
+                                      <a class=\"mr-2 pr-0\" href=\"";
+        // line 208
+        echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
+        echo "/homes/langue/en\"> <img height=\"25\" width=\"25\" 
+                                      src=\"";
+        // line 209
+        echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
+        echo "/public/img/lang/en.png\" class=\"img-fluid rounded-circle\" alt=\"englishlang\">  
+                                        <h6 style=\"font-size:15px;\" class=\"black-text text-center\" >EN</h6> 
+                                        </a>  
+                                        
+                                        <a class=\"mr-2 pl-1\" href=\"";
+        // line 213
+        echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
+        echo "/homes/langue/gr\"> <img height=\"25\" width=\"25\" 
+                                      src=\"";
+        // line 214
+        echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
+        echo "/public/img/lang/gr.png\" class=\"img-fluid rounded-circle\" alt=\"germanlang\">  
+                                        <h6 style=\"font-size:15px;\" class=\"black-text text-center\" >GR</h6> 
+                                        </a>
+
+                             </li>
+
+
                         </ul>
                        
                     </div> 
@@ -239,14 +289,14 @@ font-weight:900;
 </div>
 
 ";
-        // line 204
+        // line 230
         $this->displayBlock('script', $context, $blocks);
     }
 
     public function block_script($context, array $blocks = [])
     {
         $macros = $this->macros;
-        // line 205
+        // line 231
         echo "
     <script>
 
@@ -270,7 +320,7 @@ font-weight:900;
       var bidRides='';
         bidRides +='<div class=\" p-0 col-sm-6 col-lg-3 offset-sm-1\">';
         bidRides +='<img src=\"";
-        // line 227
+        // line 253
         echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
         echo "/public/img/barbe/barbe1.jpg\" alt=\"\" style=\"width:100%\">';
         bidRides +='</div>';
@@ -295,7 +345,7 @@ font-weight:900;
       var sidliftingvisage='';
         sidliftingvisage +='<div class=\" p-0 col-sm-6 col-lg-3 offset-sm-1\">';
         sidliftingvisage +='<img src=\"";
-        // line 249
+        // line 275
         echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
         echo "/public/img/barbe/barbe2.jpg\" alt=\"\" style=\"width:100%\">';
         sidliftingvisage +='</div>';
@@ -328,9 +378,14 @@ font-weight:900;
         return "/inc/megamenu-responsive.html.twig";
     }
 
+    public function isTraitable()
+    {
+        return false;
+    }
+
     public function getDebugInfo()
     {
-        return array (  299 => 249,  274 => 227,  250 => 205,  243 => 204,  38 => 1,);
+        return array (  349 => 275,  324 => 253,  300 => 231,  293 => 230,  274 => 214,  270 => 213,  263 => 209,  259 => 208,  252 => 204,  248 => 203,  241 => 199,  237 => 198,  38 => 1,);
     }
 
     public function getSourceContext()
@@ -529,6 +584,32 @@ font-weight:900;
                             <li class=\"nav-item\">
                                 <a class=\"nav-link\" href=\"#\" >Contact</a>
                             </li>
+
+                              <li class=\"nav-item d-flex pl-3 pt-1\">
+
+                                      <a class=\"mr-2 pr-0\" href=\"{{URLROOT}}/homes/langue/ar\"> <img height=\"25\" width=\"25\" 
+                                      src=\"{{URLROOT}}/public/img/lang/ar2.png\" class=\"img-fluid rounded-circle\" alt=\"arabic lang\">  
+                                        <h6 style=\"font-size:15px;\" class=\" black-text text-center\" >AR</h6> 
+                                        </a>
+
+                                      <a class=\"mr-2 pr-0\" href=\"{{URLROOT}}/homes/langue/fr\"> <img height=\"25\" width=\"25\" 
+                                      src=\"{{URLROOT}}/public/img/lang/fr.png\" class=\"img-fluid rounded-circle\" alt=\"french lang\">  
+                                        <h6 style=\"font-size:15px;\" class=\"black-text   text-center\" >FR</h6> 
+                                        </a>
+
+                                      <a class=\"mr-2 pr-0\" href=\"{{URLROOT}}/homes/langue/en\"> <img height=\"25\" width=\"25\" 
+                                      src=\"{{URLROOT}}/public/img/lang/en.png\" class=\"img-fluid rounded-circle\" alt=\"englishlang\">  
+                                        <h6 style=\"font-size:15px;\" class=\"black-text text-center\" >EN</h6> 
+                                        </a>  
+                                        
+                                        <a class=\"mr-2 pl-1\" href=\"{{URLROOT}}/homes/langue/gr\"> <img height=\"25\" width=\"25\" 
+                                      src=\"{{URLROOT}}/public/img/lang/gr.png\" class=\"img-fluid rounded-circle\" alt=\"germanlang\">  
+                                        <h6 style=\"font-size:15px;\" class=\"black-text text-center\" >GR</h6> 
+                                        </a>
+
+                             </li>
+
+
                         </ul>
                        
                     </div> 
