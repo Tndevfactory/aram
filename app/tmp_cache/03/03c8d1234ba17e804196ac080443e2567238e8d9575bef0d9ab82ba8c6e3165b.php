@@ -43,7 +43,6 @@ form#lead_form_float {
             top:-50px;
             z-index:900;
             background:#B0B0B0;
-            marg
             color:black;
             border: 1px solid grey; }
  </style>
@@ -111,36 +110,76 @@ form#lead_form_float {
 </section>  
 
  <script>
-        document.getElementById(\"lead_form_float\").style.visibility = \"hidden\"; 
+       
+      //  document.getElementById(\"lead_form_float\").style.visibility = \"hidden\"; 
+            var w = parseInt(window.innerWidth);
+            pos=w-450;
+         // document.getElementById(\"lead_form_float\").style.visibility = \"visible\";
+          document.getElementById(\"lead_form_float\").style.left = pos + 'px';
 
-        window.addEventListener('load', function(event){
+      /*  window.addEventListener('load', function(event){
           var w = parseInt(window.innerWidth);
-          var h = parseInt(window.innerHeight);
-          pos=w-500;
+          
+          pos=w-450;
           document.getElementById(\"lead_form_float\").style.visibility = \"visible\";
           document.getElementById(\"lead_form_float\").style.left = pos + 'px';
-        });
+        });*/
+
 
         window.addEventListener('resize', function(event){
           var w = parseInt(window.innerWidth);
           var h = parseInt(window.innerHeight);
-           pos=w-500;
+           pos=w-450;
           document.getElementById(\"lead_form_float\").style.left = pos + 'px';
         });
+
       /*
         ";
-        // line 96
+        // line 102
         echo "        ";
         echo "*/
-      /* window.onscroll = function() {myFunction()};
-      function myFunction() {
-        console.log(document.documentElement.scrollTop  );
-        if (document.body.scrollTop > 150 || document.documentElement.scrollTop > 150) {
-          document.getElementById(\"lead_form_float\").style.background= \"orange\";
-        } else {
-          document.getElementById(\"lead_form_float\").style.background= \"blue\";
-        }
-      }  */
+      window.addEventListener('scroll', function(e){
+     
+            var docScrollHeight=document.documentElement.scrollHeight;
+            var windowScrollHeight=window.innerHeight;
+            var endScrollDoc=docScrollHeight - windowScrollHeight;
+            var scrolled=Math.ceil(window.scrollY);
+            var formHeight=document.getElementById(\"lead_form_float\").clientHeight;
+            var posTop=document.getElementById(\"showcaseVideo\").clientHeight;
+            var posDown=endScrollDoc - (formHeight + 100);
+
+           /* console.log('docScrollHeight '+ docScrollHeight);
+            console.log('windowScrollHeight '+ windowScrollHeight);
+            console.log('endScrollDoc '+ endScrollDoc);
+            console.log('formHeight '+ formHeight);
+            console.log('scrolled '+ scrolled );
+            console.log('posTop '+ posTop );
+            console.log('posDown '+ posDown );
+            console.log('scrolled end at ' +  scrolled);*/
+
+            if( (scrolled < posDown) ){
+              document.getElementById(\"lead_form_float\").style.top = (scrolled - 530) + 'px';
+            }else{
+               document.getElementById(\"lead_form_float\").style.visibility = \"hidden\";
+            } 
+            
+            if( (scrolled < posDown) ){
+               document.getElementById(\"lead_form_float\").style.visibility = \"visible\";
+            }
+
+            });
+
+            /*document.getElementById(\"lead_form_float\").style.top =  (scrolled)+'px';
+
+            if (document.body.scrollTop > 150 || document.documentElement.scrollTop > 150) {
+                document.getElementById(\"lead_form_float\").style.background= \"red\";   
+                console.log((scrolledGap)+'px');
+            } else {
+              
+              document.getElementById(\"lead_form_float\").style.background= \"blue\";
+            }
+        */
+
 </script>";
     }
 
@@ -151,7 +190,7 @@ form#lead_form_float {
 
     public function getDebugInfo()
     {
-        return array (  133 => 96,  37 => 1,);
+        return array (  139 => 102,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -165,7 +204,6 @@ form#lead_form_float {
             top:-50px;
             z-index:900;
             background:#B0B0B0;
-            marg
             color:black;
             border: 1px solid grey; }
  </style>
@@ -233,34 +271,74 @@ form#lead_form_float {
 </section>  
 
  <script>
-        document.getElementById(\"lead_form_float\").style.visibility = \"hidden\"; 
+       
+      //  document.getElementById(\"lead_form_float\").style.visibility = \"hidden\"; 
+            var w = parseInt(window.innerWidth);
+            pos=w-450;
+         // document.getElementById(\"lead_form_float\").style.visibility = \"visible\";
+          document.getElementById(\"lead_form_float\").style.left = pos + 'px';
 
-        window.addEventListener('load', function(event){
+      /*  window.addEventListener('load', function(event){
           var w = parseInt(window.innerWidth);
-          var h = parseInt(window.innerHeight);
-          pos=w-500;
+          
+          pos=w-450;
           document.getElementById(\"lead_form_float\").style.visibility = \"visible\";
           document.getElementById(\"lead_form_float\").style.left = pos + 'px';
-        });
+        });*/
+
 
         window.addEventListener('resize', function(event){
           var w = parseInt(window.innerWidth);
           var h = parseInt(window.innerHeight);
-           pos=w-500;
+           pos=w-450;
           document.getElementById(\"lead_form_float\").style.left = pos + 'px';
         });
+
       /*
         {# gsap.from(\".box\", { opacity: 0,  y: 100,  duration: 1 }); #}
         {# gsap.to(\".box\", {rotation: -55, x: 10, duration: 4}); #}*/
-      /* window.onscroll = function() {myFunction()};
-      function myFunction() {
-        console.log(document.documentElement.scrollTop  );
-        if (document.body.scrollTop > 150 || document.documentElement.scrollTop > 150) {
-          document.getElementById(\"lead_form_float\").style.background= \"orange\";
-        } else {
-          document.getElementById(\"lead_form_float\").style.background= \"blue\";
-        }
-      }  */
+      window.addEventListener('scroll', function(e){
+     
+            var docScrollHeight=document.documentElement.scrollHeight;
+            var windowScrollHeight=window.innerHeight;
+            var endScrollDoc=docScrollHeight - windowScrollHeight;
+            var scrolled=Math.ceil(window.scrollY);
+            var formHeight=document.getElementById(\"lead_form_float\").clientHeight;
+            var posTop=document.getElementById(\"showcaseVideo\").clientHeight;
+            var posDown=endScrollDoc - (formHeight + 100);
+
+           /* console.log('docScrollHeight '+ docScrollHeight);
+            console.log('windowScrollHeight '+ windowScrollHeight);
+            console.log('endScrollDoc '+ endScrollDoc);
+            console.log('formHeight '+ formHeight);
+            console.log('scrolled '+ scrolled );
+            console.log('posTop '+ posTop );
+            console.log('posDown '+ posDown );
+            console.log('scrolled end at ' +  scrolled);*/
+
+            if( (scrolled < posDown) ){
+              document.getElementById(\"lead_form_float\").style.top = (scrolled - 530) + 'px';
+            }else{
+               document.getElementById(\"lead_form_float\").style.visibility = \"hidden\";
+            } 
+            
+            if( (scrolled < posDown) ){
+               document.getElementById(\"lead_form_float\").style.visibility = \"visible\";
+            }
+
+            });
+
+            /*document.getElementById(\"lead_form_float\").style.top =  (scrolled)+'px';
+
+            if (document.body.scrollTop > 150 || document.documentElement.scrollTop > 150) {
+                document.getElementById(\"lead_form_float\").style.background= \"red\";   
+                console.log((scrolledGap)+'px');
+            } else {
+              
+              document.getElementById(\"lead_form_float\").style.background= \"blue\";
+            }
+        */
+
 </script>", "/components/index/fr/leadFormFloat.twig", "/var/www/tndevfactory/public_html/ARAM/app/views/components/index/fr/leadFormFloat.twig");
     }
 }

@@ -38,23 +38,10 @@ class __TwigTemplate_ed24d8b4537c9fbc6eff6f87baa27a14aaed187ab07d27613f6c4380ce5
         echo "<!-- counterup jquery animated counter -->
 <style>
 
-#counterUP .col-md-4 {
-  text-align: center;
-  padding-bottom: 50px;
-  
-  
-}
-
-#counterUP .counter {
-  animation-duration: 1s;
-  animation-delay: 0s;
-  color:orange;
-  font-size:33px;
-}
-
 #counterUP i {
-  font-size:30px !Important;
-}
+    color:#E1AD21;
+  }
+  
 
 @media (max-width: 991px) {
   #counterUP .col-md-4 {
@@ -65,25 +52,38 @@ class __TwigTemplate_ed24d8b4537c9fbc6eff6f87baa27a14aaed187ab07d27613f6c4380ce5
 }
 </style>
 
-<section id=\"counterUP\" class=\"pt-5\">
+<section id=\"counterUP\" class=\"py-3\">
 
-  <div class=\"container\">
-    <h1 class=\"text-center\">Numbers of clients  </h1>
+  <div class=\"container text-center\">
+    <h1 class=\"text-center\"> </h1>
     <div class=\"row\">
-      <div class=\"col-md-4\"  data-aos=\"zoom-in-right\">
-        <p class=\"counter\">0</p>
-        <h3>Customers</h3>
-        <i class=\"fa fa-users\"></i>
+      <div class=\"col-md-3\"  data-aos=\"zoom-in-right\">
+       
+        <h3 class=\"h2\">Patients</h3>
+        <i class=\"fa fa-users fa-3x\"></i>
+         <p class=\"counter h1\">0</p>
+
       </div> 
-      <div class=\"col-md-4\"  data-aos=\"zoom-in\">
-        <p class=\"counter\">0</p>
-        <h3>Total Web Pages</h3>
-        <i class=\"fa fa-desktop\"></i>
+      <div class=\"col-md-3\"  data-aos=\"zoom-in\">
+       
+        <h3 class=\"h2\">Interventions</h3>
+        <i class=\"fas fa-file-medical-alt fa-3x\"></i>
+         <p class=\"counter h1 \">0</p>
+
       </div>
-      <div class=\"col-md-4\"  data-aos=\"zoom-in-left\">
-        <p class=\"counter\">0</p>
-        <h3>Cups Of Coffee</h3>
-        <i class=\"fa fa-coffee\"></i>
+      <div class=\"col-md-3\"  data-aos=\"zoom-in-left\">
+
+        <h3 class=\"h2\">Clinics</h3>
+        <i class=\"fas fa-hospital-symbol fa-3x\"></i>
+         <p class=\"counter h1 \">0</p>
+
+      </div>
+      <div class=\"col-md-3\"  data-aos=\"zoom-in-left\">
+       
+        <h3 class=\"h2\">Doctors</h3>
+        <i class=\"fas fa-user-md fa-3x\"></i>
+        <p class=\"counter h1\">0</p>
+
       </div>
     </div>
   </div>
@@ -94,34 +94,49 @@ class __TwigTemplate_ed24d8b4537c9fbc6eff6f87baa27a14aaed187ab07d27613f6c4380ce5
 ";
         // line 57
         $this->displayBlock('script', $context, $blocks);
+        // line 95
+        echo "
+";
     }
 
+    // line 57
     public function block_script($context, array $blocks = [])
     {
         $macros = $this->macros;
         // line 58
         echo "  <script>
 
-let count=document.querySelectorAll(\".counter\");
-let counter = 0 , idSetInterval;
+    let count=document.querySelectorAll(\".counter\");
+    let counter = 0 , idSetInterval;
 
-idSetInterval = setInterval(valueCount, 80)
-
-function valueCount(){
-
-  counter++;
-  //count.innerHTML=counter;
-  count[0].innerHTML=counter;
-  count[1].innerHTML=counter;
-  count[2].innerHTML=counter;
+   window.addEventListener('scroll', function(e){});
 
 
-  if(counter > 150){
-    
-    console.log('end counter');
-    clearInterval(idSetInterval);
-  }
-}
+            var docScrollHeight=document.documentElement.scrollHeight;
+            var windowScrollHeight=window.innerHeight;
+            var endScrollDoc=docScrollHeight - windowScrollHeight;
+            var scrolled=Math.ceil(window.scrollY);
+            var posDown=endScrollDoc - 700;
+
+            if(scrolled = posDown){ };   
+
+                              idSetInterval = setInterval(valueCount, 80);
+
+                              function valueCount(){
+                                counter++;
+                                count[0].innerHTML=counter + 3499;
+                                count[1].innerHTML=counter + 66698;
+                                count[2].innerHTML=counter + 5;
+                                count[3].innerHTML=counter + 1200;
+
+                                if(counter > 150){
+                                  clearInterval(idSetInterval);
+                                }
+                              };
+                      
+                       
+
+     
 
        
   </script>
@@ -135,7 +150,7 @@ function valueCount(){
 
     public function getDebugInfo()
     {
-        return array (  103 => 58,  96 => 57,  38 => 1,);
+        return array (  107 => 58,  103 => 57,  98 => 95,  96 => 57,  38 => 1,);
     }
 
     public function getSourceContext()
@@ -143,23 +158,10 @@ function valueCount(){
         return new Source("<!-- counterup jquery animated counter -->
 <style>
 
-#counterUP .col-md-4 {
-  text-align: center;
-  padding-bottom: 50px;
-  
-  
-}
-
-#counterUP .counter {
-  animation-duration: 1s;
-  animation-delay: 0s;
-  color:orange;
-  font-size:33px;
-}
-
 #counterUP i {
-  font-size:30px !Important;
-}
+    color:#E1AD21;
+  }
+  
 
 @media (max-width: 991px) {
   #counterUP .col-md-4 {
@@ -170,25 +172,38 @@ function valueCount(){
 }
 </style>
 
-<section id=\"counterUP\" class=\"pt-5\">
+<section id=\"counterUP\" class=\"py-3\">
 
-  <div class=\"container\">
-    <h1 class=\"text-center\">Numbers of clients  </h1>
+  <div class=\"container text-center\">
+    <h1 class=\"text-center\"> </h1>
     <div class=\"row\">
-      <div class=\"col-md-4\"  data-aos=\"zoom-in-right\">
-        <p class=\"counter\">0</p>
-        <h3>Customers</h3>
-        <i class=\"fa fa-users\"></i>
+      <div class=\"col-md-3\"  data-aos=\"zoom-in-right\">
+       
+        <h3 class=\"h2\">Patients</h3>
+        <i class=\"fa fa-users fa-3x\"></i>
+         <p class=\"counter h1\">0</p>
+
       </div> 
-      <div class=\"col-md-4\"  data-aos=\"zoom-in\">
-        <p class=\"counter\">0</p>
-        <h3>Total Web Pages</h3>
-        <i class=\"fa fa-desktop\"></i>
+      <div class=\"col-md-3\"  data-aos=\"zoom-in\">
+       
+        <h3 class=\"h2\">Interventions</h3>
+        <i class=\"fas fa-file-medical-alt fa-3x\"></i>
+         <p class=\"counter h1 \">0</p>
+
       </div>
-      <div class=\"col-md-4\"  data-aos=\"zoom-in-left\">
-        <p class=\"counter\">0</p>
-        <h3>Cups Of Coffee</h3>
-        <i class=\"fa fa-coffee\"></i>
+      <div class=\"col-md-3\"  data-aos=\"zoom-in-left\">
+
+        <h3 class=\"h2\">Clinics</h3>
+        <i class=\"fas fa-hospital-symbol fa-3x\"></i>
+         <p class=\"counter h1 \">0</p>
+
+      </div>
+      <div class=\"col-md-3\"  data-aos=\"zoom-in-left\">
+       
+        <h3 class=\"h2\">Doctors</h3>
+        <i class=\"fas fa-user-md fa-3x\"></i>
+        <p class=\"counter h1\">0</p>
+
       </div>
     </div>
   </div>
@@ -199,30 +214,42 @@ function valueCount(){
 {% block script %}
   <script>
 
-let count=document.querySelectorAll(\".counter\");
-let counter = 0 , idSetInterval;
+    let count=document.querySelectorAll(\".counter\");
+    let counter = 0 , idSetInterval;
 
-idSetInterval = setInterval(valueCount, 80)
-
-function valueCount(){
-
-  counter++;
-  //count.innerHTML=counter;
-  count[0].innerHTML=counter;
-  count[1].innerHTML=counter;
-  count[2].innerHTML=counter;
+   window.addEventListener('scroll', function(e){});
 
 
-  if(counter > 150){
-    
-    console.log('end counter');
-    clearInterval(idSetInterval);
-  }
-}
+            var docScrollHeight=document.documentElement.scrollHeight;
+            var windowScrollHeight=window.innerHeight;
+            var endScrollDoc=docScrollHeight - windowScrollHeight;
+            var scrolled=Math.ceil(window.scrollY);
+            var posDown=endScrollDoc - 700;
+
+            if(scrolled = posDown){ };   
+
+                              idSetInterval = setInterval(valueCount, 80);
+
+                              function valueCount(){
+                                counter++;
+                                count[0].innerHTML=counter + 3499;
+                                count[1].innerHTML=counter + 66698;
+                                count[2].innerHTML=counter + 5;
+                                count[3].innerHTML=counter + 1200;
+
+                                if(counter > 150){
+                                  clearInterval(idSetInterval);
+                                }
+                              };
+                      
+                       
+
+     
 
        
   </script>
 {% endblock  %}
+
 ", "/components/index/fr/counterUp.twig", "/var/www/tndevfactory/public_html/ARAM/app/views/components/index/fr/counterUp.twig");
     }
 }

@@ -38,7 +38,9 @@ class __TwigTemplate_1decbdd7cc17bef8fefdb03d7fa4de4eb827550f812b47356e228f07bf4
             'home_heading_section3fr' => [$this, 'block_home_heading_section3fr'],
             'video_gallery_sectionvidfr' => [$this, 'block_video_gallery_sectionvidfr'],
             'home_heading_section4fr' => [$this, 'block_home_heading_section4fr'],
+            'home_isoLogo' => [$this, 'block_home_isoLogo'],
             'home_counterUp' => [$this, 'block_home_counterUp'],
+            'home_headingSectionCurved' => [$this, 'block_home_headingSectionCurved'],
             'video_gallery_sectionfr' => [$this, 'block_video_gallery_sectionfr'],
             'leadFormFixBottomfr' => [$this, 'block_leadFormFixBottomfr'],
         ];
@@ -149,31 +151,41 @@ class __TwigTemplate_1decbdd7cc17bef8fefdb03d7fa4de4eb827550f812b47356e228f07bf4
         echo "
                              ";
         // line 91
-        $this->displayBlock('home_counterUp', $context, $blocks);
+        $this->displayBlock('home_isoLogo', $context, $blocks);
         // line 94
         echo "
                             ";
         // line 95
+        $this->displayBlock('home_counterUp', $context, $blocks);
+        // line 98
+        echo "
+                            ";
+        // line 99
+        $this->displayBlock('home_headingSectionCurved', $context, $blocks);
+        // line 102
+        echo "
+                            ";
+        // line 103
         $this->displayBlock('video_gallery_sectionfr', $context, $blocks);
-        // line 100
+        // line 108
         echo "
                            
 
                             ";
-        // line 106
+        // line 114
         echo "                            
                             ";
-        // line 107
+        // line 115
         $this->displayBlock('leadFormFixBottomfr', $context, $blocks);
-        // line 109
+        // line 117
         echo "  
 
         ";
-        // line 112
+        // line 120
         echo "      
  
       ";
-        // line 252
+        // line 260
         echo "
  ";
     }
@@ -308,44 +320,66 @@ class __TwigTemplate_1decbdd7cc17bef8fefdb03d7fa4de4eb827550f812b47356e228f07bf4
         $macros = $this->macros;
         // line 88
         echo "                                ";
-        $this->loadTemplate("/components/index/fr/homeHeadingSectionCurved.twig", "/homes/lab/index.twig", 88)->display($context);
+        $this->loadTemplate("/components/index/fr/homeHeadingSectionCurved2.twig", "/homes/lab/index.twig", 88)->display($context);
         // line 89
         echo "                            ";
     }
 
     // line 91
-    public function block_home_counterUp($context, array $blocks = [])
+    public function block_home_isoLogo($context, array $blocks = [])
     {
         $macros = $this->macros;
         // line 92
         echo "                                ";
-        $this->loadTemplate("/components/index/fr/counterUp.twig", "/homes/lab/index.twig", 92)->display($context);
+        $this->loadTemplate("/components/index/fr/homeIsoAward.twig", "/homes/lab/index.twig", 92)->display($context);
         // line 93
         echo "                            ";
     }
 
     // line 95
-    public function block_video_gallery_sectionfr($context, array $blocks = [])
+    public function block_home_counterUp($context, array $blocks = [])
     {
         $macros = $this->macros;
         // line 96
+        echo "                                ";
+        $this->loadTemplate("/components/index/fr/counterUp.twig", "/homes/lab/index.twig", 96)->display($context);
+        // line 97
+        echo "                            ";
+    }
+
+    // line 99
+    public function block_home_headingSectionCurved($context, array $blocks = [])
+    {
+        $macros = $this->macros;
+        // line 100
+        echo "                                ";
+        $this->loadTemplate("/components/index/fr/homeHeadingSectionCurved.twig", "/homes/lab/index.twig", 100)->display($context);
+        // line 101
+        echo "                            ";
+    }
+
+    // line 103
+    public function block_video_gallery_sectionfr($context, array $blocks = [])
+    {
+        $macros = $this->macros;
+        // line 104
         echo "                              <div class=\"container \">
                                 ";
-        // line 97
-        $this->loadTemplate("/components/index/fr/testimonials.twig", "/homes/lab/index.twig", 97)->display($context);
-        // line 98
+        // line 105
+        $this->loadTemplate("/components/index/fr/testimonials.twig", "/homes/lab/index.twig", 105)->display($context);
+        // line 106
         echo "                              </div>
                             ";
     }
 
-    // line 107
+    // line 115
     public function block_leadFormFixBottomfr($context, array $blocks = [])
     {
         $macros = $this->macros;
-        // line 108
+        // line 116
         echo "                              ";
-        $this->loadTemplate("/components/index/fr/leadFormFixBottom.twig", "/homes/lab/index.twig", 108)->display($context);
-        // line 109
+        $this->loadTemplate("/components/index/fr/leadFormFixBottom.twig", "/homes/lab/index.twig", 116)->display($context);
+        // line 117
         echo "                            ";
     }
 
@@ -361,7 +395,7 @@ class __TwigTemplate_1decbdd7cc17bef8fefdb03d7fa4de4eb827550f812b47356e228f07bf4
 
     public function getDebugInfo()
     {
-        return array (  349 => 109,  346 => 108,  342 => 107,  337 => 98,  335 => 97,  332 => 96,  328 => 95,  324 => 93,  321 => 92,  317 => 91,  313 => 89,  310 => 88,  306 => 87,  301 => 84,  299 => 83,  296 => 82,  292 => 81,  288 => 79,  285 => 78,  281 => 77,  276 => 74,  274 => 73,  271 => 72,  267 => 71,  263 => 63,  260 => 62,  256 => 61,  251 => 54,  249 => 53,  246 => 52,  242 => 51,  238 => 49,  235 => 48,  231 => 47,  226 => 41,  224 => 40,  221 => 39,  217 => 38,  213 => 31,  211 => 30,  205 => 29,  201 => 23,  199 => 22,  193 => 21,  189 => 19,  186 => 18,  182 => 17,  177 => 252,  173 => 112,  169 => 109,  167 => 107,  164 => 106,  159 => 100,  157 => 95,  154 => 94,  152 => 91,  149 => 90,  147 => 87,  144 => 86,  142 => 81,  139 => 80,  137 => 77,  134 => 76,  132 => 71,  129 => 70,  126 => 64,  124 => 61,  121 => 60,  118 => 56,  116 => 51,  113 => 50,  110 => 47,  107 => 43,  105 => 38,  102 => 37,  99 => 32,  97 => 29,  94 => 28,  91 => 24,  89 => 21,  86 => 20,  84 => 17,  81 => 16,  78 => 12,  75 => 8,  72 => 6,  68 => 5,  61 => 3,  50 => 2,);
+        return array (  383 => 117,  380 => 116,  376 => 115,  371 => 106,  369 => 105,  366 => 104,  362 => 103,  358 => 101,  355 => 100,  351 => 99,  347 => 97,  344 => 96,  340 => 95,  336 => 93,  333 => 92,  329 => 91,  325 => 89,  322 => 88,  318 => 87,  313 => 84,  311 => 83,  308 => 82,  304 => 81,  300 => 79,  297 => 78,  293 => 77,  288 => 74,  286 => 73,  283 => 72,  279 => 71,  275 => 63,  272 => 62,  268 => 61,  263 => 54,  261 => 53,  258 => 52,  254 => 51,  250 => 49,  247 => 48,  243 => 47,  238 => 41,  236 => 40,  233 => 39,  229 => 38,  225 => 31,  223 => 30,  217 => 29,  213 => 23,  211 => 22,  205 => 21,  201 => 19,  198 => 18,  194 => 17,  189 => 260,  185 => 120,  181 => 117,  179 => 115,  176 => 114,  171 => 108,  169 => 103,  166 => 102,  164 => 99,  161 => 98,  159 => 95,  156 => 94,  154 => 91,  151 => 90,  149 => 87,  146 => 86,  144 => 81,  141 => 80,  139 => 77,  136 => 76,  134 => 71,  131 => 70,  128 => 64,  126 => 61,  123 => 60,  120 => 56,  118 => 51,  115 => 50,  112 => 47,  109 => 43,  107 => 38,  104 => 37,  101 => 32,  99 => 29,  96 => 28,  93 => 24,  91 => 21,  88 => 20,  86 => 17,  83 => 16,  80 => 12,  77 => 8,  74 => 6,  70 => 5,  63 => 3,  52 => 2,);
     }
 
     public function getSourceContext()
@@ -453,11 +487,19 @@ class __TwigTemplate_1decbdd7cc17bef8fefdb03d7fa4de4eb827550f812b47356e228f07bf4
                             {% endblock  %}
 
                              {% block home_heading_section4fr %}
-                                {% include('/components/index/fr/homeHeadingSectionCurved.twig') %}
+                                {% include('/components/index/fr/homeHeadingSectionCurved2.twig') %}
                             {% endblock  %}
 
-                             {% block home_counterUp %}
+                             {% block home_isoLogo %}
+                                {% include('/components/index/fr/homeIsoAward.twig') %}
+                            {% endblock  %}
+
+                            {% block home_counterUp %}
                                 {% include('/components/index/fr/counterUp.twig') %}
+                            {% endblock  %}
+
+                            {% block home_headingSectionCurved %}
+                                {% include('/components/index/fr/homeHeadingSectionCurved.twig') %}
                             {% endblock  %}
 
                             {% block video_gallery_sectionfr %}

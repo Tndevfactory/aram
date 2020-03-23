@@ -113,6 +113,7 @@ class __TwigTemplate_50bf1b667cdb32fab7320bdcd00e92575342817481f5100ab226f287e80
               <div class=\"col-md-6 \">
                 <h3 class=\"pt-3 \"> Inscription</h3>
                 <p class=\"pl-2 \">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae eveniet sed mollitia architecto ducimus debitis facere, fuga placeat quod dolore ipsum beatae. Velit eligendi vero sapiente culpa adipisci, consequuntur deserunt aliquam!</p>
+                
               </div>
              
           </div>
@@ -216,6 +217,7 @@ class __TwigTemplate_50bf1b667cdb32fab7320bdcd00e92575342817481f5100ab226f287e80
               <div class=\"col-md-6 \">
                 <h3 class=\"pt-3 \"> Inscription</h3>
                 <p class=\"pl-2 \">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae eveniet sed mollitia architecto ducimus debitis facere, fuga placeat quod dolore ipsum beatae. Velit eligendi vero sapiente culpa adipisci, consequuntur deserunt aliquam!</p>
+                
               </div>
              
           </div>

@@ -85,11 +85,19 @@
                             {% endblock  %}
 
                              {% block home_heading_section4fr %}
-                                {% include('/components/index/fr/homeHeadingSectionCurved.twig') %}
+                                {% include('/components/index/fr/homeHeadingSectionCurved2.twig') %}
                             {% endblock  %}
 
-                             {% block home_counterUp %}
+                             {% block home_isoLogo %}
+                                {% include('/components/index/fr/homeIsoAward.twig') %}
+                            {% endblock  %}
+
+                            {% block home_counterUp %}
                                 {% include('/components/index/fr/counterUp.twig') %}
+                            {% endblock  %}
+
+                            {% block home_headingSectionCurved %}
+                                {% include('/components/index/fr/homeHeadingSectionCurved.twig') %}
                             {% endblock  %}
 
                             {% block video_gallery_sectionfr %}

@@ -79,7 +79,7 @@ class __TwigTemplate_f591bcc280a52a242a939e1c2930c7bca0da78fe05b21d8c3ee7b9f7579
 
 @media (pointer: coarse) and (hover: none) {
   header {
-    background: url('http://localhost/ARAM/public/video/aram.mp4') black no-repeat center center scroll;
+    background: url('http://localhost/ARAM/public/video/aram--.mp4') black no-repeat center center scroll;
   }
 
   header video {
@@ -171,7 +171,7 @@ class __TwigTemplate_f591bcc280a52a242a939e1c2930c7bca0da78fe05b21d8c3ee7b9f7579
 
 @media (pointer: coarse) and (hover: none) {
   header {
-    background: url('http://localhost/ARAM/public/video/aram.mp4') black no-repeat center center scroll;
+    background: url('http://localhost/ARAM/public/video/aram--.mp4') black no-repeat center center scroll;
   }
 
   header video {

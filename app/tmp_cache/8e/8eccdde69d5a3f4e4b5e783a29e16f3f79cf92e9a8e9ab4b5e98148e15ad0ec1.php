@@ -55,50 +55,54 @@ class __TwigTemplate_5f77b01a7f723f917a5ba1c34b5c89c5bb1b318d0a7814d56f943ec5e9b
         $this->displayBlock('meta', $context, $blocks);
         // line 16
         echo "             
-           ";
+             <link rel=\"shortcut icon\" href=\"";
         // line 17
-        $this->loadTemplate("./inc/styles.html.twig", "layout.twig", 17)->display($context);
+        echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
+        echo "/public/img/favicon.png\" >
+           ";
         // line 18
+        $this->loadTemplate("./inc/styles.html.twig", "layout.twig", 18)->display($context);
+        // line 19
         echo "            ";
         $this->displayBlock('title', $context, $blocks);
-        // line 19
+        // line 20
         echo "    </head>
     <body class=\"d-flex flex-column \" >
        
         ";
-        // line 22
-        $this->loadTemplate("/inc/header.html.twig", "layout.twig", 22)->display($context);
         // line 23
-        echo "        ";
-        $this->loadTemplate("/inc/megamenu-responsive.html.twig", "layout.twig", 23)->display($context);
+        $this->loadTemplate("/inc/header.html.twig", "layout.twig", 23)->display($context);
         // line 24
+        echo "        ";
+        $this->loadTemplate("/inc/megamenu-responsive.html.twig", "layout.twig", 24)->display($context);
+        // line 25
         echo "        
         ";
-        // line 25
-        $this->loadTemplate("/inc/chatPopUp.html.twig", "layout.twig", 25)->display($context);
+        // line 26
+        $this->loadTemplate("/inc/chatPopUp.html.twig", "layout.twig", 26)->display($context);
         echo " 
         
 
         ";
-        // line 28
-        $this->displayBlock('content', $context, $blocks);
         // line 29
-        echo "         ";
-        $this->loadTemplate("./inc/footer.html.twig", "layout.twig", 29)->display($context);
+        $this->displayBlock('content', $context, $blocks);
         // line 30
         echo "         ";
+        $this->loadTemplate("./inc/footer.html.twig", "layout.twig", 30)->display($context);
         // line 31
         echo "         ";
-        $this->loadTemplate("/inc/social.v2html.twig", "layout.twig", 31)->display($context);
-        echo " 
-        ";
         // line 32
-        $this->loadTemplate("./inc/scripts.html.twig", "layout.twig", 32)->display($context);
+        echo "         ";
+        $this->loadTemplate("/inc/social.v2html.twig", "layout.twig", 32)->display($context);
         echo " 
         ";
         // line 33
-        $this->displayBlock('script', $context, $blocks);
+        $this->loadTemplate("./inc/scripts.html.twig", "layout.twig", 33)->display($context);
+        echo " 
+        ";
         // line 34
+        $this->displayBlock('script', $context, $blocks);
+        // line 35
         echo "    </body>
     </html>
 ";
@@ -113,21 +117,21 @@ class __TwigTemplate_5f77b01a7f723f917a5ba1c34b5c89c5bb1b318d0a7814d56f943ec5e9b
              ";
     }
 
-    // line 18
+    // line 19
     public function block_title($context, array $blocks = [])
     {
         $macros = $this->macros;
         echo "  <title> ch</title>  ";
     }
 
-    // line 28
+    // line 29
     public function block_content($context, array $blocks = [])
     {
         $macros = $this->macros;
         echo " ";
     }
 
-    // line 33
+    // line 34
     public function block_script($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -146,7 +150,7 @@ class __TwigTemplate_5f77b01a7f723f917a5ba1c34b5c89c5bb1b318d0a7814d56f943ec5e9b
 
     public function getDebugInfo()
     {
-        return array (  131 => 33,  124 => 28,  117 => 18,  108 => 13,  102 => 34,  100 => 33,  96 => 32,  91 => 31,  89 => 30,  86 => 29,  84 => 28,  78 => 25,  75 => 24,  72 => 23,  70 => 22,  65 => 19,  62 => 18,  60 => 17,  57 => 16,  55 => 13,  41 => 1,);
+        return array (  135 => 34,  128 => 29,  121 => 19,  112 => 13,  106 => 35,  104 => 34,  100 => 33,  95 => 32,  93 => 31,  90 => 30,  88 => 29,  82 => 26,  79 => 25,  76 => 24,  74 => 23,  69 => 20,  66 => 19,  64 => 18,  60 => 17,  57 => 16,  55 => 13,  41 => 1,);
     }
 
     public function getSourceContext()
@@ -167,6 +171,7 @@ class __TwigTemplate_5f77b01a7f723f917a5ba1c34b5c89c5bb1b318d0a7814d56f943ec5e9b
             
              {% endblock  %}
              
+             <link rel=\"shortcut icon\" href=\"{{URLROOT}}/public/img/favicon.png\" >
            {% include('./inc/styles.html.twig') %}
             {% block title %}  <title> ch</title>  {% endblock  %}
     </head>
