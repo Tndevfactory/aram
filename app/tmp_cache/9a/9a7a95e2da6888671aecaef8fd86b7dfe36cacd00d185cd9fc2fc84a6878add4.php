@@ -38,8 +38,8 @@ class __TwigTemplate_1decbdd7cc17bef8fefdb03d7fa4de4eb827550f812b47356e228f07bf4
             'home_heading_section3fr' => [$this, 'block_home_heading_section3fr'],
             'video_gallery_sectionvidfr' => [$this, 'block_video_gallery_sectionvidfr'],
             'home_heading_section4fr' => [$this, 'block_home_heading_section4fr'],
-            'home_isoLogo' => [$this, 'block_home_isoLogo'],
             'home_counterUp' => [$this, 'block_home_counterUp'],
+            'home_isoLogo' => [$this, 'block_home_isoLogo'],
             'home_headingSectionCurved' => [$this, 'block_home_headingSectionCurved'],
             'video_gallery_sectionfr' => [$this, 'block_video_gallery_sectionfr'],
             'leadFormFixBottomfr' => [$this, 'block_leadFormFixBottomfr'],
@@ -148,44 +148,46 @@ class __TwigTemplate_1decbdd7cc17bef8fefdb03d7fa4de4eb827550f812b47356e228f07bf4
         // line 87
         $this->displayBlock('home_heading_section4fr', $context, $blocks);
         // line 90
-        echo "
-                             ";
+        echo "                            
+                           ";
         // line 91
-        $this->displayBlock('home_isoLogo', $context, $blocks);
+        $this->displayBlock('home_counterUp', $context, $blocks);
         // line 94
         echo "
-                            ";
+                             ";
         // line 95
-        $this->displayBlock('home_counterUp', $context, $blocks);
+        $this->displayBlock('home_isoLogo', $context, $blocks);
         // line 98
         echo "
+                            
+
                             ";
-        // line 99
+        // line 101
         $this->displayBlock('home_headingSectionCurved', $context, $blocks);
-        // line 102
+        // line 104
         echo "
                             ";
-        // line 103
+        // line 105
         $this->displayBlock('video_gallery_sectionfr', $context, $blocks);
-        // line 108
+        // line 110
         echo "
                            
 
                             ";
-        // line 114
+        // line 116
         echo "                            
                             ";
-        // line 115
-        $this->displayBlock('leadFormFixBottomfr', $context, $blocks);
         // line 117
+        $this->displayBlock('leadFormFixBottomfr', $context, $blocks);
+        // line 119
         echo "  
 
         ";
-        // line 120
+        // line 122
         echo "      
  
       ";
-        // line 260
+        // line 262
         echo "
  ";
     }
@@ -326,60 +328,60 @@ class __TwigTemplate_1decbdd7cc17bef8fefdb03d7fa4de4eb827550f812b47356e228f07bf4
     }
 
     // line 91
-    public function block_home_isoLogo($context, array $blocks = [])
+    public function block_home_counterUp($context, array $blocks = [])
     {
         $macros = $this->macros;
         // line 92
         echo "                                ";
-        $this->loadTemplate("/components/index/fr/homeIsoAward.twig", "/homes/lab/index.twig", 92)->display($context);
+        $this->loadTemplate("/components/index/fr/counterUp.twig", "/homes/lab/index.twig", 92)->display($context);
         // line 93
         echo "                            ";
     }
 
     // line 95
-    public function block_home_counterUp($context, array $blocks = [])
+    public function block_home_isoLogo($context, array $blocks = [])
     {
         $macros = $this->macros;
         // line 96
         echo "                                ";
-        $this->loadTemplate("/components/index/fr/counterUp.twig", "/homes/lab/index.twig", 96)->display($context);
+        $this->loadTemplate("/components/index/fr/homeIsoAward.twig", "/homes/lab/index.twig", 96)->display($context);
         // line 97
         echo "                            ";
     }
 
-    // line 99
+    // line 101
     public function block_home_headingSectionCurved($context, array $blocks = [])
     {
         $macros = $this->macros;
-        // line 100
+        // line 102
         echo "                                ";
-        $this->loadTemplate("/components/index/fr/homeHeadingSectionCurved.twig", "/homes/lab/index.twig", 100)->display($context);
-        // line 101
+        $this->loadTemplate("/components/index/fr/homeHeadingSectionCurved.twig", "/homes/lab/index.twig", 102)->display($context);
+        // line 103
         echo "                            ";
     }
 
-    // line 103
+    // line 105
     public function block_video_gallery_sectionfr($context, array $blocks = [])
     {
         $macros = $this->macros;
-        // line 104
+        // line 106
         echo "                              <div class=\"container \">
                                 ";
-        // line 105
-        $this->loadTemplate("/components/index/fr/testimonials.twig", "/homes/lab/index.twig", 105)->display($context);
-        // line 106
+        // line 107
+        $this->loadTemplate("/components/index/fr/testimonials.twig", "/homes/lab/index.twig", 107)->display($context);
+        // line 108
         echo "                              </div>
                             ";
     }
 
-    // line 115
+    // line 117
     public function block_leadFormFixBottomfr($context, array $blocks = [])
     {
         $macros = $this->macros;
-        // line 116
+        // line 118
         echo "                              ";
-        $this->loadTemplate("/components/index/fr/leadFormFixBottom.twig", "/homes/lab/index.twig", 116)->display($context);
-        // line 117
+        $this->loadTemplate("/components/index/fr/leadFormFixBottom.twig", "/homes/lab/index.twig", 118)->display($context);
+        // line 119
         echo "                            ";
     }
 
@@ -395,7 +397,7 @@ class __TwigTemplate_1decbdd7cc17bef8fefdb03d7fa4de4eb827550f812b47356e228f07bf4
 
     public function getDebugInfo()
     {
-        return array (  383 => 117,  380 => 116,  376 => 115,  371 => 106,  369 => 105,  366 => 104,  362 => 103,  358 => 101,  355 => 100,  351 => 99,  347 => 97,  344 => 96,  340 => 95,  336 => 93,  333 => 92,  329 => 91,  325 => 89,  322 => 88,  318 => 87,  313 => 84,  311 => 83,  308 => 82,  304 => 81,  300 => 79,  297 => 78,  293 => 77,  288 => 74,  286 => 73,  283 => 72,  279 => 71,  275 => 63,  272 => 62,  268 => 61,  263 => 54,  261 => 53,  258 => 52,  254 => 51,  250 => 49,  247 => 48,  243 => 47,  238 => 41,  236 => 40,  233 => 39,  229 => 38,  225 => 31,  223 => 30,  217 => 29,  213 => 23,  211 => 22,  205 => 21,  201 => 19,  198 => 18,  194 => 17,  189 => 260,  185 => 120,  181 => 117,  179 => 115,  176 => 114,  171 => 108,  169 => 103,  166 => 102,  164 => 99,  161 => 98,  159 => 95,  156 => 94,  154 => 91,  151 => 90,  149 => 87,  146 => 86,  144 => 81,  141 => 80,  139 => 77,  136 => 76,  134 => 71,  131 => 70,  128 => 64,  126 => 61,  123 => 60,  120 => 56,  118 => 51,  115 => 50,  112 => 47,  109 => 43,  107 => 38,  104 => 37,  101 => 32,  99 => 29,  96 => 28,  93 => 24,  91 => 21,  88 => 20,  86 => 17,  83 => 16,  80 => 12,  77 => 8,  74 => 6,  70 => 5,  63 => 3,  52 => 2,);
+        return array (  385 => 119,  382 => 118,  378 => 117,  373 => 108,  371 => 107,  368 => 106,  364 => 105,  360 => 103,  357 => 102,  353 => 101,  349 => 97,  346 => 96,  342 => 95,  338 => 93,  335 => 92,  331 => 91,  327 => 89,  324 => 88,  320 => 87,  315 => 84,  313 => 83,  310 => 82,  306 => 81,  302 => 79,  299 => 78,  295 => 77,  290 => 74,  288 => 73,  285 => 72,  281 => 71,  277 => 63,  274 => 62,  270 => 61,  265 => 54,  263 => 53,  260 => 52,  256 => 51,  252 => 49,  249 => 48,  245 => 47,  240 => 41,  238 => 40,  235 => 39,  231 => 38,  227 => 31,  225 => 30,  219 => 29,  215 => 23,  213 => 22,  207 => 21,  203 => 19,  200 => 18,  196 => 17,  191 => 262,  187 => 122,  183 => 119,  181 => 117,  178 => 116,  173 => 110,  171 => 105,  168 => 104,  166 => 101,  161 => 98,  159 => 95,  156 => 94,  154 => 91,  151 => 90,  149 => 87,  146 => 86,  144 => 81,  141 => 80,  139 => 77,  136 => 76,  134 => 71,  131 => 70,  128 => 64,  126 => 61,  123 => 60,  120 => 56,  118 => 51,  115 => 50,  112 => 47,  109 => 43,  107 => 38,  104 => 37,  101 => 32,  99 => 29,  96 => 28,  93 => 24,  91 => 21,  88 => 20,  86 => 17,  83 => 16,  80 => 12,  77 => 8,  74 => 6,  70 => 5,  63 => 3,  52 => 2,);
     }
 
     public function getSourceContext()
@@ -489,14 +491,16 @@ class __TwigTemplate_1decbdd7cc17bef8fefdb03d7fa4de4eb827550f812b47356e228f07bf4
                              {% block home_heading_section4fr %}
                                 {% include('/components/index/fr/homeHeadingSectionCurved2.twig') %}
                             {% endblock  %}
+                            
+                           {% block home_counterUp %}
+                                {% include('/components/index/fr/counterUp.twig') %}
+                            {% endblock  %}
 
                              {% block home_isoLogo %}
                                 {% include('/components/index/fr/homeIsoAward.twig') %}
                             {% endblock  %}
 
-                            {% block home_counterUp %}
-                                {% include('/components/index/fr/counterUp.twig') %}
-                            {% endblock  %}
+                            
 
                             {% block home_headingSectionCurved %}
                                 {% include('/components/index/fr/homeHeadingSectionCurved.twig') %}

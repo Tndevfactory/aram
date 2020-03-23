@@ -95,6 +95,8 @@ class __TwigTemplate_f591bcc280a52a242a939e1c2930c7bca0da78fe05b21d8c3ee7b9f7579
         <div class=\"overlay\"></div>
         <video playsinline=\"playsinline\" autoplay=\"autoplay\" muted=\"muted\" loop=\"loop\">
           <source src=\"http://localhost/ARAM/public/video/aram-.mp4\" type=\"video/mp4\">
+          <source src=\"http://localhost/ARAM/public/video/aram-.webm\" type=\"video/webm\">
+          <source src=\"http://localhost/ARAM/public/video/aram-.ogg\" type=\"video/ogg\">
         </video>
 
         <div class=\"container h-100\">
@@ -187,6 +189,8 @@ class __TwigTemplate_f591bcc280a52a242a939e1c2930c7bca0da78fe05b21d8c3ee7b9f7579
         <div class=\"overlay\"></div>
         <video playsinline=\"playsinline\" autoplay=\"autoplay\" muted=\"muted\" loop=\"loop\">
           <source src=\"http://localhost/ARAM/public/video/aram-.mp4\" type=\"video/mp4\">
+          <source src=\"http://localhost/ARAM/public/video/aram-.webm\" type=\"video/webm\">
+          <source src=\"http://localhost/ARAM/public/video/aram-.ogg\" type=\"video/ogg\">
         </video>
 
         <div class=\"container h-100\">
