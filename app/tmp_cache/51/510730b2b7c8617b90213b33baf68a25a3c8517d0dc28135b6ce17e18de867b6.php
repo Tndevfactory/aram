@@ -36,29 +36,21 @@ class __TwigTemplate_1e84d6bcb72dd2ef891b6a6f29e3e031a2b5ee70f9a5f8a8f22a8ef81b6
         // line 1
         echo "<!-- Footer -->
 
-
-";
-        // line 6
-        echo "
-";
-        // line 8
-        echo "<footer  class=\"footer  mt-auto  py-4  font-small \" style=\"color:#E1AD21;background-color:#010203\">
+<footer  class=\"footer  mt-auto  py-4  font-small \" style=\"color:#E1AD21;background-color:#010203\">
  
       <div class=\"footer-copyright text-center py-2 \">
          <span class=\"font-small \"> Copyright &copy; 
          <span id=\"year\"> </span> 
          <span class=\"font-small \" > <a  class=\"font-small \" href=\"https://tndevfactory.com\" style=\"color:#E1AD21\">  Tn DEV FACTORY </a> </span>
         </span>
+        <img class=\"ml-2\" src=\"";
+        // line 10
+        echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
+        echo "/public/img/logo/dmca_premi_badge.png\">
         
   </div>
 
- <!--<div class=\"mt-1 text-center\">
-        
-          <a href=\"#\" >   <span class=\"  pl-2 white-text\"> <i class=\" fab fa-facebook-square fa-1x\"></i></span> </a>
-          <a href=\"#\" >   <span class=\"  pl-2 white-text\"><i class=\" fab fa-instagram fa-1x\"></i> </span> </a>
-           <a href=\"#\" >  <span class=\"  pl-2 white-text\"><i class=\" fab fa-youtube fa-1x\"></i> </span> </a>
-            <a href=\"#\" > <span class=\"  pl-2 white-text\"><i class=\" fab fa-snapchat-square fa-1x\"></i>    </span></a>
-        </div>-->
+ 
 
 </footer>
 
@@ -75,20 +67,20 @@ class __TwigTemplate_1e84d6bcb72dd2ef891b6a6f29e3e031a2b5ee70f9a5f8a8f22a8ef81b6
         return "./inc/footer.html.twig";
     }
 
+    public function isTraitable()
+    {
+        return false;
+    }
+
     public function getDebugInfo()
     {
-        return array (  45 => 8,  42 => 6,  37 => 1,);
+        return array (  48 => 10,  37 => 1,);
     }
 
     public function getSourceContext()
     {
         return new Source("<!-- Footer -->
 
-
-{# #ffca28 amber lighten-1 #}
-{# #212121 grey darken-4 #}
-
-{# footer fixed-bottom mt-auto  py-4 white-text font-small #}
 <footer  class=\"footer  mt-auto  py-4  font-small \" style=\"color:#E1AD21;background-color:#010203\">
  
       <div class=\"footer-copyright text-center py-2 \">
@@ -96,16 +88,11 @@ class __TwigTemplate_1e84d6bcb72dd2ef891b6a6f29e3e031a2b5ee70f9a5f8a8f22a8ef81b6
          <span id=\"year\"> </span> 
          <span class=\"font-small \" > <a  class=\"font-small \" href=\"https://tndevfactory.com\" style=\"color:#E1AD21\">  Tn DEV FACTORY </a> </span>
         </span>
+        <img class=\"ml-2\" src=\"{{URLROOT}}/public/img/logo/dmca_premi_badge.png\">
         
   </div>
 
- <!--<div class=\"mt-1 text-center\">
-        
-          <a href=\"#\" >   <span class=\"  pl-2 white-text\"> <i class=\" fab fa-facebook-square fa-1x\"></i></span> </a>
-          <a href=\"#\" >   <span class=\"  pl-2 white-text\"><i class=\" fab fa-instagram fa-1x\"></i> </span> </a>
-           <a href=\"#\" >  <span class=\"  pl-2 white-text\"><i class=\" fab fa-youtube fa-1x\"></i> </span> </a>
-            <a href=\"#\" > <span class=\"  pl-2 white-text\"><i class=\" fab fa-snapchat-square fa-1x\"></i>    </span></a>
-        </div>-->
+ 
 
 </footer>
 

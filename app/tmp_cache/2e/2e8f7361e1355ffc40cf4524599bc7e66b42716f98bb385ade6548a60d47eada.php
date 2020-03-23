@@ -49,17 +49,37 @@ class __TwigTemplate_2c1acbbde90b7d28207ab2200d107193399f7eae7bdc180012f820aaaa5
   z-index: 999;
   background-color:white;
 
+  padding:6px;
+
   display: flex;
   justify-content: center;
   align-items: center;
   border:2px solid #E1AD21;
 
 }
+
+#messengerButton:hover {
+ 
+  background-color:#00A3FF;
+  
+}
+
+#messengerButton:hover i{
+ 
+ color:#fff;;
+  
+}
+
 #messengerButton i{
   
   text-align:center;
   color:#00A3FF;
   font-size:40px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+
    
 }
 
@@ -118,15 +138,15 @@ class __TwigTemplate_2c1acbbde90b7d28207ab2200d107193399f7eae7bdc180012f820aaaa5
 <div class=\"chat-popup\" id=\"myForm\">
   
   <form action=\"#\" class=\"form-container\">
-    <h3>Chat</h1>
+    <h6 class=\"text-center\">Composer votre message </h6>
 
-    <label for=\"msg\"><b>Message</b></label>
+    <label for=\"msg\"><b></b></label>
    
-    <textarea placeholder=\"Type message..\" name=\"msg\" required></textarea>
+    <textarea placeholder=\"\" name=\"msg\" required></textarea>
 
-    <button style=\"color:#010203;background-color:#E1AD21\" id=\"sendButton\" type=\"submit\" class=\"btn\">Send <i class=\"far fa-paper-plane\"></i></button>
+    <button style=\"color:#010203;background-color:#E1AD21\" id=\"sendButton\" type=\"submit\" class=\"btn\">Envoyer <i class=\"far fa-paper-plane\"></i></button>
 
-    <button style=\"color:#E1AD21;background-color:#010203\" id=\"closeButton\" type=\"button\" class=\"btn cancel\" onclick=\"closeForm()\">Close 
+    <button style=\"color:#E1AD21;background-color:#010203\" id=\"closeButton\" type=\"button\" class=\"btn cancel\" onclick=\"closeForm()\">Fermer
     <i class=\"pl-1 far fa-window-close fa-1x\"></i>
     </button>
 
@@ -175,17 +195,37 @@ function closeForm() {
   z-index: 999;
   background-color:white;
 
+  padding:6px;
+
   display: flex;
   justify-content: center;
   align-items: center;
   border:2px solid #E1AD21;
 
 }
+
+#messengerButton:hover {
+ 
+  background-color:#00A3FF;
+  
+}
+
+#messengerButton:hover i{
+ 
+ color:#fff;;
+  
+}
+
 #messengerButton i{
   
   text-align:center;
   color:#00A3FF;
   font-size:40px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+
    
 }
 
@@ -244,15 +284,15 @@ function closeForm() {
 <div class=\"chat-popup\" id=\"myForm\">
   
   <form action=\"#\" class=\"form-container\">
-    <h3>Chat</h1>
+    <h6 class=\"text-center\">Composer votre message </h6>
 
-    <label for=\"msg\"><b>Message</b></label>
+    <label for=\"msg\"><b></b></label>
    
-    <textarea placeholder=\"Type message..\" name=\"msg\" required></textarea>
+    <textarea placeholder=\"\" name=\"msg\" required></textarea>
 
-    <button style=\"color:#010203;background-color:#E1AD21\" id=\"sendButton\" type=\"submit\" class=\"btn\">Send <i class=\"far fa-paper-plane\"></i></button>
+    <button style=\"color:#010203;background-color:#E1AD21\" id=\"sendButton\" type=\"submit\" class=\"btn\">Envoyer <i class=\"far fa-paper-plane\"></i></button>
 
-    <button style=\"color:#E1AD21;background-color:#010203\" id=\"closeButton\" type=\"button\" class=\"btn cancel\" onclick=\"closeForm()\">Close 
+    <button style=\"color:#E1AD21;background-color:#010203\" id=\"closeButton\" type=\"button\" class=\"btn cancel\" onclick=\"closeForm()\">Fermer
     <i class=\"pl-1 far fa-window-close fa-1x\"></i>
     </button>
 

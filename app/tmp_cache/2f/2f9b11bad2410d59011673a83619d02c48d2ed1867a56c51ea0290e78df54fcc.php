@@ -38,19 +38,34 @@ class __TwigTemplate_88ecaf614eadd5f0db5989ae9f5c902101f4ef19d8a64b40e43bf77cfcf
 <script type=\"text/javascript\" src=\"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js\"></script>
 <script type=\"text/javascript\" src=\"https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js\"></script>
 <script type=\"text/javascript\" src=\"https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.14.0/js/mdb.min.js\"></script>
+
 <script src=\"https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js\"></script>
 <script src=\"https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js\"></script>
 
 <script type=\"text/javascript\" src=\"";
-        // line 15
+        // line 16
         echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
         echo "/public/js/venobox.min.js\"></script>
 
+";
+        // line 19
+        echo "<script src=\"https://unpkg.com/aos@2.3.1/dist/aos.js\"></script>
+
+ 
 <script type=\"text/javascript\" src=\"";
-        // line 17
+        // line 22
         echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
         echo "/public/js/main.js\"></script>
   <script>
+
+    // aos init
+      AOS.init({
+
+        offset:200,
+        duration:500
+
+      });
+
     // Get the current year for the copyright
     \$('#year').text(new Date().getFullYear());
 
@@ -93,12 +108,15 @@ class __TwigTemplate_88ecaf614eadd5f0db5989ae9f5c902101f4ef19d8a64b40e43bf77cfcf
 
 
 ";
-        // line 78
+        // line 92
         echo "
 
  
 
-  </script>";
+  </script>
+
+
+";
     }
 
     public function getTemplateName()
@@ -113,7 +131,7 @@ class __TwigTemplate_88ecaf614eadd5f0db5989ae9f5c902101f4ef19d8a64b40e43bf77cfcf
 
     public function getDebugInfo()
     {
-        return array (  97 => 78,  51 => 17,  46 => 15,  37 => 8,);
+        return array (  112 => 92,  57 => 22,  52 => 19,  47 => 16,  37 => 8,);
     }
 
     public function getSourceContext()
@@ -129,13 +147,27 @@ class __TwigTemplate_88ecaf614eadd5f0db5989ae9f5c902101f4ef19d8a64b40e43bf77cfcf
 <script type=\"text/javascript\" src=\"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js\"></script>
 <script type=\"text/javascript\" src=\"https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js\"></script>
 <script type=\"text/javascript\" src=\"https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.14.0/js/mdb.min.js\"></script>
+
 <script src=\"https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js\"></script>
 <script src=\"https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js\"></script>
 
 <script type=\"text/javascript\" src=\"{{URLROOT}}/public/js/venobox.min.js\"></script>
 
+{# animate on scroll js#}
+<script src=\"https://unpkg.com/aos@2.3.1/dist/aos.js\"></script>
+
+ 
 <script type=\"text/javascript\" src=\"{{URLROOT}}/public/js/main.js\"></script>
   <script>
+
+    // aos init
+      AOS.init({
+
+        offset:200,
+        duration:500
+
+      });
+
     // Get the current year for the copyright
     \$('#year').text(new Date().getFullYear());
 
@@ -199,6 +231,9 @@ class __TwigTemplate_88ecaf614eadd5f0db5989ae9f5c902101f4ef19d8a64b40e43bf77cfcf
 
  
 
-  </script>", "./inc/scripts.html.twig", "C:\\xampp\\htdocs\\ARAM\\app\\views\\inc\\scripts.html.twig");
+  </script>
+
+
+", "./inc/scripts.html.twig", "C:\\xampp\\htdocs\\ARAM\\app\\views\\inc\\scripts.html.twig");
     }
 }

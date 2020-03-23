@@ -79,8 +79,9 @@ class __TwigTemplate_cbffbc5a91e566a61a6811981c458a679bf11e907d51511507df1e99a08
 
 @media (pointer: coarse) and (hover: none) {
   header {
-    background: url('http://localhost/ARAM/public/video/aram-.mp4') black no-repeat center center scroll;
+    background: url('http://localhost/ARAM/public/video/aram--.mp4') black no-repeat center center scroll;
   }
+
   header video {
     display: none;
   }
@@ -90,12 +91,8 @@ class __TwigTemplate_cbffbc5a91e566a61a6811981c458a679bf11e907d51511507df1e99a08
 
   <section id=\"showcaseVideo\">
    
-    <header>
+      <header>
         <div class=\"overlay\"></div>
-     ";
-        // line 59
-        echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
-        echo "public\\video\\aram.mp4
         <video playsinline=\"playsinline\" autoplay=\"autoplay\" muted=\"muted\" loop=\"loop\">
           <source src=\"http://localhost/ARAM/public/video/aram-.mp4\" type=\"video/mp4\">
         </video>
@@ -104,7 +101,7 @@ class __TwigTemplate_cbffbc5a91e566a61a6811981c458a679bf11e907d51511507df1e99a08
           <div class=\"d-flex h-100 text-center align-items-center\">
             <div class=\"w-100 text-white\">
               <h1 class=\"display-3\">ARAM CLINIC</h1>
-              <p class=\"lead mb-0\">you are welcome</p>
+              <p class=\"lead mb-0\">Clinique de chirurgie et médecine esthétique</p>
             </div>
           </div>
         </div>
@@ -122,14 +119,9 @@ class __TwigTemplate_cbffbc5a91e566a61a6811981c458a679bf11e907d51511507df1e99a08
         return "/components/index/fr/showcaseVideo.twig";
     }
 
-    public function isTraitable()
-    {
-        return false;
-    }
-
     public function getDebugInfo()
     {
-        return array (  97 => 59,  37 => 1,);
+        return array (  37 => 1,);
     }
 
     public function getSourceContext()
@@ -179,8 +171,9 @@ class __TwigTemplate_cbffbc5a91e566a61a6811981c458a679bf11e907d51511507df1e99a08
 
 @media (pointer: coarse) and (hover: none) {
   header {
-    background: url('http://localhost/ARAM/public/video/aram-.mp4') black no-repeat center center scroll;
+    background: url('http://localhost/ARAM/public/video/aram--.mp4') black no-repeat center center scroll;
   }
+
   header video {
     display: none;
   }
@@ -190,9 +183,8 @@ class __TwigTemplate_cbffbc5a91e566a61a6811981c458a679bf11e907d51511507df1e99a08
 
   <section id=\"showcaseVideo\">
    
-    <header>
+      <header>
         <div class=\"overlay\"></div>
-     {{URLROOT}}public\\video\\aram.mp4
         <video playsinline=\"playsinline\" autoplay=\"autoplay\" muted=\"muted\" loop=\"loop\">
           <source src=\"http://localhost/ARAM/public/video/aram-.mp4\" type=\"video/mp4\">
         </video>
@@ -201,7 +193,7 @@ class __TwigTemplate_cbffbc5a91e566a61a6811981c458a679bf11e907d51511507df1e99a08
           <div class=\"d-flex h-100 text-center align-items-center\">
             <div class=\"w-100 text-white\">
               <h1 class=\"display-3\">ARAM CLINIC</h1>
-              <p class=\"lead mb-0\">you are welcome</p>
+              <p class=\"lead mb-0\">Clinique de chirurgie et médecine esthétique</p>
             </div>
           </div>
         </div>
