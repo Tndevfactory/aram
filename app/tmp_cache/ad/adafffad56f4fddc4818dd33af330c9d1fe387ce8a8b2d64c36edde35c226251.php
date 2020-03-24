@@ -12,8 +12,8 @@ use Twig\Sandbox\SecurityNotAllowedFunctionError;
 use Twig\Source;
 use Twig\Template;
 
-/* /components/index/fr/showcaseVideo.twig */
-class __TwigTemplate_cbffbc5a91e566a61a6811981c458a679bf11e907d51511507df1e99a08b23b6 extends Template
+/* /homes/data/index/fr/showcaseVideo.twig */
+class __TwigTemplate_1dc1da9f10c710828d61448a3f59117a7ef149632c8c648c0a9b4df3c6f161f2 extends Template
 {
     private $source;
     private $macros = [];
@@ -118,7 +118,7 @@ class __TwigTemplate_cbffbc5a91e566a61a6811981c458a679bf11e907d51511507df1e99a08
 
     public function getTemplateName()
     {
-        return "/components/index/fr/showcaseVideo.twig";
+        return "/homes/data/index/fr/showcaseVideo.twig";
     }
 
     public function getDebugInfo()
@@ -207,6 +207,6 @@ class __TwigTemplate_cbffbc5a91e566a61a6811981c458a679bf11e907d51511507df1e99a08
   </section>
 
 
-   ", "/components/index/fr/showcaseVideo.twig", "C:\\xampp\\htdocs\\ARAM\\app\\views\\components\\index\\fr\\showcaseVideo.twig");
+   ", "/homes/data/index/fr/showcaseVideo.twig", "C:\\xampp\\htdocs\\ARAM\\app\\views\\homes\\data\\index\\fr\\showcaseVideo.twig");
     }
 }

@@ -1,56 +1,127 @@
 
-{# {% extends 'layout.twig' %}
-{% block title %}  <title> ch override by block  </title> {% endblock  %}
+{% extends 'layout.twig' %}
+{% block title %}  <title> prod </title> {% endblock  %}
   
 {% block content %}
 
-        {% if LANG == 'fr' %}
+        {# {% if LANG == 'fr' %} #}
+
+                        {# {% block simpleMegamenu %}
+                                {% include('/inc/navbarMegaMenu.html.twig') %}
+                            {% endblock  %}  #}
+
+                            {# {% block carouselfr %}
+                                {% include('/components/index/fr/showcaseBackgroundImage.twig') %}
+                            {% endblock  %}  #}
+                          
                             {% block carouselfr %}
-                                {% include('/components/index/fr/showcase_caroussel.twig') %}
+                                {% include('/homes/data/index/fr/showcaseVideo.twig') %}
                             {% endblock  %}
                           
                             {% block lead_form_floatfr %} 
-                                  {% include('/components/index/fr/lead_form_float.twig') %}
+                                  {% include('/homes/data/index/fr/leadFormFloat.twig') %}
                             {% endblock  %}
 
-                            {% block lead_form_fixfr %} 
-                                  {% include('/components/index/fr/lead_form_fix.twig') %}
+                            {# {% block lead_form_floatzoho %} 
+                                  {% include('/components/index/fr/leadFormFloatzoho.twig') %}
+                            {% endblock  %} #}
+                           
+                            {% block searchForm %} 
+                                  {% include('/homes/data/index/fr/searchForm.twig') %}
                             {% endblock  %}
-                            
-                            {% block home_icon_sectionfr %}
+
+                            {# {% block lead_form_fixfr %} 
+                                  {% include('/components/index/fr/leadFormFix.twig') %}
+                            {% endblock  %}
+                             #}
+
+                           {% block home_icon_sectionfr %}
                                 <div class="container ">
-                                {% include('/components/index/fr/home_icon_section.twig') %}
+                                {% include('/homes/data/index/fr/homeIconSection.twig') %}
                                 </div>
                             {% endblock  %}
 
-                            {% block home_heading_sectionfr %}
-                                {% include('/components/index/fr/home_heading_section.twig') %}
+                             {# {% block home_heading_sectionfr %}
+                                {% include('/components/index/fr/homeHeadingSection.twig') %}
+                            {% endblock  %} #}
+                             {% block home_heading_section1fr %}
+                                {% include('/homes/data/index/fr/homeHeadingSectionCurved.twig') %}
                             {% endblock  %}
 
                             {% block info_sectionfr %}
                               <div class="container ">
-                                {% include('/components/index/fr/info_section.twig') %}
+                                {% include('/homes/data/index/fr/infoSection.twig') %}
                               </div>
                             {% endblock  %}
 
-                            {% block video_play_sectionfr %}
-                            {% include('/components/index/fr/video_play_section.twig') %}
+                            {# {% block video_play_sectionfr %}
+                            {% include('/components/index/fr/videoPlaySection.twig') %}
+                            {% endblock  %} #}
+
+                            {% block homeHeadingSectionCurved2fr %}
+                            {% include('/homes/data/index/fr/homeHeadingSectionCurved2.twig') %}
                             {% endblock  %}
 
-                            {% block photo_gallery_sectionfr %}
+                            {# {% block photo_gallery_sectionfr %}
                               <div class="container ">
-                                {% include('/components/index/fr/photo_gallery_section.twig') %}
+                                {% include('/components/index/fr/photoGallerySection.twig') %}
+                              </div>
+                            {% endblock  %} #}
+
+                            {% block photo_gallery_sectionBEFOREAFTERfr %}
+                              <div class="container ">
+                                {% include('/homes/data/index/fr/photoGallerySectionBeforeAfter.twig') %}
                               </div>
                             {% endblock  %}
 
-                            {% block newsletter_sectionfr %}
-                              {% include('/components/index/fr/newsletter_section.twig') %}
+                            {% block home_heading_section3fr %}
+                                {% include('/homes/data/index/fr/homeHeadingSectionCurved.twig') %}
                             {% endblock  %}
 
-        {% endif %}
-      
+                            {% block video_gallery_sectionvidfr %}
+                              <div class="container ">
+                                {% include('/homes/data/index/fr/videoGallerySection.twig') %}
+                              </div>
+                            {% endblock  %}
 
-      {% if LANG == 'en' %}
+                             {% block home_heading_section4fr %}
+                                {% include('/homes/data/index/fr/homeHeadingSectionCurved2.twig') %}
+                            {% endblock  %}
+                            
+                           {% block home_counterUp %}
+                                {% include('/homes/data/index/fr/counterUp.twig') %}
+                            {% endblock  %}
+
+                             {% block home_isoLogo %}
+                                {% include('/homes/data/index/fr/homeIsoAward.twig') %}
+                            {% endblock  %}
+
+                            
+
+                            {% block home_headingSectionCurved %}
+                                {% include('/homes/data/index/fr/homeHeadingSectionCurved.twig') %}
+                            {% endblock  %}
+
+                            {% block video_gallery_sectionfr %}
+                              <div class="container ">
+                                {% include('/homes/data/index/fr/testimonials.twig') %}
+                              </div>
+                            {% endblock  %}
+
+                           
+
+                            {# {% block newsletter_sectionfr %}
+                              {% include('/components/index/fr/newsletterSection.twig') %}
+                            {% endblock  %}   #}
+                            
+                            {% block leadFormFixBottomfr %}
+                              {% include('/homes/data/index/fr/leadFormFixBottom.twig') %}
+                            {% endblock  %}  
+
+        {# {% endif %} #}
+      
+ 
+      {# {% if LANG == 'en' %}
                             {% block carouselan %}
                                 {% include('/components/index/en/showcase_caroussel.twig') %}
                             {% endblock  %}
@@ -187,6 +258,6 @@
                               {% include('/components/index/ar/newsletter_section.twig') %}
                             {% endblock  %}
 
-    {% endif %}
+    {% endif %}  #}
 
- {% endblock  %} #}
+ {% endblock  %}

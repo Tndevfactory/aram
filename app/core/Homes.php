@@ -5,10 +5,6 @@ use Twig\Environment;
 
 class Homes extends Router {
 
-
-      
-      
-
 function __construct(){
 
       $this->db= new Database;
@@ -33,9 +29,15 @@ function __construct(){
         $lang=isset($this->getUrl()[2])? $this->getUrl()[2] : '';
 
         if(!empty($lang)){
-            $this->db->query(" UPDATE mems set lang=:lang ");
-            $this->db->bind(':lang',$lang);
-            $this->db->execute();
+            
+            if( $lang == 'fr' || $lang == 'gr' || $lang == 'ar' || $lang == 'en' ){
+                  
+                  $this->db->query(" UPDATE mems set lang=:lang ");
+                  $this->db->bind(':lang',$lang);
+                  $this->db->execute();
+
+            }
+            
        }
            $this->db->query("SELECT lang FROM mems ");
            $res=$this->db->single();
@@ -47,7 +49,7 @@ function __construct(){
     
 function index($prm1='',$prm2=''){
 
-      Echo $this->twig->render(DS.'homes'.DS.'lab'.DS.'index.twig', [
+      Echo $this->twig->render(DS.'homes'.DS.'index.twig', [
         
         'urlVar'=>[
             'prm1'=> $prm1,
@@ -57,16 +59,26 @@ function index($prm1='',$prm2=''){
       
 }
 
-function qui_sommes_nous($prm1='',$prm2=''){
+// besoins 
 
-      $row=['name' => 'default class index method'];
-      Echo $this->twig->render(DS.'homes'.DS.'qui_sommes_nous.twig', [
-        
-        'urlVar'=>[
-            'prm1'=> $prm1,
-            'prm2' => $prm2
-            ]
-      ]);
+function besoinsVisage($prm1='',$prm2=''){
+
+      switch ($prm1) {
+            case "ridesfr":
+                  Echo $this->twig->render(DS.'homes'.DS.'besoins'.DS.'fr'.DS.'visage'.DS.'rides.twig', []);
+                break;
+            case "ridesen":
+                  Echo $this->twig->render(DS.'homes'.DS.'besoins'.DS.'fr'.DS.'visage'.DS.'rides.twig', []);
+                break;
+            case "ridesgr":
+                  Echo $this->twig->render(DS.'homes'.DS.'besoins'.DS.'fr'.DS.'visage'.DS.'rides.twig', []);
+                break;
+            case "ridesar":
+                  Echo $this->twig->render(DS.'homes'.DS.'besoins'.DS.'fr'.DS.'visage'.DS.'rides.twig', []);
+                break;
+            default:
+                    Echo $this->twig->render(DS.'homes'.DS.'index.twig', []);
+        }
       
 }
 
