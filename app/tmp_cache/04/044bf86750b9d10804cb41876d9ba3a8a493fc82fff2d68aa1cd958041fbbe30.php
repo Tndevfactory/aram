@@ -48,6 +48,10 @@ form#lead_form_float {
             background: linear-gradient(55deg, rgba(2,0,36,1) 3%, rgba(9,9,121,1) 31%, rgba(25,195,229,1) 90%);
             color:white;
             border: 1px solid grey; }
+
+  #btnFormindex2:hover{
+  background: rgba(45,125,190,1);
+  }
  </style>
 
 <section style=\"position:relative\">
@@ -105,8 +109,9 @@ form#lead_form_float {
 
             <br>
               <button 
+                  id=\"btnFormindex2\"
                   style=\"margin-top:-4px; border:1px solid black; border-radius:10px;color:black;margin-top:5px;\" 
-                  class=\"ml-4 rounded btn  z-depth-0 grey accent-3\">
+                  class=\"ml-4 rounded btn   z-depth-1 winter-neva-gradient\">
                   Envoyer
               </button>
           </form>
@@ -210,6 +215,10 @@ form#lead_form_float {
             background: linear-gradient(55deg, rgba(2,0,36,1) 3%, rgba(9,9,121,1) 31%, rgba(25,195,229,1) 90%);
             color:white;
             border: 1px solid grey; }
+
+  #btnFormindex2:hover{
+  background: rgba(45,125,190,1);
+  }
  </style>
 
 <section style=\"position:relative\">
@@ -267,8 +276,9 @@ form#lead_form_float {
 
             <br>
               <button 
+                  id=\"btnFormindex2\"
                   style=\"margin-top:-4px; border:1px solid black; border-radius:10px;color:black;margin-top:5px;\" 
-                  class=\"ml-4 rounded btn  z-depth-0 grey accent-3\">
+                  class=\"ml-4 rounded btn   z-depth-1 winter-neva-gradient\">
                   Envoyer
               </button>
           </form>

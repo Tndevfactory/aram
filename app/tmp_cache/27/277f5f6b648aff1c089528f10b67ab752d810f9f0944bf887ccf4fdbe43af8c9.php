@@ -94,7 +94,7 @@ class __TwigTemplate_016c961ae00f135860ec5883e378e687edeebd25e3198ee7516a47569fe
 ";
         // line 57
         $this->displayBlock('script', $context, $blocks);
-        // line 95
+        // line 110
         echo "
 ";
     }
@@ -109,18 +109,33 @@ class __TwigTemplate_016c961ae00f135860ec5883e378e687edeebd25e3198ee7516a47569fe
     let count=document.querySelectorAll(\".counter\");
     let counter = 0 , idSetInterval;
 
-   window.addEventListener('scroll', function(e){});
 
+              var flag=0;
+              \$(window).scroll(function(){
 
-            var docScrollHeight=document.documentElement.scrollHeight;
-            var windowScrollHeight=window.innerHeight;
-            var endScrollDoc=docScrollHeight - windowScrollHeight;
-            var scrolled=Math.ceil(window.scrollY);
-            var posDown=endScrollDoc - 700;
+                          if(\$(window).scrollTop()<4100){
 
-            if(scrolled = posDown){ };   
+                              
 
-                              idSetInterval = setInterval(valueCount, 80);
+                              if(flag==1){
+                                  flag=0;
+                                  
+                                }
+
+                          } else{
+
+                            
+                              if(flag==0){
+                               
+                                idSetInterval = setInterval(valueCount, 40);
+                              }
+
+                              flag=1;
+
+                             
+                          }
+                      });
+
 
                               function valueCount(){
                                 counter++;
@@ -150,7 +165,7 @@ class __TwigTemplate_016c961ae00f135860ec5883e378e687edeebd25e3198ee7516a47569fe
 
     public function getDebugInfo()
     {
-        return array (  107 => 58,  103 => 57,  98 => 95,  96 => 57,  38 => 1,);
+        return array (  107 => 58,  103 => 57,  98 => 110,  96 => 57,  38 => 1,);
     }
 
     public function getSourceContext()
@@ -217,18 +232,33 @@ class __TwigTemplate_016c961ae00f135860ec5883e378e687edeebd25e3198ee7516a47569fe
     let count=document.querySelectorAll(\".counter\");
     let counter = 0 , idSetInterval;
 
-   window.addEventListener('scroll', function(e){});
 
+              var flag=0;
+              \$(window).scroll(function(){
 
-            var docScrollHeight=document.documentElement.scrollHeight;
-            var windowScrollHeight=window.innerHeight;
-            var endScrollDoc=docScrollHeight - windowScrollHeight;
-            var scrolled=Math.ceil(window.scrollY);
-            var posDown=endScrollDoc - 700;
+                          if(\$(window).scrollTop()<4100){
 
-            if(scrolled = posDown){ };   
+                              
 
-                              idSetInterval = setInterval(valueCount, 80);
+                              if(flag==1){
+                                  flag=0;
+                                  
+                                }
+
+                          } else{
+
+                            
+                              if(flag==0){
+                               
+                                idSetInterval = setInterval(valueCount, 40);
+                              }
+
+                              flag=1;
+
+                             
+                          }
+                      });
+
 
                               function valueCount(){
                                 counter++;

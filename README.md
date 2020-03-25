@@ -9,4 +9,4 @@ htaccess in public:
     change to public
 
 verify other url link
- home heading curved , curved 2, ajax url, showcasevideo
+ home heading curved , curved 2, ajax urlsearchbar, showcasevideo

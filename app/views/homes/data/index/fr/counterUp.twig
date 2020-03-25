@@ -60,18 +60,33 @@
     let count=document.querySelectorAll(".counter");
     let counter = 0 , idSetInterval;
 
-   window.addEventListener('scroll', function(e){});
 
+              var flag=0;
+              $(window).scroll(function(){
 
-            var docScrollHeight=document.documentElement.scrollHeight;
-            var windowScrollHeight=window.innerHeight;
-            var endScrollDoc=docScrollHeight - windowScrollHeight;
-            var scrolled=Math.ceil(window.scrollY);
-            var posDown=endScrollDoc - 700;
+                          if($(window).scrollTop()<4100){
 
-            if(scrolled = posDown){ };   
+                              
 
-                              idSetInterval = setInterval(valueCount, 80);
+                              if(flag==1){
+                                  flag=0;
+                                  
+                                }
+
+                          } else{
+
+                            
+                              if(flag==0){
+                               
+                                idSetInterval = setInterval(valueCount, 40);
+                              }
+
+                              flag=1;
+
+                             
+                          }
+                      });
+
 
                               function valueCount(){
                                 counter++;

@@ -42,9 +42,15 @@ form#lead_form_float {
             position:absolute;
             top:-50px;
             z-index:900;
-            background:#B0B0B0;
+            background: rgba(45,125,190,1);
+            background: linear-gradient(to right, rgba(45,125,190,1) 0%, rgba(71,147,209,1) 20%, rgba(73,135,182,1) 41%, rgba(73,139,193,1) 70%, rgba(33,86,130,1) 100%);
             color:black;
-            border: 1px solid grey; }
+            border: 1px solid grey; 
+            }
+
+  #btnFormindex:hover{
+  background: rgba(45,125,190,1);
+  }
  </style>
 
 <section style=\"position:relative\">
@@ -102,8 +108,9 @@ form#lead_form_float {
 
             <br>
               <button 
+                  id=\"btnFormindex\"
                   style=\"margin-top:-4px; border:1px solid black; border-radius:10px;color:black;margin-top:5px;\" 
-                  class=\"ml-4 rounded btn  z-depth-0 grey accent-3\">
+                  class=\"ml-4 rounded btn  z-depth-1 winter-neva-gradient\">
                   Envoyer
               </button>
           </form>
@@ -135,7 +142,7 @@ form#lead_form_float {
 
       /*
         ";
-        // line 102
+        // line 109
         echo "        ";
         echo "*/
       window.addEventListener('scroll', function(e){
@@ -190,7 +197,7 @@ form#lead_form_float {
 
     public function getDebugInfo()
     {
-        return array (  139 => 102,  37 => 1,);
+        return array (  146 => 109,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -203,9 +210,15 @@ form#lead_form_float {
             position:absolute;
             top:-50px;
             z-index:900;
-            background:#B0B0B0;
+            background: rgba(45,125,190,1);
+            background: linear-gradient(to right, rgba(45,125,190,1) 0%, rgba(71,147,209,1) 20%, rgba(73,135,182,1) 41%, rgba(73,139,193,1) 70%, rgba(33,86,130,1) 100%);
             color:black;
-            border: 1px solid grey; }
+            border: 1px solid grey; 
+            }
+
+  #btnFormindex:hover{
+  background: rgba(45,125,190,1);
+  }
  </style>
 
 <section style=\"position:relative\">
@@ -263,8 +276,9 @@ form#lead_form_float {
 
             <br>
               <button 
+                  id=\"btnFormindex\"
                   style=\"margin-top:-4px; border:1px solid black; border-radius:10px;color:black;margin-top:5px;\" 
-                  class=\"ml-4 rounded btn  z-depth-0 grey accent-3\">
+                  class=\"ml-4 rounded btn  z-depth-1 winter-neva-gradient\">
                   Envoyer
               </button>
           </form>
