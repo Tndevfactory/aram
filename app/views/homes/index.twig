@@ -4,7 +4,11 @@
   
 {% block content %}
 
+<<<<<<< HEAD
         {% if LANG == 'fr' %}
+=======
+        {# {% if LANG == 'fr' %} #}
+>>>>>>> 4f6e33e88789a3fda35540708f45468586efa454
 
                         {# {% block simpleMegamenu %}
                                 {% include('/inc/navbarMegaMenu.html.twig') %}
@@ -14,11 +18,19 @@
                                 {% include('/components/index/fr/showcaseBackgroundImage.twig') %}
                             {% endblock  %}  #}
                           
+<<<<<<< HEAD
                             {% block showcaseVideofr %}
                                 {% include('/homes/data/index/fr/showcaseVideo.twig') %}
                             {% endblock  %}
                           
                             {% block leadFormFloatfr %} 
+=======
+                            {% block carouselfr %}
+                                {% include('/homes/data/index/fr/showcaseVideo.twig') %}
+                            {% endblock  %}
+                          
+                            {% block lead_form_floatfr %} 
+>>>>>>> 4f6e33e88789a3fda35540708f45468586efa454
                                   {% include('/homes/data/index/fr/leadFormFloat.twig') %}
                             {% endblock  %}
 
@@ -26,7 +38,11 @@
                                   {% include('/components/index/fr/leadFormFloatzoho.twig') %}
                             {% endblock  %} #}
                            
+<<<<<<< HEAD
                             {% block searchFormfr %} 
+=======
+                            {% block searchForm %} 
+>>>>>>> 4f6e33e88789a3fda35540708f45468586efa454
                                   {% include('/homes/data/index/fr/searchForm.twig') %}
                             {% endblock  %}
 
@@ -35,7 +51,11 @@
                             {% endblock  %}
                              #}
 
+<<<<<<< HEAD
                            {% block homeIconSectionfr %}
+=======
+                           {% block home_icon_sectionfr %}
+>>>>>>> 4f6e33e88789a3fda35540708f45468586efa454
                                 <div class="container ">
                                 {% include('/homes/data/index/fr/homeIconSection.twig') %}
                                 </div>
@@ -44,6 +64,7 @@
                              {# {% block home_heading_sectionfr %}
                                 {% include('/components/index/fr/homeHeadingSection.twig') %}
                             {% endblock  %} #}
+<<<<<<< HEAD
                              {% block homeHeadingSectionCurvedfr0 %}
                                 {% include('/homes/data/index/fr/homeHeadingSectionCurved.twig') %}
                             {% endblock  %}
@@ -60,6 +81,10 @@
 
                             {% block homeHeadingSectionCurved2fr %}
                             {% include('/homes/data/index/fr/homeHeadingSectionCurved2.twig') %}
+=======
+                             {% block home_heading_section1fr %}
+                                {% include('/homes/data/index/fr/homeHeadingSectionCurved.twig') %}
+>>>>>>> 4f6e33e88789a3fda35540708f45468586efa454
                             {% endblock  %}
 
                             {# {% block photo_gallery_sectionfr %}
@@ -70,6 +95,7 @@
 
                             {% block photoGallerySectionBeforeAfterfr %}
                               <div class="container ">
+<<<<<<< HEAD
                                 {% include('/homes/data/index/fr/photoGallerySectionBeforeAfter.twig') %}
                               </div>
                             {% endblock  %}
@@ -132,6 +158,82 @@
                           
                             {% block showcaseVideoen %}
                                 {% include('/homes/data/index/en/showcaseVideo.twig') %}
+=======
+                                {% include('/homes/data/index/fr/infoSection.twig') %}
+                              </div>
+                            {% endblock  %}
+
+                            {# {% block video_play_sectionfr %}
+                            {% include('/components/index/fr/videoPlaySection.twig') %}
+                            {% endblock  %} #}
+
+                            {% block homeHeadingSectionCurved2fr %}
+                            {% include('/homes/data/index/fr/homeHeadingSectionCurved2.twig') %}
+                            {% endblock  %}
+
+                            {# {% block photo_gallery_sectionfr %}
+                              <div class="container ">
+                                {% include('/components/index/fr/photoGallerySection.twig') %}
+                              </div>
+                            {% endblock  %} #}
+
+                            {% block photo_gallery_sectionBEFOREAFTERfr %}
+                              <div class="container ">
+                                {% include('/homes/data/index/fr/photoGallerySectionBeforeAfter.twig') %}
+                              </div>
+                            {% endblock  %}
+
+                            {% block home_heading_section3fr %}
+                                {% include('/homes/data/index/fr/homeHeadingSectionCurved.twig') %}
+                            {% endblock  %}
+
+                            {% block video_gallery_sectionvidfr %}
+                              <div class="container ">
+                                {% include('/homes/data/index/fr/videoGallerySection.twig') %}
+                              </div>
+                            {% endblock  %}
+
+                             {% block home_heading_section4fr %}
+                                {% include('/homes/data/index/fr/homeHeadingSectionCurved2.twig') %}
+                            {% endblock  %}
+                            
+                           {% block home_counterUp %}
+                                {% include('/homes/data/index/fr/counterUp.twig') %}
+                            {% endblock  %}
+
+                             {% block home_isoLogo %}
+                                {% include('/homes/data/index/fr/homeIsoAward.twig') %}
+                            {% endblock  %}
+
+                            
+
+                            {% block home_headingSectionCurved %}
+                                {% include('/homes/data/index/fr/homeHeadingSectionCurved.twig') %}
+                            {% endblock  %}
+
+                            {% block video_gallery_sectionfr %}
+                              <div class="container ">
+                                {% include('/homes/data/index/fr/testimonials.twig') %}
+                              </div>
+                            {% endblock  %}
+
+                           
+
+                            {# {% block newsletter_sectionfr %}
+                              {% include('/components/index/fr/newsletterSection.twig') %}
+                            {% endblock  %}   #}
+                            
+                            {% block leadFormFixBottomfr %}
+                              {% include('/homes/data/index/fr/leadFormFixBottom.twig') %}
+                            {% endblock  %}  
+
+        {# {% endif %} #}
+      
+ 
+      {# {% if LANG == 'en' %}
+                            {% block carouselan %}
+                                {% include('/components/index/en/showcase_caroussel.twig') %}
+>>>>>>> 4f6e33e88789a3fda35540708f45468586efa454
                             {% endblock  %}
                           
                             {% block leadFormFloaten %} 
@@ -440,6 +542,7 @@
                                 {% include('/homes/data/index/ar/counterUp.twig') %}
                             {% endblock  %}
 
+<<<<<<< HEAD
                              {% block homeIsoAwardar %}
                                 {% include('/homes/data/index/ar/homeIsoAward.twig') %}
                             {% endblock  %}
@@ -472,5 +575,8 @@
         
       
  
+=======
+    {% endif %}  #}
+>>>>>>> 4f6e33e88789a3fda35540708f45468586efa454
 
  {% endblock  %}
