@@ -1,0 +1,135 @@
+ {% extends 'layout.twig' %}
+
+{% block meta %}  
+            
+           <meta name="description" content=" besoins/fr/ride ">
+           
+ {% endblock  %}
+
+ {% block style %}   
+      <style>
+
+     
+        #ridesec h1{
+              font-weight:600;
+              color:rgb(0,128,128);
+              font-size:33px;
+                                      
+            }
+
+          #ridesec h2{
+              font-weight:600;
+              color:rgb(0,139,139);
+              font-size:28px;
+            }
+
+          #ridesec h3{
+              font-weight:600;
+              color:rgb(32,178,170);
+              font-size:24px;
+            }
+
+          #ridesec p{
+                color:#010203;
+               font-size:1rem;
+            }
+
+           #ridesec ul{list-style-type: disc;}
+     
+
+      @media(max-width:900px){
+      
+          #ridesec h1{
+              font-size:25px;
+              
+            }
+
+          #ridesec h2{
+              font-size:20px;
+            }
+
+          #ridesec h3{
+              font-size:18px;
+            }
+
+          #ridesec p{
+              font-size:16px;
+            }
+          }
+          
+      </style>
+ 
+{% endblock  %}
+
+{% block title %}  <title> besoins/fr/ride </title> {% endblock  %}
+  
+{% block content %}
+ <!-- besoins/fr/visage/ride-->
+                      
+                        {% block lead_form_floattfr %} 
+                                  {% include('/homes/data/index/fr/leadFormFloat2.twig') %}
+                            {% endblock  %}
+   
+      <section id="ridesec" class="py-3">
+
+        <div class="container">
+          <div class="row">
+          
+            <div class="col-md-6">
+
+              <h1>Les défauts du nez</h1>
+              <p>au bon milieu du visage, le moindre défaut nasal saute aux yeux et peut devenir source de complexe. Grâce à la chirurgie esthétique, il est désormais possible de refaire son nez. Mais à chaque problème et à chaque déformation nasale, il existe une technique chirurgicale adaptée.</p>
+
+                          
+            </div>
+
+            <div class="col-md-6">
+              <img src="{{URLROOT}}/public/img/quisommenous/quisommenous2.jpg" alt="" 
+              class="img-fluid rounded-circle d-none d-md-block about-img">
+            </div>
+
+            <div class="col-md-12">
+             <p>Il existe plusieurs défauts qui nécessitent une intervention chirurgicale. Cela dit, les formes de nez varient d’une personne à une autre et il se trouve qu’une personne souhaite en modifier les traits sans pour autant qu’il y ait une malformation. Juste par convenance et par souhait d’en affiner les traits que la rhinoplastie esthétique peut être pratiquée. </p>
+              <p>Voyons les différents types de nez : </p>
+              <ul>
+              <li>Bossu : c’est un nez qui dispose d’une bosse au niveau de l’arrête nasale. </li>
+              <li>Crochu : c’est le nez Aquilin. Il est fin avec la pointe nasale qui pointe vers le bas. </li>
+              <li>Tombant : comme son nom l’indique, il est étiré vers le bas du visage. </li>
+              <li>Aplati : c’est le nez Camus, il est court et aplati. </li>
+              <li>Épaté : ce type de nez est caractéristique des africains et des asiatiques qui possèdent généralement un nez court et large surtout au niveau des narines. </li>
+              <li>En trompette, c’est lorsque la pointe du nez est retroussée vers le haut. </li>
+              </ul>
+              <p>Pour ces principaux types de nez la rhinoplastie, qui permet de les affiner et de les remodeler, peut être soit médicale soit chirurgicale.</p>
+              <p>La déformation du nez peut aussi résulter d’un accident. Dans ce cas, la chirurgie réparatrice peut contribuer à le corriger. </p>
+              <h2>Comment refaire son nez ?</h2>
+
+              <p>Constitué de tissus mous, de cartilage et d’os, le nez peut être remodelé aux bons vouloirs du patient mais dans la limite du faisable. Un nez africain ne peut pas devenir un nez européen. Il faut respecter l’harmonie des traits du visage, les spécificités socioculturelles et génétiques pour avoir un résultat qui parait naturel.</p>
+
+
+             </div>
+
+             <div class="col-md-6 ">
+               <p>Les techniques chirurgicales de la rhinoplastie permettent d’apporter les modifications nécessaires. Les actes chirurgicaux sont adaptés à chaque défaut pour un geste précis et pertinent. </p>
+
+              <p>Par exemple, pour affiner un nez épaté, il faut faire une rhinoplastie ethnique ; et pour modifier un nez aplati, le chirurgien peut faire des greffes de cartilages ou d’os.</p>
+
+              <p>De simples déformations peuvent être redressées par la rhinoplastie médicale. Des injections d’acide hyaluronique permettent de combler un creux ou une légère bosse par exemple.</p>
+
+            </div>
+
+             <div class="col-md-6">
+               <img src="{{URLROOT}}/public/img/quisommenous/quisommenous2.jpg" alt="" 
+              class="img-fluid pt-5 rounded-circle d-none d-md-block about-img">
+            </div>
+
+          </div>
+        </div>
+
+      </section>
+
+                        {% block leadFormFixBottomtfr %}
+                              {% include('/homes/data/index/fr/leadFormFixBottom.twig') %}
+                            {% endblock  %}  
+
+{% endblock  %}
+  

@@ -1,0 +1,134 @@
+ {% extends 'layout.twig' %}
+
+{% block meta %}  
+            
+           <meta name="description" content=" besoins/fr/ride ">
+           
+ {% endblock  %}
+
+ {% block style %}   
+      <style>
+
+     
+        #ridesec h1{
+              font-weight:600;
+              color:rgb(0,128,128);
+              font-size:33px;
+                                      
+            }
+
+          #ridesec h2{
+              font-weight:600;
+              color:rgb(0,139,139);
+              font-size:28px;
+            }
+
+          #ridesec h3{
+              font-weight:600;
+              color:rgb(32,178,170);
+              font-size:24px;
+            }
+
+          #ridesec p{
+                color:#010203;
+               font-size:1rem;
+            }
+
+           #ridesec ul{list-style-type: disc;}
+     
+
+      @media(max-width:900px){
+      
+          #ridesec h1{
+              font-size:25px;
+              
+            }
+
+          #ridesec h2{
+              font-size:20px;
+            }
+
+          #ridesec h3{
+              font-size:18px;
+            }
+
+          #ridesec p{
+              font-size:16px;
+            }
+          }
+          
+      </style>
+ 
+{% endblock  %}
+
+{% block title %}  <title> besoins/fr/ride </title> {% endblock  %}
+  
+{% block content %}
+ <!-- besoins/fr/visage/ride-->
+                      
+                        {% block lead_form_floattfr %} 
+                                  {% include('/homes/data/index/fr/leadFormFloat2.twig') %}
+                            {% endblock  %}
+   
+      <section id="ridesec" class="py-3">
+
+        <div class="container">
+          <div class="row">
+          
+            <div class="col-md-6">
+
+              <h1>Les problèmes du menton : progénie, rétrogénie et double menton </h1>
+              <p>Pour chaque partie du corps, il existe des problèmes et des techniques de chirurgie ou de médecine esthétique pour les solutionner. Le menton est la partie protubérante de l’os mandibulaire du visage. Pour certains, il est très avancé, pour d’autres il est reculé. Parfois, une couche de graisse peut venir alourdir les contours du visage pour créer l’effet d’un double menton.</p>
+
+                          
+            </div>
+
+            <div class="col-md-6">
+              <img src="{{URLROOT}}/public/img/quisommenous/quisommenous2.jpg" alt="" 
+              class="img-fluid rounded-circle d-none d-md-block about-img">
+            </div>
+
+            <div class="col-md-12">
+             <h2>Un menton avancé</h2> 
+              <p>Il est aussi appelé menton en galoche. Il est caractérisé par une projection vers l’avant plus prononcée du menton, c’est la progénie. </p>
+              <p>Le menton en galoche peut être causé par le fait que la mâchoire inférieure est avancée beaucoup plus que la mâchoire supérieure. Dans ce cas, il faut vérifier les radios et voir avec le chirurgien-dentiste si le traitement de cette malformation nécessite une chirurgie parodontale seule ou associée à un acte de chirurgie esthétique.</p>
+              <p>Il peut aussi être due à une protubérance osseuse ou par une proéminence des parties molles du visage dans son tiers inférieur. Afin de remédier à ce complexe, il n’y a que la chirurgie de mentoplastie qui permet de le faire.</p>
+              <p>La progénie est généralement héréditaire et son traitement ne se fait qu’après la consultation d’un chirurgien spécialisé. Un examen minutieux des radios est nécessaire pour établir un diagnostic précis.</p>
+              <h2>Un menton reculé </h2>
+              <p>La rétrogénie s’explique par le fait d’avoir l’os mandibulaire fuyant vers l’arrière. C’est lorsque la mâchoire inférieure est reculée par rapport à la mâchoire supérieure. Une gêne aussi bien sur le plan esthétique que fonctionnel puisque cela engendre des problèmes de mastication et même de respiration. Une vérification des radios est nécessaire à ce niveau.</p>
+              <p>Lorsque le menton est en retrait par rapport au tiers supérieur du visage, la personne peut être sujette à plusieurs complexes.</p>
+              <p>Afin d’y remédier une pose de prothèse ou de greffe osseuse est possible en cas de recul du menton. Mais il faut avant tout vérifier l’état de la mâchoire avant tout.</p>
+
+             </div>
+
+             <div class="col-md-6">
+               <h2>Le double menton</h2>
+                <p>Lorsqu’un amas graisseux se localise sous la mâchoire cela donne naissance à ce qu’on appelle « le double menton ». Les principales causes de l’apparition du double menton sont :</p>
+                <ul>
+                <li>Le relâchement de la peau qui devient plus fine, </li>
+                <li>L’âge, </li>
+                <li>La prise de poids, </li>
+                <li>L’effet de la gravite et</li>
+                <li>L’infiltration graisseuse.</li>
+                </ul>
+                <p>L’ovale du visage n’est plus clairement dessiné et le visage parait vieilli et fatigué. On peut affiner les contours du visage et redessiner son ovale par la liposuccion et/ou la chirurgie.</p>
+                <p>Si la peau possède un pouvoir de rétraction important, il est possible d’aspirer cette graisse sous-cutanée par de fines canules adaptées. Si la peau est beaucoup trop relâchée, il faut enlever chirurgicalement le surplus cutané.</p>
+
+            </div>
+
+             <div class="col-md-6">
+               <img src="{{URLROOT}}/public/img/quisommenous/quisommenous2.jpg" alt="" 
+              class="img-fluid rounded-circle d-none d-md-block about-img">
+            </div>
+
+          </div>
+        </div>
+
+      </section>
+
+                        {% block leadFormFixBottomtfr %}
+                              {% include('/homes/data/index/fr/leadFormFixBottom.twig') %}
+                            {% endblock  %}  
+
+{% endblock  %}
+  

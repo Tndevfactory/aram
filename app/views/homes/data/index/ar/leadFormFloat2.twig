@@ -1,0 +1,144 @@
+<!-- lead_form_float-->
+
+<style>
+form#lead_form_float {
+            width:400px;
+            position:absolute;
+            top:170px;
+            z-index:900;
+            background:purple;
+            color:white;
+            border: 1px solid grey; }
+ </style>
+
+<section style="position:relative">
+          <form  id="lead_form_float" action="#" method="post" 
+          class=" my-0 p-3 text-center d-none d-xl-block  z-depth-3 ">
+
+            <h4 class="text-center  mb-3">Demander un devis </h4><br>
+
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text" id="basic-addon1">
+                <i style="width:22px"  class="fas fa-portrait"></i></span>
+              </div>
+              <input type="text" class="form-control" 
+                placeholder="Votre nom au complet" >
+            </div>
+
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text" id="basic-addon1">
+                <i style="width:22px"  class="fas fa-mobile-alt"></i></span>
+              </div>
+              <input type="text" class="form-control"
+                placeholder="Votre numéro de téléphone" >
+            </div>
+
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text" id="basic-addon1">
+                <i style="width:22px"  class="fas fa-at"></i></span>
+              </div>
+              <input type="text" class="form-control" placeholder="Votre adresse email" >
+            </div>
+
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <label class="input-group-text" for="inputGroupSelect22"><i style="width:22px" class="fas fa-user-md"></i></label>
+              </div>
+              <select class="custom-select" id="inputGroupSelect22">
+                <option selected>Intervention souhaitée...</option>
+                <option value="1">Lifting visage</option>
+                <option value="2">Blépharoplastie </option>
+                <option value="3">Rhinoplastie</option>
+                <option value="1">Lifting seins</option>
+                <option value="2">Prothèses mammaires</option>
+                <option value="3">Lipofilling mammaire</option>
+                <option value="1">Liposuccion</option>
+                <option value="2">Abdominoplastie  </option>
+                <option value="3">Augmentation fesses</option>
+                <option value="1">Greffe cheveux </option>
+                <option value="2">Greffe barbe </option>
+                <option value="3">Greffe sourcils</option>
+              </select>
+            </div>
+
+            <br>
+              <button 
+                  style="margin-top:-4px; border:1px solid black; border-radius:10px;color:black;margin-top:5px;" 
+                  class="ml-4 rounded btn  z-depth-0 grey accent-3">
+                  Envoyer
+              </button>
+          </form>
+</section>  
+
+ <script>
+       
+      //  document.getElementById("lead_form_float").style.visibility = "hidden"; 
+            var w = parseInt(window.innerWidth);
+            pos=w-450;
+         // document.getElementById("lead_form_float").style.visibility = "visible";
+          document.getElementById("lead_form_float").style.left = pos + 'px';
+
+      /*  window.addEventListener('load', function(event){
+          var w = parseInt(window.innerWidth);
+          
+          pos=w-450;
+          document.getElementById("lead_form_float").style.visibility = "visible";
+          document.getElementById("lead_form_float").style.left = pos + 'px';
+        });*/
+
+
+        window.addEventListener('resize', function(event){
+          var w = parseInt(window.innerWidth);
+          var h = parseInt(window.innerHeight);
+           pos=w-450;
+          document.getElementById("lead_form_float").style.left = pos + 'px';
+        });
+
+      /*
+         gsap.from(".box", { opacity: 0,  y: 100,  duration: 1 }); 
+        gsap.to(".box", {rotation: -55, x: 10, duration: 4}); */
+
+      window.addEventListener('scroll', function(e){
+     
+            var docScrollHeight=document.documentElement.scrollHeight;
+            var windowScrollHeight=window.innerHeight;
+            var endScrollDoc=docScrollHeight - windowScrollHeight;
+            var scrolled=Math.ceil(window.scrollY);
+            var formHeight=document.getElementById("lead_form_float").clientHeight;
+            var posDown=endScrollDoc - (formHeight);
+
+            console.log('docScrollHeight ' + docScrollHeight);
+            console.log('windowScrollHeight ' + windowScrollHeight);
+            console.log('endScrollDoc ' + endScrollDoc);
+            console.log('formHeight ' + formHeight);
+            console.log('scrolled ' + scrolled );
+            console.log('posDown ' + posDown );
+            console.log('scrolled end at ' +  scrolled);
+
+            if( (scrolled < posDown) ){
+              document.getElementById("lead_form_float").style.top = (scrolled ) + 'px';
+            }else{
+               document.getElementById("lead_form_float").style.visibility = "hidden";
+            } 
+            
+            if( (scrolled < posDown) ){
+               document.getElementById("lead_form_float").style.visibility = "visible";
+            }
+
+            });
+
+            /*document.getElementById("lead_form_float").style.top =  (scrolled)+'px';
+
+            if (document.body.scrollTop > 150 || document.documentElement.scrollTop > 150) {
+                document.getElementById("lead_form_float").style.background= "red";   
+                console.log((scrolledGap)+'px');
+            } else {
+              
+              document.getElementById("lead_form_float").style.background= "blue";
+            }
+        */
+
+</script>

@@ -49,7 +49,7 @@ class __TwigTemplate_c982b606aace8e804f62d2ca9ab9ccc64d34adc6b83a8760ae558b7ac7e
   <div id=\"header1\" class=\"jumbotron jumbotron-fluid py-2 mb-0 \" style=\"border-radius:0;background-color:#010203;\">
       <div class=\"row\">
           <span  style=\"color:#E1AD21; margin-top:3px;\" class=\"h5  px-3 ml-2 text-uppercase \"> Aram Clinic</span > 
-          <span> <i style=\"color:#E1AD21;\" class=\"animated tada fas fa-phone-volume fa-2x  \"> </i> </span>
+          <span> <i style=\"color:#E1AD21;\" class=\"animated tada fas fa-mobile-alt fa-2x  \"> </i> </span>
           <span class=\" h5 pl-2 \" style=\"color:#E1AD21;\"> +262 269 33 87 99 </span> 
       </div>
   </div>
@@ -85,7 +85,7 @@ class __TwigTemplate_c982b606aace8e804f62d2ca9ab9ccc64d34adc6b83a8760ae558b7ac7e
   <div id=\"header1\" class=\"jumbotron jumbotron-fluid py-2 mb-0 \" style=\"border-radius:0;background-color:#010203;\">
       <div class=\"row\">
           <span  style=\"color:#E1AD21; margin-top:3px;\" class=\"h5  px-3 ml-2 text-uppercase \"> Aram Clinic</span > 
-          <span> <i style=\"color:#E1AD21;\" class=\"animated tada fas fa-phone-volume fa-2x  \"> </i> </span>
+          <span> <i style=\"color:#E1AD21;\" class=\"animated tada fas fa-mobile-alt fa-2x  \"> </i> </span>
           <span class=\" h5 pl-2 \" style=\"color:#E1AD21;\"> +262 269 33 87 99 </span> 
       </div>
   </div>

@@ -1,192 +1,476 @@
 
-{# {% extends 'layout.twig' %}
-{% block title %}  <title> ch override by block  </title> {% endblock  %}
+{% extends 'layout.twig' %}
+{% block title %}  <title> prod </title> {% endblock  %}
   
 {% block content %}
 
         {% if LANG == 'fr' %}
-                            {% block carouselfr %}
-                                {% include('/components/index/fr/showcase_caroussel.twig') %}
+
+                        {# {% block simpleMegamenu %}
+                                {% include('/inc/navbarMegaMenu.html.twig') %}
+                            {% endblock  %}  #}
+
+                            {# {% block carouselfr %}
+                                {% include('/components/index/fr/showcaseBackgroundImage.twig') %}
+                            {% endblock  %}  #}
+                          
+                            {% block showcaseVideofr %}
+                                {% include('/homes/data/index/fr/showcaseVideo.twig') %}
                             {% endblock  %}
                           
-                            {% block lead_form_floatfr %} 
-                                  {% include('/components/index/fr/lead_form_float.twig') %}
+                            {% block leadFormFloatfr %} 
+                                  {% include('/homes/data/index/fr/leadFormFloat.twig') %}
                             {% endblock  %}
 
-                            {% block lead_form_fixfr %} 
-                                  {% include('/components/index/fr/lead_form_fix.twig') %}
+                            {# {% block lead_form_floatzoho %} 
+                                  {% include('/components/index/fr/leadFormFloatzoho.twig') %}
+                            {% endblock  %} #}
+                           
+                            {% block searchFormfr %} 
+                                  {% include('/homes/data/index/fr/searchForm.twig') %}
                             {% endblock  %}
-                            
-                            {% block home_icon_sectionfr %}
+
+                            {# {% block lead_form_fixfr %} 
+                                  {% include('/components/index/fr/leadFormFix.twig') %}
+                            {% endblock  %}
+                             #}
+
+                           {% block homeIconSectionfr %}
                                 <div class="container ">
-                                {% include('/components/index/fr/home_icon_section.twig') %}
+                                {% include('/homes/data/index/fr/homeIconSection.twig') %}
                                 </div>
                             {% endblock  %}
 
-                            {% block home_heading_sectionfr %}
-                                {% include('/components/index/fr/home_heading_section.twig') %}
+                             {# {% block home_heading_sectionfr %}
+                                {% include('/components/index/fr/homeHeadingSection.twig') %}
+                            {% endblock  %} #}
+                             {% block homeHeadingSectionCurvedfr0 %}
+                                {% include('/homes/data/index/fr/homeHeadingSectionCurved.twig') %}
                             {% endblock  %}
 
-                            {% block info_sectionfr %}
+                            {% block infoSectionfr %}
                               <div class="container ">
-                                {% include('/components/index/fr/info_section.twig') %}
+                                {% include('/homes/data/index/fr/infoSection.twig') %}
                               </div>
                             {% endblock  %}
 
-                            {% block video_play_sectionfr %}
-                            {% include('/components/index/fr/video_play_section.twig') %}
+                            {# {% block video_play_sectionfr %}
+                            {% include('/components/index/fr/videoPlaySection.twig') %}
+                            {% endblock  %} #}
+
+                            {% block homeHeadingSectionCurved2fr %}
+                            {% include('/homes/data/index/fr/homeHeadingSectionCurved2.twig') %}
                             {% endblock  %}
 
-                            {% block photo_gallery_sectionfr %}
+                            {# {% block photo_gallery_sectionfr %}
                               <div class="container ">
-                                {% include('/components/index/fr/photo_gallery_section.twig') %}
+                                {% include('/components/index/fr/photoGallerySection.twig') %}
+                              </div>
+                            {% endblock  %} #}
+
+                            {% block photoGallerySectionBeforeAfterfr %}
+                              <div class="container ">
+                                {% include('/homes/data/index/fr/photoGallerySectionBeforeAfter.twig') %}
                               </div>
                             {% endblock  %}
 
-                            {% block newsletter_sectionfr %}
-                              {% include('/components/index/fr/newsletter_section.twig') %}
+                            {% block homeHeadingSectionCurvedfr %}
+                                {% include('/homes/data/index/fr/homeHeadingSectionCurved.twig') %}
                             {% endblock  %}
 
-        {% endif %}
+                            {% block videoGallerySectionfr %}
+                              <div class="container ">
+                                {% include('/homes/data/index/fr/videoGallerySection.twig') %}
+                              </div>
+                            {% endblock  %}
+
+                             {% block homeHeadingSectionCurved2fr2 %}
+                                {% include('/homes/data/index/fr/homeHeadingSectionCurved2.twig') %}
+                            {% endblock  %}
+                            
+                           {% block counterUpfr %}
+                                {% include('/homes/data/index/fr/counterUp.twig') %}
+                            {% endblock  %}
+
+                             {% block homeIsoAwardfr %}
+                                {% include('/homes/data/index/fr/homeIsoAward.twig') %}
+                            {% endblock  %}
+
+                            
+
+                            {% block homeHeadingSectionCurvedfr2 %}
+                                {% include('/homes/data/index/fr/homeHeadingSectionCurved.twig') %}
+                            {% endblock  %}
+
+                            {% block testimonialsfr %}
+                              <div class="container ">
+                                {% include('/homes/data/index/fr/testimonials.twig') %}
+                              </div>
+                            {% endblock  %}
+
+                           
+
+                            {# {% block newsletter_sectionfr %}
+                              {% include('/components/index/fr/newsletterSection.twig') %}
+                            {% endblock  %}   #}
+                            
+                            {% block leadFormFixBottomfr %}
+                              {% include('/homes/data/index/fr/leadFormFixBottom.twig') %}
+                            {% endblock  %}  
+
+       {% endif %}
+      
+        {% if LANG == 'en' %}
+
+                        {# {% block simpleMegamenu %}
+                                {% include('/inc/navbarMegaMenu.html.twig') %}
+                            {% endblock  %}  #}
+
+                            {# {% block carouselen %}
+                                {% include('/components/index/en/showcaseBackgroundImage.twig') %}
+                            {% endblock  %}  #}
+                          
+                            {% block showcaseVideoen %}
+                                {% include('/homes/data/index/en/showcaseVideo.twig') %}
+                            {% endblock  %}
+                          
+                            {% block leadFormFloaten %} 
+                                  {% include('/homes/data/index/en/leadFormFloat.twig') %}
+                            {% endblock  %}
+
+                            {# {% block lead_form_floatzoho %} 
+                                  {% include('/components/index/en/leadFormFloatzoho.twig') %}
+                            {% endblock  %} #}
+                           
+                            {% block searchFormen %} 
+                                  {% include('/homes/data/index/en/searchForm.twig') %}
+                            {% endblock  %}
+
+                            {# {% block lead_form_fixen %} 
+                                  {% include('/components/index/en/leadFormFix.twig') %}
+                            {% endblock  %}
+                             #}
+
+                           {% block homeIconSectionen %}
+                                <div class="container ">
+                                {% include('/homes/data/index/en/homeIconSection.twig') %}
+                                </div>
+                            {% endblock  %}
+
+                             {# {% block home_heading_sectionen %}
+                                {% include('/components/index/en/homeHeadingSection.twig') %}
+                            {% endblock  %} #}
+                             {% block homeHeadingSectionCurveden0 %}
+                                {% include('/homes/data/index/en/homeHeadingSectionCurved.twig') %}
+                            {% endblock  %}
+
+                            {% block infoSectionen %}
+                              <div class="container ">
+                                {% include('/homes/data/index/en/infoSection.twig') %}
+                              </div>
+                            {% endblock  %}
+
+                            {# {% block video_play_sectionen %}
+                            {% include('/components/index/en/videoPlaySection.twig') %}
+                            {% endblock  %} #}
+
+                            {% block homeHeadingSectionCurved2en %}
+                            {% include('/homes/data/index/en/homeHeadingSectionCurved2.twig') %}
+                            {% endblock  %}
+
+                            {# {% block photo_gallery_sectionen %}
+                              <div class="container ">
+                                {% include('/components/index/en/photoGallerySection.twig') %}
+                              </div>
+                            {% endblock  %} #}
+
+                            {% block photoGallerySectionBeforeAfteren %}
+                              <div class="container ">
+                                {% include('/homes/data/index/en/photoGallerySectionBeforeAfter.twig') %}
+                              </div>
+                            {% endblock  %}
+
+                            {% block homeHeadingSectionCurveden %}
+                                {% include('/homes/data/index/en/homeHeadingSectionCurved.twig') %}
+                            {% endblock  %}
+
+                            {% block videoGallerySectionen %}
+                              <div class="container ">
+                                {% include('/homes/data/index/en/videoGallerySection.twig') %}
+                              </div>
+                            {% endblock  %}
+
+                             {% block homeHeadingSectionCurved2en2 %}
+                                {% include('/homes/data/index/en/homeHeadingSectionCurved2.twig') %}
+                            {% endblock  %}
+                            
+                           {% block counterUpen %}
+                                {% include('/homes/data/index/en/counterUp.twig') %}
+                            {% endblock  %}
+
+                             {% block homeIsoAwarden %}
+                                {% include('/homes/data/index/en/homeIsoAward.twig') %}
+                            {% endblock  %}
+
+                            
+
+                            {% block homeHeadingSectionCurveden2 %}
+                                {% include('/homes/data/index/en/homeHeadingSectionCurved.twig') %}
+                            {% endblock  %}
+
+                            {% block testimonialsen %}
+                              <div class="container ">
+                                {% include('/homes/data/index/en/testimonials.twig') %}
+                              </div>
+                            {% endblock  %}
+
+                           
+
+                            {# {% block newsletter_sectionen %}
+                              {% include('/components/index/en/newsletterSection.twig') %}
+                            {% endblock  %}   #}
+                            
+                            {% block leadFormFixBottomen %}
+                              {% include('/homes/data/index/en/leadFormFixBottom.twig') %}
+                            {% endblock  %}  
+
+       {% endif %}
+      
+        {% if LANG == 'gr' %}
+
+                        {# {% block simpleMegamenu %}
+                                {% include('/inc/navbarMegaMenu.html.twig') %}
+                            {% endblock  %}  #}
+
+                            {# {% block carouselgr %}
+                                {% include('/components/index/gr/showcaseBackgroundImage.twig') %}
+                            {% endblock  %}  #}
+                          
+                            {% block showcaseVideogr %}
+                                {% include('/homes/data/index/gr/showcaseVideo.twig') %}
+                            {% endblock  %}
+                          
+                            {% block leadFormFloatgr %} 
+                                  {% include('/homes/data/index/gr/leadFormFloat.twig') %}
+                            {% endblock  %}
+
+                            {# {% block lead_form_floatzoho %} 
+                                  {% include('/components/index/gr/leadFormFloatzoho.twig') %}
+                            {% endblock  %} #}
+                           
+                            {% block searchFormgr %} 
+                                  {% include('/homes/data/index/gr/searchForm.twig') %}
+                            {% endblock  %}
+
+                            {# {% block lead_form_fixgr %} 
+                                  {% include('/components/index/gr/leadFormFix.twig') %}
+                            {% endblock  %}
+                             #}
+
+                           {% block homeIconSectiongr %}
+                                <div class="container ">
+                                {% include('/homes/data/index/gr/homeIconSection.twig') %}
+                                </div>
+                            {% endblock  %}
+
+                             {# {% block home_heading_sectiongr %}
+                                {% include('/components/index/gr/homeHeadingSection.twig') %}
+                            {% endblock  %} #}
+                             {% block homeHeadingSectionCurvedgr0 %}
+                                {% include('/homes/data/index/gr/homeHeadingSectionCurved.twig') %}
+                            {% endblock  %}
+
+                            {% block infoSectiongr %}
+                              <div class="container ">
+                                {% include('/homes/data/index/gr/infoSection.twig') %}
+                              </div>
+                            {% endblock  %}
+
+                            {# {% block video_play_sectiongr %}
+                            {% include('/components/index/gr/videoPlaySection.twig') %}
+                            {% endblock  %} #}
+
+                            {% block homeHeadingSectionCurved2gr %}
+                            {% include('/homes/data/index/gr/homeHeadingSectionCurved2.twig') %}
+                            {% endblock  %}
+
+                            {# {% block photo_gallery_sectiongr %}
+                              <div class="container ">
+                                {% include('/components/index/gr/photoGallerySection.twig') %}
+                              </div>
+                            {% endblock  %} #}
+
+                            {% block photoGallerySectionBeforeAftergr %}
+                              <div class="container ">
+                                {% include('/homes/data/index/gr/photoGallerySectionBeforeAfter.twig') %}
+                              </div>
+                            {% endblock  %}
+
+                            {% block homeHeadingSectionCurvedgr %}
+                                {% include('/homes/data/index/gr/homeHeadingSectionCurved.twig') %}
+                            {% endblock  %}
+
+                            {% block videoGallerySectiongr %}
+                              <div class="container ">
+                                {% include('/homes/data/index/gr/videoGallerySection.twig') %}
+                              </div>
+                            {% endblock  %}
+
+                             {% block homeHeadingSectionCurved2gr2 %}
+                                {% include('/homes/data/index/gr/homeHeadingSectionCurved2.twig') %}
+                            {% endblock  %}
+                            
+                           {% block counterUpgr %}
+                                {% include('/homes/data/index/gr/counterUp.twig') %}
+                            {% endblock  %}
+
+                             {% block homeIsoAwardgr %}
+                                {% include('/homes/data/index/gr/homeIsoAward.twig') %}
+                            {% endblock  %}
+
+                            
+
+                            {% block homeHeadingSectionCurvedgr2 %}
+                                {% include('/homes/data/index/gr/homeHeadingSectionCurved.twig') %}
+                            {% endblock  %}
+
+                            {% block testimonialsgr %}
+                              <div class="container ">
+                                {% include('/homes/data/index/gr/testimonials.twig') %}
+                              </div>
+                            {% endblock  %}
+
+                           
+
+                            {# {% block newsletter_sectiongr %}
+                              {% include('/components/index/gr/newsletterSection.twig') %}
+                            {% endblock  %}   #}
+                            
+                            {% block leadFormFixBottomgr %}
+                              {% include('/homes/data/index/gr/leadFormFixBottom.twig') %}
+                            {% endblock  %}  
+
+       {% endif %}
+      
+        {% if LANG == 'ar' %}
+
+                        {# {% block simpleMegamenu %}
+                                {% include('/inc/navbarMegaMenu.html.twig') %}
+                            {% endblock  %}  #}
+
+                            {# {% block carouselar %}
+                                {% include('/components/index/ar/showcaseBackgroundImage.twig') %}
+                            {% endblock  %}  #}
+                          
+                            {% block showcaseVideoar %}
+                                {% include('/homes/data/index/ar/showcaseVideo.twig') %}
+                            {% endblock  %}
+                          
+                            {% block leadFormFloatar %} 
+                                  {% include('/homes/data/index/ar/leadFormFloat.twig') %}
+                            {% endblock  %}
+
+                            {# {% block lead_form_floatzoho %} 
+                                  {% include('/components/index/ar/leadFormFloatzoho.twig') %}
+                            {% endblock  %} #}
+                           
+                            {% block searchFormar %} 
+                                  {% include('/homes/data/index/ar/searchForm.twig') %}
+                            {% endblock  %}
+
+                            {# {% block lead_form_fixar %} 
+                                  {% include('/components/index/ar/leadFormFix.twig') %}
+                            {% endblock  %}
+                             #}
+
+                           {% block homeIconSectionar %}
+                                <div class="container ">
+                                {% include('/homes/data/index/ar/homeIconSection.twig') %}
+                                </div>
+                            {% endblock  %}
+
+                             {# {% block home_heading_sectionar %}
+                                {% include('/components/index/ar/homeHeadingSection.twig') %}
+                            {% endblock  %} #}
+                             {% block homeHeadingSectionCurvedar0 %}
+                                {% include('/homes/data/index/ar/homeHeadingSectionCurved.twig') %}
+                            {% endblock  %}
+
+                            {% block infoSectionar %}
+                              <div class="container ">
+                                {% include('/homes/data/index/ar/infoSection.twig') %}
+                              </div>
+                            {% endblock  %}
+
+                            {# {% block video_play_sectionar %}
+                            {% include('/components/index/ar/videoPlaySection.twig') %}
+                            {% endblock  %} #}
+
+                            {% block homeHeadingSectionCurved2ar %}
+                            {% include('/homes/data/index/ar/homeHeadingSectionCurved2.twig') %}
+                            {% endblock  %}
+
+                            {# {% block photo_gallery_sectionar %}
+                              <div class="container ">
+                                {% include('/components/index/ar/photoGallerySection.twig') %}
+                              </div>
+                            {% endblock  %} #}
+
+                            {% block photoGallerySectionBeforeAfterar %}
+                              <div class="container ">
+                                {% include('/homes/data/index/ar/photoGallerySectionBeforeAfter.twig') %}
+                              </div>
+                            {% endblock  %}
+
+                            {% block homeHeadingSectionCurvedar %}
+                                {% include('/homes/data/index/ar/homeHeadingSectionCurved.twig') %}
+                            {% endblock  %}
+
+                            {% block videoGallerySectionar %}
+                              <div class="container ">
+                                {% include('/homes/data/index/ar/videoGallerySection.twig') %}
+                              </div>
+                            {% endblock  %}
+
+                             {% block homeHeadingSectionCurved2ar2 %}
+                                {% include('/homes/data/index/ar/homeHeadingSectionCurved2.twig') %}
+                            {% endblock  %}
+                            
+                           {% block counterUpar %}
+                                {% include('/homes/data/index/ar/counterUp.twig') %}
+                            {% endblock  %}
+
+                             {% block homeIsoAwardar %}
+                                {% include('/homes/data/index/ar/homeIsoAward.twig') %}
+                            {% endblock  %}
+
+                            
+
+                            {% block homeHeadingSectionCurvedar2 %}
+                                {% include('/homes/data/index/ar/homeHeadingSectionCurved.twig') %}
+                            {% endblock  %}
+
+                            {% block testimonialsar %}
+                              <div class="container ">
+                                {% include('/homes/data/index/ar/testimonials.twig') %}
+                              </div>
+                            {% endblock  %}
+
+                           
+
+                            {# {% block newsletter_sectionar %}
+                              {% include('/components/index/ar/newsletterSection.twig') %}
+                            {% endblock  %}   #}
+                            
+                            {% block leadFormFixBottomar %}
+                              {% include('/homes/data/index/ar/leadFormFixBottom.twig') %}
+                            {% endblock  %}  
+
+       {% endif %}
       
 
-      {% if LANG == 'en' %}
-                            {% block carouselan %}
-                                {% include('/components/index/en/showcase_caroussel.twig') %}
-                            {% endblock  %}
-                          
-                            {% block lead_form_floaten %} 
-                                  {% include('/components/index/en/lead_form_float.twig') %}
-                            {% endblock  %}
+        
+      
+ 
 
-                            {% block lead_form_fixen %} 
-                                  {% include('/components/index/en/lead_form_fix.twig') %}
-                            {% endblock  %}
-                            
-                            {% block home_icon_sectionen %}
-                                <div class="container ">
-                                {% include('/components/index/en/home_icon_section.twig') %}
-                                </div>
-                            {% endblock  %}
-
-                            {% block home_heading_sectionen %}
-                                {% include('/components/index/en/home_heading_section.twig') %}
-                            {% endblock  %}
-
-                            {% block info_sectionen %}
-                              <div class="container ">
-                                {% include('/components/index/en/info_section.twig') %}
-                              </div>
-                            {% endblock  %}
-
-                            {% block video_play_sectionen %}
-                            {% include('/components/index/en/video_play_section.twig') %}
-                            {% endblock  %}
-
-                            {% block photo_gallery_sectionen %}
-                              <div class="container ">
-                                {% include('/components/index/en/photo_gallery_section.twig') %}
-                              </div>
-                            {% endblock  %}
-
-                            {% block newsletter_sectionen %}
-                              {% include('/components/index/en/newsletter_section.twig') %}
-                            {% endblock  %}
-
-
-    {% endif %}
-
-
-      {% if LANG == 'gr' %}
-                            {% block carouselgr %}
-                                {% include('/components/index/gr/showcase_caroussel.twig') %}
-                            {% endblock  %}
-                          
-                            {% block lead_form_floatgr %} 
-                                  {% include('/components/index/gr/lead_form_float.twig') %}
-                            {% endblock  %}
-
-                            {% block lead_form_fixgr %} 
-                                  {% include('/components/index/gr/lead_form_fix.twig') %}
-                            {% endblock  %}
-                            
-                            {% block home_icon_sectiongr %}
-                                <div class="container ">
-                                {% include('/components/index/gr/home_icon_section.twig') %}
-                                </div>
-                            {% endblock  %}
-
-                            {% block home_heading_sectiongr %}
-                                {% include('/components/index/gr/home_heading_section.twig') %}
-                            {% endblock  %}
-
-                            {% block info_sectiongr %}
-                              <div class="container ">
-                                {% include('/components/index/gr/info_section.twig') %}
-                              </div>
-                            {% endblock  %}
-
-                            {% block video_play_sectiongr %}
-                            {% include('/components/index/gr/video_play_section.twig') %}
-                            {% endblock  %}
-
-                            {% block photo_gallery_sectiongr %}
-                              <div class="container ">
-                                {% include('/components/index/gr/photo_gallery_section.twig') %}
-                              </div>
-                            {% endblock  %}
-
-                            {% block newsletter_sectiongr %}
-                              {% include('/components/index/gr/newsletter_section.twig') %}
-                            {% endblock  %}
-
-    {% endif %}
-
-
-
-      {% if LANG == 'ar' %}
-                            {% block carouselar %}
-                                {% include('/components/index/ar/showcase_caroussel.twig') %}
-                            {% endblock  %}
-                          
-                            {% block lead_form_floatar %} 
-                                  {% include('/components/index/ar/lead_form_float.twig') %}
-                            {% endblock  %}
-
-                            {% block lead_form_fixar %} 
-                                  {% include('/components/index/ar/lead_form_fix.twig') %}
-                            {% endblock  %}
-                            
-                            {% block home_icon_sectionar %}
-                                <div class="container ">
-                                {% include('/components/index/ar/home_icon_section.twig') %}
-                                </div>
-                            {% endblock  %}
-
-                            {% block home_heading_sectionar %}
-                                {% include('/components/index/ar/home_heading_section.twig') %}
-                            {% endblock  %}
-
-                            {% block info_sectionar %}
-                              <div class="container ">
-                                {% include('/components/index/ar/info_section.twig') %}
-                              </div>
-                            {% endblock  %}
-
-                            {% block video_play_sectionar %}
-                            {% include('/components/index/ar/video_play_section.twig') %}
-                            {% endblock  %}
-
-                            {% block photo_gallery_sectionar %}
-                              <div class="container ">
-                                {% include('/components/index/ar/photo_gallery_section.twig') %}
-                              </div>
-                            {% endblock  %}
-
-                            {% block newsletter_sectionar %}
-                              {% include('/components/index/ar/newsletter_section.twig') %}
-                            {% endblock  %}
-
-    {% endif %}
-
- {% endblock  %} #}
+ {% endblock  %}
