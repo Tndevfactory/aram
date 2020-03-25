@@ -59,31 +59,6 @@ function index($prm1='',$prm2=''){
       
 }
 
-<<<<<<< HEAD
-
-=======
-// besoins 
-
-function besoinsVisage($prm1='',$prm2=''){
-
-      switch ($prm1) {
-            case "ridesfr":
-                  Echo $this->twig->render(DS.'homes'.DS.'besoins'.DS.'fr'.DS.'visage'.DS.'rides.twig', []);
-                break;
-            case "ridesen":
-                  Echo $this->twig->render(DS.'homes'.DS.'besoins'.DS.'fr'.DS.'visage'.DS.'rides.twig', []);
-                break;
-            case "ridesgr":
-                  Echo $this->twig->render(DS.'homes'.DS.'besoins'.DS.'fr'.DS.'visage'.DS.'rides.twig', []);
-                break;
-            case "ridesar":
-                  Echo $this->twig->render(DS.'homes'.DS.'besoins'.DS.'fr'.DS.'visage'.DS.'rides.twig', []);
-                break;
-            default:
-                    Echo $this->twig->render(DS.'homes'.DS.'index.twig', []);
-        }
-      
-}
 
 // besoins ///////////////////////////////////////////////////////////////////////////////
 
