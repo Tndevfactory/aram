@@ -1,0 +1,125 @@
+ {% extends 'layout.twig' %}
+
+{% block meta %}  
+            
+           <meta name="description" content=" besoins/fr/ride ">
+           
+ {% endblock  %}
+
+ {% block style %}   
+      <style>
+
+     
+        #ridesec h1{
+              font-weight:600;
+              color:rgb(0,128,128);
+              font-size:33px;
+                                      
+            }
+
+          #ridesec h2{
+              font-weight:600;
+              color:rgb(0,139,139);
+              font-size:28px;
+            }
+
+          #ridesec h3{
+              font-weight:600;
+              color:rgb(32,178,170);
+              font-size:24px;
+            }
+
+          #ridesec p{
+                color:#010203;
+               font-size:1rem;
+            }
+
+           #ridesec ul{list-style-type: disc;}
+     
+
+      @media(max-width:900px){
+      
+          #ridesec h1{
+              font-size:25px;
+              
+            }
+
+          #ridesec h2{
+              font-size:20px;
+            }
+
+          #ridesec h3{
+              font-size:18px;
+            }
+
+          #ridesec p{
+              font-size:16px;
+            }
+          }
+          
+      </style>
+ 
+{% endblock  %}
+
+{% block title %}  <title> besoins/fr/ride </title> {% endblock  %}
+  
+{% block content %}
+ <!-- besoins/fr/visage/ride-->
+                      
+                        {% block lead_form_floattfr %} 
+                                  {% include('/homes/data/index/fr/leadFormFloat2.twig') %}
+                            {% endblock  %}
+   
+      <section id="ridesec" class="py-3">
+
+        <div class="container">
+          <div class="row">
+          
+            <div class="col-md-6">
+
+            <h1>L’hypotrophie mammaire : ses causes et ses traitements</h1>
+            <p>L’hypoplasie ou l’hypotrophie mammaire est un déficit du volume des seins. Il peut être constaté dès l’âge adulte, à la fin de la puberté ou en vieillissant. Pouvant être perçue comme un manque de féminité, cette anomalie induit souvent des gênes psychologiques et une altération de la confiance en soi chez la femme atteinte.</p>
+            <h2>Quelles sont les causes de l’hypotrophie mammaire ?</h2>
+            <p>Les causes de l’hypoplasie mammaire sont souvent génétiques ou secondaires.</p>
+            <h3>Causes génétiques</h3>
+
+
+
+                          
+            </div>
+
+            <div class="col-md-6">
+              <img src="{{URLROOT}}/public/img/quisommenous/quisommenous2.jpg" alt="" 
+              class="img-fluid rounded-circle d-none d-md-block about-img">
+            </div>
+
+            <div class="col-md-12">
+             <p>L’hypoplasie mammaire est majoritairement induite par des pathologies génétiques qui provoquent une atrophie de volume des glandes mammaires. Ces maladies dites génétiques sont causées par des aberrations chromosomiques, l’exposition de l’embryon à des substances nocives, favorisant ainsi les malformations et engendrant l’hypoplasie mammaire qui survient au moment de la puberté.</p>
+            <h3>Causes secondaires</h3>
+            <p>La mauvaise alimentation, l’alcoolisme et le tabagisme peuvent freiner le développement des glandes et réduire la taille des seins. Ces causes ne sont pas bien encore cernées par les médecins et les chercheurs, mais elles semblent influencer le volume des seins, particulièrement chez les femmes ayant une puberté assez perturbée.</p>
+            <p>Autre cause très fréquente, la perte brutale de poids qui fera perdre à la poitrine de la femme toute la graisse qui lui donnait ses rondeurs.</p>
+
+
+             </div>
+
+             <div class="col-md-6">
+               <img src="{{URLROOT}}/public/img/quisommenous/quisommenous2.jpg" alt="" 
+              class="img-fluid pt-5 rounded-circle d-none d-md-block about-img">
+            </div>
+
+             <div class="col-md-6">
+               <img src="{{URLROOT}}/public/img/quisommenous/quisommenous2.jpg" alt="" 
+              class="img-fluid pt-5 rounded-circle d-none d-md-block about-img">
+            </div>
+
+          </div>
+        </div>
+
+      </section>
+
+                        {% block leadFormFixBottomtfr %}
+                              {% include('/homes/data/index/fr/leadFormFixBottom.twig') %}
+                            {% endblock  %}  
+
+{% endblock  %}
+  

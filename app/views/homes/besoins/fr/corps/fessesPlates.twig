@@ -1,0 +1,132 @@
+ {% extends 'layout.twig' %}
+
+{% block meta %}  
+            
+           <meta name="description" content=" besoins/fr/ride ">
+           
+ {% endblock  %}
+
+ {% block style %}   
+      <style>
+
+     
+        #ridesec h1{
+              font-weight:600;
+              color:rgb(0,128,128);
+              font-size:33px;
+                                      
+            }
+
+          #ridesec h2{
+              font-weight:600;
+              color:rgb(0,139,139);
+              font-size:28px;
+            }
+
+          #ridesec h3{
+              font-weight:600;
+              color:rgb(32,178,170);
+              font-size:24px;
+            }
+
+          #ridesec p{
+                color:#010203;
+               font-size:1rem;
+            }
+
+           #ridesec ul{list-style-type: disc;}
+     
+
+      @media(max-width:900px){
+      
+          #ridesec h1{
+              font-size:25px;
+              
+            }
+
+          #ridesec h2{
+              font-size:20px;
+            }
+
+          #ridesec h3{
+              font-size:18px;
+            }
+
+          #ridesec p{
+              font-size:16px;
+            }
+          }
+          
+      </style>
+ 
+{% endblock  %}
+
+{% block title %}  <title> fesses plates </title> {% endblock  %}
+  
+{% block content %}
+ <!-- besoins/fr/visage/ride-->
+                      
+                        {% block lead_form_floattfr %} 
+                                  {% include('/homes/data/index/fr/leadFormFloat2.twig') %}
+                            {% endblock  %}
+   
+      <section id="ridesec" class="py-3">
+
+        <div class="container">
+          <div class="row">
+          
+            <div class="col-md-6">
+
+             <h1> Fesses plates </h1>
+              <h2> Quelles sont les causes ? </h1>  
+              <p>Des fesses plates résultent de plusieurs facteurs, dont la génétique et le vieillissement. Ce sont les gènes qui dictent la forme générale des fesses. Les femmes plus jeunes stockent de la graisse dans leurs fesses pendant la jeunesse, ce qui leur donne une apparence plus pleine. Des changements hormonaux se produisent au cours du processus de vieillissement qui déplacent le stockage des graisses de l'arrière vers l'estomac. Le résultat peut être des fesses plates plat qui ne remplit pas les vêtements.</p>
+
+
+
+                          
+            </div>
+
+            <div class="col-md-6">
+              <img src="{{URLROOT}}/public/img/quisommenous/quisommenous2.jpg" alt="" 
+              class="img-fluid rounded-circle d-none d-md-block about-img">
+            </div>
+
+            <div class="col-md-12">
+             <p>Un développement musculaire insuffisant ou une perte de poids importante peuvent engendrer des fesses aplaties. 
+              Le relief fessier se compose de :</p>
+              <ul>
+              <li>Muscle grand fessier</li>
+              <li>Moyen fessier</li>
+              <li>Petit fessier</li>
+              </ul>
+              <p>Les fesses plates sont caractérisées par l’insuffisance ou l’absence de muscle et de masse graisseuse. </p>
+
+
+
+             </div>
+
+             <div class="col-md-6 ">
+
+              <h2> Comment vérifier la posture ? </h2>
+                <p>Les femmes qui ont une bonne posture verront un relief fessier plus arrondi car la courbe naturelle du bas du dos soulève les fesses. Pour vérifier votre posture, tenez-vous droit, le dos contre un mur, les épaules vers le bas et le dos, tout en veillant à ce que le bas de votre dos conserve une courbe naturelle. Le bas de votre dos ne doit pas toucher le mur. </p>
+                <p>La génétique et le vieillissement des femmes peuvent vous donner une croupe plate. La ménopause entraîne une baisse des niveaux d'œstrogènes, ce qui diminue la quantité de graisse stockée dans les fesses. La construction de muscles donne une forme considérable à vos fesses. </p>
+
+
+            </div>
+
+             <div class="col-md-6">
+               <img src="{{URLROOT}}/public/img/quisommenous/quisommenous2.jpg" alt="" 
+              class="img-fluid pt-5 rounded-circle d-none d-md-block about-img">
+            </div>
+
+          </div>
+        </div>
+
+      </section>
+
+                        {% block leadFormFixBottomtfr %}
+                              {% include('/homes/data/index/fr/leadFormFixBottom.twig') %}
+                            {% endblock  %}  
+
+{% endblock  %}
+  

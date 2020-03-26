@@ -1,0 +1,128 @@
+ {% extends 'layout.twig' %}
+
+{% block meta %}  
+            
+           <meta name="description" content=" besoins/fr/ride ">
+           
+ {% endblock  %}
+
+ {% block style %}   
+      <style>
+
+     
+        #ridesec h1{
+              font-weight:600;
+              color:rgb(0,128,128);
+              font-size:33px;
+                                      
+            }
+
+          #ridesec h2{
+              font-weight:600;
+              color:rgb(0,139,139);
+              font-size:28px;
+            }
+
+          #ridesec h3{
+              font-weight:600;
+              color:rgb(32,178,170);
+              font-size:24px;
+            }
+
+          #ridesec p{
+                color:#010203;
+               font-size:1rem;
+            }
+
+           #ridesec ul{list-style-type: disc;}
+     
+
+      @media(max-width:900px){
+      
+          #ridesec h1{
+              font-size:25px;
+              
+            }
+
+          #ridesec h2{
+              font-size:20px;
+            }
+
+          #ridesec h3{
+              font-size:18px;
+            }
+
+          #ridesec p{
+              font-size:16px;
+            }
+          }
+          
+      </style>
+ 
+{% endblock  %}
+
+{% block title %}  <title> besoins/fr/ride </title> {% endblock  %}
+  
+{% block content %}
+ <!-- besoins/fr/visage/ride-->
+                      
+                        {% block lead_form_floattfr %} 
+                                  {% include('/homes/data/index/fr/leadFormFloat2.twig') %}
+                            {% endblock  %}
+   
+      <section id="ridesec" class="py-3">
+
+        <div class="container">
+          <div class="row">
+          
+            <div class="col-md-6">
+
+           
+            <h1>Hypertrophie mammaire ou macromastie : quelles sont les causes ? </h1>
+            <p>Des seins trop volumineux peuvent induire un sérieux handicap physique, fonctionnel et même psychique. En effet, une forte poitrine disproportionnée par rapport à la morphologie globale de la femme provoque des gênes dans la pratique d’une activité physique normale. Douleurs dorsales, maux au niveau des épaules et du cou, irritations cutanées, … sans oublier les difficultés de trouver des soutiens-gorge adaptés à la taille de la poitrine.  </p>
+
+
+
+                          
+            </div>
+
+            <div class="col-md-6">
+              <img src="{{URLROOT}}/public/img/quisommenous/quisommenous2.jpg" alt="" 
+              class="img-fluid rounded-circle d-none d-md-block about-img">
+            </div>
+
+            <div class="col-md-12">
+            <h2>Causes de l’hypertrophie mammaire chez la femme </h2>
+              <p>L’hypertrophie mammaire est une pathologie bénigne provoquée par le développement excessif des glandes mammaires au cours ou après une grossesse, après une prise de poids ou dès l’adolescence. </p>
+              
+              <p>L’augmentation anormale de la taille de la poitrine peut causer une asymétrie des seins par rapport au reste de la silhouette. </p>
+              
+              <p>La principale source de développement excessif des seins est la production exagérée des hormones sexuelles chez la femme, telle que la prolactine, qui est sécrétée abondamment durant les premières menstruations et pendant l’allaitement.</p>
+              
+              <p>Le traitement qui s’est avéré le plus efficace est la réduction mammaire et, dans certains cas très spécifiques, la liposuccion.</p>
+
+
+             </div>
+
+             <div class="col-md-6">
+               <img src="{{URLROOT}}/public/img/quisommenous/quisommenous2.jpg" alt="" 
+              class="img-fluid pt-5 rounded-circle d-none d-md-block about-img">
+            </div>
+
+
+             <div class="col-md-6">
+               <img src="{{URLROOT}}/public/img/quisommenous/quisommenous2.jpg" alt="" 
+              class="img-fluid pt-5 rounded-circle d-none d-md-block about-img">
+            </div>
+
+          </div>
+        </div>
+
+      </section>
+
+                        {% block leadFormFixBottomtfr %}
+                              {% include('/homes/data/index/fr/leadFormFixBottom.twig') %}
+                            {% endblock  %}  
+
+{% endblock  %}
+  

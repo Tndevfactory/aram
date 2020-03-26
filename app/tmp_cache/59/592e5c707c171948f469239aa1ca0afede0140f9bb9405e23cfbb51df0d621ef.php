@@ -37,12 +37,12 @@ class __TwigTemplate_8ffa1535eca3a58d091ce83b01aa3e46e2329a174495ef0d738a96eb22c
         // line 1
         echo "<!-- Mega menu responsive  -->
 <style>
-#banner-area .menu-area{
+#banner-area .menu-area, #banner-areaen .menu-area, #banner-areagr .menu-area{
     position:static;
         
 }
 
-#banner-area .mega-area{
+#banner-area .mega-area,#banner-areaen .mega-area,#banner-areagr .mega-area{
     position:absolute;
     width:90%;
     left:10%;
@@ -52,45 +52,107 @@ class __TwigTemplate_8ffa1535eca3a58d091ce83b01aa3e46e2329a174495ef0d738a96eb22c
 
 }
 
-#banner-area .dropdow-item{
+#banner-area .dropdow-item, #banner-areaen .dropdow-item, #banner-areagr .dropdow-item{
     padding:2px 0px;
     background:red;
 }
 
-#banner-area .navbar .dropdown-menu a{
+#banner-area .navbar .dropdown-menu a, #banner-areaen .navbar .dropdown-menu a, #banner-areagr .navbar .dropdown-menu a{
     padding: 3px;
     font-size: .9375rem;
     font-weight: 300;
 }
 
-#banner-area  a.nav-link{
+#banner-area  a.nav-link, #banner-areaen  a.nav-link, #banner-areagr  a.nav-link{
     color:#E1AD21;
     font-size:18px;
 
 }
 
-#banner-area .dropdown-menu.mega-area{
+#banner-area .dropdown-menu.mega-area, #banner-areaen .dropdown-menu.mega-area, #banner-areagr .dropdown-menu.mega-area{
 background-color:#fff !important;
     top: 98%
 }
 
-#banner-area .navbar .dropdown-menu a{
+#banner-area .navbar .dropdown-menu a, #banner-areaen .navbar .dropdown-menu a, #banner-areagr .navbar .dropdown-menu a{
     color:#010203;
     font-size:17px;
 }
 
-#banner-area .dropdown-item:hover{
+#banner-area .dropdown-item:hover, #banner-areaen .dropdown-item:hover, #banner-areagr .dropdown-item:hover{
     background-color:#E1AD21 !important;;
     color:#fff !important;;
 }
 
-#banner-area h5{
+#banner-area h5, #banner-areaen h5, #banner-areagr h5{
 font-family:BigNoodleTitling;
 letter-spacing:2px;
 font-weight:900;
 }
 
-#banner-area .navbar{
+#banner-area .navbar, #banner-areaen .navbar, #banner-areagr .navbar{
+    margin-top:0%;
+}
+
+
+
+/* banner arab ///////////////////////////*/
+/* banner arab ///////////////////////////*/
+/* banner arab ///////////////////////////*/
+#banner-areaar .menu-area{
+    position:static;
+        
+}
+
+#banner-areaar .mega-area{
+    position:absolute;
+    width:90%;
+    left:10%;
+    /*right:50%;*/
+    padding:15px;
+    
+
+}
+
+#banner-areaar .dropdow-item{
+    padding:2px 0px;
+    background:red;
+}
+
+#banner-areaar .navbar .dropdown-menu a{
+    padding: 3px;
+    font-size: .9375rem;
+    font-weight: 300;
+}
+
+#banner-areaar  a.nav-link{
+    color:#E1AD21;
+    font-size:18px;
+
+}
+
+#banner-areaar .dropdown-menu.mega-area{
+background-color:#fff !important;
+    top: 98%
+}
+
+#banner-areaar .navbar .dropdown-menu a{
+    color:#010203;
+    font-size:17px;
+}
+
+#banner-areaar .dropdown-item:hover{
+    background-color:#E1AD21 !important;;
+    color:#fff !important;;
+}
+
+#banner-areaar h5{
+font-family:BigNoodleTitling;
+letter-spacing:2px;
+font-weight:900;
+}
+
+#banner-areaar .navbar{
     margin-top:0%;
 }
 
@@ -100,9 +162,9 @@ font-weight:900;
 
 
     ";
-        // line 65
+        // line 127
         if (0 === twig_compare(($context["LANG"] ?? null), "fr")) {
-            // line 66
+            // line 128
             echo "            <div id=\"banner-area\" class=\"sticky-top\">
                 <div class=\"container-fluid-\">
                     <div class=\"row\">
@@ -123,7 +185,7 @@ font-weight:900;
 
                                         <li class=\"nav-item \">
                                             <a class=\"nav-link\" href=\"";
-            // line 85
+            // line 147
             echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
             echo "/homes\">Accueil </a>
                                         </li>
@@ -141,49 +203,88 @@ font-weight:900;
                                                             <div class=\"col-sm-6 col-lg-2\" >
                                                                 <h5>Visage</h5>
                                                                 <a href=\"";
-            // line 100
+            // line 162
             echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
             echo "/homes/besoinsVisage/ridesfr\" class=\"dropdown-item\" id=\"brides\">Rides</a>
                                                                 <a href=\"";
-            // line 101
+            // line 163
             echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
             echo "/homes/besoinsVisage/paupiereTombantefr\" class=\"dropdown-item\" id=\"bPaupiere-tombantes\">Paupières tombantes</a>
                                                                 <a href=\"";
-            // line 102
+            // line 164
             echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
             echo "/homes/besoinsVisage/complexeNezfr\" class=\"dropdown-item\" id=\"bcomplexe-nez\">Complexes nez</a>
                                                                 <a href=\"";
-            // line 103
+            // line 165
             echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
             echo "/homes/besoinsVisage/mentonfr\" class=\"dropdown-item\" id=\"bmenton\">Menton</a>
                                                             </div> 
                                                             <div class=\"col-sm-6 col-lg-2\">
                                                                 <h5>Poitrine</h5>
-                                                                <a href=\"#\" class=\"dropdown-item\">Seins tombants</a>
-                                                                <a href=\"#\" class=\"dropdown-item\">Hypotrophie mammaire</a>
-                                                                <a href=\"#\" class=\"dropdown-item\">Hypertrophie mammaire</a>
+                                                                <a href=\"";
+            // line 169
+            echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
+            echo "/homes/besoinsPoitrine/seinsTombantsfr\" class=\"dropdown-item\">Seins tombants</a>
+                                                                <a href=\"";
+            // line 170
+            echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
+            echo "/homes/besoinsPoitrine/hypotrophieMammairefr\" class=\"dropdown-item\">Hypotrophie mammaire</a>
+                                                                <a href=\"";
+            // line 171
+            echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
+            echo "/homes/besoinsPoitrine/hypertrophieMammairefr\" class=\"dropdown-item\">Hypertrophie mammaire</a>
                                                             </div> 
                                                             <div class=\"col-sm-6 col-lg-2\">
                                                                 <h5>Corps</h5>
-                                                                <a href=\"#\" class=\"dropdown-item\">Graisse en trop</a>
-                                                                <a href=\"#\" class=\"dropdown-item\">Relâchement peau ventre</a>
-                                                                <a href=\"#\" class=\"dropdown-item\">Fesses plates </a>
+                                                                <a href=\"";
+            // line 175
+            echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
+            echo "/homes/besoinsCorps/graisseEnTropfr\" class=\"dropdown-item\">Graisse en trop</a>
+                                                                <a href=\"";
+            // line 176
+            echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
+            echo "/homes/besoinsCorps/relachementPeauVentrefr\" class=\"dropdown-item\">Relâchement peau ventre</a>
+                                                                <a href=\"";
+            // line 177
+            echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
+            echo "/homes/besoinsCorps/fessesPlatesfr\" class=\"dropdown-item\">Fesses plates </a>
                                                             </div> 
                                                             <div class=\"col-sm-6 col-lg-2\">
                                                                 <h5>Cheveux</h5>
-                                                                <a href=\"#\" class=\"dropdown-item\">Chute de cheveux</a>
-                                                                <a href=\"#\" class=\"dropdown-item\">Trous barbe</a>
-                                                                <a href=\"#\" class=\"dropdown-item\">Alopécie sourcils</a>
+                                                                <a href=\"";
+            // line 181
+            echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
+            echo "/homes/besoinsCheuveux/chuteDeCheuveuxfr\" class=\"dropdown-item\">Chute de cheveux</a>
+                                                                <a href=\"";
+            // line 182
+            echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
+            echo "/homes/besoinsCheuveux/trousBarbefr\" class=\"dropdown-item\">Trous barbe</a>
+                                                                <a href=\"";
+            // line 183
+            echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
+            echo "/homes/besoinsCheuveux/alopecieSourcilsfr\" class=\"dropdown-item\">Alopécie sourcils</a>
                                                             </div> 
                                                             <div class=\"col-sm-6 col-lg-2\">
                                                                 <h5>Dents</h5>
-                                                                <a href=\"#\" class=\"dropdown-item\">Dents manquantes</a>
-                                                                <a href=\"#\" class=\"dropdown-item\">Dents ébrechées</a>
-                                                                <a href=\"#\" class=\"dropdown-item\">Dents jaunies </a>
+                                                                <a href=\"";
+            // line 187
+            echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
+            echo "/homes/besoinsDents/dentsManquantesfr\" class=\"dropdown-item\">Dents manquantes</a>
+                                                                <a href=\"";
+            // line 188
+            echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
+            echo "/homes/besoinsDents/dentsEbrecheesfr\" class=\"dropdown-item\">Dents ébrechées</a>
+                                                                <a href=\"";
+            // line 189
+            echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
+            echo "/homes/besoinsDents/dentsJauniesfr\" class=\"dropdown-item\">Dents jaunies </a>
                                                             </div> 
                                                             <div class=\"col-sm-6 col-lg-2\">
                                                                 <h5>Fertilité</h5>
-                                                                <a href=\"#\" class=\"dropdown-item\">Grossesse</a>
+                                                                <a href=\"";
+            // line 193
+            echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
+            echo "/homes/besoinsFertilite/grossessefr\" class=\"dropdown-item\">Grossesse</a>
                                                                 <a  class=\"dropdown-item\"></a>
                                                                 <a  class=\"dropdown-item\"></a>
                                                             </div> 
@@ -206,19 +307,19 @@ font-weight:900;
                                                             <div class=\"col-sm-6 col-lg-2\">
                                                                 <h5>Visage</h5>
                                                                 <a href=\"";
-            // line 153
+            // line 215
             echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
             echo "/homes/solutionsVisage/liftingVisagefr\" class=\"dropdown-item\" id=\"sliftingvisage\" >Lifting visage</a>
                                                                 <a href=\"";
-            // line 154
+            // line 216
             echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
             echo "/homes/solutionsVisage/blepharoplastiefr\" class=\"dropdown-item\">Blépharoplastie </a>
                                                                 <a href=\"";
-            // line 155
+            // line 217
             echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
             echo "/homes/solutionsVisage/rhinoplastiefr\" class=\"dropdown-item\">Rhinoplastie</a>
                                                                 <a href=\"";
-            // line 156
+            // line 218
             echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
             echo "/homes/solutionsVisage/genioplastiefr\" class=\"dropdown-item\">Génioplastie </a>
                                                             </div> 
@@ -263,7 +364,7 @@ font-weight:900;
                                         
                                         <li class=\"nav-item\">
                                             <a class=\"nav-link\" href=\"";
-            // line 198
+            // line 260
             echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
             echo "/homes/contact\" >Contact</a>
                                         </li>
@@ -271,44 +372,44 @@ font-weight:900;
                                         <li class=\"nav-item d-flex pl-3 \" style=\"margin-top:8px\">
 
                                                 <a class=\"mr-2 pr-0\" href=\"";
-            // line 203
+            // line 265
             echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
             echo "/homes/langue/ar\"> <img height=\"25\" width=\"25\" 
                                                 src=\"";
-            // line 204
+            // line 266
             echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
             echo "/public/img/lang/ar2.png\" class=\"img-fluid rounded-circle\" alt=\"arabic lang\">  
                                                     <h6 style=\"font-size:15px;\" class=\" black-text text-center\" >AR</h6> 
                                                     </a>
 
                                                 <a class=\"mr-2 pr-0\" href=\"";
-            // line 208
+            // line 270
             echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
             echo "/homes/langue/fr\"> <img height=\"25\" width=\"25\" 
                                                 src=\"";
-            // line 209
+            // line 271
             echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
             echo "/public/img/lang/fr.png\" class=\"img-fluid rounded-circle\" alt=\"french lang\">  
                                                     <h6 style=\"font-size:15px;\" class=\"black-text   text-center\" >FR</h6> 
                                                     </a>
 
                                                 <a class=\"mr-2 pr-0\" href=\"";
-            // line 213
+            // line 275
             echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
             echo "/homes/langue/en\"> <img height=\"25\" width=\"25\" 
                                                 src=\"";
-            // line 214
+            // line 276
             echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
             echo "/public/img/lang/en.png\" class=\"img-fluid rounded-circle\" alt=\"englishlang\">  
                                                     <h6 style=\"font-size:15px;\" class=\"black-text text-center\" >EN</h6> 
                                                     </a>  
                                                     
                                                     <a class=\"mr-2 pl-1\" href=\"";
-            // line 218
+            // line 280
             echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
             echo "/homes/langue/gr\"> <img height=\"25\" width=\"25\" 
                                                 src=\"";
-            // line 219
+            // line 281
             echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
             echo "/public/img/lang/gr.png\" class=\"img-fluid rounded-circle\" alt=\"germanlang\">  
                                                     <h6 style=\"font-size:15px;\" class=\"black-text text-center\" >GR</h6> 
@@ -327,12 +428,12 @@ font-weight:900;
             </div>
     ";
         }
-        // line 235
+        // line 297
         echo "
     ";
-        // line 236
+        // line 298
         if (0 === twig_compare(($context["LANG"] ?? null), "en")) {
-            // line 237
+            // line 299
             echo "            <div id=\"banner-areaen\" class=\"sticky-top\">
                 <div class=\"container-fluid-\">
                     <div class=\"row\">
@@ -469,44 +570,44 @@ font-weight:900;
                                         <li class=\"nav-item d-flex pl-3 pt-1\">
 
                                                 <a class=\"mr-2 pr-0\" href=\"";
-            // line 372
+            // line 434
             echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
             echo "/homes/langue/ar\"> <img height=\"25\" width=\"25\" 
                                                 src=\"";
-            // line 373
+            // line 435
             echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
             echo "/public/img/lang/ar2.png\" class=\"img-fluid rounded-circle\" alt=\"arabic lang\">  
                                                     <h6 style=\"font-size:15px;\" class=\" black-text text-center\" >AR</h6> 
                                                     </a>
 
                                                 <a class=\"mr-2 pr-0\" href=\"";
-            // line 377
+            // line 439
             echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
             echo "/homes/langue/fr\"> <img height=\"25\" width=\"25\" 
                                                 src=\"";
-            // line 378
+            // line 440
             echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
             echo "/public/img/lang/fr.png\" class=\"img-fluid rounded-circle\" alt=\"french lang\">  
                                                     <h6 style=\"font-size:15px;\" class=\"black-text   text-center\" >FR</h6> 
                                                     </a>
 
                                                 <a class=\"mr-2 pr-0\" href=\"";
-            // line 382
+            // line 444
             echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
             echo "/homes/langue/en\"> <img height=\"25\" width=\"25\" 
                                                 src=\"";
-            // line 383
+            // line 445
             echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
             echo "/public/img/lang/en.png\" class=\"img-fluid rounded-circle\" alt=\"englishlang\">  
                                                     <h6 style=\"font-size:15px;\" class=\"black-text text-center\" >EN</h6> 
                                                     </a>  
                                                     
                                                     <a class=\"mr-2 pl-1\" href=\"";
-            // line 387
+            // line 449
             echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
             echo "/homes/langue/gr\"> <img height=\"25\" width=\"25\" 
                                                 src=\"";
-            // line 388
+            // line 450
             echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
             echo "/public/img/lang/gr.png\" class=\"img-fluid rounded-circle\" alt=\"germanlang\">  
                                                     <h6 style=\"font-size:15px;\" class=\"black-text text-center\" >GR</h6> 
@@ -525,12 +626,12 @@ font-weight:900;
             </div>
     ";
         }
-        // line 404
+        // line 466
         echo "
     ";
-        // line 405
+        // line 467
         if (0 === twig_compare(($context["LANG"] ?? null), "gr")) {
-            // line 406
+            // line 468
             echo "            <div id=\"banner-areagr\" class=\"sticky-top\">
                 <div class=\"container-fluid-\">
                     <div class=\"row\">
@@ -667,44 +768,44 @@ font-weight:900;
                                         <li class=\"nav-item d-flex pl-3 pt-1\">
 
                                                 <a class=\"mr-2 pr-0\" href=\"";
-            // line 541
+            // line 603
             echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
             echo "/homes/langue/ar\"> <img height=\"25\" width=\"25\" 
                                                 src=\"";
-            // line 542
+            // line 604
             echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
             echo "/public/img/lang/ar2.png\" class=\"img-fluid rounded-circle\" alt=\"arabic lang\">  
                                                     <h6 style=\"font-size:15px;\" class=\" black-text text-center\" >AR</h6> 
                                                     </a>
 
                                                 <a class=\"mr-2 pr-0\" href=\"";
-            // line 546
+            // line 608
             echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
             echo "/homes/langue/fr\"> <img height=\"25\" width=\"25\" 
                                                 src=\"";
-            // line 547
+            // line 609
             echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
             echo "/public/img/lang/fr.png\" class=\"img-fluid rounded-circle\" alt=\"french lang\">  
                                                     <h6 style=\"font-size:15px;\" class=\"black-text   text-center\" >FR</h6> 
                                                     </a>
 
                                                 <a class=\"mr-2 pr-0\" href=\"";
-            // line 551
+            // line 613
             echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
             echo "/homes/langue/en\"> <img height=\"25\" width=\"25\" 
                                                 src=\"";
-            // line 552
+            // line 614
             echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
             echo "/public/img/lang/en.png\" class=\"img-fluid rounded-circle\" alt=\"englishlang\">  
                                                     <h6 style=\"font-size:15px;\" class=\"black-text text-center\" >EN</h6> 
                                                     </a>  
                                                     
                                                     <a class=\"mr-2 pl-1\" href=\"";
-            // line 556
+            // line 618
             echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
             echo "/homes/langue/gr\"> <img height=\"25\" width=\"25\" 
                                                 src=\"";
-            // line 557
+            // line 619
             echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
             echo "/public/img/lang/gr.png\" class=\"img-fluid rounded-circle\" alt=\"germanlang\">  
                                                     <h6 style=\"font-size:15px;\" class=\"black-text text-center\" >GR</h6> 
@@ -723,12 +824,12 @@ font-weight:900;
             </div>
     ";
         }
-        // line 573
+        // line 635
         echo "
     ";
-        // line 574
+        // line 636
         if (0 === twig_compare(($context["LANG"] ?? null), "ar")) {
-            // line 575
+            // line 637
             echo "            <div id=\"banner-areaar\" class=\"sticky-top\">
                 <div class=\"container-fluid-\">
                     <div class=\"row\">
@@ -865,44 +966,44 @@ font-weight:900;
                                         <li class=\"nav-item d-flex pl-3 pt-1\">
 
                                                 <a class=\"mr-2 pr-0\" href=\"";
-            // line 710
+            // line 772
             echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
             echo "/homes/langue/ar\"> <img height=\"25\" width=\"25\" 
                                                 src=\"";
-            // line 711
+            // line 773
             echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
             echo "/public/img/lang/ar2.png\" class=\"img-fluid rounded-circle\" alt=\"arabic lang\">  
                                                     <h6 style=\"font-size:15px;\" class=\" black-text text-center\" >AR</h6> 
                                                     </a>
 
                                                 <a class=\"mr-2 pr-0\" href=\"";
-            // line 715
+            // line 777
             echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
             echo "/homes/langue/fr\"> <img height=\"25\" width=\"25\" 
                                                 src=\"";
-            // line 716
+            // line 778
             echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
             echo "/public/img/lang/fr.png\" class=\"img-fluid rounded-circle\" alt=\"french lang\">  
                                                     <h6 style=\"font-size:15px;\" class=\"black-text   text-center\" >FR</h6> 
                                                     </a>
 
                                                 <a class=\"mr-2 pr-0\" href=\"";
-            // line 720
+            // line 782
             echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
             echo "/homes/langue/en\"> <img height=\"25\" width=\"25\" 
                                                 src=\"";
-            // line 721
+            // line 783
             echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
             echo "/public/img/lang/en.png\" class=\"img-fluid rounded-circle\" alt=\"englishlang\">  
                                                     <h6 style=\"font-size:15px;\" class=\"black-text text-center\" >EN</h6> 
                                                     </a>  
                                                     
                                                     <a class=\"mr-2 pl-1\" href=\"";
-            // line 725
+            // line 787
             echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
             echo "/homes/langue/gr\"> <img height=\"25\" width=\"25\" 
                                                 src=\"";
-            // line 726
+            // line 788
             echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
             echo "/public/img/lang/gr.png\" class=\"img-fluid rounded-circle\" alt=\"germanlang\">  
                                                     <h6 style=\"font-size:15px;\" class=\"black-text text-center\" >GR</h6> 
@@ -921,18 +1022,18 @@ font-weight:900;
             </div>
     ";
         }
-        // line 742
+        // line 804
         echo "
 
 ";
-        // line 744
+        // line 806
         $this->displayBlock('script', $context, $blocks);
     }
 
     public function block_script($context, array $blocks = [])
     {
         $macros = $this->macros;
-        // line 745
+        // line 807
         echo "
     <script>
 
@@ -956,7 +1057,7 @@ font-weight:900;
       var bidRides='';
         bidRides +='<div class=\" p-0 col-sm-6 col-lg-3 offset-sm-1\">';
         bidRides +='<img src=\"";
-        // line 767
+        // line 829
         echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
         echo "/public/img/barbe/barbe1.jpg\" alt=\"\" style=\"width:100%\">';
         bidRides +='</div>';
@@ -981,7 +1082,7 @@ font-weight:900;
       var sidliftingvisage='';
         sidliftingvisage +='<div class=\" p-0 col-sm-6 col-lg-3 offset-sm-1\">';
         sidliftingvisage +='<img src=\"";
-        // line 789
+        // line 851
         echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
         echo "/public/img/barbe/barbe2.jpg\" alt=\"\" style=\"width:100%\">';
         sidliftingvisage +='</div>';
@@ -1021,19 +1122,19 @@ font-weight:900;
 
     public function getDebugInfo()
     {
-        return array (  985 => 789,  960 => 767,  936 => 745,  929 => 744,  925 => 742,  906 => 726,  902 => 725,  895 => 721,  891 => 720,  884 => 716,  880 => 715,  873 => 711,  869 => 710,  732 => 575,  730 => 574,  727 => 573,  708 => 557,  704 => 556,  697 => 552,  693 => 551,  686 => 547,  682 => 546,  675 => 542,  671 => 541,  534 => 406,  532 => 405,  529 => 404,  510 => 388,  506 => 387,  499 => 383,  495 => 382,  488 => 378,  484 => 377,  477 => 373,  473 => 372,  336 => 237,  334 => 236,  331 => 235,  312 => 219,  308 => 218,  301 => 214,  297 => 213,  290 => 209,  286 => 208,  279 => 204,  275 => 203,  267 => 198,  222 => 156,  218 => 155,  214 => 154,  210 => 153,  157 => 103,  153 => 102,  149 => 101,  145 => 100,  127 => 85,  106 => 66,  104 => 65,  38 => 1,);
+        return array (  1086 => 851,  1061 => 829,  1037 => 807,  1030 => 806,  1026 => 804,  1007 => 788,  1003 => 787,  996 => 783,  992 => 782,  985 => 778,  981 => 777,  974 => 773,  970 => 772,  833 => 637,  831 => 636,  828 => 635,  809 => 619,  805 => 618,  798 => 614,  794 => 613,  787 => 609,  783 => 608,  776 => 604,  772 => 603,  635 => 468,  633 => 467,  630 => 466,  611 => 450,  607 => 449,  600 => 445,  596 => 444,  589 => 440,  585 => 439,  578 => 435,  574 => 434,  437 => 299,  435 => 298,  432 => 297,  413 => 281,  409 => 280,  402 => 276,  398 => 275,  391 => 271,  387 => 270,  380 => 266,  376 => 265,  368 => 260,  323 => 218,  319 => 217,  315 => 216,  311 => 215,  286 => 193,  279 => 189,  275 => 188,  271 => 187,  264 => 183,  260 => 182,  256 => 181,  249 => 177,  245 => 176,  241 => 175,  234 => 171,  230 => 170,  226 => 169,  219 => 165,  215 => 164,  211 => 163,  207 => 162,  189 => 147,  168 => 128,  166 => 127,  38 => 1,);
     }
 
     public function getSourceContext()
     {
         return new Source("<!-- Mega menu responsive  -->
 <style>
-#banner-area .menu-area{
+#banner-area .menu-area, #banner-areaen .menu-area, #banner-areagr .menu-area{
     position:static;
         
 }
 
-#banner-area .mega-area{
+#banner-area .mega-area,#banner-areaen .mega-area,#banner-areagr .mega-area{
     position:absolute;
     width:90%;
     left:10%;
@@ -1043,45 +1144,107 @@ font-weight:900;
 
 }
 
-#banner-area .dropdow-item{
+#banner-area .dropdow-item, #banner-areaen .dropdow-item, #banner-areagr .dropdow-item{
     padding:2px 0px;
     background:red;
 }
 
-#banner-area .navbar .dropdown-menu a{
+#banner-area .navbar .dropdown-menu a, #banner-areaen .navbar .dropdown-menu a, #banner-areagr .navbar .dropdown-menu a{
     padding: 3px;
     font-size: .9375rem;
     font-weight: 300;
 }
 
-#banner-area  a.nav-link{
+#banner-area  a.nav-link, #banner-areaen  a.nav-link, #banner-areagr  a.nav-link{
     color:#E1AD21;
     font-size:18px;
 
 }
 
-#banner-area .dropdown-menu.mega-area{
+#banner-area .dropdown-menu.mega-area, #banner-areaen .dropdown-menu.mega-area, #banner-areagr .dropdown-menu.mega-area{
 background-color:#fff !important;
     top: 98%
 }
 
-#banner-area .navbar .dropdown-menu a{
+#banner-area .navbar .dropdown-menu a, #banner-areaen .navbar .dropdown-menu a, #banner-areagr .navbar .dropdown-menu a{
     color:#010203;
     font-size:17px;
 }
 
-#banner-area .dropdown-item:hover{
+#banner-area .dropdown-item:hover, #banner-areaen .dropdown-item:hover, #banner-areagr .dropdown-item:hover{
     background-color:#E1AD21 !important;;
     color:#fff !important;;
 }
 
-#banner-area h5{
+#banner-area h5, #banner-areaen h5, #banner-areagr h5{
 font-family:BigNoodleTitling;
 letter-spacing:2px;
 font-weight:900;
 }
 
-#banner-area .navbar{
+#banner-area .navbar, #banner-areaen .navbar, #banner-areagr .navbar{
+    margin-top:0%;
+}
+
+
+
+/* banner arab ///////////////////////////*/
+/* banner arab ///////////////////////////*/
+/* banner arab ///////////////////////////*/
+#banner-areaar .menu-area{
+    position:static;
+        
+}
+
+#banner-areaar .mega-area{
+    position:absolute;
+    width:90%;
+    left:10%;
+    /*right:50%;*/
+    padding:15px;
+    
+
+}
+
+#banner-areaar .dropdow-item{
+    padding:2px 0px;
+    background:red;
+}
+
+#banner-areaar .navbar .dropdown-menu a{
+    padding: 3px;
+    font-size: .9375rem;
+    font-weight: 300;
+}
+
+#banner-areaar  a.nav-link{
+    color:#E1AD21;
+    font-size:18px;
+
+}
+
+#banner-areaar .dropdown-menu.mega-area{
+background-color:#fff !important;
+    top: 98%
+}
+
+#banner-areaar .navbar .dropdown-menu a{
+    color:#010203;
+    font-size:17px;
+}
+
+#banner-areaar .dropdown-item:hover{
+    background-color:#E1AD21 !important;;
+    color:#fff !important;;
+}
+
+#banner-areaar h5{
+font-family:BigNoodleTitling;
+letter-spacing:2px;
+font-weight:900;
+}
+
+#banner-areaar .navbar{
     margin-top:0%;
 }
 
@@ -1132,31 +1295,31 @@ font-weight:900;
                                                             </div> 
                                                             <div class=\"col-sm-6 col-lg-2\">
                                                                 <h5>Poitrine</h5>
-                                                                <a href=\"#\" class=\"dropdown-item\">Seins tombants</a>
-                                                                <a href=\"#\" class=\"dropdown-item\">Hypotrophie mammaire</a>
-                                                                <a href=\"#\" class=\"dropdown-item\">Hypertrophie mammaire</a>
+                                                                <a href=\"{{URLROOT}}/homes/besoinsPoitrine/seinsTombantsfr\" class=\"dropdown-item\">Seins tombants</a>
+                                                                <a href=\"{{URLROOT}}/homes/besoinsPoitrine/hypotrophieMammairefr\" class=\"dropdown-item\">Hypotrophie mammaire</a>
+                                                                <a href=\"{{URLROOT}}/homes/besoinsPoitrine/hypertrophieMammairefr\" class=\"dropdown-item\">Hypertrophie mammaire</a>
                                                             </div> 
                                                             <div class=\"col-sm-6 col-lg-2\">
                                                                 <h5>Corps</h5>
-                                                                <a href=\"#\" class=\"dropdown-item\">Graisse en trop</a>
-                                                                <a href=\"#\" class=\"dropdown-item\">Relâchement peau ventre</a>
-                                                                <a href=\"#\" class=\"dropdown-item\">Fesses plates </a>
+                                                                <a href=\"{{URLROOT}}/homes/besoinsCorps/graisseEnTropfr\" class=\"dropdown-item\">Graisse en trop</a>
+                                                                <a href=\"{{URLROOT}}/homes/besoinsCorps/relachementPeauVentrefr\" class=\"dropdown-item\">Relâchement peau ventre</a>
+                                                                <a href=\"{{URLROOT}}/homes/besoinsCorps/fessesPlatesfr\" class=\"dropdown-item\">Fesses plates </a>
                                                             </div> 
                                                             <div class=\"col-sm-6 col-lg-2\">
                                                                 <h5>Cheveux</h5>
-                                                                <a href=\"#\" class=\"dropdown-item\">Chute de cheveux</a>
-                                                                <a href=\"#\" class=\"dropdown-item\">Trous barbe</a>
-                                                                <a href=\"#\" class=\"dropdown-item\">Alopécie sourcils</a>
+                                                                <a href=\"{{URLROOT}}/homes/besoinsCheuveux/chuteDeCheuveuxfr\" class=\"dropdown-item\">Chute de cheveux</a>
+                                                                <a href=\"{{URLROOT}}/homes/besoinsCheuveux/trousBarbefr\" class=\"dropdown-item\">Trous barbe</a>
+                                                                <a href=\"{{URLROOT}}/homes/besoinsCheuveux/alopecieSourcilsfr\" class=\"dropdown-item\">Alopécie sourcils</a>
                                                             </div> 
                                                             <div class=\"col-sm-6 col-lg-2\">
                                                                 <h5>Dents</h5>
-                                                                <a href=\"#\" class=\"dropdown-item\">Dents manquantes</a>
-                                                                <a href=\"#\" class=\"dropdown-item\">Dents ébrechées</a>
-                                                                <a href=\"#\" class=\"dropdown-item\">Dents jaunies </a>
+                                                                <a href=\"{{URLROOT}}/homes/besoinsDents/dentsManquantesfr\" class=\"dropdown-item\">Dents manquantes</a>
+                                                                <a href=\"{{URLROOT}}/homes/besoinsDents/dentsEbrecheesfr\" class=\"dropdown-item\">Dents ébrechées</a>
+                                                                <a href=\"{{URLROOT}}/homes/besoinsDents/dentsJauniesfr\" class=\"dropdown-item\">Dents jaunies </a>
                                                             </div> 
                                                             <div class=\"col-sm-6 col-lg-2\">
                                                                 <h5>Fertilité</h5>
-                                                                <a href=\"#\" class=\"dropdown-item\">Grossesse</a>
+                                                                <a href=\"{{URLROOT}}/homes/besoinsFertilite/grossessefr\" class=\"dropdown-item\">Grossesse</a>
                                                                 <a  class=\"dropdown-item\"></a>
                                                                 <a  class=\"dropdown-item\"></a>
                                                             </div> 

@@ -184,44 +184,44 @@ function besoinsCorps($prm1='',$prm2=''){
 
       switch ($prm1) {
 
-            case "seinsTombantsfr":
-                  Echo $this->twig->render(DS.'homes'.DS.'besoins'.DS.'fr'.DS.'corps'.DS.'seinsTombants.twig', []);
+            case "graisseEnTropfr":
+                  Echo $this->twig->render(DS.'homes'.DS.'besoins'.DS.'fr'.DS.'corps'.DS.'graisseEnTrop.twig', []);
                 break;
-            case "hypotrophieMammairefr":
-                  Echo $this->twig->render(DS.'homes'.DS.'besoins'.DS.'fr'.DS.'corps'.DS.'hypotrophieMammaire.twig', []);
+            case "relachementPeauVentrefr":
+                  Echo $this->twig->render(DS.'homes'.DS.'besoins'.DS.'fr'.DS.'corps'.DS.'relachementPeauVentre.twig', []);
                 break;
-            case "hypertrophieMammairefr":
-                  Echo $this->twig->render(DS.'homes'.DS.'besoins'.DS.'fr'.DS.'corps'.DS.'hypertrophieMammaire.twig', []);
-                break;
-           
-            case "seinsTombantsen":
-                  Echo $this->twig->render(DS.'homes'.DS.'besoins'.DS.'en'.DS.'corps'.DS.'seinsTombants.twig', []);
-                break;
-            case "hypotrophieMammaireen":
-                  Echo $this->twig->render(DS.'homes'.DS.'besoins'.DS.'en'.DS.'corps'.DS.'hypotrophieMammaire.twig', []);
-                break;
-            case "hypertrophieMammaireen":
-                  Echo $this->twig->render(DS.'homes'.DS.'besoins'.DS.'en'.DS.'corps'.DS.'hypertrophieMammaire.twig', []);
+            case "fessesPlatesfr":
+                  Echo $this->twig->render(DS.'homes'.DS.'besoins'.DS.'fr'.DS.'corps'.DS.'fessesPlates.twig', []);
                 break;
            
-            case "seinsTombantsgr":
-                  Echo $this->twig->render(DS.'homes'.DS.'besoins'.DS.'gr'.DS.'corps'.DS.'seinsTombants.twig', []);
+            case "graisseEnTropen":
+                  Echo $this->twig->render(DS.'homes'.DS.'besoins'.DS.'en'.DS.'corps'.DS.'graisseEnTrop.twig', []);
                 break;
-            case "hypotrophieMammairegr":
-                  Echo $this->twig->render(DS.'homes'.DS.'besoins'.DS.'gr'.DS.'corps'.DS.'hypotrophieMammaire.twig', []);
+            case "relachementPeauVentreen":
+                  Echo $this->twig->render(DS.'homes'.DS.'besoins'.DS.'en'.DS.'corps'.DS.'relachementPeauVentre.twig', []);
                 break;
-            case "hypertrophieMammairegr":
-                  Echo $this->twig->render(DS.'homes'.DS.'besoins'.DS.'gr'.DS.'corps'.DS.'hypertrophieMammaire.twig', []);
+            case "fessesPlatesen":
+                  Echo $this->twig->render(DS.'homes'.DS.'besoins'.DS.'en'.DS.'corps'.DS.'fessesPlates.twig', []);
                 break;
            
-            case "seinsTombantsar":
-                  Echo $this->twig->render(DS.'homes'.DS.'besoins'.DS.'ar'.DS.'corps'.DS.'seinsTombants.twig', []);
+            case "graisseEnTropgr":
+                  Echo $this->twig->render(DS.'homes'.DS.'besoins'.DS.'gr'.DS.'corps'.DS.'graisseEnTrop.twig', []);
                 break;
-            case "hypotrophieMammairear":
-                  Echo $this->twig->render(DS.'homes'.DS.'besoins'.DS.'ar'.DS.'corps'.DS.'hypotrophieMammaire.twig', []);
+            case "relachementPeauVentregr":
+                  Echo $this->twig->render(DS.'homes'.DS.'besoins'.DS.'gr'.DS.'corps'.DS.'relachementPeauVentretwig', []);
                 break;
-            case "hypertrophieMammairear":
-                  Echo $this->twig->render(DS.'homes'.DS.'besoins'.DS.'ar'.DS.'corps'.DS.'hypertrophieMammaire.twig', []);
+            case "fessesPlatesgr":
+                  Echo $this->twig->render(DS.'homes'.DS.'besoins'.DS.'gr'.DS.'corps'.DS.'fessesPlates.twig', []);
+                break;
+           
+            case "graisseEnTropar":
+                  Echo $this->twig->render(DS.'homes'.DS.'besoins'.DS.'ar'.DS.'corps'.DS.'graisseEnTrop.twig', []);
+                break;
+            case "relachementPeauVentrear":
+                  Echo $this->twig->render(DS.'homes'.DS.'besoins'.DS.'ar'.DS.'corps'.DS.'hypotrophieMammairetwig', []);
+                break;
+            case "fessesPlatesar":
+                  Echo $this->twig->render(DS.'homes'.DS.'besoins'.DS.'ar'.DS.'corps'.DS.'fessesPlate.twig', []);
                 break;
            
 
