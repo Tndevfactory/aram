@@ -509,6 +509,12 @@ function solutionsSilhouette($prm1='',$prm2=''){
             case "augmentationFessesfr":
                   Echo $this->twig->render(DS.'homes'.DS.'solutions'.DS.'fr'.DS.'silhouette'.DS.'augmentationFesses.twig', []);
                 break;
+            case "liftingBrasfr":
+                  Echo $this->twig->render(DS.'homes'.DS.'solutions'.DS.'fr'.DS.'silhouette'.DS.'liftingBras.twig', []);
+                break;
+            case "liftingCuissesfr":
+                  Echo $this->twig->render(DS.'homes'.DS.'solutions'.DS.'fr'.DS.'silhouette'.DS.'liftingCuisses.twig', []);
+                break;
           
             
             case "liposuccionen":
@@ -520,7 +526,14 @@ function solutionsSilhouette($prm1='',$prm2=''){
             case "augmentationFessesen":
                   Echo $this->twig->render(DS.'homes'.DS.'solutions'.DS.'en'.DS.'silhouette'.DS.'augmentationFesses.twig', []);
                 break;
-          
+
+                case "liftingBrasen":
+                  Echo $this->twig->render(DS.'homes'.DS.'solutions'.DS.'en'.DS.'silhouette'.DS.'liftingBras.twig', []);
+                break;
+            case "liftingCuissesen":
+                  Echo $this->twig->render(DS.'homes'.DS.'solutions'.DS.'en'.DS.'silhouette'.DS.'liftingCuisses.twig', []);
+                break;
+
             
             case "liposucciongr":
                   Echo $this->twig->render(DS.'homes'.DS.'solutions'.DS.'gr'.DS.'silhouette'.DS.'liposuccion.twig', []);
@@ -531,7 +544,14 @@ function solutionsSilhouette($prm1='',$prm2=''){
             case "augmentationFessesgr":
                   Echo $this->twig->render(DS.'homes'.DS.'solutions'.DS.'gr'.DS.'silhouette'.DS.'augmentationFesses.twig', []);
                 break;
-          
+           case "liftingBrasgr":
+                  Echo $this->twig->render(DS.'homes'.DS.'solutions'.DS.'gr'.DS.'silhouette'.DS.'liftingBras.twig', []);
+                break;
+            case "liftingCuissesgr":
+                  Echo $this->twig->render(DS.'homes'.DS.'solutions'.DS.'gr'.DS.'silhouette'.DS.'liftingCuisses.twig', []);
+                break;
+
+
             
             case "liposuccionar":
                   Echo $this->twig->render(DS.'homes'.DS.'solutions'.DS.'ar'.DS.'silhouette'.DS.'liposuccion.twig', []);
@@ -541,6 +561,13 @@ function solutionsSilhouette($prm1='',$prm2=''){
                 break;
             case "augmentationFessesar":
                   Echo $this->twig->render(DS.'homes'.DS.'solutions'.DS.'ar'.DS.'silhouette'.DS.'augmentationFesses.twig', []);
+                break;
+
+                case "liftingBrasar":
+                  Echo $this->twig->render(DS.'homes'.DS.'solutions'.DS.'ar'.DS.'silhouette'.DS.'liftingBras.twig', []);
+                break;
+            case "liftingCuissesar":
+                  Echo $this->twig->render(DS.'homes'.DS.'solutions'.DS.'ar'.DS.'silhouette'.DS.'liftingCuisses.twig', []);
                 break;
 
             default:
@@ -683,6 +710,34 @@ function solutionsFiv($prm1='',$prm2=''){
             
             case "fecondationInVitroar":
                   Echo $this->twig->render(DS.'homes'.DS.'solutions'.DS.'ar'.DS.'fiv'.DS.'fecondationInVitro.twig', []);
+                break;
+            
+            default:
+                    Echo $this->twig->render(DS.'homes'.DS.'index.twig', []);
+        }
+
+}
+
+
+function solutionsMedEsthetique($prm1='',$prm2=''){
+
+      switch ($prm1) {
+
+            
+            case "medecineEsthetiquefr":
+                  Echo $this->twig->render(DS.'homes'.DS.'solutions'.DS.'fr'.DS.'fiv'.DS.'medecineEsthetique.twig', []);
+                break;
+           
+            case "medecineEsthetiqueen":
+                  Echo $this->twig->render(DS.'homes'.DS.'solutions'.DS.'en'.DS.'fiv'.DS.'medecineEsthetique.twig', []);
+                break;
+            
+            case "medecineEsthetiquegr":
+                  Echo $this->twig->render(DS.'homes'.DS.'solutions'.DS.'gr'.DS.'fiv'.DS.'medecineEsthetique.twig', []);
+                break;
+            
+            case "medecineEsthetiquear":
+                  Echo $this->twig->render(DS.'homes'.DS.'solutions'.DS.'ar'.DS.'fiv'.DS.'medecineEsthetique.twig', []);
                 break;
             
             default:

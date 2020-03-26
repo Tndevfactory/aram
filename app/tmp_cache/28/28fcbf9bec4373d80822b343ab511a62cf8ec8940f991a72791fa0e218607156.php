@@ -144,12 +144,12 @@ class __TwigTemplate_3f6b3121e9a85382765c8ba475c17dfe9f80aef56ad4686a062493d8f0e
           
             <div class=\"col-md-6\">
 
-            <h1>Génioplastie ou mentoplastie réalisée en Turquie</h1> 
-            <p>La génioplastie pratiquée en Turquie sert à corriger la forme disgracieuse d’un menton et à améliorer les deux vues du visage : la vue de face et la vue de profil. L’acte chirurgical au cours d’une génioplastie consiste à remodeler la forme d’un menton en galoche ou la forme d’un menton fuyant. </p>
-            <p>La détermination de la nature du menton se fait à l’aide d’une ligne verticale qui débute du front, passe par le nez et s’arrête au niveau de la surface horizontale du menton.</p>
+              <h1>Génioplastie ou mentoplastie réalisée en Turquie</h1> 
+              <p>La génioplastie pratiquée en Turquie sert à corriger la forme disgracieuse d’un menton et à améliorer les deux vues du visage : la vue de face et la vue de profil. L’acte chirurgical au cours d’une génioplastie consiste à remodeler la forme d’un menton en galoche ou la forme d’un menton fuyant. </p>
+              <p>La détermination de la nature du menton se fait à l’aide d’une ligne verticale qui débute du front, passe par le nez et s’arrête au niveau de la surface horizontale du menton.</p>
+              <p>En effet, si cette ligne s’arrête avant la limite du menton celui-ci est alors saillant. Si cette même ligne dépasse le menton, il est dans ce cas, fuyant. Le chirurgien peut détecter, lors de l’examen une graisse excédentaire au niveau de la zone du menton. Avant de faire une génioplastie, il procèdera à une liposuccion pour aspirer la graisse rebelle.</p>
 
-             
-
+                          
             </div>
 
             <div class=\"col-md-6\">
@@ -161,31 +161,33 @@ class __TwigTemplate_3f6b3121e9a85382765c8ba475c17dfe9f80aef56ad4686a062493d8f0e
             </div>
 
             <div class=\"col-md-12\">
-
-             <p>En effet, si cette ligne s’arrête avant la limite du menton celui-ci est alors saillant. Si cette même ligne dépasse le menton, il est dans ce cas, fuyant. Le chirurgien peut détecter, lors de l’examen une graisse excédentaire au niveau de la zone du menton. Avant de faire une génioplastie, il procèdera à une liposuccion pour aspirer la graisse rebelle.</p>
-              <h2>Comment se déroule la génioplastie ?</h2> 
+             <h2>Comment se déroule la génioplastie ?</h2> 
               <p>Le chirurgien, après avoir examiné le patient décidera du type de l’anesthésie à faire et de la durée de l’hospitalisation. Une génioplastie peut être pratiquée sous anesthésie générale ou bien sous anesthésie locale. Elle peut nécessiter une nuit d’hospitalisation comme elle peut se dérouler en ambulatoire. La génioplastie en Turquie dure 30 minutes ou une heure.</p>
 
               <p>L’incision réalisée au cours de cette intervention est très discrète. Elle se réalise soigneusement à l’intérieur de l’appareil buccal au niveau de la gencive inférieure ou bien à l’externe du menton à l’aide d’une technique très avancée. </p>
               <p>Pour améliorer la forme d’un menton en galoche, le chirurgien procède à un rabotage de l’os ou bien à une ostéotomie de recul. La première technique requiert juste de limer la partie traitée alors que la deuxième technique consiste à couper carrément l’excès osseux et à se servir de palettes et de vis métalliques pour fixer le devant du menton. Cette méthode est appelée ostéotomie de recul.</p>
+              <p>La réparation de la forme inesthétique d’un menton fuyant, se traite par la pose d’une prothèse, par une greffe osseuse ou par une ostéotomie d’avancement. Cette dernière consiste à créer un fragment osseux puis à le repositionner vers l’avant à l’aide de palettes et de vis métalliques.</p>
+              <p>Pour réaliser une greffe osseuse, le chirurgien prélève une quantité d’os de l’une de ces parties : le nez ou le bassin puis il s’en sert pour remodeler la forme du menton. Cette technique, bien étudiée et très fréquente n’altère pas les parties donneuses.</p>
+
+
 
              </div>
-             <div class=\"col-md-6\">
-               <p>La réparation de la forme inesthétique d’un menton fuyant, se traite par la pose d’une prothèse, par une greffe osseuse ou par une ostéotomie d’avancement. Cette dernière consiste à créer un fragment osseux puis à le repositionner vers l’avant à l’aide de palettes et de vis métalliques.</p>
-              <p>Pour réaliser une greffe osseuse, le chirurgien prélève une quantité d’os de l’une de ces parties : le nez ou le bassin puis il s’en sert pour remodeler la forme du menton. Cette technique, bien étudiée et très fréquente n’altère pas les parties donneuses.</p>
+
+             <div class=\"col-md-6 \">
               <h2>Suites opératoires de la chirurgie esthétique du menton</h2> 
-              <p>La génioplastie est une opération esthétique peu douloureuse. Quelle que soit la méthode utilisée lors de l’intervention, le patient pourra dans tous les cas bouger sa mâchoire sans aucune crainte. Il portera un pansement modelant sous le menton durant 05 ou 08 jours. Des bleus et un œdème seront observés les premiers.</p>
-              <h2>Résultat de la mentoplastie </h2>
-              <p>Le résultat d’une génioplastie est immédiat. Il s’améliore davantage après 03 mois quand l’œdème sera complètement résorbé. </p>
+                <p>La génioplastie est une opération esthétique peu douloureuse. Quelle que soit la méthode utilisée lors de l’intervention, le patient pourra dans tous les cas bouger sa mâchoire sans aucune crainte. Il portera un pansement modelant sous le menton durant 05 ou 08 jours. Des bleus et un œdème seront observés les premiers.</p>
+                <h2>Résultat de la mentoplastie </h2>
+                <p>Le résultat d’une génioplastie est immédiat. Il s’améliore davantage après 03 mois quand l’œdème sera complètement résorbé. </p>
+
 
             </div>
 
              <div class=\"col-md-6\">
                <img src=\"";
-        // line 114
+        // line 116
         echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
         echo "/public/img/quisommenous/quisommenous2.jpg\" alt=\"\" 
-              class=\"img-fluid rounded-circle d-none d-md-block about-img\">
+              class=\"img-fluid pt-5 rounded-circle d-none d-md-block about-img\">
             </div>
 
           </div>
@@ -194,9 +196,9 @@ class __TwigTemplate_3f6b3121e9a85382765c8ba475c17dfe9f80aef56ad4686a062493d8f0e
       </section>
 
                         ";
-        // line 123
-        $this->displayBlock('leadFormFixBottomtfr', $context, $blocks);
         // line 125
+        $this->displayBlock('leadFormFixBottomtfr', $context, $blocks);
+        // line 127
         echo "  
 
 ";
@@ -214,14 +216,14 @@ class __TwigTemplate_3f6b3121e9a85382765c8ba475c17dfe9f80aef56ad4686a062493d8f0e
         echo "                            ";
     }
 
-    // line 123
+    // line 125
     public function block_leadFormFixBottomtfr($context, array $blocks = [])
     {
         $macros = $this->macros;
-        // line 124
+        // line 126
         echo "                              ";
-        $this->loadTemplate("/homes/data/index/fr/leadFormFixBottom.twig", "/homes/solutions/fr/visage/genioplastie.twig", 124)->display($context);
-        // line 125
+        $this->loadTemplate("/homes/data/index/fr/leadFormFixBottom.twig", "/homes/solutions/fr/visage/genioplastie.twig", 126)->display($context);
+        // line 127
         echo "                            ";
     }
 
@@ -237,7 +239,7 @@ class __TwigTemplate_3f6b3121e9a85382765c8ba475c17dfe9f80aef56ad4686a062493d8f0e
 
     public function getDebugInfo()
     {
-        return array (  225 => 125,  222 => 124,  218 => 123,  214 => 71,  212 => 70,  206 => 69,  200 => 125,  198 => 123,  186 => 114,  158 => 89,  139 => 72,  137 => 69,  133 => 67,  129 => 66,  122 => 64,  62 => 9,  51 => 3,  40 => 1,);
+        return array (  227 => 127,  224 => 126,  220 => 125,  216 => 71,  214 => 70,  208 => 69,  202 => 127,  200 => 125,  188 => 116,  158 => 89,  139 => 72,  137 => 69,  133 => 67,  129 => 66,  122 => 64,  62 => 9,  51 => 3,  40 => 1,);
     }
 
     public function getSourceContext()
@@ -321,12 +323,12 @@ class __TwigTemplate_3f6b3121e9a85382765c8ba475c17dfe9f80aef56ad4686a062493d8f0e
           
             <div class=\"col-md-6\">
 
-            <h1>Génioplastie ou mentoplastie réalisée en Turquie</h1> 
-            <p>La génioplastie pratiquée en Turquie sert à corriger la forme disgracieuse d’un menton et à améliorer les deux vues du visage : la vue de face et la vue de profil. L’acte chirurgical au cours d’une génioplastie consiste à remodeler la forme d’un menton en galoche ou la forme d’un menton fuyant. </p>
-            <p>La détermination de la nature du menton se fait à l’aide d’une ligne verticale qui débute du front, passe par le nez et s’arrête au niveau de la surface horizontale du menton.</p>
+              <h1>Génioplastie ou mentoplastie réalisée en Turquie</h1> 
+              <p>La génioplastie pratiquée en Turquie sert à corriger la forme disgracieuse d’un menton et à améliorer les deux vues du visage : la vue de face et la vue de profil. L’acte chirurgical au cours d’une génioplastie consiste à remodeler la forme d’un menton en galoche ou la forme d’un menton fuyant. </p>
+              <p>La détermination de la nature du menton se fait à l’aide d’une ligne verticale qui débute du front, passe par le nez et s’arrête au niveau de la surface horizontale du menton.</p>
+              <p>En effet, si cette ligne s’arrête avant la limite du menton celui-ci est alors saillant. Si cette même ligne dépasse le menton, il est dans ce cas, fuyant. Le chirurgien peut détecter, lors de l’examen une graisse excédentaire au niveau de la zone du menton. Avant de faire une génioplastie, il procèdera à une liposuccion pour aspirer la graisse rebelle.</p>
 
-             
-
+                          
             </div>
 
             <div class=\"col-md-6\">
@@ -335,28 +337,30 @@ class __TwigTemplate_3f6b3121e9a85382765c8ba475c17dfe9f80aef56ad4686a062493d8f0e
             </div>
 
             <div class=\"col-md-12\">
-
-             <p>En effet, si cette ligne s’arrête avant la limite du menton celui-ci est alors saillant. Si cette même ligne dépasse le menton, il est dans ce cas, fuyant. Le chirurgien peut détecter, lors de l’examen une graisse excédentaire au niveau de la zone du menton. Avant de faire une génioplastie, il procèdera à une liposuccion pour aspirer la graisse rebelle.</p>
-              <h2>Comment se déroule la génioplastie ?</h2> 
+             <h2>Comment se déroule la génioplastie ?</h2> 
               <p>Le chirurgien, après avoir examiné le patient décidera du type de l’anesthésie à faire et de la durée de l’hospitalisation. Une génioplastie peut être pratiquée sous anesthésie générale ou bien sous anesthésie locale. Elle peut nécessiter une nuit d’hospitalisation comme elle peut se dérouler en ambulatoire. La génioplastie en Turquie dure 30 minutes ou une heure.</p>
 
               <p>L’incision réalisée au cours de cette intervention est très discrète. Elle se réalise soigneusement à l’intérieur de l’appareil buccal au niveau de la gencive inférieure ou bien à l’externe du menton à l’aide d’une technique très avancée. </p>
               <p>Pour améliorer la forme d’un menton en galoche, le chirurgien procède à un rabotage de l’os ou bien à une ostéotomie de recul. La première technique requiert juste de limer la partie traitée alors que la deuxième technique consiste à couper carrément l’excès osseux et à se servir de palettes et de vis métalliques pour fixer le devant du menton. Cette méthode est appelée ostéotomie de recul.</p>
+              <p>La réparation de la forme inesthétique d’un menton fuyant, se traite par la pose d’une prothèse, par une greffe osseuse ou par une ostéotomie d’avancement. Cette dernière consiste à créer un fragment osseux puis à le repositionner vers l’avant à l’aide de palettes et de vis métalliques.</p>
+              <p>Pour réaliser une greffe osseuse, le chirurgien prélève une quantité d’os de l’une de ces parties : le nez ou le bassin puis il s’en sert pour remodeler la forme du menton. Cette technique, bien étudiée et très fréquente n’altère pas les parties donneuses.</p>
+
+
 
              </div>
-             <div class=\"col-md-6\">
-               <p>La réparation de la forme inesthétique d’un menton fuyant, se traite par la pose d’une prothèse, par une greffe osseuse ou par une ostéotomie d’avancement. Cette dernière consiste à créer un fragment osseux puis à le repositionner vers l’avant à l’aide de palettes et de vis métalliques.</p>
-              <p>Pour réaliser une greffe osseuse, le chirurgien prélève une quantité d’os de l’une de ces parties : le nez ou le bassin puis il s’en sert pour remodeler la forme du menton. Cette technique, bien étudiée et très fréquente n’altère pas les parties donneuses.</p>
+
+             <div class=\"col-md-6 \">
               <h2>Suites opératoires de la chirurgie esthétique du menton</h2> 
-              <p>La génioplastie est une opération esthétique peu douloureuse. Quelle que soit la méthode utilisée lors de l’intervention, le patient pourra dans tous les cas bouger sa mâchoire sans aucune crainte. Il portera un pansement modelant sous le menton durant 05 ou 08 jours. Des bleus et un œdème seront observés les premiers.</p>
-              <h2>Résultat de la mentoplastie </h2>
-              <p>Le résultat d’une génioplastie est immédiat. Il s’améliore davantage après 03 mois quand l’œdème sera complètement résorbé. </p>
+                <p>La génioplastie est une opération esthétique peu douloureuse. Quelle que soit la méthode utilisée lors de l’intervention, le patient pourra dans tous les cas bouger sa mâchoire sans aucune crainte. Il portera un pansement modelant sous le menton durant 05 ou 08 jours. Des bleus et un œdème seront observés les premiers.</p>
+                <h2>Résultat de la mentoplastie </h2>
+                <p>Le résultat d’une génioplastie est immédiat. Il s’améliore davantage après 03 mois quand l’œdème sera complètement résorbé. </p>
+
 
             </div>
 
              <div class=\"col-md-6\">
                <img src=\"{{URLROOT}}/public/img/quisommenous/quisommenous2.jpg\" alt=\"\" 
-              class=\"img-fluid rounded-circle d-none d-md-block about-img\">
+              class=\"img-fluid pt-5 rounded-circle d-none d-md-block about-img\">
             </div>
 
           </div>

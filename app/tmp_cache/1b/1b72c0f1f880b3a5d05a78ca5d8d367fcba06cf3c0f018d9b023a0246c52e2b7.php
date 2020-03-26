@@ -144,12 +144,12 @@ class __TwigTemplate_347c4c0949bb7aafbe97daa17c45feab596e640e5d973df263eca342946
           
             <div class=\"col-md-6\">
 
-            <h1>Blépharoplastie en Turquie : Chirurgie esthétique des paupières</h1>
+             <h1>Blépharoplastie en Turquie : Chirurgie esthétique des paupières</h1>
               <p>La blépharoplastie en Turquie est une opération esthétique qui permet d’améliorer l’apparence des paupières inférieures ou des paupières supérieures par l’extraction de la peau excédentaire et de la graisse située au niveau de la périphérie des yeux. Dans certains cas, ces deux zones sont traitées simultanément.</p>
+              <h2>Consultations préopératoires à la chirurgie esthétique des paupières</h2>
+              <p>Une consultation avec le chirurgien plasticien turque est faite pour examiner les yeux et les paupières et pour s’assurer qu’il n’existe pas une anomalie pouvant compliquer l’opération esthétique de blépharoplastie.</p>
 
-              
-             
-
+                          
             </div>
 
             <div class=\"col-md-6\">
@@ -161,9 +161,8 @@ class __TwigTemplate_347c4c0949bb7aafbe97daa17c45feab596e640e5d973df263eca342946
             </div>
 
             <div class=\"col-md-12\">
-             <h2>Consultations préopératoires à la chirurgie esthétique des paupières</h2>
-              <p>Une consultation avec le chirurgien plasticien turque est faite pour examiner les yeux et les paupières et pour s’assurer qu’il n’existe pas une anomalie pouvant compliquer l’opération esthétique de blépharoplastie.</p>
-              <p>Le chirurgien esthétique prescrit un examen ophtalmologique afin de détecter une éventuelle pathologie oculaire. Il demande au patient de ne prendre aucun médicament contenant de l’aspirine dix jours avant l’opération.</p>
+
+                          <p>Le chirurgien esthétique prescrit un examen ophtalmologique afin de détecter une éventuelle pathologie oculaire. Il demande au patient de ne prendre aucun médicament contenant de l’aspirine dix jours avant l’opération.</p>
               <p>Après avoir bien discuté avec le patient et examiné son dossier médical, un médecin anesthésiste précisera le type de l’anesthésie. Il peut demander au patient de se présenter à jeun le jour de l’intervention. </p>
               <h2>Déroulement de l’intervention de blépharoplastie</h2>
               <p>La chirurgie esthétique des paupières peut se pratiquer en ambulatoire. Le patient pourra dans ce cas quitter la clinique le jour même.</p>
@@ -172,11 +171,13 @@ class __TwigTemplate_347c4c0949bb7aafbe97daa17c45feab596e640e5d973df263eca342946
               <p>Lorsque l’intervention se réalise au niveau des paupières inférieures, les incisions seront alors faites sous les cils et peuvent parfois se prolonger vers l’extérieur.</p>
               <p>Les incisions pratiquées lors d’une blépharoplastie servent à extraire les hernies graisseuses ainsi qu’à retirer le muscle en surplus et la peau excédentaire. Lorsque le cas traité ne présente pas un excès cutané mais seulement des poches isolées, les incisions se font à l’intérieur des paupières sans laisser apparaître aucune cicatrice.</p>
               <p>La suture des incisions se fait à l’aide de fils non résorbables qui seront enlevés deux semaines après l’intervention de blépharoplastie en Turquie.</p>
-              <h2>Suites opératoires de la blépharoplastie</h2>
+
 
              </div>
-             <div class=\"col-md-6\">
-               <p>La blépharoplastie est une intervention peu douloureuse. Le patient peut ressentir une certaine tension au niveau des paupières. Quant aux yeux, ils seront légèrement irrités. Les troubles de vision sont aussi envisageables. </p>
+
+             <div class=\"col-md-6 \">
+              <h2>Suites opératoires de la blépharoplastie</h2>
+              <p>La blépharoplastie est une intervention peu douloureuse. Le patient peut ressentir une certaine tension au niveau des paupières. Quant aux yeux, ils seront légèrement irrités. Les troubles de vision sont aussi envisageables. </p>
               <p>Durant la période de convalescence, le patient est appelé à bien se reposer les premiers jours suivants l’intervention. Il devra aussi faire très attention à ne pas se pencher la tête en bas.</p>
               <p>Un œdème et des ecchymoses seront évidemment présents. Mais, ils s'atténuent après quelques jours.</p>
               <p>Aux premiers temps, le patient sentira un certain inconfort provenant du fait de ne pas pouvoir fermer les paupières. Pas de craintes à avoir, tous ces signes sont passagers.</p>
@@ -186,14 +187,15 @@ class __TwigTemplate_347c4c0949bb7aafbe97daa17c45feab596e640e5d973df263eca342946
               <p>La blépharoplastie pratiquée en Turquie corrige le relâchement des paupières et garantit l’obtention d’un regard frais et rajeuni. Le patient obtient alors un air reposé et bien rafraichi, il parait même plus jeune. Il gagne en : confort, confiance en soi et esthétisme.</p>
               <p>C’est un résultat définitif. En effet, les poches de graisse sous les yeux, une fois éliminés, ne reviennent jamais.</p>
 
+
             </div>
 
              <div class=\"col-md-6\">
                <img src=\"";
-        // line 122
+        // line 124
         echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
         echo "/public/img/quisommenous/quisommenous2.jpg\" alt=\"\" 
-              class=\"img-fluid rounded-circle d-none d-md-block about-img\">
+              class=\"img-fluid pt-5 rounded-circle d-none d-md-block about-img\">
             </div>
 
           </div>
@@ -202,9 +204,9 @@ class __TwigTemplate_347c4c0949bb7aafbe97daa17c45feab596e640e5d973df263eca342946
       </section>
 
                         ";
-        // line 131
-        $this->displayBlock('leadFormFixBottomtfr', $context, $blocks);
         // line 133
+        $this->displayBlock('leadFormFixBottomtfr', $context, $blocks);
+        // line 135
         echo "  
 
 ";
@@ -222,14 +224,14 @@ class __TwigTemplate_347c4c0949bb7aafbe97daa17c45feab596e640e5d973df263eca342946
         echo "                            ";
     }
 
-    // line 131
+    // line 133
     public function block_leadFormFixBottomtfr($context, array $blocks = [])
     {
         $macros = $this->macros;
-        // line 132
+        // line 134
         echo "                              ";
-        $this->loadTemplate("/homes/data/index/fr/leadFormFixBottom.twig", "/homes/solutions/fr/visage/blepharoplastie.twig", 132)->display($context);
-        // line 133
+        $this->loadTemplate("/homes/data/index/fr/leadFormFixBottom.twig", "/homes/solutions/fr/visage/blepharoplastie.twig", 134)->display($context);
+        // line 135
         echo "                            ";
     }
 
@@ -245,7 +247,7 @@ class __TwigTemplate_347c4c0949bb7aafbe97daa17c45feab596e640e5d973df263eca342946
 
     public function getDebugInfo()
     {
-        return array (  233 => 133,  230 => 132,  226 => 131,  222 => 71,  220 => 70,  214 => 69,  208 => 133,  206 => 131,  194 => 122,  158 => 89,  139 => 72,  137 => 69,  133 => 67,  129 => 66,  122 => 64,  62 => 9,  51 => 3,  40 => 1,);
+        return array (  235 => 135,  232 => 134,  228 => 133,  224 => 71,  222 => 70,  216 => 69,  210 => 135,  208 => 133,  196 => 124,  158 => 89,  139 => 72,  137 => 69,  133 => 67,  129 => 66,  122 => 64,  62 => 9,  51 => 3,  40 => 1,);
     }
 
     public function getSourceContext()
@@ -329,12 +331,12 @@ class __TwigTemplate_347c4c0949bb7aafbe97daa17c45feab596e640e5d973df263eca342946
           
             <div class=\"col-md-6\">
 
-            <h1>Blépharoplastie en Turquie : Chirurgie esthétique des paupières</h1>
+             <h1>Blépharoplastie en Turquie : Chirurgie esthétique des paupières</h1>
               <p>La blépharoplastie en Turquie est une opération esthétique qui permet d’améliorer l’apparence des paupières inférieures ou des paupières supérieures par l’extraction de la peau excédentaire et de la graisse située au niveau de la périphérie des yeux. Dans certains cas, ces deux zones sont traitées simultanément.</p>
+              <h2>Consultations préopératoires à la chirurgie esthétique des paupières</h2>
+              <p>Une consultation avec le chirurgien plasticien turque est faite pour examiner les yeux et les paupières et pour s’assurer qu’il n’existe pas une anomalie pouvant compliquer l’opération esthétique de blépharoplastie.</p>
 
-              
-             
-
+                          
             </div>
 
             <div class=\"col-md-6\">
@@ -343,9 +345,8 @@ class __TwigTemplate_347c4c0949bb7aafbe97daa17c45feab596e640e5d973df263eca342946
             </div>
 
             <div class=\"col-md-12\">
-             <h2>Consultations préopératoires à la chirurgie esthétique des paupières</h2>
-              <p>Une consultation avec le chirurgien plasticien turque est faite pour examiner les yeux et les paupières et pour s’assurer qu’il n’existe pas une anomalie pouvant compliquer l’opération esthétique de blépharoplastie.</p>
-              <p>Le chirurgien esthétique prescrit un examen ophtalmologique afin de détecter une éventuelle pathologie oculaire. Il demande au patient de ne prendre aucun médicament contenant de l’aspirine dix jours avant l’opération.</p>
+
+                          <p>Le chirurgien esthétique prescrit un examen ophtalmologique afin de détecter une éventuelle pathologie oculaire. Il demande au patient de ne prendre aucun médicament contenant de l’aspirine dix jours avant l’opération.</p>
               <p>Après avoir bien discuté avec le patient et examiné son dossier médical, un médecin anesthésiste précisera le type de l’anesthésie. Il peut demander au patient de se présenter à jeun le jour de l’intervention. </p>
               <h2>Déroulement de l’intervention de blépharoplastie</h2>
               <p>La chirurgie esthétique des paupières peut se pratiquer en ambulatoire. Le patient pourra dans ce cas quitter la clinique le jour même.</p>
@@ -354,11 +355,13 @@ class __TwigTemplate_347c4c0949bb7aafbe97daa17c45feab596e640e5d973df263eca342946
               <p>Lorsque l’intervention se réalise au niveau des paupières inférieures, les incisions seront alors faites sous les cils et peuvent parfois se prolonger vers l’extérieur.</p>
               <p>Les incisions pratiquées lors d’une blépharoplastie servent à extraire les hernies graisseuses ainsi qu’à retirer le muscle en surplus et la peau excédentaire. Lorsque le cas traité ne présente pas un excès cutané mais seulement des poches isolées, les incisions se font à l’intérieur des paupières sans laisser apparaître aucune cicatrice.</p>
               <p>La suture des incisions se fait à l’aide de fils non résorbables qui seront enlevés deux semaines après l’intervention de blépharoplastie en Turquie.</p>
-              <h2>Suites opératoires de la blépharoplastie</h2>
+
 
              </div>
-             <div class=\"col-md-6\">
-               <p>La blépharoplastie est une intervention peu douloureuse. Le patient peut ressentir une certaine tension au niveau des paupières. Quant aux yeux, ils seront légèrement irrités. Les troubles de vision sont aussi envisageables. </p>
+
+             <div class=\"col-md-6 \">
+              <h2>Suites opératoires de la blépharoplastie</h2>
+              <p>La blépharoplastie est une intervention peu douloureuse. Le patient peut ressentir une certaine tension au niveau des paupières. Quant aux yeux, ils seront légèrement irrités. Les troubles de vision sont aussi envisageables. </p>
               <p>Durant la période de convalescence, le patient est appelé à bien se reposer les premiers jours suivants l’intervention. Il devra aussi faire très attention à ne pas se pencher la tête en bas.</p>
               <p>Un œdème et des ecchymoses seront évidemment présents. Mais, ils s'atténuent après quelques jours.</p>
               <p>Aux premiers temps, le patient sentira un certain inconfort provenant du fait de ne pas pouvoir fermer les paupières. Pas de craintes à avoir, tous ces signes sont passagers.</p>
@@ -368,11 +371,12 @@ class __TwigTemplate_347c4c0949bb7aafbe97daa17c45feab596e640e5d973df263eca342946
               <p>La blépharoplastie pratiquée en Turquie corrige le relâchement des paupières et garantit l’obtention d’un regard frais et rajeuni. Le patient obtient alors un air reposé et bien rafraichi, il parait même plus jeune. Il gagne en : confort, confiance en soi et esthétisme.</p>
               <p>C’est un résultat définitif. En effet, les poches de graisse sous les yeux, une fois éliminés, ne reviennent jamais.</p>
 
+
             </div>
 
              <div class=\"col-md-6\">
                <img src=\"{{URLROOT}}/public/img/quisommenous/quisommenous2.jpg\" alt=\"\" 
-              class=\"img-fluid rounded-circle d-none d-md-block about-img\">
+              class=\"img-fluid pt-5 rounded-circle d-none d-md-block about-img\">
             </div>
 
           </div>
